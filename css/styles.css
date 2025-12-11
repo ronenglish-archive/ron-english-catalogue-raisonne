@@ -58,29 +58,27 @@ body {
   margin-top: 2rem;
 }
 
+/* each item is a simple, clickable block */
 .gallery-item {
-  background: #fff;
-  border-radius: 8px;
-  border: 1px solid #e2e2e2;
-  padding: 0.75rem;
-  text-align: center;
-
-  /* make the whole card behave like a nice clickable card */
   display: block;
   text-decoration: none;
   color: inherit;
+
+  text-align: left;
 }
 
-
+/* image behaves like a clean thumbnail */
 .gallery-item img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 0.5rem auto;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
 }
 
+/* text under the image */
 .gallery-item p {
-  margin: 0.2rem 0;
+  margin: 0.15rem 0;
   font-size: 0.85rem;
 }
 
@@ -92,4 +90,3 @@ body {
   color: #555;
   font-size: 0.8rem;
 }
-
