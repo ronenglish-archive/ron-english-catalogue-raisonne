@@ -140,3 +140,20 @@ body {
   font-size: 0.85rem;
   color: #555;
 }
+
+/* Center text under each thumbnail */
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Optional: keep the text block tight + centered */
+.gallery-item .work-title,
+.gallery-item .work-year {
+  text-align: center;
+}
+
