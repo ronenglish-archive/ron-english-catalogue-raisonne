@@ -6,40 +6,79 @@ body {
   color: #222;
 }
 
+/* Global page spacing (prevents content hugging the left edge) */
+.top-nav,
+.site-header,
+.content,
+.page-header,
+.gallery-wrap,
+.detail-wrap,
+.site-footer {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .site-header {
-  padding: 1.5rem 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid #ddd;
   background: #fff;
 }
 
 /* Navigation */
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+/* Pills wrapper for clean wrapping */
+.nav-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Style all nav links consistently */
 .top-nav a {
   text-decoration: none;
   padding: 0.4rem 0.8rem;
   border: 1px solid #ccc;
   border-radius: 999px;
-  margin-right: 0.5rem;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 0; /* spacing handled by flex gap */
 }
 
-.top-nav a.active {
-  background: black;
-  color: white;
-  border-color: black;
+/* Active state: supports BOTH old (.active) and new (.is-active) patterns */
+.top-nav a.active,
+.top-nav a.is-active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+  font-weight: 700;
 }
 
 /* Containers */
 .content {
-  max-width: 1100px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* Decade links */
+/* Decade links (if used anywhere) */
 .decade-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 0.75rem;
   padding: 0;
+  margin: 0;
 }
 
 .decade-list a {
@@ -50,7 +89,6 @@ body {
 }
 
 /* Grid for paintings */
-
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -63,7 +101,6 @@ body {
   display: block;
   text-decoration: none;
   color: inherit;
-
   text-align: left;
 }
 
