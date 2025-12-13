@@ -137,6 +137,14 @@ main,
   margin: 2px 0 0 0;
 }
 
+.ref-figure img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
 /* ---------- Detail pages ---------- */
 /* Centers everything inside your work detail pages */
 .work-layout {
