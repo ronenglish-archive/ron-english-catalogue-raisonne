@@ -155,7 +155,7 @@ main,
 
 /* Center the hero image */
 .work-hero {
-  max-width: 1200px; /* explicit large hero size */
+  max-width: 800px; /* explicit large hero size */
   width: 100%;
   height: auto;
   display: block;
