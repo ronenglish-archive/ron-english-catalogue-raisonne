@@ -148,17 +148,18 @@ main,
 /* ---------- Detail pages ---------- */
 /* Centers everything inside your work detail pages */
 .work-layout {
-  max-width: 900px;
+  max-width: 1400px;
   margin: 2rem auto 3rem auto;
   text-align: center;
 }
 
 /* Center the hero image */
 .work-hero {
-  max-width: 100%;
+  max-width: 1200px; /* explicit large hero size */
+  width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 2rem auto;
 }
 
 /* Center meta list and remove bullets */
