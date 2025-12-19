@@ -15,7 +15,7 @@ body {
   padding-right: 20px;
 }
 
-/* ---------- Page width (center shared layout blocks) ---------- */
+/* ---------- Page width (shared layout blocks) ---------- */
 .top-nav,
 .page-header,
 .gallery-wrap,
@@ -44,7 +44,6 @@ main,
   gap: 12px;
 }
 
-/* Pills (Home + decades) */
 .top-nav a {
   text-decoration: none;
   padding: 6px 14px;
@@ -57,7 +56,6 @@ main,
   white-space: nowrap;
 }
 
-/* Active decade */
 .top-nav a.is-active,
 .top-nav a.active {
   background: #000;
@@ -75,23 +73,6 @@ main,
   justify-content: center;
 }
 
-/* ---------- Page header ---------- */
-.page-header {
-  margin-top: 8px;
-  margin-bottom: 24px;
-}
-
-.page-title {
-  margin: 0 0 4px 0;
-  font-size: 2rem;
-}
-
-.page-subtitle {
-  margin: 0;
-  font-size: 1rem;
-  color: #555;
-}
-
 /* ---------- Gallery ---------- */
 .gallery-wrap {
   margin-bottom: 48px;
@@ -103,7 +84,6 @@ main,
   gap: 24px;
 }
 
-/* Gallery card */
 .gallery-item {
   display: block;
   text-decoration: none;
@@ -111,7 +91,6 @@ main,
   text-align: center;
 }
 
-/* Gallery image */
 .gallery-item img {
   width: 100%;
   height: auto;
@@ -120,7 +99,6 @@ main,
   margin: 0 auto 6px auto;
 }
 
-/* Gallery text */
 .gallery-item .work-title {
   font-size: 0.9rem;
   font-weight: 600;
@@ -133,17 +111,7 @@ main,
   margin: 2px 0 0 0;
 }
 
-/* Reference figures */
-.ref-figure img {
-  max-width: 420px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
-
-/* ---------- Detail pages (LOW-RES SAFE SETUP) ---------- */
-/* Stable reading column */
+/* ---------- Detail pages ---------- */
 .work-layout {
   max-width: 800px;
   margin: 2rem auto 3rem auto;
@@ -152,16 +120,16 @@ main,
   padding-right: 20px;
 }
 
-/* Hero image — DO NOT upscale 300px images */
+/* Main artwork — never upscale low-res images */
 .work-hero {
-  width: auto;        /* critical: prevents forced upscaling */
-  max-width: 100%;    /* responsive on small screens */
+  width: auto;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto 2rem auto;
 }
 
-/* Metadata list */
+/* Metadata */
 .work-meta {
   list-style: none;
   padding: 0;
@@ -172,7 +140,7 @@ main,
   margin-bottom: 0.4rem;
 }
 
-/* Section blocks */
+/* Sections */
 .section-block {
   margin-bottom: 2rem;
 }
@@ -182,17 +150,24 @@ main,
   font-size: 1.2rem;
 }
 
-/* Legacy detail pages */
-.detail-wrap {
-  margin-bottom: 48px;
-  text-align: center;
+/* ---------- Reference material ---------- */
+.ref-figure {
+  margin-top: 1.5rem;
 }
 
-.detail-figure img {
-  max-width: 100%;
+.ref-image {
+  max-width: 320px;      /* smaller, intentional */
+  width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 24px auto;
+  margin: 0 auto 0.5rem auto;
+}
+
+.ref-figure figcaption {
+  font-size: 0.85rem;
+  color: #555;
+  max-width: 420px;
+  margin: 0.5rem auto 0 auto;
 }
 
 /* ---------- Footer ---------- */
