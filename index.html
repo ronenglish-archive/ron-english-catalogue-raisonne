@@ -4,48 +4,233 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ron English Catalogue Raisonné</title>
+
   <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- Force pill styling for the homepage pills under the header -->
   <style>
-    .page-header .nav-pills {
-      display: flex !important;
-      flex-wrap: wrap !important;
-      gap: 10px !important;
-      margin-top: 12px !important;
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius: 18px;
     }
 
-    .page-header .nav-pills .nav-pill {
-      display: inline-block !important;
-      padding: 6px 14px !important;
-      border-radius: 999px !important;
-      border: 1px solid #d6e1ff !important;
-      background: #fff !important;
-      color: #111 !important;
-      text-decoration: none !important;
-      font-size: 14px !important;
-      line-height: 1 !important;
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color:#111;
+      background:#fff;
     }
 
-    .page-header .nav-pills .nav-pill:hover {
-      background: #f3f6ff !important;
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
     }
 
-    .page-header .nav-pills .nav-pill.is-active {
-      background: #111 !important;
-      border-color: #111 !important;
-      color: #fff !important;
+    h1{
+      font-size: clamp(36px, 5vw, 64px);
+      margin:0 0 8px;
+      letter-spacing:-.02em;
+    }
+
+    .subtitle{
+      font-size:18px;
+      color:var(--muted);
+      max-width:70ch;
+      margin:0;
+    }
+
+    /* HERO */
+    .hero{
+      margin-top:22px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      position:relative;
+      background:#f3f4f6;
+    }
+
+    .hero img{
+      width:100%;
+      height:min(52vh,520px);
+      object-fit:cover;
+      display:block;
+    }
+
+    .hero-overlay{
+      position:absolute;
+      inset:0;
+      background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.62) 100%);
+    }
+
+    .hero-caption{
+      position:absolute;
+      left:18px;
+      right:18px;
+      bottom:14px;
+      color:#fff;
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:baseline;
+    }
+
+    .hero-caption strong{
+      font-size:16px;
+    }
+
+    .hero-caption span{
+      font-size:14px;
+      opacity:.9;
+    }
+
+    /* ENTRY CARDS */
+    .entry-grid{
+      margin-top:26px;
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .entry{
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      text-decoration:none;
+      color:inherit;
+      transition:transform .12s ease, box-shadow .12s ease;
+    }
+
+    .entry:hover{
+      transform:translateY(-2px);
+      box-shadow:0 16px 40px rgba(0,0,0,.12);
+    }
+
+    .entry img{
+      width:100%;
+      height:240px;
+      object-fit:cover;
+      display:block;
+      background:#f3f4f6;
+    }
+
+    .entry-body{
+      padding:16px 18px 18px;
+    }
+
+    .entry-body h2{
+      margin:0 0 6px;
+      font-size:22px;
+    }
+
+    .entry-body p{
+      margin:0;
+      color:var(--muted);
+      font-size:16px;
+      max-width:60ch;
+    }
+
+    .cta{
+      margin-top:12px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-weight:650;
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:999px;
+      background:#111;
+      display:inline-block;
+    }
+
+    /* DECADE PILLS */
+    .nav-pills{
+      margin-top:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+    }
+
+    footer{
+      margin-top:30px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width:900px){
+      .entry-grid{ grid-template-columns:1fr; }
+      .hero img{ height:360px; }
     }
   </style>
 </head>
 
 <body>
+  <main class="wrap">
 
-  <header class="page-header">
-    <h1 class="page-title">Ron English Catalogue Raisonné</h1>
-    <p class="page-subtitle">Browse Paintings and Works on Paper</p>
+    <header>
+      <h1>Ron English Catalogue Raisonné</h1>
+      <p class="subtitle">
+        Paintings and works on paper organized for long-term reference and citation.
+      </p>
+    </header>
 
-    <div class="nav-pills" aria-label="Browse paintings by decade">
+    <!-- HERO IMAGE -->
+    <section class="hero" aria-label="Featured work">
+      <img src="images/hero.jpg" alt="Ron English, featured catalogue work">
+      <div class="hero-overlay"></div>
+      <div class="hero-caption">
+        <strong>Browse the catalogue</strong>
+        <span>Chronological and thematic entries</span>
+      </div>
+    </section>
+
+    <!-- ENTRY POINTS -->
+    <section class="entry-grid" aria-label="Primary catalogue navigation">
+
+      <a class="entry" href="paintings/1970s.html">
+        <img src="images/decades.jpg" alt="Browse catalogue by decade">
+        <div class="entry-body">
+          <h2>Browse by Decade</h2>
+          <p>Navigate the catalogue chronologically from early works through the present.</p>
+          <div class="cta"><span class="dot"></span><span>Enter decades</span></div>
+        </div>
+      </a>
+
+      <a class="entry" href="paintings/Warholesque/index.html">
+        <img src="images/warholesque.jpg" alt="Warholesque series">
+        <div class="entry-body">
+          <h2>Warholesque</h2>
+          <p>Explore the Warholesque body of work, variants, and related documentation.</p>
+          <div class="cta"><span class="dot"></span><span>Enter Warholesque</span></div>
+        </div>
+      </a>
+
+    </section>
+
+    <!-- DECADE PILLS -->
+    <nav class="nav-pills" aria-label="Browse paintings by decade">
       <a class="nav-pill" href="paintings/1970s.html">1970s</a>
       <a class="nav-pill" href="paintings/1980s.html">1980s</a>
       <a class="nav-pill" href="paintings/1990s.html">1990s</a>
@@ -53,12 +238,12 @@
       <a class="nav-pill" href="paintings/2010s.html">2010s</a>
       <a class="nav-pill" href="paintings/2020s.html">2020s</a>
       <a class="nav-pill" href="paintings/Warholesque/index.html">Warholesque</a>
-    </div>
-  </header>
+    </nav>
 
-  <main class="gallery-wrap">
-    <!-- optional -->
+    <footer>
+      Published via GitHub Pages for long-term public access.
+    </footer>
+
   </main>
-
 </body>
 </html>
