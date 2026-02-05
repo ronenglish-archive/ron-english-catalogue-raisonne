@@ -246,7 +246,7 @@ main,
 
 /* ---------- Decade context ---------- */
 .decade-context {
-  max-width: 70ch;
+  max-width: 100%;
   margin-bottom: 40px;
 }
 
