@@ -247,13 +247,16 @@ main,
 
 /* ---------- Decade context ---------- */
 .decade-context {
-  max-width: 100%;
   margin-bottom: 40px;
 }
 
 .decade-context .section-title {
   font-size: 1.35rem;
   margin-bottom: 0.6rem;
+}
+
+.decade-context p {
+  max-width: 70ch;
 }
 
 /* ---------- Year overview grid ---------- */
