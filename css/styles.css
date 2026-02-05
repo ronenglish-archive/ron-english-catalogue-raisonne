@@ -230,3 +230,104 @@ main,
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Decade hero ---------- */
+.decade-hero {
+  margin: 28px 0 36px 0;
+}
+
+.decade-hero img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+/* ---------- Decade context ---------- */
+.decade-context {
+  max-width: 70ch;
+  margin-bottom: 40px;
+}
+
+.decade-context .section-title {
+  font-size: 1.35rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ---------- Year overview grid ---------- */
+.year-overview {
+  margin-top: 32px;
+}
+
+.year-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 28px;
+  margin-top: 20px;
+}
+
+/* ---------- Year cards ---------- */
+.year-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.year-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.year-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.year-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.year-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.year-card-desc {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+.year-card-chip {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+}
+
+/* ---------- Subtle hover ---------- */
+.year-card:hover img {
+  outline: 2px solid #000;
+  outline-offset: -2px;
+}
+
+.year-card:hover .year-card-chip {
+  border-color: #000;
+}
+
+@media (max-width: 600px) {
+  .year-grid {
+    gap: 22px;
+  }
+}
