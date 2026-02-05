@@ -256,7 +256,7 @@ main,
 }
 
 .decade-context p {
-  max-width: 70ch;
+  max-width: none;
 }
 
 /* ---------- Year overview grid ---------- */
