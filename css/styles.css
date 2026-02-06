@@ -121,17 +121,22 @@ main,
 /* Image grid inside each series card */
 .variant-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  padding: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px;
   background: #fafafa;
+
+  /* IMPORTANT: make the grid take the full card width */
+  width: 100%;
 }
 
 .variant-grid img {
+  /* IMPORTANT: force each image to fill its grid cell */
   width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  display: block;
+  display: block;          /* kills inline spacing issues */
   border-radius: 10px;
   background: #f3f4f6;
 }
