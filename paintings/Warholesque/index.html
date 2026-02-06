@@ -8,102 +8,112 @@
   <!-- If this file lives at /paintings/Warholesque/index.html -->
   <link rel="stylesheet" href="../../css/styles.css" />
 
-  <style>
-    /* Keep intro readable, but let it use the same page width as everything else */
-    .intro-text {
-      max-width: 1100px;
-      margin: 2rem auto 2.25rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-    }
+ <style>
+  /* Keep intro readable, but let it use the same page width as everything else */
+  .intro-text {
+    max-width: 1100px;
+    margin: 2rem auto 2.25rem auto;
+    padding: 0 1rem;
+    line-height: 1.6;
+  }
 
-    .intro-text h3 {
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
+  .intro-text h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-    /* GRID: multiple series cards per row */
+  /* GRID: FORCE 2 series cards per row */
+  .series-list {
+    max-width: 1100px;
+    margin: 0 auto 3rem auto;
+    padding: 0 1rem;
+    display: grid;
+
+    /* CHANGED: was repeat(auto-fill, minmax(240px, 1fr)) */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 22px;
+    align-items: start;
+  }
+
+  /* Each series becomes a card */
+  .series-block {
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .series-header {
+    padding: 14px 14px 12px;
+    border-bottom: 1px solid #eef0f2;
+  }
+
+  .series-title {
+    margin: 0;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+  }
+
+  .series-title a {
+    text-decoration: none;
+  }
+
+  .series-meta {
+    margin: 8px 0 0 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  /* Image grid inside each series card (add as many variants as you want) */
+  .variant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    padding: 12px;
+    background: #fafafa;
+  }
+
+  .variant-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    background: #f3f4f6;
+  }
+
+  /* Header links */
+  .page-links {
+    margin-top: 10px;
+  }
+
+  .text-link {
+    display: inline-block;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .text-link:hover {
+    border-bottom-color: currentColor;
+  }
+
+  /* CHANGED: use a slightly larger breakpoint and switch to 1 column */
+  @media (max-width: 720px) {
     .series-list {
-      max-width: 1100px;
-      margin: 0 auto 3rem auto;
-      padding: 0 1rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 22px;
-      align-items: start;
+      grid-template-columns: 1fr;
+      gap: 18px;
     }
 
-    /* Each series becomes a card */
-    .series-block {
-      border: 1px solid #e5e7eb;
-      border-radius: 14px;
-      overflow: hidden;
-      background: #fff;
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .series-header {
-      padding: 14px 14px 12px;
-      border-bottom: 1px solid #eef0f2;
-    }
-
-    .series-title {
-      margin: 0;
-      font-size: 1.05rem;
-      letter-spacing: 0.01em;
-      line-height: 1.2;
-    }
-
-    .series-title a {
-      text-decoration: none;
-    }
-
-    .series-meta {
-      margin: 8px 0 0 0;
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    /* Image grid inside each series card (add as many variants as you want) */
     .variant-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 6px;
-      padding: 12px;
-      background: #fafafa;
+      grid-template-columns: repeat(2, 1fr);
     }
-
-    .variant-grid img {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
-      display: block;
-      border-radius: 10px;
-      background: #f3f4f6;
-    }
-
-    /* Header links */
-    .page-links {
-      margin-top: 10px;
-    }
-
-    .text-link {
-      display: inline-block;
-      font-size: 0.95rem;
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-
-    .text-link:hover {
-      border-bottom-color: currentColor;
-    }
-
-    @media (max-width: 520px) {
-      .series-list { gap: 18px; }
-      .variant-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-  </style>
+  }
+</style>
 </head>
 
 <body>
