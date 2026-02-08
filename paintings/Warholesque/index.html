@@ -8,96 +8,91 @@
   <!-- If this file lives at /paintings/Warholesque/index.html -->
   <link rel="stylesheet" href="../../css/styles.css" />
 
- <style>
-  /* Keep intro readable, but let it use the same page width as everything else */
-  .intro-text {
-    max-width: 1100px;
-    margin: 2rem auto 2.25rem auto;
-    padding: 0 1rem;
-    line-height: 1.6;
-  }
+  <style>
+    /* Keep intro readable, but let it use the same page width as everything else */
+    .intro-text {
+      max-width: 1100px;
+      margin: 2rem auto 2.25rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
 
-  .intro-text h3 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
+    .intro-text h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
 
-  /* GRID: FORCE 2 series cards per row */
-  .series-list {
-    max-width: 1100px;
-    margin: 0 auto 3rem auto;
-    padding: 0 1rem;
-    display: grid;
-
-    /* CHANGED: was repeat(auto-fill, minmax(240px, 1fr)) */
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-
-    gap: 22px;
-    align-items: start;
-  }
-
-  /* Each series becomes a card */
-  .series-block {
-    border: 1px solid #e5e7eb;
-    border-radius: 14px;
-    overflow: hidden;
-    background: #fff;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .series-header {
-    padding: 14px 14px 12px;
-    border-bottom: 1px solid #eef0f2;
-  }
-
-  .series-title {
-    margin: 0;
-    font-size: 1.05rem;
-    letter-spacing: 0.01em;
-    line-height: 1.2;
-  }
-
-  .series-title a {
-    text-decoration: none;
-  }
-
-  .series-meta {
-    margin: 8px 0 0 0;
-    font-size: 0.9rem;
-    color: #555;
-  }
-
-
-
-  /* Header links */
-  .page-links {
-    margin-top: 10px;
-  }
-
-  .text-link {
-    display: inline-block;
-    font-size: 0.95rem;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .text-link:hover {
-    border-bottom-color: currentColor;
-  }
-
-  /* CHANGED: use a slightly larger breakpoint and switch to 1 column */
-  @media (max-width: 720px) {
+    /* GRID: FORCE 2 series cards per row */
     .series-list {
-      grid-template-columns: 1fr;
-      gap: 18px;
+      max-width: 1100px;
+      margin: 0 auto 3rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      align-items: start;
     }
 
-    .variant-grid {
-      grid-template-columns: repeat(2, 1fr);
+    /* Each series becomes a card */
+    .series-block {
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #fff;
+      text-decoration: none;
+      color: inherit;
     }
-  }
-</style>
+
+    .series-header {
+      padding: 14px 14px 12px;
+      border-bottom: 1px solid #eef0f2;
+    }
+
+    .series-title {
+      margin: 0;
+      font-size: 1.05rem;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+    }
+
+    .series-title a {
+      text-decoration: none;
+    }
+
+    .series-meta {
+      margin: 8px 0 0 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Header links */
+    .page-links {
+      margin-top: 10px;
+    }
+
+    .text-link {
+      display: inline-block;
+      font-size: 0.95rem;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .text-link:hover {
+      border-bottom-color: currentColor;
+    }
+
+    /* CHANGED: use a slightly larger breakpoint and switch to 1 column */
+    @media (max-width: 720px) {
+      .series-list {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .variant-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -175,7 +170,7 @@
     </p>
   </section>
 
-  <!-- Series cards: each one links to its page. Add up to 3 (or more) variant images per series. -->
+  <!-- Series cards -->
   <main class="series-list" aria-label="Warholesque series list">
 
     <a class="series-block" href="Warholesque-Young-Andy.html" aria-label="Young Andy">
@@ -184,22 +179,19 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-    
-        <!-- Upload optional variants with these filenames (or change names here) -->
-        <img src="../../images/Paintings/Warholesque/Warholesque-Young-Andy-var-01.jpg" alt="Young Andy variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Young-Andy-var-02.jpg" alt="Young Andy variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Young-Andy-var-01a.jpg" alt="Young Andy variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Young-Andy-var-02a.jpg" alt="Young Andy variant 2" loading="lazy" />
       </div>
     </a>
 
     <a class="series-block" href="Warholesque-Texas-Temper-Tot.html" aria-label="Texas Temper Tot">
       <div class="series-header">
         <h2 class="series-title">Texas Temper Tot</h2>
-        <p class="series-meta">Representative images </p>
+        <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-     
-        <img src="../../images/Paintings/Warholesque/Warholesque-Texas-Temper-Tot-var-01.jpg" alt="Texas Temper Tot variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Texas-Temper-Tot-var-02.jpg" alt="Texas Temper Tot variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Texas-Temper-Tot-var-01a.jpg" alt="Texas Temper Tot variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Texas-Temper-Tot-var-02a.jpg" alt="Texas Temper Tot variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -209,9 +201,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-   
-        <img src="../../images/Paintings/Warholesque/Warholesque-Temper-Tot-var-01.jpg" alt="Temper Tot variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Temper-Tot-var-02.jpg" alt="Temper Tot variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Temper-Tot-var-01a.jpg" alt="Temper Tot variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Temper-Tot-var-02a.jpg" alt="Temper Tot variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -221,9 +212,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-Three-Quarters-var-01.jpg" alt="Starskull Three Quarters variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-Three-Quarters-var-02.jpg" alt="Starskull Three Quarters variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-Three-Quarters-var-01a.jpg" alt="Starskull Three Quarters variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-Three-Quarters-var-02a.jpg" alt="Starskull Three Quarters variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -233,9 +223,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-var-01.jpg" alt="Starskull variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-var-02.jpg" alt="Starskull variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-var-01a.jpg" alt="Starskull variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Starskull-var-02a.jpg" alt="Starskull variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -245,9 +234,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Splash-Marilyn-Mickeys-var-01.jpg" alt="Splash Marilyn Mickeys variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Splash-Marilyn-Mickeys-var-02.jpg" alt="Splash Marilyn Mickeys variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Splash-Marilyn-Mickeys-var-01a.jpg" alt="Splash Marilyn Mickeys variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Splash-Marilyn-Mickeys-var-02a.jpg" alt="Splash Marilyn Mickeys variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -257,9 +245,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-MC-Supersized-var-01.jpg" alt="MC Supersized variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-MC-Supersized-var-02.jpg" alt="MC Supersized variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-MC-Supersized-var-01a.jpg" alt="MC Supersized variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-MC-Supersized-var-02a.jpg" alt="MC Supersized variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -269,9 +256,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Three-Quarters-var-01.jpg" alt="Marilyn Three Quarters variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Three-Quarters-var-02.jpg" alt="Marilyn Three Quarters variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Three-Quarters-var-01a.jpg" alt="Marilyn Three Quarters variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Three-Quarters-var-02a.jpg" alt="Marilyn Three Quarters variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -281,9 +267,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Frontal-var-01.jpg" alt="Marilyn Frontal variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Frontal-var-02.jpg" alt="Marilyn Frontal variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Frontal-var-01a.jpg" alt="Marilyn Frontal variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Marilyn-Frontal-var-02a.jpg" alt="Marilyn Frontal variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -293,9 +278,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Lady-Lick-var-01.jpg" alt="Lady Lick variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Lady-Lick-var-02.jpg" alt="Lady Lick variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Lady-Lick-var-01a.jpg" alt="Lady Lick variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Lady-Lick-var-02a.jpg" alt="Lady Lick variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -305,9 +289,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Heavenly-Marilyn-var-01.jpg" alt="Heavenly Marilyn variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Heavenly-Marilyn-var-02.jpg" alt="Heavenly Marilyn variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Heavenly-Marilyn-var-01a.jpg" alt="Heavenly Marilyn variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Heavenly-Marilyn-var-02a.jpg" alt="Heavenly Marilyn variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -317,9 +300,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Figment-var-01.jpg" alt="Figment variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Figment-var-02.jpg" alt="Figment variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Figment-var-01a.jpg" alt="Figment variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Figment-var-02a.jpg" alt="Figment variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -329,9 +311,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01.jpg" alt="Elvis Elvis variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-02.jpg" alt="Elvis Elvis variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01a.jpg" alt="Elvis Elvis variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-02a.jpg" alt="Elvis Elvis variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -341,9 +322,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Dot-Splash-Marilyn-var-01.jpg" alt="Dot Splash Marilyn variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Dot-Splash-Marilyn-var-02.jpg" alt="Dot Splash Marilyn variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Dot-Splash-Marilyn-var-01a.jpg" alt="Dot Splash Marilyn variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Dot-Splash-Marilyn-var-02a.jpg" alt="Dot Splash Marilyn variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -353,9 +333,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Dandy-Banana-var-01.jpg" alt="Dandy Banana variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Dandy-Banana-var-02.jpg" alt="Dandy Banana variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Dandy-Banana-var-01a.jpg" alt="Dandy Banana variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Dandy-Banana-var-02a.jpg" alt="Dandy Banana variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -365,9 +344,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-01.jpg" alt="Cowgirl Hat variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-02.jpg" alt="Cowgirl Hat variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-01a.jpg" alt="Cowgirl Hat variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-02a.jpg" alt="Cowgirl Hat variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -377,43 +355,39 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01.jpg" alt="Cowgirl Guernica variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02.jpg" alt="Cowgirl Guernica variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" alt="Cowgirl Guernica variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" alt="Cowgirl Guernica variant 2" loading="lazy" />
       </div>
     </a>
 
     <a class="series-block" href="Warholesque-Cowgirl-Bikini.html" aria-label="Cowgirl Bikini">
       <div class="series-header">
         <h2 class="series-title">Cowgirl Bikini</h2>
-        <p class="series-meta">Representative images </p>
+        <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-01.jpg" alt="Cowgirl Bikini variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-02.jpg" alt="Cowgirl Bikini variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-01a.jpg" alt="Cowgirl Bikini variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-02a.jpg" alt="Cowgirl Bikini variant 2" loading="lazy" />
       </div>
     </a>
 
-    <a class="series-block" href="Warholesque-Comic-Sunflower.html" aria-label="Comic Sunflower">
+    <a class="series-block" href="Warholesque-Comic-Sunflower.html" aria-label="Comic Sunflower duplicate">
       <div class="series-header">
         <h2 class="series-title">Comic Sunflower</h2>
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
         <img src="../../images/Paintings/Warholesque/Warholesque-Comic-Sunflower-var-01a.jpg" alt="Comic Sunflower variant 1" loading="lazy" />
         <img src="../../images/Paintings/Warholesque/Warholesque-Comic-Sunflower-var-02a.jpg" alt="Comic Sunflower variant 2" loading="lazy" />
       </div>
     </a>
 
-    <a class="series-block" href="Warholesque-Bruce-Lee.html" aria-label="Bruce Lee">
+    <a class="series-block" href="Warholesque-Bruce-Lee.html" aria-label="Bruce Lee duplicate">
       <div class="series-header">
         <h2 class="series-title">Bruce Lee</h2>
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
         <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-01a.jpg" alt="Bruce Lee variant 1" loading="lazy" />
         <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-02a.jpg" alt="Bruce Lee variant 2" loading="lazy" />
       </div>
@@ -421,13 +395,12 @@
 
     <a class="series-block" href="Warholesque-Abraham-Obama.html" aria-label="Abraham Obama">
       <div class="series-header">
-        <h2 class="series-title">Obama</h2>
-        <p class="series-meta">Representative images </p>
+        <h2 class="series-title">Abraham Obama</h2>
+        <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-
-        <img src="../../images/Paintings/Warholesque/warholesque-abraham-obama-var-1.jpg" alt="Obama variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/warholesque-abraham-obama-var-2.jpg" alt="Obama variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/warholesque-abraham-obama-var-1.jpg" alt="Abraham Obama variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/warholesque-abraham-obama-var-2.jpg" alt="Abraham Obama variant 2" loading="lazy" />
       </div>
     </a>
 
@@ -437,8 +410,8 @@
         <p class="series-meta">Representative images</p>
       </div>
       <div class="variant-grid">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Ronnie-var-01.jpg" alt="Ronnie variant 1" loading="lazy" />
-        <img src="../../images/Paintings/Warholesque/Warholesque-Ronnie-var-02.jpg" alt="Ronnie variant 2" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Ronnie-var-01a.jpg" alt="Ronnie variant 1" loading="lazy" />
+        <img src="../../images/Paintings/Warholesque/Warholesque-Ronnie-var-02a.jpg" alt="Ronnie variant 2" loading="lazy" />
       </div>
     </a>
 
