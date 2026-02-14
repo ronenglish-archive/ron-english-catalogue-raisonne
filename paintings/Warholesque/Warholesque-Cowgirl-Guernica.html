@@ -15,7 +15,7 @@
     .page-wrap { max-width: 1200px; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
     .site-header { margin: 0 0 1rem; }
     .top-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0 0; }
-    .nav-pill { display: inline-block; padding: .45rem .8rem; border: 1px solid rgba(0,0,0,.18); border-radius: 999px; text-decoration: none; }
+    .nav-pill { display: inline-block; padding: .45rem .8rem; border: 1px solid rgba(0,0,0,.18); border-radius: 999px; text-decoration: none; color: inherit; }
     .work-title { margin: .25rem 0 0; }
     .subtle { opacity: .75; }
 
@@ -64,12 +64,81 @@
       overflow: hidden;
       background: #fafafa;
     }
+
+    /* clickable */
     .thumb a { display: block; text-decoration: none; color: inherit; }
+    .thumb a:focus { outline: 2px solid #111; outline-offset: 3px; }
+
     .thumb img { width: 100%; height: 220px; object-fit: cover; display: block; }
     .thumb figcaption { padding: .55rem .7rem; font-size: .95rem; }
 
     .note { margin: .75rem 0 0; font-size: .95rem; }
     .note code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+    /* ==========================
+       LIGHTBOX (page-local)
+       ========================== */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.86);
+      z-index: 9999;
+    }
+    .lightbox.is-open { display: flex; }
+    .lightbox-card {
+      max-width: min(1100px, 96vw);
+      max-height: 92vh;
+      width: 100%;
+      position: relative;
+    }
+    .lightbox-img {
+      width: 100%;
+      max-height: 92vh;
+      object-fit: contain;
+      display: block;
+      border-radius: 12px;
+      background: #111;
+    }
+    .lightbox-bar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .lightbox-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .lightbox-actions a,
+    .lightbox-actions button {
+      appearance: none;
+      border: 0;
+      background: rgba(255, 255, 255, 0.14);
+      color: #fff;
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 600;
+      line-height: 1;
+    }
+    .lightbox-actions a:hover,
+    .lightbox-actions button:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+    .lightbox-close {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+    }
   </style>
 </head>
 
@@ -119,28 +188,28 @@
         <div class="grid">
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" data-title="Variant 01a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" alt="Variant 01a" loading="lazy" />
               <figcaption>Variant 01a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" data-title="Variant 02a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" alt="Variant 02a" loading="lazy" />
               <figcaption>Variant 02a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg" data-title="Variant 03a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg" alt="Variant 03a" loading="lazy" />
               <figcaption>Variant 03a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg" data-title="Variant 04a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg" alt="Variant 04a" loading="lazy" />
               <figcaption>Variant 04a</figcaption>
             </a>
@@ -149,56 +218,56 @@
           <!-- var-05a.jpg not present in your screenshot -->
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg" data-title="Variant 06a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg" alt="Variant 06a" loading="lazy" />
               <figcaption>Variant 06a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg" data-title="Variant 07a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg" alt="Variant 07a" loading="lazy" />
               <figcaption>Variant 07a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg" data-title="Variant 08a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg" alt="Variant 08a" loading="lazy" />
               <figcaption>Variant 08a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg" data-title="Variant 09a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg" alt="Variant 09a" loading="lazy" />
               <figcaption>Variant 09a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg" data-title="Variant 10a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg" alt="Variant 10a" loading="lazy" />
               <figcaption>Variant 10a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg" data-title="Variant 11a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg" alt="Variant 11a" loading="lazy" />
               <figcaption>Variant 11a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg" data-title="Variant 12a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg" alt="Variant 12a" loading="lazy" />
               <figcaption>Variant 12a</figcaption>
             </a>
           </figure>
 
           <figure class="thumb">
-            <a href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg">
+            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg" data-title="Variant 13a">
               <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg" alt="Variant 13a" loading="lazy" />
               <figcaption>Variant 13a</figcaption>
             </a>
@@ -229,5 +298,63 @@
       <p>(add literature)</p>
     </section>
   </main>
+
+  <!-- Lightbox UI -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-card" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <img class="lightbox-img" id="lightboxImg" alt="">
+      <div class="lightbox-bar">
+        <div id="lightboxTitle"></div>
+        <div class="lightbox-actions">
+          <a id="lightboxOpen" href="#" target="_blank" rel="noopener">Open original</a>
+          <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const lb = document.getElementById("lightbox");
+      const lbImg = document.getElementById("lightboxImg");
+      const lbTitle = document.getElementById("lightboxTitle");
+      const lbOpen = document.getElementById("lightboxOpen");
+      const lbClose = document.getElementById("lightboxClose");
+
+      function openLightbox(src, title, alt) {
+        lb.classList.add("is-open");
+        lb.setAttribute("aria-hidden", "false");
+        lbImg.src = src;
+        lbImg.alt = alt || title || "Image";
+        lbTitle.textContent = title || "";
+        lbOpen.href = src;
+        document.body.style.overflow = "hidden";
+        lbClose.focus();
+      }
+
+      function closeLightbox() {
+        lb.classList.remove("is-open");
+        lb.setAttribute("aria-hidden", "true");
+        lbImg.src = "";
+        document.body.style.overflow = "";
+      }
+
+      document.addEventListener("click", (e) => {
+        const link = e.target.closest(".variant-link");
+        if (link) {
+          e.preventDefault();
+          openLightbox(link.href, link.dataset.title, link.querySelector("img")?.alt);
+          return;
+        }
+        if (e.target === lb) closeLightbox();
+      });
+
+      lbClose.addEventListener("click", closeLightbox);
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && lb.classList.contains("is-open")) closeLightbox();
+      });
+    })();
+  </script>
 </body>
 </html>
