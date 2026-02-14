@@ -23,6 +23,7 @@
       text-decoration: none;
       color: inherit;
       text-align: center;
+      cursor: pointer;
     }
 
     .variant-item img {
@@ -39,6 +40,72 @@
       font-weight: 600;
       margin: 10px 0 0 0;
     }
+
+    /* ==========================
+       LIGHTBOX (page-local)
+       ========================== */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.86);
+      z-index: 9999;
+    }
+    .lightbox.is-open { display: flex; }
+    .lightbox-card {
+      max-width: min(1100px, 96vw);
+      max-height: 92vh;
+      width: 100%;
+      position: relative;
+    }
+    .lightbox-img {
+      width: 100%;
+      max-height: 92vh;
+      object-fit: contain;
+      display: block;
+      border-radius: 12px;
+      background: #111;
+    }
+    .lightbox-bar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .lightbox-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .lightbox-actions a,
+    .lightbox-actions button {
+      appearance: none;
+      border: 0;
+      background: rgba(255, 255, 255, 0.14);
+      color: #fff;
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 600;
+      line-height: 1;
+    }
+    .lightbox-actions a:hover,
+    .lightbox-actions button:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+    .lightbox-close {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+    }
+    .variant-link:focus { outline: 2px solid #111; outline-offset: 3px; }
   </style>
 </head>
 
@@ -53,25 +120,25 @@
     </nav>
   </header>
 
-  <!-- HERO + METADATA --> 
+  <!-- HERO + METADATA -->
   <main class="work-layout">
 
     <img
       src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-01a.jpg"
-      alt="Cowgirl Bikini (Warholesque) – Variant 1"
+      alt="Cowgirl Bikini (Warholesque) – Variant 01a"
       class="work-hero"
       loading="lazy"
     />
 
     <ul class="work-meta">
       <li><strong>Title:</strong> Cowgirl Bikini</li>
+      <li><strong>Series:</strong> Warholesque</li>
       <li><strong>Date:</strong> 2007</li>
       <li><strong>Medium:</strong> Silkscreen ink, stencil, and synthetic polymer paint on canvas</li>
-      <li><strong>Dimensions:</strong> 26x37 inches</li>
+      <li><strong>Dimensions:</strong> 26 × 37 in</li>
       <li>
         <strong>Work ID:</strong>
-        Each variant assigned a unique catalogue number
-        (RE-000XXX–RE-000XXX)
+        Each variant assigned a unique catalogue number (RE-000XXX–RE-000XXX)
       </li>
       <li><strong>Notes:</strong> 32 unique colorway variants documented.</li>
     </ul>
@@ -84,168 +151,226 @@
 
     <div class="variant-grid" aria-label="Cowgirl Bikini variants">
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-01a.jpg" alt="Cowgirl Bikini – Variant 1" loading="lazy" />
-        <p class="variant-title">Variant 1</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-01a.jpg" data-title="Variant 01a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-01a.jpg" alt="Cowgirl Bikini – Variant 01a" loading="lazy" />
+        <p class="variant-title">Variant 01a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-02a.jpg" alt="Cowgirl Bikini – Variant 2" loading="lazy" />
-        <p class="variant-title">Variant 2</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-02a.jpg" data-title="Variant 02a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-02a.jpg" alt="Cowgirl Bikini – Variant 02a" loading="lazy" />
+        <p class="variant-title">Variant 02a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-03a.jpg" alt="Cowgirl Bikini – Variant 3" loading="lazy" />
-        <p class="variant-title">Variant 3</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-03a.jpg" data-title="Variant 03a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-03a.jpg" alt="Cowgirl Bikini – Variant 03a" loading="lazy" />
+        <p class="variant-title">Variant 03a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-04a.jpg" alt="Cowgirl Bikini – Variant 4" loading="lazy" />
-        <p class="variant-title">Variant 4</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-04a.jpg" data-title="Variant 04a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-04a.jpg" alt="Cowgirl Bikini – Variant 04a" loading="lazy" />
+        <p class="variant-title">Variant 04a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-05a.jpg" alt="Cowgirl Bikini – Variant 5" loading="lazy" />
-        <p class="variant-title">Variant 5</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-05a.jpg" data-title="Variant 05a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-05a.jpg" alt="Cowgirl Bikini – Variant 05a" loading="lazy" />
+        <p class="variant-title">Variant 05a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-06a.jpg" alt="Cowgirl Bikini – Variant 6" loading="lazy" />
-        <p class="variant-title">Variant 6</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-06a.jpg" data-title="Variant 06a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-06a.jpg" alt="Cowgirl Bikini – Variant 06a" loading="lazy" />
+        <p class="variant-title">Variant 06a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-07a.jpg" alt="Cowgirl Bikini – Variant 7" loading="lazy" />
-        <p class="variant-title">Variant 7</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-07a.jpg" data-title="Variant 07a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-07a.jpg" alt="Cowgirl Bikini – Variant 07a" loading="lazy" />
+        <p class="variant-title">Variant 07a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-08a.jpg" alt="Cowgirl Bikini – Variant 8" loading="lazy" />
-        <p class="variant-title">Variant 8</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-08a.jpg" data-title="Variant 08a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-08a.jpg" alt="Cowgirl Bikini – Variant 08a" loading="lazy" />
+        <p class="variant-title">Variant 08a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-09a.jpg" alt="Cowgirl Bikini – Variant 9" loading="lazy" />
-        <p class="variant-title">Variant 9</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-09a.jpg" data-title="Variant 09a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-09a.jpg" alt="Cowgirl Bikini – Variant 09a" loading="lazy" />
+        <p class="variant-title">Variant 09a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-10a.jpg" alt="Cowgirl Bikini – Variant 10" loading="lazy" />
-        <p class="variant-title">Variant 10</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-10a.jpg" data-title="Variant 10a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-10a.jpg" alt="Cowgirl Bikini – Variant 10a" loading="lazy" />
+        <p class="variant-title">Variant 10a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-11a.jpg" alt="Cowgirl Bikini – Variant 11" loading="lazy" />
-        <p class="variant-title">Variant 11</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-11a.jpg" data-title="Variant 11a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-11a.jpg" alt="Cowgirl Bikini – Variant 11a" loading="lazy" />
+        <p class="variant-title">Variant 11a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-12a.jpg" alt="Cowgirl Bikini – Variant 12" loading="lazy" />
-        <p class="variant-title">Variant 12</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-12a.jpg" data-title="Variant 12a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-12a.jpg" alt="Cowgirl Bikini – Variant 12a" loading="lazy" />
+        <p class="variant-title">Variant 12a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-13a.jpg" alt="Cowgirl Bikini – Variant 13" loading="lazy" />
-        <p class="variant-title">Variant 13</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-13a.jpg" data-title="Variant 13a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-13a.jpg" alt="Cowgirl Bikini – Variant 13a" loading="lazy" />
+        <p class="variant-title">Variant 13a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-14a.jpg" alt="Cowgirl Bikini – Variant 14" loading="lazy" />
-        <p class="variant-title">Variant 14</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-14a.jpg" data-title="Variant 14a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-14a.jpg" alt="Cowgirl Bikini – Variant 14a" loading="lazy" />
+        <p class="variant-title">Variant 14a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-15a.jpg" alt="Cowgirl Bikini – Variant 15" loading="lazy" />
-        <p class="variant-title">Variant 15</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-15a.jpg" data-title="Variant 15a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-15a.jpg" alt="Cowgirl Bikini – Variant 15a" loading="lazy" />
+        <p class="variant-title">Variant 15a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-16a.jpg" alt="Cowgirl Bikini – Variant 16" loading="lazy" />
-        <p class="variant-title">Variant 16</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-16a.jpg" data-title="Variant 16a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-16a.jpg" alt="Cowgirl Bikini – Variant 16a" loading="lazy" />
+        <p class="variant-title">Variant 16a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-17a.jpg" alt="Cowgirl Bikini – Variant 17" loading="lazy" />
-        <p class="variant-title">Variant 17</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-17a.jpg" data-title="Variant 17a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-17a.jpg" alt="Cowgirl Bikini – Variant 17a" loading="lazy" />
+        <p class="variant-title">Variant 17a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-18a.jpg" alt="Cowgirl Bikini – Variant 18" loading="lazy" />
-        <p class="variant-title">Variant 18</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-18a.jpg" data-title="Variant 18a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-18a.jpg" alt="Cowgirl Bikini – Variant 18a" loading="lazy" />
+        <p class="variant-title">Variant 18a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-19a.jpg" alt="Cowgirl Bikini – Variant 19" loading="lazy" />
-        <p class="variant-title">Variant 19</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-19a.jpg" data-title="Variant 19a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-19a.jpg" alt="Cowgirl Bikini – Variant 19a" loading="lazy" />
+        <p class="variant-title">Variant 19a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-20a.jpg" alt="Cowgirl Bikini – Variant 20" loading="lazy" />
-        <p class="variant-title">Variant 20</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-20a.jpg" data-title="Variant 20a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-20a.jpg" alt="Cowgirl Bikini – Variant 20a" loading="lazy" />
+        <p class="variant-title">Variant 20a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-21a.jpg" alt="Cowgirl Bikini – Variant 21" loading="lazy" />
-        <p class="variant-title">Variant 21</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-21a.jpg" data-title="Variant 21a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-21a.jpg" alt="Cowgirl Bikini – Variant 21a" loading="lazy" />
+        <p class="variant-title">Variant 21a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-22a.jpg" alt="Cowgirl Bikini – Variant 22" loading="lazy" />
-        <p class="variant-title">Variant 22</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-22a.jpg" data-title="Variant 22a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-22a.jpg" alt="Cowgirl Bikini – Variant 22a" loading="lazy" />
+        <p class="variant-title">Variant 22a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-23a.jpg" alt="Cowgirl Bikini – Variant 23" loading="lazy" />
-        <p class="variant-title">Variant 23</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-23a.jpg" data-title="Variant 23a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-23a.jpg" alt="Cowgirl Bikini – Variant 23a" loading="lazy" />
+        <p class="variant-title">Variant 23a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-24a.jpg" alt="Cowgirl Bikini – Variant 24" loading="lazy" />
-        <p class="variant-title">Variant 24</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-24a.jpg" data-title="Variant 24a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-24a.jpg" alt="Cowgirl Bikini – Variant 24a" loading="lazy" />
+        <p class="variant-title">Variant 24a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-25a.jpg" alt="Cowgirl Bikini – Variant 25" loading="lazy" />
-        <p class="variant-title">Variant 25</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-25a.jpg" data-title="Variant 25a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-25a.jpg" alt="Cowgirl Bikini – Variant 25a" loading="lazy" />
+        <p class="variant-title">Variant 25a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-26a.jpg" alt="Cowgirl Bikini – Variant 26" loading="lazy" />
-        <p class="variant-title">Variant 26</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-26a.jpg" data-title="Variant 26a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-26a.jpg" alt="Cowgirl Bikini – Variant 26a" loading="lazy" />
+        <p class="variant-title">Variant 26a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-27a.jpg" alt="Cowgirl Bikini – Variant 27" loading="lazy" />
-        <p class="variant-title">Variant 27</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-27a.jpg" data-title="Variant 27a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-27a.jpg" alt="Cowgirl Bikini – Variant 27a" loading="lazy" />
+        <p class="variant-title">Variant 27a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-28a.jpg" alt="Cowgirl Bikini – Variant 28" loading="lazy" />
-        <p class="variant-title">Variant 28</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-28a.jpg" data-title="Variant 28a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-28a.jpg" alt="Cowgirl Bikini – Variant 28a" loading="lazy" />
+        <p class="variant-title">Variant 28a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-29a.jpg" alt="Cowgirl Bikini – Variant 29" loading="lazy" />
-        <p class="variant-title">Variant 29</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-29a.jpg" data-title="Variant 29a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-29a.jpg" alt="Cowgirl Bikini – Variant 29a" loading="lazy" />
+        <p class="variant-title">Variant 29a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-30a.jpg" alt="Cowgirl Bikini – Variant 30" loading="lazy" />
-        <p class="variant-title">Variant 30</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-30a.jpg" data-title="Variant 30a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-30a.jpg" alt="Cowgirl Bikini – Variant 30a" loading="lazy" />
+        <p class="variant-title">Variant 30a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-31a.jpg" alt="Cowgirl Bikini – Variant 31" loading="lazy" />
-        <p class="variant-title">Variant 31</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-31a.jpg" data-title="Variant 31a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-31a.jpg" alt="Cowgirl Bikini – Variant 31a" loading="lazy" />
+        <p class="variant-title">Variant 31a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-32a.jpg" alt="Cowgirl Bikini – Variant 32" loading="lazy" />
-        <p class="variant-title">Variant 32</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-32a.jpg" data-title="Variant 32a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-32a.jpg" alt="Cowgirl Bikini – Variant 32a" loading="lazy" />
+        <p class="variant-title">Variant 32a</p>
+      </a>
 
     </div>
   </section>
+
+  <!-- Lightbox UI -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-card" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <img class="lightbox-img" id="lightboxImg" alt="">
+      <div class="lightbox-bar">
+        <div id="lightboxTitle"></div>
+        <div class="lightbox-actions">
+          <a id="lightboxOpen" href="#" target="_blank" rel="noopener">Open original</a>
+          <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const lb = document.getElementById("lightbox");
+      const lbImg = document.getElementById("lightboxImg");
+      const lbTitle = document.getElementById("lightboxTitle");
+      const lbOpen = document.getElementById("lightboxOpen");
+      const lbClose = document.getElementById("lightboxClose");
+
+      function openLightbox(src, title, alt) {
+        lb.classList.add("is-open");
+        lb.setAttribute("aria-hidden", "false");
+        lbImg.src = src;
+        lbImg.alt = alt || title || "Image";
+        lbTitle.textContent = title || "";
+        lbOpen.href = src;
+        document.body.style.overflow = "hidden";
+        lbClose.focus();
+      }
+
+      function closeLightbox() {
+        lb.classList.remove("is-open");
+        lb.setAttribute("aria-hidden", "true");
+        lbImg.src = "";
+        document.body.style.overflow = "";
+      }
+
+      document.addEventListener("click", (e) => {
+        const link = e.target.closest(".variant-link");
+        if (link) {
+          e.preventDefault();
+          openLightbox(link.href, link.dataset.title, link.querySelector("img")?.alt);
+          return;
+        }
+        if (e.target === lb) closeLightbox();
+      });
+
+      lbClose.addEventListener("click", closeLightbox);
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && lb.classList.contains("is-open")) closeLightbox();
+      });
+    })();
+  </script>
 
 </body>
 </html>
