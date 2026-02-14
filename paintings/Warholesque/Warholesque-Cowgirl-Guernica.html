@@ -3,77 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Warholesque Cowgirl Guernica (2007) – Ron English Catalogue Raisonné</title>
+  <title>Cowgirl Guernica (2007) – Warholesque – Ron English Catalogue Raisonné</title>
 
-  <!-- OPTIONAL: add your Work ID when you have it -->
-  <!-- <meta name="work-id" content="RE-000000" /> -->
-
-  <!-- If this file lives at /paintings/Warholesque/Warholesque-Cowgirl-Guernica.html -->
   <link rel="stylesheet" href="../../css/styles.css" />
 
+  <!-- Machine-readable -->
+  <meta name="work-type" content="warholesque-series" />
+
   <style>
-    .page-wrap { max-width: 1200px; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
-    .site-header { margin: 0 0 1rem; }
-    .top-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0 0; }
-    .nav-pill { display: inline-block; padding: .45rem .8rem; border: 1px solid rgba(0,0,0,.18); border-radius: 999px; text-decoration: none; color: inherit; }
-    .work-title { margin: .25rem 0 0; }
-    .subtle { opacity: .75; }
+    .variant-wrap { margin-bottom: 56px; }
 
-    .hero {
-      border: 1px solid rgba(0,0,0,.12);
-      border-radius: 14px;
-      overflow: hidden;
-      background: #fff;
-    }
-    .hero img { width: 100%; height: auto; display: block; }
-
-    .meta {
-      margin-top: 1rem;
+    .variant-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 26px;
     }
-    .meta-card {
-      border: 1px solid rgba(0,0,0,.12);
-      border-radius: 14px;
-      padding: 1rem;
-      background: #fff;
-    }
-    .meta-card h2 { margin: 0 0 .75rem; font-size: 1.05rem; }
-    .meta-list { margin: 0; padding: 0; list-style: none; }
-    .meta-list li { padding: .35rem 0; border-top: 1px solid rgba(0,0,0,.08); }
-    .meta-list li:first-child { border-top: 0; padding-top: 0; }
-    .meta-k { font-weight: 600; margin-right: .4rem; }
 
-    .variants {
-      margin-top: 1.25rem;
-      border: 1px solid rgba(0,0,0,.12);
-      border-radius: 14px;
-      padding: 1rem;
-      background: #fff;
+    .variant-item {
+      text-align: center;
     }
-    .variants h2 { margin: 0 0 .75rem; font-size: 1.05rem; }
-    .grid {
-      display: grid;
-      gap: .75rem;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    }
-    .thumb {
-      border: 1px solid rgba(0,0,0,.12);
-      border-radius: 12px;
+
+    /* Make each thumb clickable */
+    .variant-link {
+      display: block;
+      border-radius: 10px;
       overflow: hidden;
-      background: #fafafa;
+    }
+    .variant-link:focus {
+      outline: 2px solid #111;
+      outline-offset: 3px;
     }
 
-    /* clickable */
-    .thumb a { display: block; text-decoration: none; color: inherit; }
-    .thumb a:focus { outline: 2px solid #111; outline-offset: 3px; }
+    /* LANDSCAPE THUMBS (better for your images) */
+    .variant-item img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      display: block;
+      border-radius: 10px;
+      background: #f3f4f6;
+    }
 
-    .thumb img { width: 100%; height: 220px; object-fit: cover; display: block; }
-    .thumb figcaption { padding: .55rem .7rem; font-size: .95rem; }
-
-    .note { margin: .75rem 0 0; font-size: .95rem; }
-    .note code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .variant-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin: 10px 0 0 0;
+    }
 
     /* ==========================
        LIGHTBOX (page-local)
@@ -88,7 +63,9 @@
       background: rgba(0, 0, 0, 0.86);
       z-index: 9999;
     }
-    .lightbox.is-open { display: flex; }
+    .lightbox.is-open {
+      display: flex;
+    }
     .lightbox-card {
       max-width: min(1100px, 96vw);
       max-height: 92vh;
@@ -143,161 +120,140 @@
 </head>
 
 <body>
-  <header class="site-header page-wrap">
-    <h1 class="work-title">Warholesque Cowgirl Guernica (2007)</h1>
-    <div class="subtle">Variants (as available)</div>
 
-    <nav class="top-nav" aria-label="Site navigation">
+  <header class="site-header">
+    <h1>Cowgirl Guernica (2007)</h1>
+
+    <nav class="top-nav">
       <a class="nav-pill" href="../../index.html">Home</a>
-      <a class="nav-pill" href="../index.html">Paintings</a>
       <a class="nav-pill" href="./index.html">Warholesque</a>
     </nav>
   </header>
 
-  <main class="page-wrap">
-    <!-- HERO -->
-    <section class="hero" aria-label="Primary image">
-      <img
-        src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg"
-        alt="Warholesque Cowgirl Guernica (2007), variant 01a"
-        loading="eager"
-      />
-    </section>
+  <!-- HERO + METADATA -->
+  <main class="work-layout">
 
-    <section class="meta" aria-label="Work details">
-      <div class="meta-card">
-        <h2>Object</h2>
-        <ul class="meta-list">
-          <li><span class="meta-k">Title:</span> Warholesque Cowgirl Guernica</li>
-          <li><span class="meta-k">Year:</span> 2007</li>
-          <li><span class="meta-k">Medium:</span> (add medium)</li>
-          <li><span class="meta-k">Dimensions:</span> 36 × 90 in</li>
-          <li><span class="meta-k">Series:</span> Warholesque</li>
-          <li><span class="meta-k">Signature/Markings:</span> (add if observed)</li>
-        </ul>
+    <img
+      src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg"
+      alt="Cowgirl Guernica (Warholesque, 2007) – Variant 01a"
+      class="work-hero"
+      loading="lazy"
+    />
 
-        <p class="note">
-          These paths assume images are stored in:
-          <code>../../images/Paintings/Warholesque/</code>
-        </p>
-      </div>
+    <ul class="work-meta">
+      <li><strong>Title:</strong> Cowgirl Guernica</li>
+      <li><strong>Date:</strong> 2007</li>
+      <li><strong>Medium:</strong> (add medium)</li>
+      <li><strong>Dimensions:</strong> 36 × 90 in</li>
+      <li>
+        <strong>Work ID:</strong>
+        Each variant assigned a unique catalogue number
+        (<!-- ADD RANGE IF KNOWN -->)
+      </li>
+      <li><strong>Notes:</strong> (add notes)</li>
+    </ul>
 
-      <div class="variants" aria-label="Variants gallery">
-        <h2>Variants</h2>
-
-        <div class="grid">
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" data-title="Variant 01a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" alt="Variant 01a" loading="lazy" />
-              <figcaption>Variant 01a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" data-title="Variant 02a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" alt="Variant 02a" loading="lazy" />
-              <figcaption>Variant 02a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg" data-title="Variant 03a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg" alt="Variant 03a" loading="lazy" />
-              <figcaption>Variant 03a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg" data-title="Variant 04a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg" alt="Variant 04a" loading="lazy" />
-              <figcaption>Variant 04a</figcaption>
-            </a>
-          </figure>
-
-          <!-- var-05a.jpg not present in your screenshot -->
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg" data-title="Variant 06a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg" alt="Variant 06a" loading="lazy" />
-              <figcaption>Variant 06a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg" data-title="Variant 07a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg" alt="Variant 07a" loading="lazy" />
-              <figcaption>Variant 07a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg" data-title="Variant 08a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg" alt="Variant 08a" loading="lazy" />
-              <figcaption>Variant 08a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg" data-title="Variant 09a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg" alt="Variant 09a" loading="lazy" />
-              <figcaption>Variant 09a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg" data-title="Variant 10a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg" alt="Variant 10a" loading="lazy" />
-              <figcaption>Variant 10a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg" data-title="Variant 11a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg" alt="Variant 11a" loading="lazy" />
-              <figcaption>Variant 11a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg" data-title="Variant 12a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg" alt="Variant 12a" loading="lazy" />
-              <figcaption>Variant 12a</figcaption>
-            </a>
-          </figure>
-
-          <figure class="thumb">
-            <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg" data-title="Variant 13a">
-              <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg" alt="Variant 13a" loading="lazy" />
-              <figcaption>Variant 13a</figcaption>
-            </a>
-          </figure>
-
-          <!-- If var-14a.jpg exists in your folder, add it back like the others -->
-
-        </div>
-
-        <p class="note">
-          If some still don’t show: the next culprit is usually filename case (JPG vs jpg) or the image being in a different folder than expected.
-        </p>
-      </div>
-    </section>
-
-    <section class="meta-card" style="margin-top: 1rem;">
-      <h2>Notes</h2>
-      <p>(add notes)</p>
-    </section>
-
-    <section class="meta-card" style="margin-top: 1rem;">
-      <h2>Exhibitions</h2>
-      <p>(add exhibitions)</p>
-    </section>
-
-    <section class="meta-card" style="margin-top: 1rem;">
-      <h2>Literature</h2>
-      <p>(add literature)</p>
-    </section>
   </main>
+
+  <!-- VARIANTS -->
+  <section class="variant-wrap">
+    <h2 style="text-align:center; margin: 0 0 18px 0;">Variants</h2>
+
+    <div class="variant-grid" aria-label="Cowgirl Guernica variants">
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" data-title="Variant 01a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-01a.jpg" alt="Cowgirl Guernica – Variant 01a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 1</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" data-title="Variant 02a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-02a.jpg" alt="Cowgirl Guernica – Variant 02a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 2</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg" data-title="Variant 03a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-03a.jpg" alt="Cowgirl Guernica – Variant 03a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 3</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg" data-title="Variant 04a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-04a.jpg" alt="Cowgirl Guernica – Variant 04a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 4</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-05a.jpg" data-title="Variant 05a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-05a.jpg" alt="Cowgirl Guernica – Variant 05a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 5</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg" data-title="Variant 06a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-06a.jpg" alt="Cowgirl Guernica – Variant 06a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 6</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg" data-title="Variant 07a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-07a.jpg" alt="Cowgirl Guernica – Variant 07a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 7</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg" data-title="Variant 08a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-08a.jpg" alt="Cowgirl Guernica – Variant 08a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 8</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg" data-title="Variant 09a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-09a.jpg" alt="Cowgirl Guernica – Variant 09a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 9</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg" data-title="Variant 10a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-10a.jpg" alt="Cowgirl Guernica – Variant 10a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 10</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg" data-title="Variant 11a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-11a.jpg" alt="Cowgirl Guernica – Variant 11a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 11</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg" data-title="Variant 12a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-12a.jpg" alt="Cowgirl Guernica – Variant 12a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 12</p>
+      </div>
+
+      <div class="variant-item">
+        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg" data-title="Variant 13a">
+          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Guernica-var-13a.jpg" alt="Cowgirl Guernica – Variant 13a" loading="lazy" />
+        </a>
+        <p class="variant-title">Variant 13</p>
+      </div>
+
+    </div>
+  </section>
 
   <!-- Lightbox UI -->
   <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -356,5 +312,6 @@
       });
     })();
   </script>
+
 </body>
 </html>
