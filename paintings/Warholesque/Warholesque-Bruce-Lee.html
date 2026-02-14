@@ -20,10 +20,12 @@
       gap: 26px;
     }
 
+    /* clickable tiles */
     .variant-item {
       text-decoration: none;
       color: inherit;
       text-align: center;
+      cursor: pointer;
     }
 
     .variant-item img {
@@ -40,6 +42,72 @@
       font-weight: 600;
       margin: 10px 0 0 0;
     }
+
+    /* ==========================
+       LIGHTBOX (page-local)
+       ========================== */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.86);
+      z-index: 9999;
+    }
+    .lightbox.is-open { display: flex; }
+    .lightbox-card {
+      max-width: min(1100px, 96vw);
+      max-height: 92vh;
+      width: 100%;
+      position: relative;
+    }
+    .lightbox-img {
+      width: 100%;
+      max-height: 92vh;
+      object-fit: contain;
+      display: block;
+      border-radius: 12px;
+      background: #111;
+    }
+    .lightbox-bar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .lightbox-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .lightbox-actions a,
+    .lightbox-actions button {
+      appearance: none;
+      border: 0;
+      background: rgba(255, 255, 255, 0.14);
+      color: #fff;
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 600;
+      line-height: 1;
+    }
+    .lightbox-actions a:hover,
+    .lightbox-actions button:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+    .lightbox-close {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+    }
+    .variant-link:focus { outline: 2px solid #111; outline-offset: 3px; }
   </style>
 </head>
 
@@ -59,20 +127,20 @@
 
     <img
       src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-01a.jpg"
-      alt="Bruce Lee (Warholesque) – Variant 1"
+      alt="Bruce Lee (Warholesque) – Variant 01a"
       class="work-hero"
       loading="lazy"
     />
 
     <ul class="work-meta">
       <li><strong>Title:</strong> Bruce Lee</li>
+      <li><strong>Series:</strong> Warholesque</li>
       <li><strong>Date:</strong> 2010</li>
       <li><strong>Medium:</strong> Silkscreen ink, stencil, and synthetic polymer paint on canvas</li>
-      <li><strong>Dimensions:</strong> 24x24 inches</li>
+      <li><strong>Dimensions:</strong> 24 × 24 in</li>
       <li>
         <strong>Work ID:</strong>
-        Each variant assigned a unique catalogue number
-        (RE-000238–RE-000254)
+        Each variant assigned a unique catalogue number (RE-000238–RE-000254)
       </li>
       <li><strong>Notes:</strong> 16 unique colorway variants documented.</li>
     </ul>
@@ -85,90 +153,153 @@
 
     <div class="variant-grid" aria-label="Bruce Lee variants">
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-01a.jpg" alt="Bruce Lee – Variant 1" loading="lazy" />
-        <p class="variant-title">Variant 1</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-01a.jpg" data-title="Variant 01a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-01a.jpg" alt="Bruce Lee – Variant 01a" loading="lazy" />
+        <p class="variant-title">Variant 01a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-02a.jpg" alt="Bruce Lee – Variant 2" loading="lazy" />
-        <p class="variant-title">Variant 2</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-02a.jpg" data-title="Variant 02a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-02a.jpg" alt="Bruce Lee – Variant 02a" loading="lazy" />
+        <p class="variant-title">Variant 02a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-03a.jpg" alt="Bruce Lee – Variant 3" loading="lazy" />
-        <p class="variant-title">Variant 3</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-03a.jpg" data-title="Variant 03a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-03a.jpg" alt="Bruce Lee – Variant 03a" loading="lazy" />
+        <p class="variant-title">Variant 03a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-04a.jpg" alt="Bruce Lee – Variant 4" loading="lazy" />
-        <p class="variant-title">Variant 4</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-04a.jpg" data-title="Variant 04a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-04a.jpg" alt="Bruce Lee – Variant 04a" loading="lazy" />
+        <p class="variant-title">Variant 04a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-05a.jpg" alt="Bruce Lee – Variant 5" loading="lazy" />
-        <p class="variant-title">Variant 5</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-05a.jpg" data-title="Variant 05a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-05a.jpg" alt="Bruce Lee – Variant 05a" loading="lazy" />
+        <p class="variant-title">Variant 05a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-06a.jpg" alt="Bruce Lee – Variant 6" loading="lazy" />
-        <p class="variant-title">Variant 6</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-06a.jpg" data-title="Variant 06a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-06a.jpg" alt="Bruce Lee – Variant 06a" loading="lazy" />
+        <p class="variant-title">Variant 06a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-07a.jpg" alt="Bruce Lee – Variant 7" loading="lazy" />
-        <p class="variant-title">Variant 7</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-07a.jpg" data-title="Variant 07a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-07a.jpg" alt="Bruce Lee – Variant 07a" loading="lazy" />
+        <p class="variant-title">Variant 07a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-08a.jpg" alt="Bruce Lee – Variant 8" loading="lazy" />
-        <p class="variant-title">Variant 8</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-08a.jpg" data-title="Variant 08a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-08a.jpg" alt="Bruce Lee – Variant 08a" loading="lazy" />
+        <p class="variant-title">Variant 08a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-09a.jpg" alt="Bruce Lee – Variant 9" loading="lazy" />
-        <p class="variant-title">Variant 9</p>
-      </div>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-09a.jpg" data-title="Variant 09a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-09a.jpg" alt="Bruce Lee – Variant 09a" loading="lazy" />
+        <p class="variant-title">Variant 09a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-010a.jpg" alt="Bruce Lee – Variant 10" loading="lazy" />
-        <p class="variant-title">Variant 10</p>
-      </div>
+      <!-- FIXED: 010a -> 10a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-10a.jpg" data-title="Variant 10a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-10a.jpg" alt="Bruce Lee – Variant 10a" loading="lazy" />
+        <p class="variant-title">Variant 10a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-011a.jpg" alt="Bruce Lee – Variant 11" loading="lazy" />
-        <p class="variant-title">Variant 11</p>
-      </div>
+      <!-- FIXED: 011a -> 11a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-11a.jpg" data-title="Variant 11a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-11a.jpg" alt="Bruce Lee – Variant 11a" loading="lazy" />
+        <p class="variant-title">Variant 11a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-012a.jpg" alt="Bruce Lee – Variant 12" loading="lazy" />
-        <p class="variant-title">Variant 12</p>
-      </div>
+      <!-- FIXED: 012a -> 12a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-12a.jpg" data-title="Variant 12a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-12a.jpg" alt="Bruce Lee – Variant 12a" loading="lazy" />
+        <p class="variant-title">Variant 12a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-013a.jpg" alt="Bruce Lee – Variant 13" loading="lazy" />
-        <p class="variant-title">Variant 13</p>
-      </div>
+      <!-- FIXED: 013a -> 13a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-13a.jpg" data-title="Variant 13a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-13a.jpg" alt="Bruce Lee – Variant 13a" loading="lazy" />
+        <p class="variant-title">Variant 13a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-014a.jpg" alt="Bruce Lee – Variant 14" loading="lazy" />
-        <p class="variant-title">Variant 14</p>
-      </div>
+      <!-- FIXED: 014a -> 14a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-14a.jpg" data-title="Variant 14a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-14a.jpg" alt="Bruce Lee – Variant 14a" loading="lazy" />
+        <p class="variant-title">Variant 14a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-015a.jpg" alt="Bruce Lee – Variant 15" loading="lazy" />
-        <p class="variant-title">Variant 15</p>
-      </div>
+      <!-- FIXED: 015a -> 15a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-15a.jpg" data-title="Variant 15a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-15a.jpg" alt="Bruce Lee – Variant 15a" loading="lazy" />
+        <p class="variant-title">Variant 15a</p>
+      </a>
 
-      <div class="variant-item">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-016a.jpg" alt="Bruce Lee – Variant 16" loading="lazy" />
-        <p class="variant-title">Variant 16</p>
-      </div>
-
-  
+      <!-- FIXED: 016a -> 16a -->
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-16a.jpg" data-title="Variant 16a">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Bruce-Lee-var-16a.jpg" alt="Bruce Lee – Variant 16a" loading="lazy" />
+        <p class="variant-title">Variant 16a</p>
+      </a>
 
     </div>
   </section>
+
+  <!-- Lightbox UI -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-card" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <img class="lightbox-img" id="lightboxImg" alt="">
+      <div class="lightbox-bar">
+        <div id="lightboxTitle"></div>
+        <div class="lightbox-actions">
+          <a id="lightboxOpen" href="#" target="_blank" rel="noopener">Open original</a>
+          <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const lb = document.getElementById("lightbox");
+      const lbImg = document.getElementById("lightboxImg");
+      const lbTitle = document.getElementById("lightboxTitle");
+      const lbOpen = document.getElementById("lightboxOpen");
+      const lbClose = document.getElementById("lightboxClose");
+
+      function openLightbox(src, title, alt) {
+        lb.classList.add("is-open");
+        lb.setAttribute("aria-hidden", "false");
+        lbImg.src = src;
+        lbImg.alt = alt || title || "Image";
+        lbTitle.textContent = title || "";
+        lbOpen.href = src;
+        document.body.style.overflow = "hidden";
+        lbClose.focus();
+      }
+
+      function closeLightbox() {
+        lb.classList.remove("is-open");
+        lb.setAttribute("aria-hidden", "true");
+        lbImg.src = "";
+        document.body.style.overflow = "";
+      }
+
+      document.addEventListener("click", (e) => {
+        const link = e.target.closest(".variant-link");
+        if (link) {
+          e.preventDefault();
+          openLightbox(link.href, link.dataset.title, link.querySelector("img")?.alt);
+          return;
+        }
+        if (e.target === lb) closeLightbox();
+      });
+
+      lbClose.addEventListener("click", closeLightbox);
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && lb.classList.contains("is-open")) closeLightbox();
+      });
+    })();
+  </script>
 
 </body>
 </html>
