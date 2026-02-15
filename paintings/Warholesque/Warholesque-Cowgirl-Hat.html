@@ -11,7 +11,21 @@
   <meta name="work-type" content="warholesque-series" />
 
   <style>
-    .variant-wrap { margin-bottom: 56px; }
+    /* keep your narrower hero/meta area (matches other pages) */
+    .work-layout {
+      max-width: 800px;
+      margin: 2.5rem auto 2.75rem auto;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /* variants can be wider */
+    .variant-wrap {
+      max-width: 1100px;
+      margin: 0 auto 36px auto;
+      padding: 0 20px;
+    }
 
     .variant-grid {
       display: grid;
@@ -20,18 +34,10 @@
     }
 
     .variant-item {
+      text-decoration: none;
+      color: inherit;
       text-align: center;
-    }
-
-    /* Make each thumb clickable */
-    .variant-link {
-      display: block;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .variant-link:focus {
-      outline: 2px solid #111;
-      outline-offset: 3px;
+      cursor: pointer;
     }
 
     .variant-item img {
@@ -47,6 +53,59 @@
       font-size: 0.9rem;
       font-weight: 600;
       margin: 10px 0 0 0;
+      color: #222;
+    }
+
+    /* ==========================
+       SOURCE PAINTING (smaller)
+       ========================== */
+    .source-wrap {
+      max-width: 900px;
+      margin: 26px auto 64px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .source-card {
+      max-width: 420px;
+      margin: 0 auto;
+      border-radius: 14px;
+      background: #fff;
+      padding: 14px 14px 16px 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    .source-thumb {
+      width: 240px;
+      max-width: 80%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      display: block;
+      margin: 10px auto 12px auto;
+      border-radius: 10px;
+      background: #f3f4f6;
+    }
+
+    .source-meta {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: inline-block;
+      font-size: 0.95rem;
+    }
+
+    .source-meta li { margin: 6px 0; }
+
+    .source-meta strong {
+      display: inline-block;
+      min-width: 110px;
+    }
+
+    .source-note {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #444;
     }
 
     /* ==========================
@@ -62,9 +121,7 @@
       background: rgba(0, 0, 0, 0.86);
       z-index: 9999;
     }
-    .lightbox.is-open {
-      display: flex;
-    }
+    .lightbox.is-open { display: flex; }
     .lightbox-card {
       max-width: min(1100px, 96vw);
       max-height: 92vh;
@@ -115,6 +172,7 @@
       height: 42px;
       border-radius: 999px;
     }
+    .variant-link:focus { outline: 2px solid #111; outline-offset: 3px; }
   </style>
 </head>
 
@@ -141,16 +199,10 @@
 
     <ul class="work-meta">
       <li><strong>Title:</strong> Cowgirl Hat</li>
+      <li><strong>Series:</strong> Warholesque</li>
       <li><strong>Date:</strong> 2010</li>
       <li><strong>Medium:</strong> Silkscreen ink on canvas</li>
       <li><strong>Dimensions:</strong> 20 × 30 inches</li>
-      <!--
-      <li>
-        <strong>Work ID:</strong>
-        Each variant assigned a unique catalogue number
-        (<!-- ADD RANGE IF KNOWN -->)
-      </li>
-      -->
       <li><strong>Notes:</strong> 11 colorway variants documented to date.</li>
     </ul>
 
@@ -162,83 +214,86 @@
 
     <div class="variant-grid" aria-label="Cowgirl Hat variants">
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-01a.jpg" data-title="Variant 1">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-01a.jpg" alt="Cowgirl Hat – Variant 1" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-01a.jpg" data-title="Variant 1">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-01a.jpg" alt="Cowgirl Hat – Variant 1" loading="lazy" />
         <p class="variant-title">Variant 1</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-02a.jpg" data-title="Variant 2">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-02a.jpg" alt="Cowgirl Hat – Variant 2" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-02a.jpg" data-title="Variant 2">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-02a.jpg" alt="Cowgirl Hat – Variant 2" loading="lazy" />
         <p class="variant-title">Variant 2</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-03a.jpg" data-title="Variant 3">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-03a.jpg" alt="Cowgirl Hat – Variant 3" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-03a.jpg" data-title="Variant 3">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-03a.jpg" alt="Cowgirl Hat – Variant 3" loading="lazy" />
         <p class="variant-title">Variant 3</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-04a.jpg" data-title="Variant 4">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-04a.jpg" alt="Cowgirl Hat – Variant 4" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-04a.jpg" data-title="Variant 4">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-04a.jpg" alt="Cowgirl Hat – Variant 4" loading="lazy" />
         <p class="variant-title">Variant 4</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-05a.jpg" data-title="Variant 5">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-05a.jpg" alt="Cowgirl Hat – Variant 5" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-05a.jpg" data-title="Variant 5">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-05a.jpg" alt="Cowgirl Hat – Variant 5" loading="lazy" />
         <p class="variant-title">Variant 5</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-06a.jpg" data-title="Variant 6">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-06a.jpg" alt="Cowgirl Hat – Variant 6" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-06a.jpg" data-title="Variant 6">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-06a.jpg" alt="Cowgirl Hat – Variant 6" loading="lazy" />
         <p class="variant-title">Variant 6</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-07a.jpg" data-title="Variant 7">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-07a.jpg" alt="Cowgirl Hat – Variant 7" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-07a.jpg" data-title="Variant 7">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-07a.jpg" alt="Cowgirl Hat – Variant 7" loading="lazy" />
         <p class="variant-title">Variant 7</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-08a.jpg" data-title="Variant 8">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-08a.jpg" alt="Cowgirl Hat – Variant 8" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-08a.jpg" data-title="Variant 8">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-08a.jpg" alt="Cowgirl Hat – Variant 8" loading="lazy" />
         <p class="variant-title">Variant 8</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-09a.jpg" data-title="Variant 9">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-09a.jpg" alt="Cowgirl Hat – Variant 9" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-09a.jpg" data-title="Variant 9">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-09a.jpg" alt="Cowgirl Hat – Variant 9" loading="lazy" />
         <p class="variant-title">Variant 9</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-10a.jpg" data-title="Variant 10">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-10a.jpg" alt="Cowgirl Hat – Variant 10" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-10a.jpg" data-title="Variant 10">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-10a.jpg" alt="Cowgirl Hat – Variant 10" loading="lazy" />
         <p class="variant-title">Variant 10</p>
-      </div>
+      </a>
 
-      <div class="variant-item">
-        <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-11a.jpg" data-title="Variant 11">
-          <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-11a.jpg" alt="Cowgirl Hat – Variant 11" loading="lazy" />
-        </a>
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-11a.jpg" data-title="Variant 11">
+        <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Hat-var-11a.jpg" alt="Cowgirl Hat – Variant 11" loading="lazy" />
         <p class="variant-title">Variant 11</p>
-      </div>
+      </a>
 
+    </div>
+  </section>
+
+  <!-- SOURCE PAINTING -->
+  <section class="source-wrap" aria-label="Source painting information">
+    <h2 style="text-align:center; margin: 0 0 14px 0;">Source painting</h2>
+
+    <div class="source-card">
+      <img
+        class="source-thumb"
+        src="../../images/Paintings/Warholesque/Cowgirl-Hat-original.jpg"
+        alt="Cowgirl Hat source painting, oil on canvas, 2010"
+        loading="lazy"
+      />
+
+      <ul class="source-meta">
+        <li><strong>Title:</strong> Cowgirl Hat</li>
+        <li><strong>Date:</strong> 2010</li>
+        <li><strong>Medium:</strong> Oil on canvas</li>
+        <li><strong>Dimensions:</strong> 24 × 34 inches</li>
+      </ul>
+
+      <p class="source-note">
+        Source painting shown for contextual reference. Full catalogue entry forthcoming.
+      </p>
     </div>
   </section>
 
