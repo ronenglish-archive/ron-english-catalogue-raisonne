@@ -9,29 +9,34 @@
   <meta name="work-type" content="warholesque-series" />
 
   <style>
-    .variant-wrap {
-      margin: 60px auto;
-      max-width: 1200px;
-      padding: 0 1rem;
+    /* keep your narrower hero/meta area (matches other pages) */
+    .work-layout {
+      max-width: 800px;
+      margin: 2.5rem auto 2.75rem auto;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
+
+    /* variants can be wider */
+    .variant-wrap {
+      max-width: 1100px;
+      margin: 0 auto 36px auto;
+      padding: 0 20px;
+    }
+
     .variant-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
       gap: 26px;
     }
-    .variant-item {
-      text-align: center;
-    }
 
-    /* Make each thumb clickable */
-    .variant-link {
-      display: block;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .variant-link:focus {
-      outline: 2px solid #111;
-      outline-offset: 3px;
+    /* clickable tiles */
+    .variant-item {
+      text-decoration: none;
+      color: inherit;
+      text-align: center;
+      cursor: pointer;
     }
 
     .variant-item img {
@@ -42,10 +47,65 @@
       border-radius: 10px;
       background: #f3f4f6;
     }
+
     .variant-title {
       font-size: 0.9rem;
       font-weight: 600;
+      margin: 10px 0 0 0;
+      color: #222;
+    }
+
+    /* ==========================
+       SOURCE PAINTING (smaller)
+       ========================== */
+    .source-wrap {
+      max-width: 900px;
+      margin: 26px auto 64px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .source-card {
+      max-width: 420px;
+      margin: 0 auto;
+      border-radius: 14px;
+      background: #fff;
+      padding: 14px 14px 16px 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    /* smaller than variants */
+    .source-thumb {
+      width: 240px;
+      max-width: 80%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+      margin: 10px auto 12px auto;
+      border-radius: 10px;
+      background: #f3f4f6;
+    }
+
+    .source-meta {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: inline-block;
+      font-size: 0.95rem;
+    }
+
+    .source-meta li { margin: 6px 0; }
+
+    .source-meta strong {
+      display: inline-block;
+      min-width: 110px;
+    }
+
+    .source-note {
       margin-top: 10px;
+      font-size: 0.9rem;
+      color: #444;
     }
 
     /* ==========================
@@ -61,9 +121,7 @@
       background: rgba(0, 0, 0, 0.86);
       z-index: 9999;
     }
-    .lightbox.is-open {
-      display: flex;
-    }
+    .lightbox.is-open { display: flex; }
     .lightbox-card {
       max-width: min(1100px, 96vw);
       max-height: 92vh;
@@ -114,6 +172,7 @@
       height: 42px;
       border-radius: 999px;
     }
+    .variant-link:focus { outline: 2px solid #111; outline-offset: 3px; }
   </style>
 </head>
 
@@ -131,7 +190,7 @@
 
   <img
     src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01a.jpg"
-    alt="Elvis Elvis – Warholesque – Variant 01"
+    alt="Elvis Elvis (Warholesque) – Variant 1"
     class="work-hero"
     loading="lazy"
   />
@@ -148,283 +207,231 @@
 </main>
 
 <section class="variant-wrap">
-  <h2 style="text-align:center; margin-bottom: 24px;">Variants</h2>
+  <h2 style="text-align:center; margin: 0 0 18px 0;">Variants</h2>
 
   <div class="variant-grid" aria-label="Elvis Elvis variants">
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01a.jpg" data-title="Variant 1">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01a.jpg" alt="Elvis Elvis – Variant 1" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 1</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01a.jpg" data-title="Variant 1">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-01a.jpg" alt="Elvis Elvis – Variant 1" loading="lazy" />
+      <p class="variant-title">Variant 1</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-02a.jpg" data-title="Variant 2">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-02a.jpg" alt="Elvis Elvis – Variant 2" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 2</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-02a.jpg" data-title="Variant 2">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-02a.jpg" alt="Elvis Elvis – Variant 2" loading="lazy" />
+      <p class="variant-title">Variant 2</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-03a.jpg" data-title="Variant 3">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-03a.jpg" alt="Elvis Elvis – Variant 3" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 3</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-03a.jpg" data-title="Variant 3">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-03a.jpg" alt="Elvis Elvis – Variant 3" loading="lazy" />
+      <p class="variant-title">Variant 3</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-04a.jpg" data-title="Variant 4">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-04a.jpg" alt="Elvis Elvis – Variant 4" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 4</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-04a.jpg" data-title="Variant 4">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-04a.jpg" alt="Elvis Elvis – Variant 4" loading="lazy" />
+      <p class="variant-title">Variant 4</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-05a.JPG" data-title="Variant 5">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-05a.JPG" alt="Elvis Elvis – Variant 5" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 5</div>
-    </div>
+    <!-- normalized .JPG -> .jpg (fix if your filenames are actually uppercase on disk) -->
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-05a.jpg" data-title="Variant 5">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-05a.jpg" alt="Elvis Elvis – Variant 5" loading="lazy" />
+      <p class="variant-title">Variant 5</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-06a.JPG" data-title="Variant 6">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-06a.JPG" alt="Elvis Elvis – Variant 6" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 6</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-06a.jpg" data-title="Variant 6">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-06a.jpg" alt="Elvis Elvis – Variant 6" loading="lazy" />
+      <p class="variant-title">Variant 6</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-07a.jpg" data-title="Variant 7">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-07a.jpg" alt="Elvis Elvis – Variant 7" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 7</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-07a.jpg" data-title="Variant 7">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-07a.jpg" alt="Elvis Elvis – Variant 7" loading="lazy" />
+      <p class="variant-title">Variant 7</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-08a.JPG" data-title="Variant 8">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-08a.JPG" alt="Elvis Elvis – Variant 8" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 8</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-08a.jpg" data-title="Variant 8">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-08a.jpg" alt="Elvis Elvis – Variant 8" loading="lazy" />
+      <p class="variant-title">Variant 8</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-09a.JPG" data-title="Variant 9">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-09a.JPG" alt="Elvis Elvis – Variant 9" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 9</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-09a.jpg" data-title="Variant 9">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-09a.jpg" alt="Elvis Elvis – Variant 9" loading="lazy" />
+      <p class="variant-title">Variant 9</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-10a.jpg" data-title="Variant 10">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-10a.jpg" alt="Elvis Elvis – Variant 10" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 10</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-10a.jpg" data-title="Variant 10">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-10a.jpg" alt="Elvis Elvis – Variant 10" loading="lazy" />
+      <p class="variant-title">Variant 10</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-11a.jpg" data-title="Variant 11">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-11a.jpg" alt="Elvis Elvis – Variant 11" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 11</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-11a.jpg" data-title="Variant 11">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-11a.jpg" alt="Elvis Elvis – Variant 11" loading="lazy" />
+      <p class="variant-title">Variant 11</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-12a.jpg" data-title="Variant 12">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-12a.jpg" alt="Elvis Elvis – Variant 12" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 12</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-12a.jpg" data-title="Variant 12">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-12a.jpg" alt="Elvis Elvis – Variant 12" loading="lazy" />
+      <p class="variant-title">Variant 12</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-13a.jpg" data-title="Variant 13">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-13a.jpg" alt="Elvis Elvis – Variant 13" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 13</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-13a.jpg" data-title="Variant 13">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-13a.jpg" alt="Elvis Elvis – Variant 13" loading="lazy" />
+      <p class="variant-title">Variant 13</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-14a.JPG" data-title="Variant 14">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-14a.JPG" alt="Elvis Elvis – Variant 14" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 14</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-14a.jpg" data-title="Variant 14">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-14a.jpg" alt="Elvis Elvis – Variant 14" loading="lazy" />
+      <p class="variant-title">Variant 14</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-15a.JPG" data-title="Variant 15">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-15a.JPG" alt="Elvis Elvis – Variant 15" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 15</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-15a.jpg" data-title="Variant 15">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-15a.jpg" alt="Elvis Elvis – Variant 15" loading="lazy" />
+      <p class="variant-title">Variant 15</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-16a.JPG" data-title="Variant 16">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-16a.JPG" alt="Elvis Elvis – Variant 16" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 16</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-16a.jpg" data-title="Variant 16">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-16a.jpg" alt="Elvis Elvis – Variant 16" loading="lazy" />
+      <p class="variant-title">Variant 16</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-17a.jpg" data-title="Variant 17">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-17a.jpg" alt="Elvis Elvis – Variant 17" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 17</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-17a.jpg" data-title="Variant 17">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-17a.jpg" alt="Elvis Elvis – Variant 17" loading="lazy" />
+      <p class="variant-title">Variant 17</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-18a.JPG" data-title="Variant 18">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-18a.JPG" alt="Elvis Elvis – Variant 18" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 18</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-18a.jpg" data-title="Variant 18">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-18a.jpg" alt="Elvis Elvis – Variant 18" loading="lazy" />
+      <p class="variant-title">Variant 18</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-19a.JPG" data-title="Variant 19">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-19a.JPG" alt="Elvis Elvis – Variant 19" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 19</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-19a.jpg" data-title="Variant 19">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-19a.jpg" alt="Elvis Elvis – Variant 19" loading="lazy" />
+      <p class="variant-title">Variant 19</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-20a.JPG" data-title="Variant 20">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-20a.JPG" alt="Elvis Elvis – Variant 20" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 20</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-20a.jpg" data-title="Variant 20">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-20a.jpg" alt="Elvis Elvis – Variant 20" loading="lazy" />
+      <p class="variant-title">Variant 20</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-21a.jpg" data-title="Variant 21">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-21a.jpg" alt="Elvis Elvis – Variant 21" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 21</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-21a.jpg" data-title="Variant 21">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-21a.jpg" alt="Elvis Elvis – Variant 21" loading="lazy" />
+      <p class="variant-title">Variant 21</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-22a.jpg" data-title="Variant 22">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-22a.jpg" alt="Elvis Elvis – Variant 22" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 22</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-22a.jpg" data-title="Variant 22">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-22a.jpg" alt="Elvis Elvis – Variant 22" loading="lazy" />
+      <p class="variant-title">Variant 22</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-23a.jpg" data-title="Variant 23">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-23a.jpg" alt="Elvis Elvis – Variant 23" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 23</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-23a.jpg" data-title="Variant 23">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-23a.jpg" alt="Elvis Elvis – Variant 23" loading="lazy" />
+      <p class="variant-title">Variant 23</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-24a.JPG" data-title="Variant 24">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-24a.JPG" alt="Elvis Elvis – Variant 24" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 24</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-24a.jpg" data-title="Variant 24">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-24a.jpg" alt="Elvis Elvis – Variant 24" loading="lazy" />
+      <p class="variant-title">Variant 24</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-25a.jpg" data-title="Variant 25">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-25a.jpg" alt="Elvis Elvis – Variant 25" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 25</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-25a.jpg" data-title="Variant 25">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-25a.jpg" alt="Elvis Elvis – Variant 25" loading="lazy" />
+      <p class="variant-title">Variant 25</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-26a.jpg" data-title="Variant 26">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-26a.jpg" alt="Elvis Elvis – Variant 26" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 26</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-26a.jpg" data-title="Variant 26">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-26a.jpg" alt="Elvis Elvis – Variant 26" loading="lazy" />
+      <p class="variant-title">Variant 26</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-27a.jpg" data-title="Variant 27">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-27a.jpg" alt="Elvis Elvis – Variant 27" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 27</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-27a.jpg" data-title="Variant 27">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-27a.jpg" alt="Elvis Elvis – Variant 27" loading="lazy" />
+      <p class="variant-title">Variant 27</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-28a.JPG" data-title="Variant 28">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-28a.JPG" alt="Elvis Elvis – Variant 28" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 28</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-28a.jpg" data-title="Variant 28">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-28a.jpg" alt="Elvis Elvis – Variant 28" loading="lazy" />
+      <p class="variant-title">Variant 28</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-29a.JPG" data-title="Variant 29">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-29a.JPG" alt="Elvis Elvis – Variant 29" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 29</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-29a.jpg" data-title="Variant 29">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-29a.jpg" alt="Elvis Elvis – Variant 29" loading="lazy" />
+      <p class="variant-title">Variant 29</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-30a.JPG" data-title="Variant 30">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-30a.JPG" alt="Elvis Elvis – Variant 30" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 30</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-30a.jpg" data-title="Variant 30">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-30a.jpg" alt="Elvis Elvis – Variant 30" loading="lazy" />
+      <p class="variant-title">Variant 30</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-31a.jpg" data-title="Variant 31">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-31a.jpg" alt="Elvis Elvis – Variant 31" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 31</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-31a.jpg" data-title="Variant 31">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-31a.jpg" alt="Elvis Elvis – Variant 31" loading="lazy" />
+      <p class="variant-title">Variant 31</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-32a.JPG" data-title="Variant 32">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-32a.JPG" alt="Elvis Elvis – Variant 32" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 32</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-32a.jpg" data-title="Variant 32">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-32a.jpg" alt="Elvis Elvis – Variant 32" loading="lazy" />
+      <p class="variant-title">Variant 32</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-33a.JPG" data-title="Variant 33">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-33a.JPG" alt="Elvis Elvis – Variant 33" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 33</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-33a.jpg" data-title="Variant 33">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-33a.jpg" alt="Elvis Elvis – Variant 33" loading="lazy" />
+      <p class="variant-title">Variant 33</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-34a.JPG" data-title="Variant 34">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-34a.JPG" alt="Elvis Elvis – Variant 34" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 34</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-34a.jpg" data-title="Variant 34">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-34a.jpg" alt="Elvis Elvis – Variant 34" loading="lazy" />
+      <p class="variant-title">Variant 34</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-35a.jpg" data-title="Variant 35">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-35a.jpg" alt="Elvis Elvis – Variant 35" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 35</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-35a.jpg" data-title="Variant 35">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-35a.jpg" alt="Elvis Elvis – Variant 35" loading="lazy" />
+      <p class="variant-title">Variant 35</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-36a.jpg" data-title="Variant 36">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-36a.jpg" alt="Elvis Elvis – Variant 36" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 36</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-36a.jpg" data-title="Variant 36">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-36a.jpg" alt="Elvis Elvis – Variant 36" loading="lazy" />
+      <p class="variant-title">Variant 36</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-37a.jpg" data-title="Variant 37">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-37a.jpg" alt="Elvis Elvis – Variant 37" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 37</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-37a.jpg" data-title="Variant 37">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-37a.jpg" alt="Elvis Elvis – Variant 37" loading="lazy" />
+      <p class="variant-title">Variant 37</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-38a.jpg" data-title="Variant 38">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-38a.jpg" alt="Elvis Elvis – Variant 38" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 38</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-38a.jpg" data-title="Variant 38">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-38a.jpg" alt="Elvis Elvis – Variant 38" loading="lazy" />
+      <p class="variant-title">Variant 38</p>
+    </a>
 
-    <div class="variant-item">
-      <a class="variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-39a.jpg" data-title="Variant 39">
-        <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-39a.jpg" alt="Elvis Elvis – Variant 39" loading="lazy">
-      </a>
-      <div class="variant-title">Variant 39</div>
-    </div>
+    <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-39a.jpg" data-title="Variant 39">
+      <img src="../../images/Paintings/Warholesque/Warholesque-Elvis-Elvis-var-39a.jpg" alt="Elvis Elvis – Variant 39" loading="lazy" />
+      <p class="variant-title">Variant 39</p>
+    </a>
 
+  </div>
+</section>
+
+<!-- SOURCE PAINTING -->
+<section class="source-wrap" aria-label="Source painting information">
+  <h2 style="text-align:center; margin: 0 0 14px 0;">Source painting</h2>
+
+  <div class="source-card">
+    <img
+      class="source-thumb"
+      src="../../images/Paintings/Warholesque/Elvis-Elvis-original.jpg"
+      alt="Elvis Elvis source painting, oil on canvas, 2007"
+      loading="lazy"
+    />
+
+    <ul class="source-meta">
+      <li><strong>Title:</strong> Elvis Elvis</li>
+      <li><strong>Date:</strong> 2007</li>
+      <li><strong>Medium:</strong> Oil on canvas</li>
+      <li><strong>Dimensions:</strong> 36 × 36 inches</li>
+    </ul>
+
+    <p class="source-note">
+      Source painting shown for contextual reference. Full catalogue entry forthcoming.
+    </p>
   </div>
 </section>
 
