@@ -11,7 +11,21 @@
   <meta name="work-type" content="warholesque-series" />
 
   <style>
-    .variant-wrap { margin-bottom: 56px; }
+    /* keep your narrower hero/meta area (matches other pages) */
+    .work-layout {
+      max-width: 800px;
+      margin: 2.5rem auto 3.5rem auto;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /* variants can be wider */
+    .variant-wrap {
+      max-width: 1100px;
+      margin: 0 auto 56px auto;
+      padding: 0 20px;
+    }
 
     .variant-grid {
       display: grid;
@@ -39,6 +53,59 @@
       font-size: 0.9rem;
       font-weight: 600;
       margin: 10px 0 0 0;
+      color: #222;
+    }
+
+    /* ==========================
+       SOURCE PAINTING SECTION
+       ========================== */
+    .source-wrap {
+      max-width: 1100px;
+      margin: 40px auto 80px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .source-card {
+      max-width: 760px;
+      margin: 0 auto;
+      border-radius: 14px;
+      background: #ffffff;
+      padding: 22px;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.08);
+    }
+
+    .source-thumb {
+      width: min(420px, 92vw);
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      display: block;
+      margin: 16px auto 20px auto;
+      border-radius: 12px;
+      background: #f3f4f6;
+    }
+
+    .source-meta {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: inline-block;
+    }
+
+    .source-meta li {
+      margin: 6px 0;
+    }
+
+    .source-meta strong {
+      display: inline-block;
+      min-width: 110px;
+    }
+
+    .source-note {
+      margin-top: 14px;
+      font-size: 0.95rem;
+      color: #444;
     }
 
     /* ==========================
@@ -136,7 +203,7 @@
       <li><strong>Date:</strong> 2007</li>
       <li><strong>Medium:</strong> Silkscreen ink on canvas</li>
       <li><strong>Dimensions:</strong> 26 × 37 inches</li>
-        <!--
+      <!--
       <li>
         <strong>Work ID:</strong>
         Each variant assigned a unique catalogue number (RE-000XXX–RE-000XXX)
@@ -168,7 +235,7 @@
         <p class="variant-title">Variant 3</p>
       </a>
 
-      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-04a.jpg" data-title="Variant 5">
+      <a class="variant-item variant-link" href="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-04a.jpg" data-title="Variant 4">
         <img src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-var-04a.jpg" alt="Cowgirl Bikini – Variant 4" loading="lazy" />
         <p class="variant-title">Variant 4</p>
       </a>
@@ -313,6 +380,31 @@
         <p class="variant-title">Variant 32</p>
       </a>
 
+    </div>
+  </section>
+
+  <!-- SOURCE PAINTING -->
+  <section class="source-wrap" aria-label="Source painting information">
+    <h2 style="margin: 0 0 14px 0;">Source painting</h2>
+
+    <div class="source-card">
+      <img
+        class="source-thumb"
+        src="../../images/Paintings/Warholesque/Warholesque-Cowgirl-Bikini-original.jpg"
+        alt="Cowgirl Bikini source painting, oil on canvas, 2005"
+        loading="lazy"
+      />
+
+      <ul class="source-meta">
+        <li><strong>Title:</strong> Cowgirl Bikini</li>
+        <li><strong>Date:</strong> 2005</li>
+        <li><strong>Medium:</strong> Oil on canvas</li>
+        <li><strong>Dimensions:</strong> 22 × 36 inches</li>
+      </ul>
+
+      <p class="source-note">
+        Source painting shown for contextual reference. Full catalogue entry forthcoming.
+      </p>
     </div>
   </section>
 
