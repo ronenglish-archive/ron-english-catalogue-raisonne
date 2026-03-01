@@ -53,6 +53,52 @@
     }
 
     /* ==========================
+       SOURCE PAINTING (page-local)
+       ========================== */
+    .source-wrap {
+      max-width: 900px;
+      margin: 26px auto 64px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .source-card {
+      max-width: 420px;
+      margin: 0 auto;
+      border-radius: 14px;
+      background: #fff;
+      padding: 14px 14px 16px 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    .source-thumb {
+      width: 240px;
+      max-width: 80%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+      margin: 10px auto 12px auto;
+      border-radius: 10px;
+      background: #f3f4f6;
+    }
+
+    .source-meta {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: inline-block;
+      font-size: 0.95rem;
+    }
+
+    .source-meta li { margin: 6px 0; }
+
+    .source-meta strong {
+      display: inline-block;
+      min-width: 110px;
+    }
+
+    /* ==========================
        LIGHTBOX (page-local)
        ========================== */
     .lightbox {
@@ -416,7 +462,27 @@
       <div class="variant-title">Variant 37</div>
     </div>
 
+  </div>
+</section>
 
+<!-- SOURCE PAINTING -->
+<section class="source-wrap" aria-label="Source painting information">
+  <h2 style="text-align:center; margin: 0 0 14px 0;">Source painting</h2>
+
+  <div class="source-card">
+    <img
+      class="source-thumb"
+      src="../../images/Paintings/Warholesque/Young_Andy.jpg"
+      alt="Young Andy source painting, oil on canvas, 2005"
+      loading="lazy"
+    />
+
+    <ul class="source-meta">
+      <li><strong>Title:</strong> Young Andy</li>
+      <li><strong>Date:</strong> 2005</li>
+      <li><strong>Medium:</strong> Oil on canvas</li>
+      <li><strong>Dimensions:</strong> 24 × 24 inches</li>
+    </ul>
   </div>
 </section>
 
