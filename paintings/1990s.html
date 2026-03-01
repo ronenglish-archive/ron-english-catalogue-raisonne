@@ -5,212 +5,248 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>1990s Paintings & Works on Paper | Ron English Catalogue Raisonné</title>
   <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    /* Page centering */
+    .page-container{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+
+    /* Center the header + section text */
+    .page-header,
+    .decade-context,
+    .year-overview{
+      text-align: center;
+    }
+
+    /* Keep long paragraphs readable when centered */
+    .decade-context p,
+    .year-overview p{
+      max-width: 72ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Ensure hero image behaves nicely */
+    .decade-hero img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    /* Center the year grid within the page */
+    .year-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      justify-items: center;
+      align-items: stretch;
+      margin-top: 16px;
+    }
+
+    /* Card styling for each year */
+    .year-card{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 260px;
+      text-decoration: none;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: rgba(255,255,255,0.98);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+
+    .year-card:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+    }
+
+    .year-card img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    .year-card-body{
+      padding: 12px 14px 14px;
+      text-align: center;
+    }
+
+    .year-card-title{
+      margin: 0;
+      font-size: 1.05rem;
+      line-height: 1.2;
+    }
+
+    .year-card-desc{
+      margin: 6px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    .year-card-cta{
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.16);
+      opacity: 0.9;
+    }
+  </style>
 </head>
 
 <body>
-  <!-- Decade pages: Home + decade pills -->
-  <nav class="top-nav">
-    <a class="nav-home nav-pill" href="../index.html">Home</a>
+  <div class="page-container">
 
-    <div class="nav-pills">
-      <a class="nav-pill" href="1970s.html">1970s</a>
-      <a class="nav-pill" href="1980s.html">1980s</a>
-      <a class="nav-pill is-active" href="1990s.html">1990s</a>
-      <a class="nav-pill" href="2000s.html">2000s</a>
-      <a class="nav-pill" href="2010s.html">2010s</a>
-      <a class="nav-pill" href="2020s.html">2020s</a>
-    </div>
-  </nav>
+    <!-- Decade pages: Home + decade pills -->
+    <nav class="top-nav">
+      <a class="nav-home nav-pill" href="../index.html">Home</a>
 
-  <header class="page-header">
-    <h1 class="page-title">Paintings & Works on Paper – 1990s</h1>
-
-  </header>
-
-  <main class="gallery-wrap">
-    <!-- HERO (decade tone-setter) -->
-    <section aria-label="1990s overview hero" class="decade-hero">
-      <img
-        src="../images/Paintings/1990s/hero-1990s.jpg"
-        alt="Ron English, 1990s decade overview image"
-        loading="eager"
-      />
-    </section>
-
-    <!-- DECADE CONTEXT (scholarly framing) -->
-    <section aria-label="1990s decade context" class="decade-context">
-      <h2 class="section-title">Decade context</h2>
-      <p>
-        This decade index provides entry points to year-level catalogues for paintings and works on paper from 1990 through 1999 (as available).
-        As additional years and works are documented and verified, this page will be expanded with updated entries, images, and cross-references.
-      </p>
-    </section>
-
-    <!-- YEAR GRID (visual navigation) -->
-    <section aria-label="1990s year overview" class="year-overview">
-      <h2 class="section-title">Browse by year</h2>
-      <p>
-        Select a year to view the catalogue entries currently documented for that year.
-      </p>
-
-      <div class="year-grid" role="list" aria-label="1990s year links grid">
-        <a class="year-card" role="listitem" href="1990s/1990/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1990.jpg"
-            alt="1990 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1990</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1991/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1991.jpg"
-            alt="1991 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1991</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1992/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1992.jpg"
-            alt="1992 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1992</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1993/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1993.jpg"
-            alt="1993 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1993</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1994/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1994.jpg"
-            alt="1994 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1994</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1995/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1995.jpg"
-            alt="1995 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1995</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1996/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1996.jpg"
-            alt="1996 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1996</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1997/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1997.jpg"
-            alt="1997 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1997</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1998/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1998.jpg"
-            alt="1998 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1998</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="1990s/1999/index.html">
-          <img
-            src="../images/Paintings/1990s/year-1999.jpg"
-            alt="1999 representative image"
-            loading="lazy"
-          />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">1999</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
+      <div class="nav-pills">
+        <a class="nav-pill" href="1970s.html">1970s</a>
+        <a class="nav-pill" href="1980s.html">1980s</a>
+        <a class="nav-pill is-active" href="1990s.html">1990s</a>
+        <a class="nav-pill" href="2000s.html">2000s</a>
+        <a class="nav-pill" href="2010s.html">2010s</a>
+        <a class="nav-pill" href="2020s.html">2020s</a>
       </div>
+    </nav>
 
+    <header class="page-header">
+      <h1 class="page-title">Paintings & Works on Paper – 1990s</h1>
+    </header>
 
-    </section>
-  </main>
+    <main class="gallery-wrap">
+      <!-- HERO (decade tone-setter) -->
+      <section aria-label="1990s overview hero" class="decade-hero">
+        <img
+          src="../images/Paintings/1990s/hero-1990s.jpg"
+          alt="Ron English, 1990s decade overview image"
+          loading="eager"
+        />
+      </section>
 
-  <footer class="site-footer">
-    <p>Ron English Catalogue Raisonné — Paintings & Works on Paper</p>
-  </footer>
+      <!-- DECADE CONTEXT (scholarly framing) -->
+      <section aria-label="1990s decade context" class="decade-context">
+        <h2 class="section-title">Decade context</h2>
+        <p>
+          This decade index provides entry points to year-level catalogues for paintings and works on paper from 1990 through 1999 (as available).
+          As additional years and works are documented and verified, this page will be expanded with updated entries, images, and cross-references.
+        </p>
+      </section>
+
+      <!-- YEAR GRID (visual navigation) -->
+      <section aria-label="1990s year overview" class="year-overview">
+        <h2 class="section-title">Browse by year</h2>
+        <p>Select a year to open the year catalogue and see individual entries, images, and notes.</p>
+
+        <div class="year-grid" role="list" aria-label="1990s year links grid">
+
+          <a class="year-card" role="listitem" href="1990s/1990/index.html">
+            <img src="../images/Paintings/1990s/year-1990.jpg" alt="1990 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1990</h3>
+              <p class="year-card-desc">Open the 1990 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1991/index.html">
+            <img src="../images/Paintings/1990s/year-1991.jpg" alt="1991 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1991</h3>
+              <p class="year-card-desc">Open the 1991 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1992/index.html">
+            <img src="../images/Paintings/1990s/year-1992.jpg" alt="1992 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1992</h3>
+              <p class="year-card-desc">Open the 1992 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1993/index.html">
+            <img src="../images/Paintings/1990s/year-1993.jpg" alt="1993 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1993</h3>
+              <p class="year-card-desc">Open the 1993 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1994/index.html">
+            <img src="../images/Paintings/1990s/year-1994.jpg" alt="1994 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1994</h3>
+              <p class="year-card-desc">Open the 1994 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1995/index.html">
+            <img src="../images/Paintings/1990s/year-1995.jpg" alt="1995 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1995</h3>
+              <p class="year-card-desc">Open the 1995 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1996/index.html">
+            <img src="../images/Paintings/1990s/year-1996.jpg" alt="1996 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1996</h3>
+              <p class="year-card-desc">Open the 1996 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1997/index.html">
+            <img src="../images/Paintings/1990s/year-1997.jpg" alt="1997 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1997</h3>
+              <p class="year-card-desc">Open the 1997 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1998/index.html">
+            <img src="../images/Paintings/1990s/year-1998.jpg" alt="1998 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1998</h3>
+              <p class="year-card-desc">Open the 1998 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="1990s/1999/index.html">
+            <img src="../images/Paintings/1990s/year-1999.jpg" alt="1999 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">1999</h3>
+              <p class="year-card-desc">Open the 1999 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ron English Catalogue Raisonné — Paintings & Works on Paper</p>
+    </footer>
+
+  </div>
 </body>
 </html>
