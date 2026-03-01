@@ -7,33 +7,103 @@
   <link rel="stylesheet" href="../css/styles.css" />
 
   <style>
-    /* Temporary layout fix to center content */
-    .page-container {
+    /* Page centering */
+    .page-container{
       max-width: 1100px;
       margin: 0 auto;
       padding: 0 16px;
       box-sizing: border-box;
     }
 
-    .decade-hero img {
-      display: block;
+    /* Center the header + section text */
+    .page-header,
+    .decade-context,
+    .year-overview{
+      text-align: center;
+    }
+
+    /* Keep long paragraphs readable when centered */
+    .decade-context p,
+    .year-overview p{
+      max-width: 72ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Ensure images behave nicely */
+    .decade-hero img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    /* Center the year grid within the page */
+    .year-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      justify-items: center;
+      align-items: stretch;
+      margin-top: 16px;
+    }
+
+    /* Card styling for each year */
+    .year-card{
+      display: flex;
+      flex-direction: column;
       width: 100%;
-      height: auto;
+      max-width: 260px;
+      text-decoration: none;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: rgba(255,255,255,0.98);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 120ms ease, box-shadow 120ms ease;
     }
 
-    .year-card-body {
-      padding: 12px 0;
+    .year-card:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(0,0,0,0.12);
     }
 
-    .year-card-title {
+    .year-card img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    .year-card-body{
+      padding: 12px 14px 14px;
+      text-align: center;
+    }
+
+    .year-card-title{
       margin: 0;
-      font-size: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.2;
+    }
+
+    .year-card-desc{
+      margin: 6px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    /* Optional: small call-to-action styling */
+    .year-card-cta{
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.16);
+      opacity: 0.9;
     }
   </style>
 </head>
 
 <body>
-
   <div class="page-container">
 
     <nav class="top-nav">
@@ -73,7 +143,7 @@
 
       <section aria-label="1980s year overview" class="year-overview">
         <h2 class="section-title">Browse by year</h2>
-        <p>Select a year to view the catalogue entries currently documented for that year.</p>
+        <p>Select a year to open the year catalogue and see individual entries, images, and notes.</p>
 
         <div class="year-grid" role="list" aria-label="1980s year links grid">
 
@@ -81,6 +151,8 @@
             <img src="../images/Paintings/1980s/year-1984.jpg" alt="1984 representative image" loading="lazy" />
             <div class="year-card-body">
               <h3 class="year-card-title">1984</h3>
+              <p class="year-card-desc">Open the 1984 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
             </div>
           </a>
 
@@ -88,6 +160,8 @@
             <img src="../images/Paintings/1980s/year-1985.jpg" alt="1985 representative image" loading="lazy" />
             <div class="year-card-body">
               <h3 class="year-card-title">1985</h3>
+              <p class="year-card-desc">Open the 1985 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
             </div>
           </a>
 
@@ -95,6 +169,8 @@
             <img src="../images/Paintings/1980s/year-1986.jpg" alt="1986 representative image" loading="lazy" />
             <div class="year-card-body">
               <h3 class="year-card-title">1986</h3>
+              <p class="year-card-desc">Open the 1986 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
             </div>
           </a>
 
@@ -102,6 +178,8 @@
             <img src="../images/Paintings/1980s/year-1987.jpg" alt="1987 representative image" loading="lazy" />
             <div class="year-card-body">
               <h3 class="year-card-title">1987</h3>
+              <p class="year-card-desc">Open the 1987 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
             </div>
           </a>
 
@@ -109,6 +187,8 @@
             <img src="../images/Paintings/1980s/year-1988.jpg" alt="1988 representative image" loading="lazy" />
             <div class="year-card-body">
               <h3 class="year-card-title">1988</h3>
+              <p class="year-card-desc">Open the 1988 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
             </div>
           </a>
 
@@ -116,12 +196,13 @@
             <img src="../images/Paintings/1980s/year-1989.jpg" alt="1989 representative image" loading="lazy" />
             <div class="year-card-body">
               <h3 class="year-card-title">1989</h3>
+              <p class="year-card-desc">Open the 1989 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
             </div>
           </a>
 
         </div>
       </section>
-
     </main>
 
     <footer class="site-footer">
@@ -129,6 +210,5 @@
     </footer>
 
   </div>
-
 </body>
 </html>
