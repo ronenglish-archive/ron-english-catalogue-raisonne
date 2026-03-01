@@ -5,128 +5,213 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>2020s Paintings & Works on Paper | Ron English Catalogue Raisonné</title>
   <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    /* Page centering */
+    .page-container{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+
+    /* Center the header + section text */
+    .page-header,
+    .decade-context,
+    .year-overview{
+      text-align: center;
+    }
+
+    /* Keep long paragraphs readable when centered */
+    .decade-context p,
+    .year-overview p{
+      max-width: 72ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Ensure hero image behaves nicely */
+    .decade-hero img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    /* Center the year grid within the page */
+    .year-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      justify-items: center;
+      align-items: stretch;
+      margin-top: 16px;
+    }
+
+    /* Card styling for each year */
+    .year-card{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 260px;
+      text-decoration: none;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.12);
+      background: rgba(255,255,255,0.98);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+
+    .year-card:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+    }
+
+    .year-card img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    .year-card-body{
+      padding: 12px 14px 14px;
+      text-align: center;
+    }
+
+    .year-card-title{
+      margin: 0;
+      font-size: 1.05rem;
+      line-height: 1.2;
+    }
+
+    .year-card-desc{
+      margin: 6px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    .year-card-cta{
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.16);
+      opacity: 0.9;
+    }
+  </style>
 </head>
 
 <body>
-  <!-- Decade pages: Home + decade pills -->
-  <nav class="top-nav">
-    <a class="nav-home nav-pill" href="../index.html">Home</a>
+  <div class="page-container">
 
-    <div class="nav-pills">
-      <a class="nav-pill" href="1970s.html">1970s</a>
-      <a class="nav-pill" href="1980s.html">1980s</a>
-      <a class="nav-pill" href="1990s.html">1990s</a>
-      <a class="nav-pill" href="2000s.html">2000s</a>
-      <a class="nav-pill" href="2010s.html">2010s</a>
-      <a class="nav-pill is-active" href="2020s.html">2020s</a>
-    </div>
-  </nav>
+    <!-- Decade pages: Home + decade pills -->
+    <nav class="top-nav">
+      <a class="nav-home nav-pill" href="../index.html">Home</a>
 
-  <header class="page-header">
-    <h1 class="page-title">Paintings & Works on Paper – 2020s</h1>
-
-  </header>
-
-  <main class="gallery-wrap">
-    <!-- HERO (decade tone-setter) -->
-    <section aria-label="2020s overview hero" class="decade-hero">
-      <img
-        src="../images/Paintings/2020s/hero-2020s.jpg"
-        alt="Ron English, 2020s decade overview image"
-        loading="eager"
-      />
-    </section>
-
-    <!-- DECADE CONTEXT -->
-    <section aria-label="2020s decade context" class="decade-context">
-      <h2 class="section-title">Decade context</h2>
-      <p>
-        This decade index provides entry points to year-level catalogues for paintings and works on paper produced during the 2020s.
-        Documentation for this period remains ongoing, and entries will continue to expand as works, variants, and references are verified.
-      </p>
-    </section>
-
-    <!-- YEAR GRID -->
-    <section aria-label="2020s year overview" class="year-overview">
-      <h2 class="section-title">Browse by year</h2>
-      <p>
-        Select a year to view the catalogue entries currently documented for that period.
-      </p>
-
-      <div class="year-grid" role="list" aria-label="2020s year links grid">
-        <a class="year-card" role="listitem" href="2020s/2020/index.html">
-          <img src="../images/Paintings/2020s/year-2020.jpg" alt="2020 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">2020</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="2020s/2021/index.html">
-          <img src="../images/Paintings/2020s/year-2021.jpg" alt="2021 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">2021</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="2020s/2022/index.html">
-          <img src="../images/Paintings/2020s/year-2022.jpg" alt="2022 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">2022</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="2020s/2023/index.html">
-          <img src="../images/Paintings/2020s/year-2023.jpg" alt="2023 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">2023</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="2020s/2024/index.html">
-          <img src="../images/Paintings/2020s/year-2024.jpg" alt="2024 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">2024</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
-
-        <a class="year-card" role="listitem" href="2020s/2025/index.html">
-          <img src="../images/Paintings/2020s/year-2025.jpg" alt="2025 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <div class="year-card-top">
-              <h3 class="year-card-title">2025</h3>
-              <span class="year-card-chip">Enter</span>
-            </div>
-            <p class="year-card-desc">Year catalogue</p>
-          </div>
-        </a>
+      <div class="nav-pills">
+        <a class="nav-pill" href="1970s.html">1970s</a>
+        <a class="nav-pill" href="1980s.html">1980s</a>
+        <a class="nav-pill" href="1990s.html">1990s</a>
+        <a class="nav-pill" href="2000s.html">2000s</a>
+        <a class="nav-pill" href="2010s.html">2010s</a>
+        <a class="nav-pill is-active" href="2020s.html">2020s</a>
       </div>
+    </nav>
 
-   
-    </section>
-  </main>
+    <header class="page-header">
+      <h1 class="page-title">Paintings & Works on Paper – 2020s</h1>
+    </header>
 
-  <footer class="site-footer">
-    <p>Ron English Catalogue Raisonné — Paintings & Works on Paper</p>
-  </footer>
+    <main class="gallery-wrap">
+
+      <!-- HERO (decade tone-setter) -->
+      <section aria-label="2020s overview hero" class="decade-hero">
+        <img
+          src="../images/Paintings/2020s/hero-2020s.jpg"
+          alt="Ron English, 2020s decade overview image"
+          loading="eager"
+        />
+      </section>
+
+      <!-- DECADE CONTEXT -->
+      <section aria-label="2020s decade context" class="decade-context">
+        <h2 class="section-title">Decade context</h2>
+        <p>
+          This decade index provides entry points to year-level catalogues for paintings and works on paper produced during the 2020s.
+          Documentation for this period remains ongoing, and entries will continue to expand as works, variants, and references are verified.
+        </p>
+      </section>
+
+      <!-- YEAR GRID -->
+      <section aria-label="2020s year overview" class="year-overview">
+        <h2 class="section-title">Browse by year</h2>
+        <p>Select a year to open the year catalogue and see individual entries, images, and notes.</p>
+
+        <div class="year-grid" role="list" aria-label="2020s year links grid">
+
+          <a class="year-card" role="listitem" href="2020s/2020/index.html">
+            <img src="../images/Paintings/2020s/year-2020.jpg" alt="2020 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">2020</h3>
+              <p class="year-card-desc">Open the 2020 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="2020s/2021/index.html">
+            <img src="../images/Paintings/2020s/year-2021.jpg" alt="2021 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">2021</h3>
+              <p class="year-card-desc">Open the 2021 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="2020s/2022/index.html">
+            <img src="../images/Paintings/2020s/year-2022.jpg" alt="2022 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">2022</h3>
+              <p class="year-card-desc">Open the 2022 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="2020s/2023/index.html">
+            <img src="../images/Paintings/2020s/year-2023.jpg" alt="2023 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">2023</h3>
+              <p class="year-card-desc">Open the 2023 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="2020s/2024/index.html">
+            <img src="../images/Paintings/2020s/year-2024.jpg" alt="2024 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">2024</h3>
+              <p class="year-card-desc">Open the 2024 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+          <a class="year-card" role="listitem" href="2020s/2025/index.html">
+            <img src="../images/Paintings/2020s/year-2025.jpg" alt="2025 representative image" loading="lazy" />
+            <div class="year-card-body">
+              <h3 class="year-card-title">2025</h3>
+              <p class="year-card-desc">Open the 2025 year catalogue</p>
+              <span class="year-card-cta" aria-hidden="true">View entries</span>
+            </div>
+          </a>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ron English Catalogue Raisonné — Paintings & Works on Paper</p>
+    </footer>
+
+  </div>
 </body>
 </html>
