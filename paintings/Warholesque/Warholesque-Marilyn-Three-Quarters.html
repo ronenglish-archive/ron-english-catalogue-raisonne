@@ -17,11 +17,13 @@
       max-width: 1200px;
       padding: 0 1rem;
     }
+
     .variant-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
       gap: 26px;
     }
+
     .variant-item {
       text-align: center;
     }
@@ -45,13 +47,60 @@
       border-radius: 10px;
       background: #f3f4f6;
     }
+
     .variant-title {
       font-size: 0.9rem;
       font-weight: 600;
       margin-top: 10px;
     }
 
- 
+    /* ==========================
+       SOURCE PAINTING (fixed)
+       ========================== */
+    .source-wrap {
+      max-width: 900px;
+      margin: 26px auto 64px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .source-card {
+      max-width: 420px;
+      margin: 0 auto;
+      border-radius: 14px;
+      background: #fff;
+      padding: 14px 14px 16px 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    .source-thumb {
+      width: 240px;
+      max-width: 80%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+      margin: 10px auto 12px auto;
+      border-radius: 10px;
+      background: #f3f4f6;
+    }
+
+    /* Center the block overall, left-align label/value lines inside */
+    .source-meta {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: inline-block;
+      font-size: 0.95rem;
+    }
+
+    .source-meta li { margin: 6px 0; }
+
+    .source-meta strong {
+      display: inline-block;
+      min-width: 110px;
+    }
+
     /* ==========================
        LIGHTBOX (page-local)
        ========================== */
@@ -276,7 +325,7 @@
   </div>
 </section>
 
-   <!-- SOURCE PAINTING -->
+<!-- SOURCE PAINTING -->
 <section class="source-wrap" aria-label="Source painting information">
   <h2 style="text-align:center; margin: 0 0 14px 0;">Source painting</h2>
 
@@ -296,7 +345,7 @@
     </ul>
   </div>
 </section>
-  
+
 <!-- Lightbox UI -->
 <div class="lightbox" id="lightbox" aria-hidden="true">
   <div class="lightbox-card" role="dialog" aria-modal="true" aria-label="Image viewer">
