@@ -1,0 +1,843 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photographic Works | Ron English Catalogue Raisonné</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    .page-container{
+      max-width:1100px;
+      margin:0 auto;
+      padding:0 16px;
+      box-sizing:border-box;
+    }
+
+    .page-header,
+    .page-context{
+      text-align:center;
+    }
+
+    .page-context p{
+      max-width:78ch;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .page-note{
+      max-width:84ch;
+      margin:18px auto 0;
+      color:#4b5563;
+      line-height:1.65;
+    }
+
+    .page-note a{
+      color:inherit;
+      text-underline-offset:2px;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0, 1fr));
+      gap:18px;
+      margin-top:28px;
+    }
+
+    .gallery-item{
+      display:block;
+      width:100%;
+      padding:0;
+      border:0;
+      background:none;
+      text-align:left;
+      cursor:pointer;
+    }
+
+    .gallery-item img{
+      width:100%;
+      aspect-ratio:1 / 1;
+      object-fit:cover;
+      display:block;
+      border-radius:16px;
+      box-shadow:0 10px 30px rgba(0,0,0,.10);
+      transition:transform .14s ease, box-shadow .14s ease;
+      background:#f3f4f6;
+    }
+
+    .gallery-item:hover img,
+    .gallery-item:focus-visible img{
+      transform:translateY(-2px);
+      box-shadow:0 16px 40px rgba(0,0,0,.14);
+    }
+
+    .gallery-item:focus-visible{
+      outline:none;
+    }
+
+    .work-title{
+      margin:10px 2px 0;
+      font-size:15px;
+      line-height:1.4;
+      color:#111;
+    }
+
+    .lightbox{
+      position:fixed;
+      inset:0;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+      background:rgba(0,0,0,.82);
+      z-index:9999;
+    }
+
+    .lightbox.is-open{
+      display:flex;
+    }
+
+    .lightbox-inner{
+      position:relative;
+      max-width:min(1100px, 100%);
+      max-height:100%;
+      width:auto;
+    }
+
+    .lightbox img{
+      display:block;
+      max-width:100%;
+      max-height:78vh;
+      width:auto;
+      height:auto;
+      border-radius:18px;
+      box-shadow:0 18px 50px rgba(0,0,0,.35);
+      background:#111;
+    }
+
+    .lightbox-caption{
+      margin-top:14px;
+      color:#fff;
+      text-align:center;
+      font-size:16px;
+      line-height:1.5;
+    }
+
+    .lightbox-close{
+      position:absolute;
+      top:-14px;
+      right:-14px;
+      width:42px;
+      height:42px;
+      border:0;
+      border-radius:999px;
+      background:#fff;
+      color:#111;
+      font-size:24px;
+      line-height:1;
+      cursor:pointer;
+      box-shadow:0 8px 24px rgba(0,0,0,.25);
+    }
+
+    .lightbox-close:hover{
+      transform:scale(1.04);
+    }
+
+    @media (max-width:1000px){
+      .gallery-grid{ grid-template-columns:repeat(3, minmax(0, 1fr)); }
+    }
+
+    @media (max-width:700px){
+      .gallery-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+      .lightbox{ padding:16px; }
+    }
+
+    @media (max-width:480px){
+      .gallery-grid{ grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-container">
+
+    <nav class="top-nav">
+      <a class="nav-home nav-pill" href="../index.html">Home</a>
+    </nav>
+
+    <header class="page-header">
+      <h1 class="page-title">Photographic Works</h1>
+      <p class="page-subtitle">
+        Structured index of documented photographic works presently grouped together pending fuller date verification.
+      </p>
+    </header>
+
+    <main class="gallery-wrap">
+
+      <section class="page-context" aria-label="Photographic works overview">
+        <h2 class="section-title">Overview</h2>
+        <p>
+          Ron English’s photographic works occupy an important place in his early practice. English has explained that he studied photography in college, staged hand-drawn figures in public settings for photographs, and later expanded that approach by altering billboard backgrounds with his own imagery, leaving the photograph as the lasting record. Published surveys of his career have likewise described his work as ranging from staged photography to painting, street art, and culture jamming. Because exact dates for many individual works on this page remain unconfirmed, they are presented together here as photographic works rather than divided into narrower chronological sections.
+        </p>
+        <p class="page-note">
+          Sources:
+          <a href="https://www.popaganda.com/news/archive-ron-englishs-meditations-on-street-art" target="_blank" rel="noopener noreferrer">Popaganda, “Ron English’s Meditations on Street Art”</a>;
+          <a href="https://iamretro.com/products/popaganda-the-art-and-subversion-of-ron-english-book" target="_blank" rel="noopener noreferrer">Popaganda: The Art and Subversion of Ron English</a>;
+          <a href="https://www.wired.com/2004/06/popaganda-ron-e/" target="_blank" rel="noopener noreferrer">WIRED, “Popaganda, Ron English Style”</a>.
+        </p>
+      </section>
+
+      <section class="gallery-grid" aria-label="Photographic works">
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/20 yard perspective.jpg" data-title="20 Yard Perspective">
+          <img src="../images/Photographic-Works/20 yard perspective.jpg" alt="20 Yard Perspective" loading="lazy" />
+          <p class="work-title">20 Yard Perspective</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/All Night Broadcast.jpg" data-title="All Night Broadcast">
+          <img src="../images/Photographic-Works/All Night Broadcast.jpg" alt="All Night Broadcast" loading="lazy" />
+          <p class="work-title">All Night Broadcast</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/Alternate view - Set.jpg" data-title="Alternate View - Set">
+          <img src="../images/Photographic-Works/Alternate view - Set.jpg" alt="Alternate View - Set" loading="lazy" />
+          <p class="work-title">Alternate View - Set</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/Barmaid at Tomorrow's Hangover Greasy Spoon Saloon.jpg" data-title="Barmaid at Tomorrow's Hangover Greasy Spoon Saloon">
+          <img src="../images/Photographic-Works/Barmaid at Tomorrow's Hangover Greasy Spoon Saloon.jpg" alt="Barmaid at Tomorrow's Hangover Greasy Spoon Saloon" loading="lazy" />
+          <p class="work-title">Barmaid at Tomorrow's Hangover Greasy Spoon Saloon</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/I'm with the band.jpg" data-title="I'm With the Band">
+          <img src="../images/Photographic-Works/I'm with the band.jpg" alt="I'm With the Band" loading="lazy" />
+          <p class="work-title">I'm With the Band</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/Kostabi last supper.jpg" data-title="Kostabi Last Supper">
+          <img src="../images/Photographic-Works/Kostabi last supper.jpg" alt="Kostabi Last Supper" loading="lazy" />
+          <p class="work-title">Kostabi Last Supper</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/Ron - Kostabi tromp l'oile.jpg" data-title="Ron - Kostabi Tromp l’Oeil">
+          <img src="../images/Photographic-Works/Ron - Kostabi tromp l'oile.jpg" alt="Ron - Kostabi Tromp l’Oeil" loading="lazy" />
+          <p class="work-title">Ron - Kostabi Tromp l’Oeil</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/Tarssa and Ron's Hobo Hieroglyphics.jpg" data-title="Tarssa and Ron's Hobo Hieroglyphics">
+          <img src="../images/Photographic-Works/Tarssa and Ron's Hobo Hieroglyphics.jpg" alt="Tarssa and Ron's Hobo Hieroglyphics" loading="lazy" />
+          <p class="work-title">Tarssa and Ron's Hobo Hieroglyphics</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/Tipsy Skidrow Clowns;.jpg" data-title="Tipsy Skidrow Clowns">
+          <img src="../images/Photographic-Works/Tipsy Skidrow Clowns;.jpg" alt="Tipsy Skidrow Clowns" loading="lazy" />
+          <p class="work-title">Tipsy Skidrow Clowns</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/abandoned mannquin.jpg" data-title="Abandoned Mannquin">
+          <img src="../images/Photographic-Works/abandoned mannquin.jpg" alt="Abandoned Mannquin" loading="lazy" />
+          <p class="work-title">Abandoned Mannquin</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/acid date.jpg" data-title="Acid Date">
+          <img src="../images/Photographic-Works/acid date.jpg" alt="Acid Date" loading="lazy" />
+          <p class="work-title">Acid Date</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/air portal.jpg" data-title="Air Portal">
+          <img src="../images/Photographic-Works/air portal.jpg" alt="Air Portal" loading="lazy" />
+          <p class="work-title">Air Portal</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/anne greenwell.jpg" data-title="Anne Greenwell">
+          <img src="../images/Photographic-Works/anne greenwell.jpg" alt="Anne Greenwell" loading="lazy" />
+          <p class="work-title">Anne Greenwell</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/art guerra.jpg" data-title="Art Guerra">
+          <img src="../images/Photographic-Works/art guerra.jpg" alt="Art Guerra" loading="lazy" />
+          <p class="work-title">Art Guerra</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/artist gnome.jpg" data-title="Artist Gnome">
+          <img src="../images/Photographic-Works/artist gnome.jpg" alt="Artist Gnome" loading="lazy" />
+          <p class="work-title">Artist Gnome</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/austin mural - scott heron.jpg" data-title="Austin Mural - Scott Heron">
+          <img src="../images/Photographic-Works/austin mural - scott heron.jpg" alt="Austin Mural - Scott Heron" loading="lazy" />
+          <p class="work-title">Austin Mural - Scott Heron</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/austin sideshow.jpg" data-title="Austin Sideshow">
+          <img src="../images/Photographic-Works/austin sideshow.jpg" alt="Austin Sideshow" loading="lazy" />
+          <p class="work-title">Austin Sideshow</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/balancing on gravity.jpg" data-title="Balancing on Gravity">
+          <img src="../images/Photographic-Works/balancing on gravity.jpg" alt="Balancing on Gravity" loading="lazy" />
+          <p class="work-title">Balancing on Gravity</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/ballyhoo.jpg" data-title="Ballyhoo">
+          <img src="../images/Photographic-Works/ballyhoo.jpg" alt="Ballyhoo" loading="lazy" />
+          <p class="work-title">Ballyhoo</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/bar shy.jpg" data-title="Bar Shy">
+          <img src="../images/Photographic-Works/bar shy.jpg" alt="Bar Shy" loading="lazy" />
+          <p class="work-title">Bar Shy</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/barber schism.jpg" data-title="Barber Schism">
+          <img src="../images/Photographic-Works/barber schism.jpg" alt="Barber Schism" loading="lazy" />
+          <p class="work-title">Barber Schism</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/basketcase II.jpg" data-title="Basketcase II">
+          <img src="../images/Photographic-Works/basketcase II.jpg" alt="Basketcase II" loading="lazy" />
+          <p class="work-title">Basketcase II</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/beyond the canvas.jpg" data-title="Beyond the Canvas">
+          <img src="../images/Photographic-Works/beyond the canvas.jpg" alt="Beyond the Canvas" loading="lazy" />
+          <p class="work-title">Beyond the Canvas</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/bigfoot beer cans.jpg" data-title="Bigfoot Beer Cans">
+          <img src="../images/Photographic-Works/bigfoot beer cans.jpg" alt="Bigfoot Beer Cans" loading="lazy" />
+          <p class="work-title">Bigfoot Beer Cans</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/boris-karloff.jpg" data-title="Boris-Karloff">
+          <img src="../images/Photographic-Works/boris-karloff.jpg" alt="Boris-Karloff" loading="lazy" />
+          <p class="work-title">Boris-Karloff</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/burning effigy.jpg" data-title="Burning Effigy">
+          <img src="../images/Photographic-Works/burning effigy.jpg" alt="Burning Effigy" loading="lazy" />
+          <p class="work-title">Burning Effigy</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/car-parts.jpg" data-title="Car-Parts">
+          <img src="../images/Photographic-Works/car-parts.jpg" alt="Car-Parts" loading="lazy" />
+          <p class="work-title">Car-Parts</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/cattle drive.jpg" data-title="Cattle Drive">
+          <img src="../images/Photographic-Works/cattle drive.jpg" alt="Cattle Drive" loading="lazy" />
+          <p class="work-title">Cattle Drive</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/chainsaw 2.jpg" data-title="Chainsaw 2">
+          <img src="../images/Photographic-Works/chainsaw 2.jpg" alt="Chainsaw 2" loading="lazy" />
+          <p class="work-title">Chainsaw 2</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/chainsaw charlie.jpg" data-title="Chainsaw Charlie">
+          <img src="../images/Photographic-Works/chainsaw charlie.jpg" alt="Chainsaw Charlie" loading="lazy" />
+          <p class="work-title">Chainsaw Charlie</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/chainsaw.jpg" data-title="Chainsaw">
+          <img src="../images/Photographic-Works/chainsaw.jpg" alt="Chainsaw" loading="lazy" />
+          <p class="work-title">Chainsaw</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/charlie - tromp l'oiel.jpg" data-title="Charlie - Tromp l’Oeil">
+          <img src="../images/Photographic-Works/charlie - tromp l'oiel.jpg" alt="Charlie - Tromp l’Oeil" loading="lazy" />
+          <p class="work-title">Charlie - Tromp l’Oeil</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/charlie and ron.jpg" data-title="Charlie and Ron">
+          <img src="../images/Photographic-Works/charlie and ron.jpg" alt="Charlie and Ron" loading="lazy" />
+          <p class="work-title">Charlie and Ron</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/charlie fishing.jpg" data-title="Charlie Fishing">
+          <img src="../images/Photographic-Works/charlie fishing.jpg" alt="Charlie Fishing" loading="lazy" />
+          <p class="work-title">Charlie Fishing</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/closed encounter.jpg" data-title="Closed Encounter">
+          <img src="../images/Photographic-Works/closed encounter.jpg" alt="Closed Encounter" loading="lazy" />
+          <p class="work-title">Closed Encounter</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/corpse commute.jpg" data-title="Corpse Commute">
+          <img src="../images/Photographic-Works/corpse commute.jpg" alt="Corpse Commute" loading="lazy" />
+          <p class="work-title">Corpse Commute</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/disembodied.jpg" data-title="Disembodied">
+          <img src="../images/Photographic-Works/disembodied.jpg" alt="Disembodied" loading="lazy" />
+          <p class="work-title">Disembodied</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/dominoes 2.jpg" data-title="Dominoes 2">
+          <img src="../images/Photographic-Works/dominoes 2.jpg" alt="Dominoes 2" loading="lazy" />
+          <p class="work-title">Dominoes 2</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/dominoes.jpg" data-title="Dominoes">
+          <img src="../images/Photographic-Works/dominoes.jpg" alt="Dominoes" loading="lazy" />
+          <p class="work-title">Dominoes</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/drear goggles.jpg" data-title="Drear Goggles">
+          <img src="../images/Photographic-Works/drear goggles.jpg" alt="Drear Goggles" loading="lazy" />
+          <p class="work-title">Drear Goggles</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/entering america.jpg" data-title="Entering America">
+          <img src="../images/Photographic-Works/entering america.jpg" alt="Entering America" loading="lazy" />
+          <p class="work-title">Entering America</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/eye hand coordination.jpg" data-title="Eye Hand Coordination">
+          <img src="../images/Photographic-Works/eye hand coordination.jpg" alt="Eye Hand Coordination" loading="lazy" />
+          <p class="work-title">Eye Hand Coordination</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/fatal distraction.jpg" data-title="Fatal Distraction">
+          <img src="../images/Photographic-Works/fatal distraction.jpg" alt="Fatal Distraction" loading="lazy" />
+          <p class="work-title">Fatal Distraction</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/fortified carousal wine.jpg" data-title="Fortified Carousal Wine">
+          <img src="../images/Photographic-Works/fortified carousal wine.jpg" alt="Fortified Carousal Wine" loading="lazy" />
+          <p class="work-title">Fortified Carousal Wine</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/frisk risk.jpg" data-title="Frisk Risk">
+          <img src="../images/Photographic-Works/frisk risk.jpg" alt="Frisk Risk" loading="lazy" />
+          <p class="work-title">Frisk Risk</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/ghost on porch.jpg" data-title="Ghost on Porch">
+          <img src="../images/Photographic-Works/ghost on porch.jpg" alt="Ghost on Porch" loading="lazy" />
+          <p class="work-title">Ghost on Porch</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/grandmother.jpg" data-title="Grandmother">
+          <img src="../images/Photographic-Works/grandmother.jpg" alt="Grandmother" loading="lazy" />
+          <p class="work-title">Grandmother</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/half off sale.jpg" data-title="Half Off Sale">
+          <img src="../images/Photographic-Works/half off sale.jpg" alt="Half Off Sale" loading="lazy" />
+          <p class="work-title">Half Off Sale</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/hand drawn shake.jpg" data-title="Hand Drawn Shake">
+          <img src="../images/Photographic-Works/hand drawn shake.jpg" alt="Hand Drawn Shake" loading="lazy" />
+          <p class="work-title">Hand Drawn Shake</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/he trunk.jpg" data-title="He Trunk">
+          <img src="../images/Photographic-Works/he trunk.jpg" alt="He Trunk" loading="lazy" />
+          <p class="work-title">He Trunk</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/head above shoulders.jpg" data-title="Head Above Shoulders">
+          <img src="../images/Photographic-Works/head above shoulders.jpg" alt="Head Above Shoulders" loading="lazy" />
+          <p class="work-title">Head Above Shoulders</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/head hunter 1.jpg" data-title="Head Hunter 1">
+          <img src="../images/Photographic-Works/head hunter 1.jpg" alt="Head Hunter 1" loading="lazy" />
+          <p class="work-title">Head Hunter 1</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/head hunter 2.jpg" data-title="Head Hunter 2">
+          <img src="../images/Photographic-Works/head hunter 2.jpg" alt="Head Hunter 2" loading="lazy" />
+          <p class="work-title">Head Hunter 2</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/heart - love dog.jpg" data-title="Heart - Love Dog">
+          <img src="../images/Photographic-Works/heart - love dog.jpg" alt="Heart - Love Dog" loading="lazy" />
+          <p class="work-title">Heart - Love Dog</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/high five three.jpg" data-title="High Five Three">
+          <img src="../images/Photographic-Works/high five three.jpg" alt="High Five Three" loading="lazy" />
+          <p class="work-title">High Five Three</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/hot texas fun.jpg" data-title="Hot Texas Fun">
+          <img src="../images/Photographic-Works/hot texas fun.jpg" alt="Hot Texas Fun" loading="lazy" />
+          <p class="work-title">Hot Texas Fun</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/house of dolls.jpg" data-title="House of Dolls">
+          <img src="../images/Photographic-Works/house of dolls.jpg" alt="House of Dolls" loading="lazy" />
+          <p class="work-title">House of Dolls</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/idle poor.jpg" data-title="Idle Poor">
+          <img src="../images/Photographic-Works/idle poor.jpg" alt="Idle Poor" loading="lazy" />
+          <p class="work-title">Idle Poor</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/image.jpg" data-title="Image">
+          <img src="../images/Photographic-Works/image.jpg" alt="Image" loading="lazy" />
+          <p class="work-title">Image</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/indian wrestling.jpg" data-title="Indian Wrestling">
+          <img src="../images/Photographic-Works/indian wrestling.jpg" alt="Indian Wrestling" loading="lazy" />
+          <p class="work-title">Indian Wrestling</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/indulge.jpg" data-title="Indulge">
+          <img src="../images/Photographic-Works/indulge.jpg" alt="Indulge" loading="lazy" />
+          <p class="work-title">Indulge</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/jah bless the jobless.jpg" data-title="Jah Bless the Jobless">
+          <img src="../images/Photographic-Works/jah bless the jobless.jpg" alt="Jah Bless the Jobless" loading="lazy" />
+          <p class="work-title">Jah Bless the Jobless</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/jim english - tromp l'oile.jpg" data-title="Jim English - Tromp l’Oeil">
+          <img src="../images/Photographic-Works/jim english - tromp l'oile.jpg" alt="Jim English - Tromp l’Oeil" loading="lazy" />
+          <p class="work-title">Jim English - Tromp l’Oeil</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/jim english cardboard setup.jpg" data-title="Jim English Cardboard Setup">
+          <img src="../images/Photographic-Works/jim english cardboard setup.jpg" alt="Jim English Cardboard Setup" loading="lazy" />
+          <p class="work-title">Jim English Cardboard Setup</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/last supper.jpg" data-title="Last Supper">
+          <img src="../images/Photographic-Works/last supper.jpg" alt="Last Supper" loading="lazy" />
+          <p class="work-title">Last Supper</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/laundry brats.jpg" data-title="Laundry Brats">
+          <img src="../images/Photographic-Works/laundry brats.jpg" alt="Laundry Brats" loading="lazy" />
+          <p class="work-title">Laundry Brats</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/leaning on a fence.jpg" data-title="Leaning on a Fence">
+          <img src="../images/Photographic-Works/leaning on a fence.jpg" alt="Leaning on a Fence" loading="lazy" />
+          <p class="work-title">Leaning on a Fence</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/loitering.jpg" data-title="Loitering">
+          <img src="../images/Photographic-Works/loitering.jpg" alt="Loitering" loading="lazy" />
+          <p class="work-title">Loitering</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/losers on display.jpg" data-title="Losers on Display">
+          <img src="../images/Photographic-Works/losers on display.jpg" alt="Losers on Display" loading="lazy" />
+          <p class="work-title">Losers on Display</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/love and lust.jpg" data-title="Love and Lust">
+          <img src="../images/Photographic-Works/love and lust.jpg" alt="Love and Lust" loading="lazy" />
+          <p class="work-title">Love and Lust</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/lunch break.jpg" data-title="Lunch Break">
+          <img src="../images/Photographic-Works/lunch break.jpg" alt="Lunch Break" loading="lazy" />
+          <p class="work-title">Lunch Break</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/made in the shade.jpg" data-title="Made in the Shade">
+          <img src="../images/Photographic-Works/made in the shade.jpg" alt="Made in the Shade" loading="lazy" />
+          <p class="work-title">Made in the Shade</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/mary harvesting divine sperm.jpg" data-title="Mary Harvesting Divine Sperm">
+          <img src="../images/Photographic-Works/mary harvesting divine sperm.jpg" alt="Mary Harvesting Divine Sperm" loading="lazy" />
+          <p class="work-title">Mary Harvesting Divine Sperm</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/negative positive.jpg" data-title="Negative Positive">
+          <img src="../images/Photographic-Works/negative positive.jpg" alt="Negative Positive" loading="lazy" />
+          <p class="work-title">Negative Positive</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/noveau doll collection.jpg" data-title="Noveau Doll Collection">
+          <img src="../images/Photographic-Works/noveau doll collection.jpg" alt="Noveau Doll Collection" loading="lazy" />
+          <p class="work-title">Noveau Doll Collection</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/one plus two.jpg" data-title="One Plus Two">
+          <img src="../images/Photographic-Works/one plus two.jpg" alt="One Plus Two" loading="lazy" />
+          <p class="work-title">One Plus Two</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/open house.jpg" data-title="Open House">
+          <img src="../images/Photographic-Works/open house.jpg" alt="Open House" loading="lazy" />
+          <p class="work-title">Open House</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/pamela.jpg" data-title="Pamela">
+          <img src="../images/Photographic-Works/pamela.jpg" alt="Pamela" loading="lazy" />
+          <p class="work-title">Pamela</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/patrons at a dive bar in dallas.jpg" data-title="Patrons at a Dive Bar in Dallas">
+          <img src="../images/Photographic-Works/patrons at a dive bar in dallas.jpg" alt="Patrons at a Dive Bar in Dallas" loading="lazy" />
+          <p class="work-title">Patrons at a Dive Bar in Dallas</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/peds pretending.jpg" data-title="Peds Pretending">
+          <img src="../images/Photographic-Works/peds pretending.jpg" alt="Peds Pretending" loading="lazy" />
+          <p class="work-title">Peds Pretending</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/perspective.jpg" data-title="Perspective">
+          <img src="../images/Photographic-Works/perspective.jpg" alt="Perspective" loading="lazy" />
+          <p class="work-title">Perspective</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/pet bear.jpg" data-title="Pet Bear">
+          <img src="../images/Photographic-Works/pet bear.jpg" alt="Pet Bear" loading="lazy" />
+          <p class="work-title">Pet Bear</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/play date with death.jpg" data-title="Play Date with Death">
+          <img src="../images/Photographic-Works/play date with death.jpg" alt="Play Date with Death" loading="lazy" />
+          <p class="work-title">Play Date with Death</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/reface.jpg" data-title="Reface">
+          <img src="../images/Photographic-Works/reface.jpg" alt="Reface" loading="lazy" />
+          <p class="work-title">Reface</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/refacement girl.jpg" data-title="Refacement Girl">
+          <img src="../images/Photographic-Works/refacement girl.jpg" alt="Refacement Girl" loading="lazy" />
+          <p class="work-title">Refacement Girl</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/reliable reality.jpg" data-title="Reliable Reality">
+          <img src="../images/Photographic-Works/reliable reality.jpg" alt="Reliable Reality" loading="lazy" />
+          <p class="work-title">Reliable Reality</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/ron with hand-drawn cutouts.jpg" data-title="Ron with Hand-Drawn Cutouts">
+          <img src="../images/Photographic-Works/ron with hand-drawn cutouts.jpg" alt="Ron with Hand-Drawn Cutouts" loading="lazy" />
+          <p class="work-title">Ron with Hand-Drawn Cutouts</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/ron.jpg" data-title="Ron">
+          <img src="../images/Photographic-Works/ron.jpg" alt="Ron" loading="lazy" />
+          <p class="work-title">Ron</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/self portrait.jpg" data-title="Self Portrait">
+          <img src="../images/Photographic-Works/self portrait.jpg" alt="Self Portrait" loading="lazy" />
+          <p class="work-title">Self Portrait</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/shaking hands with an ancestor.jpg" data-title="Shaking Hands with an Ancestor">
+          <img src="../images/Photographic-Works/shaking hands with an ancestor.jpg" alt="Shaking Hands with an Ancestor" loading="lazy" />
+          <p class="work-title">Shaking Hands with an Ancestor</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/shawn.jpg" data-title="Shawn">
+          <img src="../images/Photographic-Works/shawn.jpg" alt="Shawn" loading="lazy" />
+          <p class="work-title">Shawn</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/sideshow exit.jpg" data-title="Sideshow Exit">
+          <img src="../images/Photographic-Works/sideshow exit.jpg" alt="Sideshow Exit" loading="lazy" />
+          <p class="work-title">Sideshow Exit</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/simon is.jpg" data-title="Simon Is">
+          <img src="../images/Photographic-Works/simon is.jpg" alt="Simon Is" loading="lazy" />
+          <p class="work-title">Simon Is</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/surviving another afterlife.jpg" data-title="Surviving Another Afterlife">
+          <img src="../images/Photographic-Works/surviving another afterlife.jpg" alt="Surviving Another Afterlife" loading="lazy" />
+          <p class="work-title">Surviving Another Afterlife</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/sutcliffs on the roof.jpg" data-title="Sutcliffs on the Roof">
+          <img src="../images/Photographic-Works/sutcliffs on the roof.jpg" alt="Sutcliffs on the Roof" loading="lazy" />
+          <p class="work-title">Sutcliffs on the Roof</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tarssa.jpg" data-title="Tarssa">
+          <img src="../images/Photographic-Works/tarssa.jpg" alt="Tarssa" loading="lazy" />
+          <p class="work-title">Tarssa</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/the clown's daughter 2.jpg" data-title="The Clown's Daughter 2">
+          <img src="../images/Photographic-Works/the clown's daughter 2.jpg" alt="The Clown's Daughter 2" loading="lazy" />
+          <p class="work-title">The Clown's Daughter 2</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/the clown's daughter.jpg" data-title="The Clown's Daughter">
+          <img src="../images/Photographic-Works/the clown's daughter.jpg" alt="The Clown's Daughter" loading="lazy" />
+          <p class="work-title">The Clown's Daughter</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/the horse's hallucination.jpg" data-title="The Horse's Hallucination">
+          <img src="../images/Photographic-Works/the horse's hallucination.jpg" alt="The Horse's Hallucination" loading="lazy" />
+          <p class="work-title">The Horse's Hallucination</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/the little drummer boy.jpg" data-title="The Little Drummer Boy">
+          <img src="../images/Photographic-Works/the little drummer boy.jpg" alt="The Little Drummer Boy" loading="lazy" />
+          <p class="work-title">The Little Drummer Boy</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/the midway.jpg" data-title="The Midway">
+          <img src="../images/Photographic-Works/the midway.jpg" alt="The Midway" loading="lazy" />
+          <p class="work-title">The Midway</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/the proposal.jpg" data-title="The Proposal">
+          <img src="../images/Photographic-Works/the proposal.jpg" alt="The Proposal" loading="lazy" />
+          <p class="work-title">The Proposal</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/third wheel.jpg" data-title="Third Wheel">
+          <img src="../images/Photographic-Works/third wheel.jpg" alt="Third Wheel" loading="lazy" />
+          <p class="work-title">Third Wheel</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/ticket takers for giant snakes.jpg" data-title="Ticket Takers for Giant Snakes">
+          <img src="../images/Photographic-Works/ticket takers for giant snakes.jpg" alt="Ticket Takers for Giant Snakes" loading="lazy" />
+          <p class="work-title">Ticket Takers for Giant Snakes</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tiled room 1.jpg" data-title="Tiled Room 1">
+          <img src="../images/Photographic-Works/tiled room 1.jpg" alt="Tiled Room 1" loading="lazy" />
+          <p class="work-title">Tiled Room 1</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tiled room 2.jpg" data-title="Tiled Room 2">
+          <img src="../images/Photographic-Works/tiled room 2.jpg" alt="Tiled Room 2" loading="lazy" />
+          <p class="work-title">Tiled Room 2</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tiled room 3.jpg" data-title="Tiled Room 3">
+          <img src="../images/Photographic-Works/tiled room 3.jpg" alt="Tiled Room 3" loading="lazy" />
+          <p class="work-title">Tiled Room 3</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tiled room 4.jpg" data-title="Tiled Room 4">
+          <img src="../images/Photographic-Works/tiled room 4.jpg" alt="Tiled Room 4" loading="lazy" />
+          <p class="work-title">Tiled Room 4</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tiled room with ron.jpg" data-title="Tiled Room with Ron">
+          <img src="../images/Photographic-Works/tiled room with ron.jpg" alt="Tiled Room with Ron" loading="lazy" />
+          <p class="work-title">Tiled Room with Ron</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tiled room.jpg" data-title="Tiled Room">
+          <img src="../images/Photographic-Works/tiled room.jpg" alt="Tiled Room" loading="lazy" />
+          <p class="work-title">Tiled Room</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tired and hungry.jpg" data-title="Tired and Hungry">
+          <img src="../images/Photographic-Works/tired and hungry.jpg" alt="Tired and Hungry" loading="lazy" />
+          <p class="work-title">Tired and Hungry</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/two-headed baby.jpg" data-title="Two-Headed Baby">
+          <img src="../images/Photographic-Works/two-headed baby.jpg" alt="Two-Headed Baby" loading="lazy" />
+          <p class="work-title">Two-Headed Baby</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/tying the picture together.jpg" data-title="Tying the Picture Together">
+          <img src="../images/Photographic-Works/tying the picture together.jpg" alt="Tying the Picture Together" loading="lazy" />
+          <p class="work-title">Tying the Picture Together</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/wall flower.jpg" data-title="Wall Flower">
+          <img src="../images/Photographic-Works/wall flower.jpg" alt="Wall Flower" loading="lazy" />
+          <p class="work-title">Wall Flower</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/who owns america.jpg" data-title="Who Owns America">
+          <img src="../images/Photographic-Works/who owns america.jpg" alt="Who Owns America" loading="lazy" />
+          <p class="work-title">Who Owns America</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/window reflection;.jpg" data-title="Window Reflection">
+          <img src="../images/Photographic-Works/window reflection;.jpg" alt="Window Reflection" loading="lazy" />
+          <p class="work-title">Window Reflection</p>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="../images/Photographic-Works/window shopping.jpg" data-title="Window Shopping">
+          <img src="../images/Photographic-Works/window shopping.jpg" alt="Window Shopping" loading="lazy" />
+          <p class="work-title">Window Shopping</p>
+        </button>
+
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Ron English Catalogue Raisonné — Photographic Works</p>
+    </footer>
+
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" type="button" aria-label="Close enlarged image">&times;</button>
+      <img id="lightbox-image" src="" alt="" />
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script>
+    const items = document.querySelectorAll('.gallery-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxClose = document.querySelector('.lightbox-close');
+
+    function openLightbox(src, title) {
+      lightboxImage.src = src;
+      lightboxImage.alt = title;
+      lightboxCaption.textContent = title;
+      lightbox.classList.add('is-open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('is-open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      lightboxImage.src = '';
+      lightboxImage.alt = '';
+      lightboxCaption.textContent = '';
+      document.body.style.overflow = '';
+    }
+
+    items.forEach(item => {
+      item.addEventListener('click', () => {
+        openLightbox(item.dataset.full, item.dataset.title);
+      });
+    });
+
+    lightboxClose.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', (event) => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && lightbox.classList.contains('is-open')) {
+        closeLightbox();
+      }
+    });
+  </script>
+
+</body>
+</html>
