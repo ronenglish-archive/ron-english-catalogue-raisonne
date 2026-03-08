@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Books | Bibliography | Ron English Catalogue Raisonné</title>
+
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+      --bg:#ffffff;
+      --panel:#f8fafc;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111827;
+      background:#fff;
+    }
+
+    .wrap{
+      max-width:1180px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+
+    .top-nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-bottom:28px;
+    }
+
+    .top-nav a{
+      display:inline-flex;
+      align-items:center;
+      min-height:40px;
+      padding:0 16px;
+      border:1px solid #c7d2fe;
+      border-radius:999px;
+      text-decoration:none;
+      color:#1f2937;
+      background:#fff;
+      transition:border-color .2s ease, transform .2s ease;
+    }
+
+    .top-nav a:hover{
+      border-color:#94a3b8;
+      transform:translateY(-1px);
+    }
+
+    h1{
+      font-size:clamp(42px,6vw,68px);
+      line-height:1.02;
+      letter-spacing:-0.03em;
+      margin:0 0 14px;
+    }
+
+    .lede{
+      max-width:900px;
+      font-size:1.05rem;
+      line-height:1.6;
+      color:#374151;
+      margin:0 0 26px;
+    }
+
+    .intro-box{
+      background:#f3f4f6;
+      border:1px solid var(--border);
+      border-radius:20px;
+      padding:20px 22px;
+      color:#1f2937;
+      line-height:1.6;
+      margin:0 0 28px;
+    }
+
+    .stats{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin:0 0 28px;
+    }
+
+    .stat{
+      border:1px solid var(--border);
+      background:#fff;
+      border-radius:999px;
+      padding:10px 14px;
+      font-size:.95rem;
+      color:#374151;
+      box-shadow:0 6px 18px rgba(0,0,0,.04);
+    }
+
+    .section-card{
+      border:1px solid var(--border);
+      border-radius:22px;
+      overflow:hidden;
+      background:var(--bg);
+      box-shadow:var(--shadow);
+    }
+
+    .section-head{
+      padding:22px 22px 18px;
+      border-bottom:1px solid var(--border);
+      background:#fff;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:end;
+      justify-content:space-between;
+      gap:18px;
+    }
+
+    .section-head h2{
+      margin:0 0 6px;
+      font-size:1.9rem;
+      line-height:1.1;
+    }
+
+    .section-head p{
+      margin:0;
+      color:var(--muted);
+      line-height:1.5;
+      max-width:760px;
+    }
+
+    .table-wrap{
+      overflow:auto;
+      background:var(--panel);
+      padding:0;
+    }
+
+    table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      min-width:1100px;
+      background:#fff;
+    }
+
+    thead th{
+      position:sticky;
+      top:0;
+      z-index:1;
+      text-align:left;
+      padding:16px 18px;
+      font-size:.86rem;
+      letter-spacing:.04em;
+      text-transform:uppercase;
+      color:#4b5563;
+      background:#f8fafc;
+      border-bottom:1px solid var(--border);
+    }
+
+    tbody td{
+      vertical-align:top;
+      padding:18px;
+      border-bottom:1px solid #eef2f7;
+      line-height:1.55;
+    }
+
+    tbody tr:hover td{
+      background:#fcfcfd;
+    }
+
+    .year{
+      width:88px;
+      font-weight:700;
+      white-space:nowrap;
+    }
+
+    .title-cell{
+      min-width:320px;
+    }
+
+    .title-wrap{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+
+    .title-wrap h3{
+      margin:0;
+      font-size:1.08rem;
+      line-height:1.4;
+      font-weight:700;
+    }
+
+    .type-pill{
+      display:inline-flex;
+      align-items:center;
+      width:fit-content;
+      min-height:28px;
+      padding:0 10px;
+      border-radius:999px;
+      border:1px solid #dbe4ff;
+      background:#f8faff;
+      color:#374151;
+      font-size:.8rem;
+      letter-spacing:.02em;
+      text-transform:uppercase;
+    }
+
+    .pub-cell{
+      min-width:260px;
+      color:#1f2937;
+    }
+
+    .notes-cell{
+      min-width:320px;
+      color:#374151;
+    }
+
+    .links-cell{
+      min-width:150px;
+    }
+
+    .muted{
+      color:#9ca3af;
+    }
+
+    .link-list{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    .link-list a{
+      display:inline-flex;
+      width:fit-content;
+      text-decoration:none;
+      color:#111827;
+      border-bottom:1px solid #cbd5e1;
+      padding-bottom:1px;
+    }
+
+    .link-list a:hover{
+      border-color:#111827;
+    }
+
+    .note{
+      margin-top:22px;
+      color:#6b7280;
+      font-size:.96rem;
+      line-height:1.6;
+    }
+
+    @media (max-width:760px){
+      .wrap{
+        padding:22px 14px 48px;
+      }
+
+      .section-head{
+        padding:18px;
+      }
+
+      thead th,
+      tbody td{
+        padding:14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="top-nav" aria-label="Breadcrumb">
+      <a href="../index.html">Catalogue home</a>
+      <a href="index.html">Bibliography</a>
+      <a href="books.html">Books</a>
+    </nav>
+
+    <header class="page-header">
+      <h1>Books</h1>
+      <p class="lede">
+        Books by Ron English, books devoted to his work, and selected volumes that reproduce,
+        discuss, or otherwise document his art, exhibitions, public projects, and wider cultural context.
+      </p>
+    </header>
+
+    <section class="intro-box">
+      This section gathers books by Ron English, books focused on his work, and books in which
+      his art appears or is discussed. Entries may be expanded and standardized as documentation develops.
+    </section>
+
+    <div class="stats" aria-label="Book listing summary">
+      <div class="stat">Format: Books only</div>
+      <div class="stat">Arrangement: Chronological</div>
+      <div class="stat">Scope: By Ron, about Ron, and selected featured references</div>
+    </div>
+
+    <section class="section-card" aria-labelledby="book-listings">
+      <div class="section-head">
+        <div>
+          <h2 id="book-listings">Book Listings</h2>
+          <p>Chronological reference list with publication details, research notes, and source links where available.</p>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Title</th>
+              <th>Publication Details</th>
+              <th>Notes</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td class="year">1983</td>
+              <td class="title-cell">
+                <div class="title-wrap">
+                  <h3>Best of College Photography Annual 1983</h3>
+                  <div class="type-pill">Book</div>
+                </div>
+              </td>
+              <td class="pub-cell"><span class="muted">Publication details to be expanded</span></td>
+              <td class="notes-cell">Page 15.</td>
+              <td class="links-cell"><span class="muted">—</span></td>
+            </tr>
+
+            <tr>
+              <td class="year">1988</td>
+              <td class="title-cell">
+                <div class="title-wrap">
+                  <h3>Art Is a Horrible Waste of the Imagination</h3>
+                  <div class="type-pill">Book by Ron English</div>
+                </div>
+              </td>
+              <td class="pub-cell">Self-published. 50 pages. Illustrated.</td>
+              <td class="notes-cell">Need cover image.</td>
+              <td class="links-cell"><span class="muted">—</span></td>
+            </tr>
+
+            <tr>
+              <td class="year">1990</td>
+              <td class="title-cell">
+                <div class="title-wrap">
+                  <h3>Berliner Mauer Kunst / Berlin’s Wall Art / Arte en el muro de Berlin</h3>
+                  <div class="type-pill">Book</div>
+                </div>
+              </td>
+              <td class="pub-cell">Heinz J. Kuzdas.</td>
+              <td class="notes-cell"><span class="muted">Additional publication details to be confirmed.</span></td>
+              <td class="links-cell"><span class="muted">—</span></td>
+            </tr>
+
+            <tr>
+              <td class="year">1990</td>
+              <td class="title-cell">
+                <div class="title-wrap">
+                  <h3>Berlin Wall Art</h3>
+                  <div class="type-pill">Book</div>
+                </div>
+              </td>
+              <td class="pub-cell">Heinz J. Kuzdas. Elefanten Press. Pages 47, 81. Illustrated. ISBN-13: 978-3885203469.</td>
+              <td class="notes-cell"><span class="muted">—</span></td>
+              <td class="links-cell"><span class="muted">—</span></td>
+            </tr>
+
+            <tr>
+              <td class="year">1990</td>
+              <td class="title-cell">
+                <div class="title-wrap">
+                  <h3>Long Shot</h3>
+                  <div class="type-pill">Book</div>
+                </div>
+              </td>
+              <td class="pub-cell">Danny Shot. Long Shot Productions, Hoboken. Pages 16, 70, 84, 105. Illustrated.</td>
+              <td class="notes-cell">Research note: publication details may need confirmation.</td>
+              <td class="links-cell"><span class="muted">—</span></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="note">
+      This page is designed as a research-forward bibliography. Later revisions can standardize author names,
+      publisher formatting, ISBN presentation, and cover images.
+    </p>
+  </main>
+</body>
+</html>
