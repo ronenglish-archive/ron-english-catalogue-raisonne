@@ -120,7 +120,7 @@
       width:100%;
       border-collapse:collapse;
       font-size:16px;
-      min-width:1250px;
+      min-width:1200px;
     }
 
     th,
@@ -207,19 +207,31 @@
       text-transform:uppercase;
     }
 
+    th.pub-col,
+    td.pub-cell{
+      width:22%;
+    }
+
+    th.isbn-col,
+    td.isbn-cell{
+      width:14%;
+    }
+
+    th.notes-col,
+    td.notes-cell{
+      width:26%;
+    }
+
     .pub-cell{
-      min-width:280px;
       color:#1f2937;
     }
 
     .isbn-cell{
-      min-width:180px;
       color:#374151;
       white-space:nowrap;
     }
 
     .notes-cell{
-      min-width:240px;
       color:#374151;
     }
 
@@ -296,9 +308,9 @@
               <th>Cover</th>
               <th>Year</th>
               <th>Title</th>
-              <th>Publication Details</th>
-              <th>ISBN</th>
-              <th>Notes</th>
+              <th class="pub-col">Publication Details</th>
+              <th class="isbn-col">ISBN</th>
+              <th class="notes-col">Notes</th>
             </tr>
           </thead>
           <tbody>
