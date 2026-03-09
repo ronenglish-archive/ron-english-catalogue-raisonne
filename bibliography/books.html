@@ -120,7 +120,7 @@
       width:100%;
       border-collapse:collapse;
       font-size:16px;
-      min-width:1100px;
+      min-width:1250px;
     }
 
     th,
@@ -212,6 +212,12 @@
       color:#1f2937;
     }
 
+    .isbn-cell{
+      min-width:180px;
+      color:#374151;
+      white-space:nowrap;
+    }
+
     .notes-cell{
       min-width:240px;
       color:#374151;
@@ -273,14 +279,14 @@
 
     <section class="intro" aria-label="About this section">
       <p>
-        This bibliography gathers books, catalogues, magazines, press material, and other printed references connected to Ron English. Cover images, publication details, and research notes may be expanded as documentation continues.
+        This bibliography gathers books, catalogues, magazines, press material, and other printed references connected to Ron English. Cover images, publication details, ISBN data, and research notes may be expanded as documentation continues.
       </p>
     </section>
 
     <section class="listing-wrap" aria-label="Book bibliography listings">
       <div class="listing-header">
         <h2>Bibliography Listings</h2>
-        <p>Chronological reference list with cover images, publication details, and notes for page references or additional documentation.</p>
+        <p>Chronological reference list with cover images, publication details, ISBN data, and notes for page references or additional documentation.</p>
       </div>
 
       <div class="table-scroll">
@@ -291,6 +297,7 @@
               <th>Year</th>
               <th>Title</th>
               <th>Publication Details</th>
+              <th>ISBN</th>
               <th>Notes</th>
             </tr>
           </thead>
@@ -311,6 +318,7 @@
                 <div class="type-pill">Book</div>
               </td>
               <td class="pub-cell">Photographer’s Forum, Santa Barbara, 1983. 168 pages.</td>
+              <td class="isbn-cell"><span class="muted">—</span></td>
               <td class="notes-cell">Add page reference for Ron English entry if documented.</td>
             </tr>
 
@@ -329,7 +337,8 @@
                 <div class="type-pill">Book</div>
               </td>
               <td class="pub-cell">Last Gasp, San Francisco, 2003.</td>
-              <td class="notes-cell">ISBN, page count, and edition details can be added here.</td>
+              <td class="isbn-cell"><span class="muted">Add ISBN</span></td>
+              <td class="notes-cell">Page count, edition details, and other notes can be added here.</td>
             </tr>
 
             <tr>
@@ -347,6 +356,7 @@
                 <div class="type-pill">Exhibition catalogue</div>
               </td>
               <td class="pub-cell">Exhibition-related publication. Publisher and pagination to be confirmed.</td>
+              <td class="isbn-cell"><span class="muted">Unknown</span></td>
               <td class="notes-cell">Use this field for page numbers, checklist notes, or verification status.</td>
             </tr>
 
@@ -365,6 +375,7 @@
                 <div class="type-pill">Press dossier</div>
               </td>
               <td class="pub-cell">Dossier de presse. Musée EDF Electropolis, 2015. Exhibition held April 24–August 30, 2015.</td>
+              <td class="isbn-cell"><span class="muted">Not applicable</span></td>
               <td class="notes-cell">Add relevant pages, reproduced works, or mention of Ron English here.</td>
             </tr>
 
