@@ -21,6 +21,10 @@
       box-sizing:border-box;
     }
 
+    html{
+      scroll-behavior:smooth;
+    }
+
     body{
       margin:0;
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
@@ -29,7 +33,7 @@
     }
 
     .wrap{
-      max-width:1160px;
+      max-width:1240px;
       margin:0 auto;
       padding:28px 18px 60px;
     }
@@ -85,31 +89,38 @@
       max-width:82ch;
     }
 
-    .section-block{
-      margin-top:30px;
+    .alpha-nav{
+      margin-top:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      position:sticky;
+      top:12px;
+      z-index:20;
+      padding:10px 0;
+      background:rgba(255,255,255,.92);
+      backdrop-filter:blur(6px);
     }
 
-    .section-head{
-      margin-bottom:14px;
+    .alpha-nav a{
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:#fff;
+      color:#374151;
+      text-decoration:none;
+      font-size:13px;
+      line-height:1;
     }
 
-    .section-head h2{
-      margin:0 0 6px;
-      font-size:24px;
-      letter-spacing:-.01em;
-    }
-
-    .section-head p{
-      margin:0;
-      color:var(--muted);
-      font-size:15px;
-      line-height:1.6;
-      max-width:72ch;
+    .alpha-nav a:hover{
+      background:#f8fafc;
     }
 
     .entry-grid{
+      margin-top:24px;
       display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
+      grid-template-columns:repeat(4,minmax(0,1fr));
       gap:18px;
     }
 
@@ -122,6 +133,7 @@
       color:inherit;
       background:#fff;
       transition:transform .12s ease, box-shadow .12s ease;
+      scroll-margin-top:90px;
     }
 
     .entry:hover{
@@ -131,7 +143,7 @@
 
     .entry img{
       width:100%;
-      height:210px;
+      height:180px;
       object-fit:cover;
       display:block;
       background:#f3f4f6;
@@ -143,7 +155,7 @@
 
     .entry-body h3{
       margin:0 0 6px;
-      font-size:21px;
+      font-size:20px;
       line-height:1.25;
     }
 
@@ -179,15 +191,25 @@
       font-size:14px;
     }
 
-    @media (max-width:980px){
+    @media (max-width:1100px){
+      .entry-grid{
+        grid-template-columns:repeat(3,minmax(0,1fr));
+      }
+    }
+
+    @media (max-width:820px){
       .entry-grid{
         grid-template-columns:repeat(2,minmax(0,1fr));
       }
     }
 
-    @media (max-width:680px){
+    @media (max-width:560px){
       .entry-grid{
         grid-template-columns:1fr;
+      }
+
+      .alpha-nav{
+        top:8px;
       }
     }
   </style>
@@ -210,332 +232,310 @@
 
     <section class="intro" aria-label="About this section">
       <p>
-        The categories below are designed as the first level of access for the sketches archive. Some sections may later open into additional subcategories, while others may lead directly to image galleries. This structure can expand over time without forcing the drawings into a dated sequence that does not fit the material.
+        The categories below provide a first level of access for the sketches archive. Some sections may later open into subcategories, while others may lead directly to image galleries. This structure can expand over time without forcing the drawings into a dated sequence that does not fit the material.
       </p>
     </section>
 
-    <section class="section-block" aria-labelledby="creatures-animals">
-      <div class="section-head">
-        <h2 id="creatures-animals">Creatures & Animals</h2>
-        <p>Animal forms, hybrid creatures, and related studies drawn from recurring subjects across the archive.</p>
-      </div>
+    <nav class="alpha-nav" aria-label="Alphabetical navigation">
+      <a href="#a">A</a>
+      <a href="#b">B</a>
+      <a href="#c">C</a>
+      <a href="#f">F</a>
+      <a href="#g">G</a>
+      <a href="#i">I</a>
+      <a href="#k">K</a>
+      <a href="#l">L</a>
+      <a href="#m">M</a>
+      <a href="#o">O</a>
+      <a href="#r">R</a>
+      <a href="#s">S</a>
+      <a href="#t">T</a>
+      <a href="#u">U</a>
+      <a href="#w">W</a>
+      <a href="#y">Y</a>
+    </nav>
 
-      <div class="entry-grid">
-        <a class="entry" href="aliens/index.html">
-          <img src="../images/Sketches/aliens-hero.jpg" alt="Aliens sketches by Ron English">
-          <div class="entry-body">
-            <h3>Aliens</h3>
-            <p>Alien figures, extraterrestrial heads, and related creature concepts.</p>
-            <div class="cta"><span class="dot"></span><span>Enter aliens</span></div>
-          </div>
-        </a>
+    <section class="entry-grid" aria-label="Sketch categories">
 
-        <a class="entry" href="amphibians/index.html">
-          <img src="../images/Sketches/amphibians-hero.jpg" alt="Amphibians sketches by Ron English">
-          <div class="entry-body">
-            <h3>Amphibians</h3>
-            <p>Frogs, toads, salamanders, and other amphibian-based studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter amphibians</span></div>
-          </div>
-        </a>
+      <a class="entry" id="a" href="aliens/index.html">
+        <img src="../images/Sketches/aliens-hero.jpg" alt="Aliens sketches by Ron English">
+        <div class="entry-body">
+          <h3>Aliens</h3>
+          <p>Alien figures, extraterrestrial heads, and related creature concepts.</p>
+          <div class="cta"><span class="dot"></span><span>Enter aliens</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="aquatic-dwellers/index.html">
-          <img src="../images/Sketches/aquatic-dwellers-hero.jpg" alt="Aquatic dwellers sketches by Ron English">
-          <div class="entry-body">
-            <h3>Aquatic Dwellers</h3>
-            <p>Fish, sea life, underwater beings, and other water-based forms.</p>
-            <div class="cta"><span class="dot"></span><span>Enter aquatic dwellers</span></div>
-          </div>
-        </a>
+      <a class="entry" href="amphibians/index.html">
+        <img src="../images/Sketches/amphibians-hero.jpg" alt="Amphibians sketches by Ron English">
+        <div class="entry-body">
+          <h3>Amphibians</h3>
+          <p>Frogs, toads, salamanders, and other amphibian-based studies.</p>
+          <div class="cta"><span class="dot"></span><span>Enter amphibians</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="avians/index.html">
-          <img src="../images/Sketches/avians-hero.jpg" alt="Avians sketches by Ron English">
-          <div class="entry-body">
-            <h3>Avians</h3>
-            <p>Bird studies, bird-headed figures, and winged forms.</p>
-            <div class="cta"><span class="dot"></span><span>Enter avians</span></div>
-          </div>
-        </a>
+      <a class="entry" href="animation-sketches/index.html">
+        <img src="../images/Sketches/animation-sketches-hero.jpg" alt="Animation sketches by Ron English">
+        <div class="entry-body">
+          <h3>Animation Sketches</h3>
+          <p>Animation-related concepts and development drawings.</p>
+          <div class="cta"><span class="dot"></span><span>Enter animation sketches</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="bears/index.html">
-          <img src="../images/Sketches/bears-hero.jpg" alt="Bears sketches by Ron English">
-          <div class="entry-body">
-            <h3>Bears</h3>
-            <p>Bear drawings, character variations, and related studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter bears</span></div>
-          </div>
-        </a>
+      <a class="entry" href="aquatic-dwellers/index.html">
+        <img src="../images/Sketches/aquatic-dwellers-hero.jpg" alt="Aquatic dwellers sketches by Ron English">
+        <div class="entry-body">
+          <h3>Aquatic Dwellers</h3>
+          <p>Fish, sea life, underwater beings, and other water-based forms.</p>
+          <div class="cta"><span class="dot"></span><span>Enter aquatic dwellers</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="bigfoot/index.html">
-          <img src="../images/Sketches/bigfoot-hero.jpg" alt="Bigfoot sketches by Ron English">
-          <div class="entry-body">
-            <h3>Bigfoot</h3>
-            <p>Bigfoot and other large creature concepts tied to folklore or parody.</p>
-            <div class="cta"><span class="dot"></span><span>Enter bigfoot</span></div>
-          </div>
-        </a>
+      <a class="entry" href="avians/index.html">
+        <img src="../images/Sketches/avians-hero.jpg" alt="Avians sketches by Ron English">
+        <div class="entry-body">
+          <h3>Avians</h3>
+          <p>Bird studies, bird-headed figures, and winged forms.</p>
+          <div class="cta"><span class="dot"></span><span>Enter avians</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="canines-and-felines/index.html">
-          <img src="../images/Sketches/canines-and-felines-hero.jpg" alt="Canines and felines sketches by Ron English">
-          <div class="entry-body">
-            <h3>Canines &amp; Felines</h3>
-            <p>Dogs, cats, and related hybrid or character-driven forms.</p>
-            <div class="cta"><span class="dot"></span><span>Enter canines &amp; felines</span></div>
-          </div>
-        </a>
+      <a class="entry" id="b" href="bears/index.html">
+        <img src="../images/Sketches/bears-hero.jpg" alt="Bears sketches by Ron English">
+        <div class="entry-body">
+          <h3>Bears</h3>
+          <p>Bear drawings and related character studies.</p>
+          <div class="cta"><span class="dot"></span><span>Enter bears</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="insects/index.html">
-          <img src="../images/Sketches/insects-hero.jpg" alt="Insects sketches by Ron English">
-          <div class="entry-body">
-            <h3>Insects</h3>
-            <p>Bug studies, insect-headed figures, and related visual ideas.</p>
-            <div class="cta"><span class="dot"></span><span>Enter insects</span></div>
-          </div>
-        </a>
+      <a class="entry" href="bigfoot/index.html">
+        <img src="../images/Sketches/bigfoot-hero.jpg" alt="Bigfoot sketches by Ron English">
+        <div class="entry-body">
+          <h3>Bigfoot</h3>
+          <p>Bigfoot and other large creature concepts tied to folklore.</p>
+          <div class="cta"><span class="dot"></span><span>Enter bigfoot</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="kaijus/index.html">
-          <img src="../images/Sketches/kaijus-hero.jpg" alt="Kaijus sketches by Ron English">
-          <div class="entry-body">
-            <h3>Kaijus</h3>
-            <p>Large monster studies, cinematic creatures, and exaggerated beasts.</p>
-            <div class="cta"><span class="dot"></span><span>Enter kaijus</span></div>
-          </div>
-        </a>
+      <a class="entry" href="brains/index.html">
+        <img src="../images/Sketches/brains-hero.jpg" alt="Brains sketches by Ron English">
+        <div class="entry-body">
+          <h3>Brains</h3>
+          <p>Brain forms, exposed anatomy, and related symbolic studies.</p>
+          <div class="cta"><span class="dot"></span><span>Enter brains</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="monkeys/index.html">
-          <img src="../images/Sketches/monkeys-hero.jpg" alt="Monkeys sketches by Ron English">
-          <div class="entry-body">
-            <h3>Monkeys</h3>
-            <p>Monkey drawings, ape forms, and related creature studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter monkeys</span></div>
-          </div>
-        </a>
+      <a class="entry" id="c" href="canines-and-felines/index.html">
+        <img src="../images/Sketches/canines-and-felines-hero.jpg" alt="Canines and felines sketches by Ron English">
+        <div class="entry-body">
+          <h3>Canines &amp; Felines</h3>
+          <p>Dogs, cats, and related hybrid or character-driven forms.</p>
+          <div class="cta"><span class="dot"></span><span>Enter canines &amp; felines</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="reptiles/index.html">
-          <img src="../images/Sketches/reptiles-hero.jpg" alt="Reptiles sketches by Ron English">
-          <div class="entry-body">
-            <h3>Reptiles</h3>
-            <p>Snakes, lizards, dinosaurs, turtles, and other reptilian forms.</p>
-            <div class="cta"><span class="dot"></span><span>Enter reptiles</span></div>
-          </div>
-        </a>
+      <a class="entry" href="celebrity-characters/index.html">
+        <img src="../images/Sketches/celebrity-characters-hero.jpg" alt="Celebrity characters sketches by Ron English">
+        <div class="entry-body">
+          <h3>Celebrity Characters</h3>
+          <p>Celebrity-based figures and portrait distortions.</p>
+          <div class="cta"><span class="dot"></span><span>Enter celebrity characters</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="small-mammals/index.html">
-          <img src="../images/Sketches/small-mammals-hero.jpg" alt="Small mammals sketches by Ron English">
-          <div class="entry-body">
-            <h3>Small Mammals</h3>
-            <p>Bats, mice, rabbits, raccoons, skunks, squirrels, and related studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter small mammals</span></div>
-          </div>
-        </a>
+      <a class="entry" href="character-balls/index.html">
+        <img src="../images/Sketches/character-balls-hero.jpg" alt="Character balls sketches by Ron English">
+        <div class="entry-body">
+          <h3>Character Balls</h3>
+          <p>Round character forms and figure experiments.</p>
+          <div class="cta"><span class="dot"></span><span>Enter character balls</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="snails/index.html">
-          <img src="../images/Sketches/snails-hero.jpg" alt="Snails sketches by Ron English">
-          <div class="entry-body">
-            <h3>Snails</h3>
-            <p>Snail forms, shell studies, and related character ideas.</p>
-            <div class="cta"><span class="dot"></span><span>Enter snails</span></div>
-          </div>
-        </a>
+      <a class="entry" href="combrats/index.html">
+        <img src="../images/Sketches/combrats-hero.jpg" alt="Combrats sketches by Ron English">
+        <div class="entry-body">
+          <h3>Combrats</h3>
+          <p>Combrats drawings and related figure development.</p>
+          <div class="cta"><span class="dot"></span><span>Enter combrats</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="ungulates/index.html">
-          <img src="../images/Sketches/ungulates-hero.jpg" alt="Ungulates sketches by Ron English">
-          <div class="entry-body">
-            <h3>Ungulates</h3>
-            <p>Camels, cattle, deer, elephants, equines, sheep, and other hoofed or large grazing animals.</p>
-            <div class="cta"><span class="dot"></span><span>Enter ungulates</span></div>
-          </div>
-        </a>
-      </div>
-    </section>
+      <a class="entry" id="f" href="flowers/index.html">
+        <img src="../images/Sketches/flowers-hero.jpg" alt="Flowers sketches by Ron English">
+        <div class="entry-body">
+          <h3>Flowers</h3>
+          <p>Floral drawings and plant motifs.</p>
+          <div class="cta"><span class="dot"></span><span>Enter flowers</span></div>
+        </div>
+      </a>
 
-    <section class="section-block" aria-labelledby="characters-icons">
-      <div class="section-head">
-        <h2 id="characters-icons">Characters, Icons & Figure Types</h2>
-        <p>Recurring figures, parody characters, named groups, and visual identities central to the sketches archive.</p>
-      </div>
+      <a class="entry" id="g" href="grinnies/index.html">
+        <img src="../images/Sketches/grinnies-hero.jpg" alt="Grinnies sketches by Ron English">
+        <div class="entry-body">
+          <h3>Grinnies</h3>
+          <p>Smile-based heads and grin motifs.</p>
+          <div class="cta"><span class="dot"></span><span>Enter grinnies</span></div>
+        </div>
+      </a>
 
-      <div class="entry-grid">
-        <a class="entry" href="celebrity-characters/index.html">
-          <img src="../images/Sketches/celebrity-characters-hero.jpg" alt="Celebrity characters sketches by Ron English">
-          <div class="entry-body">
-            <h3>Celebrity Characters</h3>
-            <p>Celebrity-based figures, portrait distortions, and public persona studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter celebrity characters</span></div>
-          </div>
-        </a>
+      <a class="entry" id="i" href="insects/index.html">
+        <img src="../images/Sketches/insects-hero.jpg" alt="Insects and snails sketches by Ron English">
+        <div class="entry-body">
+          <h3>Insects &amp; Snails</h3>
+          <p>Bug studies, insect figures, snails, and related small creature concepts.</p>
+          <div class="cta"><span class="dot"></span><span>Enter insects &amp; snails</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="character-balls/index.html">
-          <img src="../images/Sketches/character-balls-hero.jpg" alt="Character balls sketches by Ron English">
-          <div class="entry-body">
-            <h3>Character Balls</h3>
-            <p>Round character forms and related figure experiments.</p>
-            <div class="cta"><span class="dot"></span><span>Enter character balls</span></div>
-          </div>
-        </a>
+      <a class="entry" id="k" href="kaijus/index.html">
+        <img src="../images/Sketches/kaijus-hero.jpg" alt="Kaijus sketches by Ron English">
+        <div class="entry-body">
+          <h3>Kaijus</h3>
+          <p>Large monster studies and exaggerated beasts.</p>
+          <div class="cta"><span class="dot"></span><span>Enter kaijus</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="combrats/index.html">
-          <img src="../images/Sketches/combrats-hero.jpg" alt="Combrats sketches by Ron English">
-          <div class="entry-body">
-            <h3>Combrats</h3>
-            <p>Combrats drawings and associated figure development.</p>
-            <div class="cta"><span class="dot"></span><span>Enter combrats</span></div>
-          </div>
-        </a>
+      <a class="entry" href="kursed/index.html">
+        <img src="../images/Sketches/kursed-hero.jpg" alt="Kursed sketches by Ron English">
+        <div class="entry-body">
+          <h3>Kursed</h3>
+          <p>Kursed-related figures and concept drawings.</p>
+          <div class="cta"><span class="dot"></span><span>Enter kursed</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="grinnies/index.html">
-          <img src="../images/Sketches/grinnies-hero.jpg" alt="Grinnies sketches by Ron English">
-          <div class="entry-body">
-            <h3>Grinnies</h3>
-            <p>Smile-based heads, grin motifs, and related face designs.</p>
-            <div class="cta"><span class="dot"></span><span>Enter grinnies</span></div>
-          </div>
-        </a>
+      <a class="entry" id="l" href="light-cult/index.html">
+        <img src="../images/Sketches/light-cult-hero.jpg" alt="Light Cult sketches by Ron English">
+        <div class="entry-body">
+          <h3>Light Cult</h3>
+          <p>Light Cult imagery and related visual ideas.</p>
+          <div class="cta"><span class="dot"></span><span>Enter Light Cult</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="kursed/index.html">
-          <img src="../images/Sketches/kursed-hero.jpg" alt="Kursed sketches by Ron English">
-          <div class="entry-body">
-            <h3>Kursed</h3>
-            <p>Kursed-related figures and associated concept drawings.</p>
-            <div class="cta"><span class="dot"></span><span>Enter kursed</span></div>
-          </div>
-        </a>
+      <a class="entry" id="m" href="monkeys/index.html">
+        <img src="../images/Sketches/monkeys-hero.jpg" alt="Monkeys sketches by Ron English">
+        <div class="entry-body">
+          <h3>Monkeys</h3>
+          <p>Monkey drawings and related creature studies.</p>
+          <div class="cta"><span class="dot"></span><span>Enter monkeys</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="light-cult/index.html">
-          <img src="../images/Sketches/light-cult-hero.jpg" alt="Light Cult sketches by Ron English">
-          <div class="entry-body">
-            <h3>Light Cult</h3>
-            <p>Light Cult imagery, symbols, and connected character ideas.</p>
-            <div class="cta"><span class="dot"></span><span>Enter Light Cult</span></div>
-          </div>
-        </a>
+      <a class="entry" href="mythical-beings/index.html">
+        <img src="../images/Sketches/mythical-beings-hero.jpg" alt="Mythical beings sketches by Ron English">
+        <div class="entry-body">
+          <h3>Mythical Beings</h3>
+          <p>Celestial, symbolic, and hybrid beings.</p>
+          <div class="cta"><span class="dot"></span><span>Enter mythical beings</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="mythical-beings/index.html">
-          <img src="../images/Sketches/mythical-beings-hero.jpg" alt="Mythical beings sketches by Ron English">
-          <div class="entry-body">
-            <h3>Mythical Beings</h3>
-            <p>Celestial, messianic, hybrid, and symbolic beings across recurring visual strands.</p>
-            <div class="cta"><span class="dot"></span><span>Enter mythical beings</span></div>
-          </div>
-        </a>
+      <a class="entry" id="r" href="reptiles/index.html">
+        <img src="../images/Sketches/reptiles-hero.jpg" alt="Reptiles sketches by Ron English">
+        <div class="entry-body">
+          <h3>Reptiles</h3>
+          <p>Snakes, lizards, dinosaurs, turtles, and other reptilian forms.</p>
+          <div class="cta"><span class="dot"></span><span>Enter reptiles</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="skeletons/index.html">
-          <img src="../images/Sketches/skeletons-hero.jpg" alt="Skeletons sketches by Ron English">
-          <div class="entry-body">
-            <h3>Skeletons</h3>
-            <p>Skeletal figures, bone structures, and death-adjacent imagery.</p>
-            <div class="cta"><span class="dot"></span><span>Enter skeletons</span></div>
-          </div>
-        </a>
+      <a class="entry" id="s" href="skeletons/index.html">
+        <img src="../images/Sketches/skeletons-hero.jpg" alt="Skeletons sketches by Ron English">
+        <div class="entry-body">
+          <h3>Skeletons</h3>
+          <p>Skeletal figures and bone structures.</p>
+          <div class="cta"><span class="dot"></span><span>Enter skeletons</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="statues/index.html">
-          <img src="../images/Sketches/statues-hero.jpg" alt="Statues sketches by Ron English">
-          <div class="entry-body">
-            <h3>Statues</h3>
-            <p>Monument-like forms, sculptural figure concepts, and statue-based studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter statues</span></div>
-          </div>
-        </a>
+      <a class="entry" href="small-mammals/index.html">
+        <img src="../images/Sketches/small-mammals-hero.jpg" alt="Small mammals sketches by Ron English">
+        <div class="entry-body">
+          <h3>Small Mammals</h3>
+          <p>Bats, mice, rabbits, raccoons, skunks, squirrels, and related animals.</p>
+          <div class="cta"><span class="dot"></span><span>Enter small mammals</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="tots/index.html">
-          <img src="../images/Sketches/tots-hero.jpg" alt="Tots sketches by Ron English">
-          <div class="entry-body">
-            <h3>Tots</h3>
-            <p>Tots imagery and related childlike figure concepts.</p>
-            <div class="cta"><span class="dot"></span><span>Enter tots</span></div>
-          </div>
-        </a>
+      <a class="entry" href="statues/index.html">
+        <img src="../images/Sketches/statues-hero.jpg" alt="Statues sketches by Ron English">
+        <div class="entry-body">
+          <h3>Statues</h3>
+          <p>Sculptural figure concepts and monument-like forms.</p>
+          <div class="cta"><span class="dot"></span><span>Enter statues</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="the-gang/index.html">
-          <img src="../images/Sketches/the-gang-hero.jpg" alt="The Gang sketches by Ron English">
-          <div class="entry-body">
-            <h3>The Gang</h3>
-            <p>Drawings related to The Gang and connected groupings of figures.</p>
-            <div class="cta"><span class="dot"></span><span>Enter The Gang</span></div>
-          </div>
-        </a>
+      <a class="entry" id="t" href="the-gang/index.html">
+        <img src="../images/Sketches/the-gang-hero.jpg" alt="The Gang sketches by Ron English">
+        <div class="entry-body">
+          <h3>The Gang</h3>
+          <p>Drawings related to The Gang and connected character groups.</p>
+          <div class="cta"><span class="dot"></span><span>Enter The Gang</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="tvities/index.html">
-          <img src="../images/Sketches/tvities-hero.jpg" alt="TVities sketches by Ron English">
-          <div class="entry-body">
-            <h3>TVities</h3>
-            <p>TVities imagery and related figure or graphic development.</p>
-            <div class="cta"><span class="dot"></span><span>Enter TVities</span></div>
-          </div>
-        </a>
+      <a class="entry" href="tots/index.html">
+        <img src="../images/Sketches/tots-hero.jpg" alt="Tots sketches by Ron English">
+        <div class="entry-body">
+          <h3>Tots</h3>
+          <p>Tots imagery and related character ideas.</p>
+          <div class="cta"><span class="dot"></span><span>Enter tots</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="yin-yangs/index.html">
-          <img src="../images/Sketches/yin-yangs-hero.jpg" alt="Yin Yangs sketches by Ron English">
-          <div class="entry-body">
-            <h3>Yin Yangs</h3>
-            <p>Balance symbols, paired forms, and related concept sketches.</p>
-            <div class="cta"><span class="dot"></span><span>Enter Yin Yangs</span></div>
-          </div>
-        </a>
-      </div>
-    </section>
+      <a class="entry" href="tvities/index.html">
+        <img src="../images/Sketches/tvities-hero.jpg" alt="TVities sketches by Ron English">
+        <div class="entry-body">
+          <h3>TVities</h3>
+          <p>TVities imagery and related character development.</p>
+          <div class="cta"><span class="dot"></span><span>Enter TVities</span></div>
+        </div>
+      </a>
 
-    <section class="section-block" aria-labelledby="anatomy-objects-ideas">
-      <div class="section-head">
-        <h2 id="anatomy-objects-ideas">Anatomy, Objects & Visual Ideas</h2>
-        <p>Drawings centered on fragments, symbols, text, and non-figure concepts.</p>
-      </div>
+      <a class="entry" id="u" href="ungulates/index.html">
+        <img src="../images/Sketches/ungulates-hero.jpg" alt="Ungulates sketches by Ron English">
+        <div class="entry-body">
+          <h3>Ungulates</h3>
+          <p>Hoofed animals including camels, cattle, deer, elephants, equines, and sheep.</p>
+          <div class="cta"><span class="dot"></span><span>Enter ungulates</span></div>
+        </div>
+      </a>
 
-      <div class="entry-grid">
-        <a class="entry" href="animation-sketches/index.html">
-          <img src="../images/Sketches/animation-sketches-hero.jpg" alt="Animation sketches by Ron English">
-          <div class="entry-body">
-            <h3>Animation Sketches</h3>
-            <p>Animation-related concepts, development material, and movement-based figure studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter animation sketches</span></div>
-          </div>
-        </a>
+      <a class="entry" id="y" href="yin-yangs/index.html">
+        <img src="../images/Sketches/yin-yangs-hero.jpg" alt="Yin Yangs sketches by Ron English">
+        <div class="entry-body">
+          <h3>Yin Yangs</h3>
+          <p>Balance symbols and paired conceptual forms.</p>
+          <div class="cta"><span class="dot"></span><span>Enter Yin Yangs</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="body-parts/index.html">
-          <img src="../images/Sketches/body-parts-hero.jpg" alt="Body parts sketches by Ron English">
-          <div class="entry-body">
-            <h3>Body Parts</h3>
-            <p>Isolated limbs, fragments, and partial anatomy studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter body parts</span></div>
-          </div>
-        </a>
+      <a class="entry" id="o" href="objects/index.html">
+        <img src="../images/Sketches/objects-hero.jpg" alt="Objects sketches by Ron English">
+        <div class="entry-body">
+          <h3>Objects</h3>
+          <p>Object studies, props, and symbolic items.</p>
+          <div class="cta"><span class="dot"></span><span>Enter objects</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="brains/index.html">
-          <img src="../images/Sketches/brains-hero.jpg" alt="Brains sketches by Ron English">
-          <div class="entry-body">
-            <h3>Brains</h3>
-            <p>Brain forms, exposed anatomy, and related symbolic studies.</p>
-            <div class="cta"><span class="dot"></span><span>Enter brains</span></div>
-          </div>
-        </a>
+      <a class="entry" id="w" href="words-and-phrases/index.html">
+        <img src="../images/Sketches/words-and-phrases-hero.jpg" alt="Words and phrases sketches by Ron English">
+        <div class="entry-body">
+          <h3>Words &amp; Phrases</h3>
+          <p>Text-based ideas, slogans, and image-text concepts.</p>
+          <div class="cta"><span class="dot"></span><span>Enter words &amp; phrases</span></div>
+        </div>
+      </a>
 
-        <a class="entry" href="flowers/index.html">
-          <img src="../images/Sketches/flowers-hero.jpg" alt="Flowers sketches by Ron English">
-          <div class="entry-body">
-            <h3>Flowers</h3>
-            <p>Floral drawings, plant motifs, and related decorative or symbolic forms.</p>
-            <div class="cta"><span class="dot"></span><span>Enter flowers</span></div>
-          </div>
-        </a>
-
-        <a class="entry" href="objects/index.html">
-          <img src="../images/Sketches/objects-hero.jpg" alt="Objects sketches by Ron English">
-          <div class="entry-body">
-            <h3>Objects</h3>
-            <p>Object studies, props, symbolic items, and non-figure concepts.</p>
-            <div class="cta"><span class="dot"></span><span>Enter objects</span></div>
-          </div>
-        </a>
-
-        <a class="entry" href="words-and-phrases/index.html">
-          <img src="../images/Sketches/words-and-phrases-hero.jpg" alt="Words and phrases sketches by Ron English">
-          <div class="entry-body">
-            <h3>Words &amp; Phrases</h3>
-            <p>Text-based ideas, slogans, phrase experiments, and image-text concepts.</p>
-            <div class="cta"><span class="dot"></span><span>Enter words &amp; phrases</span></div>
-          </div>
-        </a>
-      </div>
     </section>
 
     <footer>
