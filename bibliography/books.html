@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,1662 +24,364 @@
     body{
       margin:0;
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-      color:#111827;
-      background:#fff;
+      color:#111;
+      background:var(--bg);
     }
 
     .wrap{
-      max-width:1180px;
+      max-width:1100px;
       margin:0 auto;
       padding:28px 18px 60px;
     }
 
-    .top-nav{
+    .nav-pills{
       display:flex;
       flex-wrap:wrap;
-      gap:12px;
-      margin-bottom:28px;
+      gap:10px;
+      margin-bottom:22px;
     }
 
-    .top-nav a{
-      display:inline-flex;
-      align-items:center;
-      min-height:40px;
-      padding:0 16px;
-      border:1px solid #c7d2fe;
+    .nav-pill{
+      padding:8px 14px;
       border-radius:999px;
-      text-decoration:none;
-      color:#1f2937;
+      border:1px solid #d6e1ff;
       background:#fff;
-      transition:border-color .2s ease, transform .2s ease;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
     }
 
-    .top-nav a:hover{
-      border-color:#94a3b8;
-      transform:translateY(-1px);
+    .nav-pill:hover{
+      background:#f3f6ff;
     }
 
     h1{
-      font-size:clamp(42px,6vw,68px);
-      line-height:1.02;
-      letter-spacing:-0.03em;
-      margin:0 0 14px;
+      font-size:clamp(34px,5vw,58px);
+      margin:0 0 10px;
+      letter-spacing:-.02em;
     }
 
-    .lede{
-      max-width:900px;
-      font-size:1.05rem;
-      line-height:1.6;
-      color:#374151;
-      margin:0 0 26px;
+    .subtitle{
+      font-size:18px;
+      line-height:1.55;
+      color:var(--muted);
+      max-width:72ch;
+      margin:0;
     }
 
-    .intro-box{
-      background:#f3f4f6;
+    .intro{
+      margin-top:24px;
+      padding:18px 20px;
       border:1px solid var(--border);
-      border-radius:20px;
-      padding:20px 22px;
+      border-radius:var(--radius);
+      background:var(--panel);
+    }
+
+    .intro p{
+      margin:0;
+      font-size:16px;
+      line-height:1.65;
       color:#1f2937;
-      line-height:1.6;
-      margin:0 0 28px;
+      max-width:78ch;
     }
 
-    .stats{
-      display:flex;
-      flex-wrap:wrap;
-      gap:12px;
-      margin:0 0 28px;
-    }
-
-    .stat{
+    .listing-wrap{
+      margin-top:28px;
       border:1px solid var(--border);
-      background:#fff;
-      border-radius:999px;
-      padding:10px 14px;
-      font-size:.95rem;
-      color:#374151;
-      box-shadow:0 6px 18px rgba(0,0,0,.04);
-    }
-
-    .section-card{
-      border:1px solid var(--border);
-      border-radius:22px;
+      border-radius:var(--radius);
       overflow:hidden;
-      background:var(--bg);
       box-shadow:var(--shadow);
+      background:#fff;
     }
 
-    .section-head{
-      padding:22px 22px 18px;
+    .listing-header{
+      padding:18px 20px;
       border-bottom:1px solid var(--border);
       background:#fff;
-      display:flex;
-      flex-wrap:wrap;
-      align-items:end;
-      justify-content:space-between;
-      gap:18px;
     }
 
-    .section-head h2{
+    .listing-header h2{
       margin:0 0 6px;
-      font-size:1.9rem;
-      line-height:1.1;
+      font-size:22px;
     }
 
-    .section-head p{
+    .listing-header p{
       margin:0;
       color:var(--muted);
-      line-height:1.5;
-      max-width:760px;
+      font-size:15px;
+      line-height:1.6;
     }
 
-    .table-wrap{
-      overflow:auto;
-      background:var(--panel);
-      padding:0;
+    .table-scroll{
+      overflow-x:auto;
     }
 
     table{
       width:100%;
-      border-collapse:separate;
-      border-spacing:0;
+      border-collapse:collapse;
+      font-size:16px;
       min-width:1100px;
-      background:#fff;
     }
 
-    thead th{
-      position:sticky;
-      top:0;
-      z-index:1;
+    th,
+    td{
+      padding:14px 14px;
+      border-bottom:1px solid var(--border);
       text-align:left;
-      padding:16px 18px;
-      font-size:.86rem;
+      vertical-align:top;
+    }
+
+    th{
+      font-size:13px;
       letter-spacing:.04em;
       text-transform:uppercase;
-      color:#4b5563;
-      background:#f8fafc;
-      border-bottom:1px solid var(--border);
+      color:#6b7280;
+      background:#f9fafb;
     }
 
-    tbody td{
-      vertical-align:top;
-      padding:18px;
-      border-bottom:1px solid #eef2f7;
+    td{
+      font-size:15px;
+      color:#111;
       line-height:1.55;
+    }
+
+    tr:last-child td{
+      border-bottom:none;
     }
 
     tbody tr:hover td{
       background:#fcfcfd;
     }
 
+    .cover-link{
+      display:inline-block;
+      line-height:0;
+    }
+
+    .cover-thumb{
+      width:64px;
+      height:88px;
+      object-fit:cover;
+      border-radius:10px;
+      border:1px solid var(--border);
+      display:block;
+      background:#f3f4f6;
+    }
+
     .year{
-      width:88px;
-      font-weight:700;
       white-space:nowrap;
+      width:92px;
+      font-weight:600;
     }
 
     .title-cell{
-      min-width:320px;
+      min-width:260px;
     }
 
-    .title-wrap{
-      display:flex;
-      flex-direction:column;
-      gap:10px;
+    .title-main{
+      margin:0 0 6px;
+      font-size:15px;
+      line-height:1.45;
+      font-weight:600;
     }
 
-    .title-wrap h3{
-      margin:0;
-      font-size:1.08rem;
-      line-height:1.4;
-      font-weight:700;
+    .title-main a{
+      color:#111;
+      text-decoration:none;
+    }
+
+    .title-main a:hover{
+      text-decoration:underline;
     }
 
     .type-pill{
       display:inline-flex;
       align-items:center;
-      width:fit-content;
-      min-height:28px;
-      padding:0 10px;
+      padding:5px 10px;
       border-radius:999px;
       border:1px solid #dbe4ff;
       background:#f8faff;
       color:#374151;
-      font-size:.8rem;
+      font-size:12px;
       letter-spacing:.02em;
       text-transform:uppercase;
     }
 
     .pub-cell{
-      min-width:260px;
+      min-width:280px;
       color:#1f2937;
     }
 
     .notes-cell{
-      min-width:320px;
+      min-width:240px;
       color:#374151;
-    }
-
-    .links-cell{
-      min-width:150px;
     }
 
     .muted{
       color:#9ca3af;
     }
 
-    .link-list{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
+    .notes{
+      margin-top:28px;
+      padding-top:18px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:15px;
+      line-height:1.65;
     }
 
-    .link-list a{
-      display:inline-flex;
-      width:fit-content;
-      text-decoration:none;
-      color:#111827;
-      border-bottom:1px solid #cbd5e1;
-      padding-bottom:1px;
+    footer{
+      margin-top:30px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
     }
 
-    .link-list a:hover{
-      border-color:#111827;
-    }
-
-    .note{
-      margin-top:22px;
-      color:#6b7280;
-      font-size:.96rem;
-      line-height:1.6;
-    }
-
-    @media (max-width:760px){
-      .wrap{
-        padding:22px 14px 48px;
+    @media (max-width:720px){
+      table{
+        font-size:14px;
       }
 
-      .section-head{
-        padding:18px;
+      th,
+      td{
+        padding:12px 10px;
       }
 
-      thead th,
-      tbody td{
-        padding:14px;
+      .cover-thumb{
+        width:54px;
+        height:74px;
       }
     }
   </style>
 </head>
+
 <body>
   <main class="wrap">
-    <nav class="top-nav" aria-label="Breadcrumb">
-      <a href="../index.html">Catalogue home</a>
-      <a href="index.html">Bibliography</a>
-      <a href="books.html">Books</a>
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../index.html">Catalogue home</a>
+      <a class="nav-pill" href="index.html">Bibliography</a>
+      <a class="nav-pill" href="books.html">Books</a>
     </nav>
 
-    <header class="page-header">
+    <header>
       <h1>Books</h1>
-      <p class="lede">
-        Books by Ron English, books devoted to his work, and selected volumes that reproduce,
-        discuss, or otherwise document his art, exhibitions, public projects, and wider cultural context.
+      <p class="subtitle">
+        Books by Ron English, books devoted to his work, and selected publications that reproduce, discuss, or document his art, exhibitions, and related projects.
       </p>
     </header>
 
-    <section class="intro-box">
-      This section gathers books by Ron English, books focused on his work, and books in which
-      his art appears or is discussed. Entries may be expanded and standardized as documentation develops.
+    <section class="intro" aria-label="About this section">
+      <p>
+        This bibliography gathers books, catalogues, magazines, press material, and other printed references connected to Ron English. Cover images, publication details, and research notes may be expanded as documentation continues.
+      </p>
     </section>
 
-    <div class="stats" aria-label="Book listing summary">
-      <div class="stat">Format: Books only</div>
-      <div class="stat">Arrangement: Chronological</div>
-      <div class="stat">Scope: By Ron, about Ron, and selected featured references</div>
-    </div>
-
-    <section class="section-card" aria-labelledby="book-listings">
-      <div class="section-head">
-        <div>
-          <h2 id="book-listings">Book Listings</h2>
-          <p>Chronological reference list with publication details, research notes, and source links where available.</p>
-        </div>
+    <section class="listing-wrap" aria-label="Book bibliography listings">
+      <div class="listing-header">
+        <h2>Bibliography Listings</h2>
+        <p>Chronological reference list with cover images, publication details, and notes for page references or additional documentation.</p>
       </div>
 
-      <div class="table-wrap">
+      <div class="table-scroll">
         <table>
- <thead>
-  <tr>
-    <th>Year</th>
-    <th>Title</th>
-    <th>Publication Details</th>
-  </tr>
-</thead>
+          <thead>
+            <tr>
+              <th>Cover</th>
+              <th>Year</th>
+              <th>Title</th>
+              <th>Publication Details</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
           <tbody>
 
-<tr>
-  <td class="year">1983</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Best of College Photography Annual 1983</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Photographer’s Forum, Santa Barbara, 1983. 168 pages.</td>
-</tr>
-
-<tr>
-  <td class="year">1988</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Art Is a Horrible Waste of the Imagination</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. English &amp; Eichman, New York, 1988. Softcover. First edition. 52 pages.</td>
-</tr>
-
-<tr>
-  <td class="year">1990</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Berliner Mauer Kunst = Berlin’s Wall Art = Arte en el muro de Berlin</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Heinz J. Kuzdas. Elefanten Press, Berlin, 1990. Paperback. 82 pages. ISBN-13: 9783885203469.</td>
-</tr>
-
-<tr>
-  <td class="year">1990</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Long Shot</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Danny Shot. Long Shot Productions, Hoboken, 1990.</td>
-</tr>
-
-<tr>
-  <td class="year">1993</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Long Shot, Volume 15</h3>
-      <div class="type-pill">Book (featured)</div>
-    </div>
-  </td>
-  <td class="pub-cell">Long Shot Productions, Inc., Hoboken, NJ, 1993. ISSN 0895-9773.</td>
-</tr>
-
-<tr>
-  <td class="year">1994</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Arresting Images: Impolitic Art and Uncivil Actions</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Steven C. Dubin. Routledge, London and New York, 1994. ISBN-13: 9780415908931.</td>
-</tr>
-
-<tr>
-  <td class="year">1993</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Culture Jamming: Hacking, Slashing, and Sniping in the Empire of Signs</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Mark Dery. Open Magazine Pamphlet Series, Westfield, NJ, 1993.</td>
-</tr>
-
-<tr>
-  <td class="year">1994</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Mastering Communication</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Dennis S. Gouran, William E. Wiethoff, and Joel A. Doelger. Allyn &amp; Bacon, 1994. ISBN-13: 9780205155088.</td>
-</tr>
-
-<tr>
-  <td class="year">1995</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Internet Graphics Gallery: An Insider’s Guide to Finding, Downloading, and Viewing Graphics on the Internet</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Paul De Groot, Dick Oliver, and Lane Boyd. Que, 1995. ISBN-13: 9780789701374.</td>
-</tr>
-
-<tr>
-  <td class="year">1995</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Tools as Art: The Hechinger Collection</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Pete Hamill. Harry N. Abrams, 1995. ISBN-13: 9780810938731.</td>
-</tr>
-<tr>
-  <td class="year">1996</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Absolut Book.: The Absolut Vodka Advertising Story</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Richard W. Lewis. Journey Editions, 1996. ISBN-13: 9781885203328.</td>
-</tr>
-
-<tr>
-  <td class="year">1996</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Scanning Television: Videos for Media Literacy in Class</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">John Pungente and Gary Marcuse; teachers’ guide by John Pungente and Neil Andersen. Harcourt Brace Canada, 1996. ISBN: 0774701722.</td>
-</tr>
-
-<tr>
-  <td class="year">1998</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The McDonaldization Thesis: Explorations and Extensions</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">George Ritzer. SAGE Publications, 1998. 212 pages. ISBN-13: 9780761955405.</td>
-</tr>
-
-<tr>
-  <td class="year">1999</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Billboard: Art on the Road: A Retrospective Exhibition of Artists’ Billboards of the Last 30 Years</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Laura Steward Heon, Peggy Diggs, and Lisa Dorin. MIT Press / MASS MoCA, 1999. ISBN-13: 9780262581776.</td>
-</tr>
-
-<tr>
-  <td class="year">1999</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Hi, How Are You? The Definitive Daniel Johnston Handbook</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Tarssa Yazdani and Ron English. 1888 Media, 1999. ISBN-13: 9781887128414.</td>
-</tr>
-
-<tr>
-  <td class="year">1999</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Art of Pop Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Arlan Ettinger. Guernsey’s, 1999.</td>
-</tr>
-
-<tr>
-  <td class="year">2000</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>No Logo: Taking Aim at the Brand Bullies</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Naomi Klein. Picador, 2000. 512 pages. ISBN-13: 9780312203436.</td>
-</tr>
-
-<tr>
-  <td class="year">2000</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Flag Burning: Moral Panic and the Criminalization of Protest</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Michael Welch. Transaction Publishers, 2000. ISBN-13: 9780202366128.</td>
-</tr>
-
-<tr>
-  <td class="year">2001</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>POPaganda: The Art &amp; Subversion of Ron English</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Soft Skull Press, 2001. 250 pages. ISBN-13: 9781887128605.</td>
-</tr>
-
-<tr>
-  <td class="year">2003</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Fine Art of Advertising: Irreverent, Irrepressible, Irresistibly Ironic</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Barry Hoffman. Stewart, Tabori &amp; Chang, 2003. 144 pages. ISBN-13: 9781584792222.</td>
-</tr>
-
-    <tr>
-  <td class="year">2003</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Morning Wood</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Roger Gastman and Ian Sattler. Gingko Press, 2003. ISBN-13: 9781584231592.</td>
-</tr>
-
-<tr>
-  <td class="year">2003</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Sci-Fi Western</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Sunny Buick; introduction by John Clute. Last Gasp, 2003. 96 pages. ISBN-13: 9780867195606.</td>
-</tr>
-
-<tr>
-  <td class="year">2004</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Swindle Quarterly</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">Swindle Quarterly; distributed by Gingko Press, 2004–. ISBN-13: 9781584231813.</td>
-</tr>
-
-<tr>
-  <td class="year">2004</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Graffiti World: Street Art from Five Continents</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Nicholas Ganz. Harry N. Abrams, 2004. ISBN-13: 9780810949799.</td>
-</tr>
-
-<tr>
-  <td class="year">2005</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Toys: New Designs from the Art Toy Revolution</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Jim Crawford. Universe Publishing, New York, 2005. 217 pages. ISBN-13: 9780789313904.</td>
-</tr>
-
-<tr>
-  <td class="year">2006</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Re/Search: Pranks 2</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">V. Vale, ed. Re/Search Publications, 2006. 212 pages. ISBN-13: 9781889307084.</td>
-</tr>
-
-<tr>
-  <td class="year">2006</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Marilyn in Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Roger G. Taylor. Chaucer Press / Pop Art Books, London, 2006. 192 pages. ISBN-13: 9781904957027.</td>
-</tr>
-
-<tr>
-  <td class="year">2007</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Abject Expressionism: The Art of Ron English</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English; introduction by Morgan Spurlock. Last Gasp, San Francisco, 2007. ISBN-13: 9780867196894.</td>
-</tr>
-
-<tr>
-  <td class="year">2007</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Son of Pop: Ron English Paints His Progeny</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Baby Tattoo Books, 2007. ISBN-13: 9780976632511.</td>
-</tr>
-
-<tr>
-  <td class="year">2007</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Intellectual Property: The International Library of Essays in Law and Society</h3>
-      <div class="type-pill">Book (featured)</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by William T. Gallagher. Ashgate, 2007. ISBN-13: 9780754624950.</td>
-</tr>
-
-            
-        <tr>
-  <td class="year">2007</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Hustle: powerHouse Magazine, Issue 3</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">powerHouse Books, 2007. ISBN-13: 9781576874028.</td>
-</tr>
-
-<tr>
-  <td class="year">2007</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>OurSpace: Resisting the Corporate Control of Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Christine Harold. University of Minnesota Press, 2007. ISBN-13: 9780816649549.</td>
-</tr>
-
-<tr>
-  <td class="year">2008</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Adam and Ron Show</h3>
-      <div class="type-pill">Exhibition Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Compiled by Fiona McKinnon; designed by Iain Cadby. Elms Lesters, London, May 2008. Hardcover. 72 pages.</td>
-</tr>
-
-<tr>
-  <td class="year">2008</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Metamorphosis 2: 50 Contemporary Surreal, Fantastic and Visionary Artists</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Jon Beinart. beinArt Publishing, 2008. Hardcover. 108 pages. ISBN-13: 9780980323115.</td>
-</tr>
-
-<tr>
-  <td class="year">2008</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>In the Land of Retinal Delights: The Juxtapoz Factor</h3>
-      <div class="type-pill">Exhibition Catalogue</div>
-    </div>
-  </td>
-  <td class="pub-cell">Bolton Colburn, Meg Linton, and Robert Williams. Laguna Art Museum / Gingko Press, 2008. ISBN-13: 9781584233176.</td>
-</tr>
-
-<tr>
-  <td class="year">2008</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Hustler USA, January 2008</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">January 2008 issue.</td>
-</tr>
-
-<tr>
-  <td class="year">2008</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Mindstyle Quarterly 003</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">Issue 003.</td>
-</tr>
-
-<tr>
-  <td class="year">2009</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Abraham Obama: A Guerilla Tour through Art and Politics</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Don Goede. Last Gasp, 2009. ISBN-13: 9780867197228.</td>
-</tr>
-
-<tr>
-  <td class="year">2009</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Art for Obama: Designing Manifest Hope and the Campaign for Change</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Shepard Fairey and Jennifer Gross. Abrams, 2009. ISBN-13: 9780810984981.</td>
-</tr>
-
-<tr>
-  <td class="year">2009</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Lazarus Rising</h3>
-      <div class="type-pill">Exhibition Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English; introduction by Paul Jones; essay and interview by Francesca Gavin; compiled by Fiona McKinnon. Elms Lesters Painting Rooms, London, 2009. Hardcover.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Color Ink Book, Vol. 20</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">Color Ink Book, Vol. 20, 2010.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Pop Surrealism: What a Wonderfool World</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Gianluca Marziani. Drago, 2010. ISBN-13: 9788888493695.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>100 Artists See Satan</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by First Last. Last Gasp, 2010. ISBN-13: 9780867196665.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Beyond the Street: The 100 Leading Figures in Urban Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Patrick Nguyen and Stuart Mackenzie. Gestalten, 2010. ISBN-13: 9783899552904.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Blab World No. 1</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Monte Beauchamp and Bill North. Last Gasp, 2010. ISBN-13: 9780867197464.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Culture Jamming</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Frederic P. Miller, Agnes F. Vandome, and John McBrewster. Alphascript Publishing, 2010. ISBN-13: 9786130299682.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Los colores del underground</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Joan S. Luna. Astiberri, 2010. ISBN-13: 9788492769278.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Untitled III: This Is Street Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Gary Shove. Carpet Bombing Culture, 2010. ISBN-13: 9780955912153.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The History of American Graffiti</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Roger Gastman and Caleb Neelon. Harper Design, 2011. ISBN-13: 9780061698781.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Art Cookbook: A Guide to Techniques and Materials</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Bengtsen Carlsson and Hop Louie. Dokument Press, 2010. ISBN-13: 9789185639175.</td>
-</tr>            
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Concrete Messages: Street Art on the Israeli–Palestinian Separation Barrier</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Zia Krohn and Joyce Lagerweij. Dokument Press, 2010. ISBN-13: 9789185639380.</td>
-</tr>
-
-<tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Trespass: A History of Uncommissioned Urban Art</h3>
-      <div class="type-pill">Book (featured)</div>
-    </div>
-  </td>
-  <td class="pub-cell">Carlo McCormick, Marc Schiller, and Sara Schiller. Taschen, 2010. ISBN-13: 9783836509640.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Against the Wall: The Art of Resistance in Palestine</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">William Parry. Lawrence Hill Books, 2011. ISBN-13: 9781569767047.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Suggestivism: A Comprehensive Survey of Contemporary Artists</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Nathan Spoor. Gingko Press, 2011. ISBN-13: 9781584234470.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Heroes &amp; Villains</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Tatiana Wills and Roman Cho. Zero+ Publishing, 2011. ISBN-13: 9780982246160.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Skullface: Manifestations of the Dead in Pop Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Korero Books, 2011. ISBN-13: 9780955833601.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Remixing the Civil War: Meditations on the Sesquicentennial</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Thomas J. Brown. Johns Hopkins University Press, 2011. ISBN-13: 9781421402505.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Ron English's Stickable Art Offenses: A Sticker Book</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English and Randy Johnson. Last Gasp, 2011. ISBN-13: 9780867197594.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Art of Sketch Theatre, Volume 1</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">2011.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Emergence of the Pop Image</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">JRP|Ringier, 2011. ISBN-13: 9783037641842.</td>
-</tr>
-
-            
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Supersized: Strange Tales from a Fast-Food Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Morgan Spurlock. Dark Horse Books, 2011. ISBN-13: 9781595825117.</td>
-</tr>
-
-<tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Graffiti and Street Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Anna Waclawek. Thames &amp; Hudson, 2011. ISBN-13: 9780500204078.</td>
-</tr>
-
-<tr>
-  <td class="year">2012</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Wynwood Walls and Doors</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Photography by Martha Cooper. Goldman Properties, 2012. ISBN-13: 9780988258907.</td>
-</tr>
-
-<tr>
-  <td class="year">2012</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Hello Kitty, Hello Art!: Works of Art Inspired by Sanrio Characters</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Sanrio Company Ltd.; compiled by Roger Gastman. Abrams, 2012. ISBN-13: 9781419704536.</td>
-</tr>
-
-<tr>
-  <td class="year">2012</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Billboard Bandits: Outlaw Artists in the Sky</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Adam Clark. Bandit Press, 2012. ISBN-13: 9780615689128.</td>
-</tr>
-
-<tr>
-  <td class="year">2012</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>We Own the Night: The Art of the Underbelly Project</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Workhorse and PAC. Rizzoli, 2012. ISBN-13: 9780789324948.</td>
-</tr>
-
-<tr>
-  <td class="year">2013</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The World Atlas of Street Art and Graffiti</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Rafael Schacter and John Fekner. Yale University Press, 2013. ISBN-13: 9780300199420.</td>
-</tr>
-
-<tr>
-  <td class="year">2013</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Stuff You Can’t Bottle: Advertising for the Global Youth Market</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">King Adz. Thames &amp; Hudson, 2013. ISBN-13: 9780500290750.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Status Factory: The Art of Ron English</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Last Gasp, 2014. ISBN-13: 9780867197891.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Death and the Eternal Forever</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Korero Press, 2014. ISBN-13: 9780957664920.</td>
-</tr>
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Concrete Canvas: How Street Art Is Changing the Way Our Cities Look</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Lee Bofkin. Cassell, 2014. ISBN-13: 9781844037827.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Toy Art 2.0</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Okedoki and Jeremy Brautman. Monsa, 2014.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Metro New York</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">August 19, 2014 issue.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Global Street Art: The Street Artists and Trends Taking Over the World</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Lee Bofkin. Firefly Books, 2014. ISBN-13: 9781770854857.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Viral Art: How the Internet Has Shaped Street Art and Graffiti</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">RJ Rushmore. Vandalog, 2013.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Geek-Art: An Anthology: Art, Design, Illustration &amp; Pop Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Thomas Olivri. Chronicle Books, 2014. ISBN-13: 9781452140483.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Talk About Street Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Jérôme Catz and Élisabeth Couturier. Flammarion, 2014. ISBN-13: 9782080201966.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Canvas Detroit</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Julie Pincus and Nichole Christian. Wayne State University Press, 2014. ISBN-13: 9780814344620.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Carnivora: The Dark Art of Automobiles</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Les Barany. Scapegoat Publishing, 2008. ISBN-13: 9780979513213.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Ron English's Vandalism Starter Kit</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Last Gasp, 2015. ISBN-13: 9780867197945.</td>
-</tr>
-
-    <tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Messages</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Nicholas Ganz; foreword by James Prigoff. Dokument Press, 2015. ISBN-13: 9789185639731.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Trespass: A History of Uncommissioned Urban Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Carlo McCormick, Marc Schiller, and Sara Schiller. Taschen, 2015. ISBN-13: 9783836555487.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>On Racial Icons: Blackness and the Public Imagination</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Nicole R. Fleetwood. Rutgers University Press, 2015. ISBN-13: 9780813565156.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Mona Lisa Reimagined</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Erik Maell. Goff Books, 2015. ISBN-13: 9781939621269.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Urban Street Art (But Is It Art?)</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Alix Wood. Gareth Stevens Publishing, 2015. ISBN-13: 9781482422955.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Graphic Design: Thinking and Understanding Constructing Book Design Identity</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Iain Cadby. Elms Lesters Painting Rooms, 2015.</td>
-</tr>
-
-<tr>
-  <td class="year">2016</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Turn the Page: The First Ten Years of Hi-Fructose</h3>
-      <div class="type-pill">Exhibition Catalogue</div>
-    </div>
-  </td>
-  <td class="pub-cell">Virginia Museum of Contemporary Art. Baby Tattoo Books, 2016. ISBN-13: 9781614040132.</td>
-</tr>
-
-<tr>
-  <td class="year">2016</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Ron English’s Fauxlosophy</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Carpet Bombing Culture, 2016. ISBN-13: 9781908211453.</td>
-</tr>
-
-<tr>
-  <td class="year">2016</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>In Heroes We Trust: Street Artists and Their Heroes</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Knock Knock. 2016. ISBN-13: 9781601068521.</td>
-</tr>
-
-<tr>
-  <td class="year">2016</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Ron English’s Popaganda Coloring Book</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Last Gasp, 2016. ISBN-13: 9780867198515.</td>
-</tr>
-            
-<tr>
-  <td class="year">2016</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Art World</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Alison Young. Reaktion Books, 2016. ISBN-13: 9781780236704.</td>
-</tr>
-
-<tr>
-  <td class="year">2016</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Subway Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Henry Chalfant and Martha Cooper. Thames &amp; Hudson, 2016 reprint. ISBN-13: 9780500292129.</td>
-</tr>
-
-<tr>
-  <td class="year">2017</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Urban Canvas: Street Art Around the World</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">G. James Daichendt; foreword by Ron English. Weldon Owen, 2017. ISBN-13: 9781681882987.</td>
-</tr>
-
-<tr>
-  <td class="year">2017</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Graffiti and Street Art: Reading, Writing and Representing the City</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Konstantinos Avramidis and Myrto Tsilimpounidi. Routledge, 2017. ISBN-13: 9781472473332.</td>
-</tr>
-
-<tr>
-  <td class="year">2017</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Milk</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">Issue 824, April 5, 2017.</td>
-</tr>
-
-<tr>
-  <td class="year">2018</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Right to Parody: Comparative Analysis of Copyright and Free Speech</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Elena Cooper and Enrico Bonadio. Cambridge University Press, 2018. ISBN-13: 9781108427388.</td>
-</tr>
-
-<tr>
-  <td class="year">2018</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Ultimate Street Art Coloring Book: Urban Art &amp; Murals from Around the World</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Diego Orlandini. Dokument Press, 2018. ISBN-13: 9789188369376.</td>
-</tr>
-
-<tr>
-  <td class="year">2019</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Art in the Middle East</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Sabrina de Turk. I.B. Tauris, 2019. ISBN-13: 9781784539900.</td>
-</tr>
-
-<tr>
-  <td class="year">2019</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Original Grin: The Art of Ron English</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Impact Gallerie / Éditions Treville, 2019. ISBN-13: 9782374950938.</td>
-</tr>
-
-<tr>
-  <td class="year">2019</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Transformations</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Christopher Longé; introduction by Ron English. KochxBos Gallery, 2019. ISBN-13: 9783943330427.</td>
-</tr>
-
- <tr>
-  <td class="year">2019</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Beyond the Streets: Vandalism as Contemporary Art</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Roger Gastman. R. Rock Enterprises, 2019. ISBN-13: 9780578468839.</td>
-</tr>
-
-<tr>
-  <td class="year">2019</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Stickers Vol. 2: From Punk Rock to Contemporary Art (aka More Stuck-Up Crap)</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">DB Burkeman. Rizzoli, 2019. ISBN-13: 9780847863037.</td>
-</tr>
-
-<tr>
-  <td class="year">2020</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Walls of Change: The Story of the Wynwood Walls</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Jessica Goldman Srebnick. Assouline, 2020. ISBN-13: 9781614288572.</td>
-</tr>
-
-<tr>
-  <td class="year">2020</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Political Portrait: Leadership, Image and Power</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Luciano Cheles and Alessandro Giacone. Routledge, 2020. ISBN-13: 9781138054233.</td>
-</tr>
-
-<tr>
-  <td class="year">2020</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Arte Humano</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Mariela Gómez Erro. Editorial La Luminosa, 2020. ISBN-13: 9788418233609.</td>
-</tr>
-
-<tr>
-  <td class="year">2020</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Coronaville Artist Coloring Book</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Coloring Book Productions, 2020. ISBN-13: 9781034063933.</td>
-</tr>
-
-<tr>
-  <td class="year">2021</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Hi-Fructose Collected Edition, Volume 1: Under the Counter Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Annie Owens and Attaboy. Last Gasp, 2021. ISBN-13: 9780867198867.</td>
-</tr>
-
-<tr>
-  <td class="year">2021</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Wynwood Coloring Book</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Goldman Global Arts, 2021. ISBN-13: 9780997248586.</td>
-</tr>
-
-<tr>
-  <td class="year">2022</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Greetings from Delusionville</h3>
-      <div class="type-pill">Book by Ron English</div>
-    </div>
-  </td>
-  <td class="pub-cell">Ron English. Last Gasp, 2022. ISBN-13: 9780867198898.</td>
-</tr>
-
-<tr>
-  <td class="year">2022</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Art NYC</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Lord K2 and Lois Stavsky. Dokument Press, 2022. ISBN-13: 9789188369697.</td>
-</tr>
-
-<tr>
-  <td class="year">2022</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Routledge Handbook of Street Culture</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Jeffrey Ian Ross. Routledge, 2022. ISBN-13: 9780367559533.</td>
-</tr>
-
-<tr>
-  <td class="year">2022</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Art NYC</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Lord K2 and Lois Stavsky. Dokument Press, 2022. ISBN-13: 9789188369697.</td>
-</tr>
-
-<tr>
-  <td class="year">2004</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Logos</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Tristan Manco. Thames &amp; Hudson, 2004. ISBN-13: 9780500284698.</td>
-</tr>
-
-<tr>
-  <td class="year">2012</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Delusional: The Story of the Jonathan LeVine Gallery</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Caleb Neelon. Gingko Press, 2012. ISBN-13: 9781584234586.</td>
-</tr>
-
-            
-   <tr>
-  <td class="year">2011</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Emergence of the Pop Image</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">JRP|Ringier, 2011. ISBN-13: 9783037641842.</td>
-</tr>
-
-<tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Graphic Design by Iain Cadby for the Elms Lesters Painting Rooms: Thinking and Understanding Constructing Book Design Identity</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Iain Cadby; commentary by Gavin Lucas. Booth-Clibborn Editions, 2015. ISBN-13: 9781861543684.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Toy Art 2.0</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Okedoki and Jeremy Brautman. 2014. 290 pages.</td>
-</tr>
-
-<tr>
-  <td class="year">2014</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>The Ashgate Research Companion to Media Geography</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Edited by Paul C. Adams, Jim Craine, and Jason Dittmer. Ashgate, 2014. ISBN-13: 9781409444015.</td>
-</tr>
-
-<tr>
-  <td class="year">2024</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Street Art Icons: The Story of Wynwood Walls</h3>
-      <div class="type-pill">Book</div>
-    </div>
-  </td>
-  <td class="pub-cell">Assouline, 2024. ISBN-13: 9781649802910.</td>
-</tr>
-
-    <tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Draw</h3>
-      <div class="type-pill">Exhibition Catalogue</div>
-    </div>
-  </td>
-  <td class="pub-cell">Erik Foss and Curse Mackey. RM / El Museo de la Ciudad de México, 2010. Softcover. 246 pages. Bilingual (English-Spanish). ISBN-13: 9788492480050.</td>
-</tr>
-
-    <tr>
-  <td class="year">2010</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>London Street-Art Design</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">LSD Magazine, Issue 4, 2010. <em>Unauthorised Heroes</em>.</td>
-</tr>
-
-  <tr>
-  <td class="year">2008</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>Hustler</h3>
-      <div class="type-pill">Periodical</div>
-    </div>
-  </td>
-  <td class="pub-cell">January 2008 issue.</td>
-</tr>
+            <tr>
+              <td>
+                <a class="cover-link" href="../images/Bibliography/best-of-college-photography-annual-1983.jpg">
+                  <img
+                    src="../images/Bibliography/best-of-college-photography-annual-1983.jpg"
+                    alt="Cover of Best of College Photography Annual 1983"
+                    class="cover-thumb">
+                </a>
+              </td>
+              <td class="year">1983</td>
+              <td class="title-cell">
+                <div class="title-main">Best of College Photography Annual 1983</div>
+                <div class="type-pill">Book</div>
+              </td>
+              <td class="pub-cell">Photographer’s Forum, Santa Barbara, 1983. 168 pages.</td>
+              <td class="notes-cell">Add page reference for Ron English entry if documented.</td>
+            </tr>
 
             <tr>
-  <td class="year">2015</td>
-  <td class="title-cell">
-    <div class="title-wrap">
-      <h3>#Street Art</h3>
-      <div class="type-pill">Press dossier</div>
-    </div>
-  </td>
-  <td class="pub-cell">Dossier de presse. Musée EDF Electropolis, 2015. Exhibition held April 24–August 30, 2015.</td>
-</tr>
-            
+              <td>
+                <a class="cover-link" href="../images/Bibliography/delusional-ron-english.jpg">
+                  <img
+                    src="../images/Bibliography/delusional-ron-english.jpg"
+                    alt="Cover of Delusional by Ron English"
+                    class="cover-thumb">
+                </a>
+              </td>
+              <td class="year">2003</td>
+              <td class="title-cell">
+                <div class="title-main">Delusional</div>
+                <div class="type-pill">Book</div>
+              </td>
+              <td class="pub-cell">Last Gasp, San Francisco, 2003.</td>
+              <td class="notes-cell">ISBN, page count, and edition details can be added here.</td>
+            </tr>
+
+            <tr>
+              <td>
+                <a class="cover-link" href="../images/Bibliography/status-factory.jpg">
+                  <img
+                    src="../images/Bibliography/status-factory.jpg"
+                    alt="Cover of Status Factory"
+                    class="cover-thumb">
+                </a>
+              </td>
+              <td class="year">2009</td>
+              <td class="title-cell">
+                <div class="title-main">Status Factory</div>
+                <div class="type-pill">Exhibition catalogue</div>
+              </td>
+              <td class="pub-cell">Exhibition-related publication. Publisher and pagination to be confirmed.</td>
+              <td class="notes-cell">Use this field for page numbers, checklist notes, or verification status.</td>
+            </tr>
+
+            <tr>
+              <td>
+                <a class="cover-link" href="../images/Bibliography/street-art.jpg">
+                  <img
+                    src="../images/Bibliography/street-art.jpg"
+                    alt="Cover of #Street Art press dossier"
+                    class="cover-thumb">
+                </a>
+              </td>
+              <td class="year">2015</td>
+              <td class="title-cell">
+                <div class="title-main">#Street Art</div>
+                <div class="type-pill">Press dossier</div>
+              </td>
+              <td class="pub-cell">Dossier de presse. Musée EDF Electropolis, 2015. Exhibition held April 24–August 30, 2015.</td>
+              <td class="notes-cell">Add relevant pages, reproduced works, or mention of Ron English here.</td>
+            </tr>
+
+            <!-- ADDITIONAL ENTRIES BELOW THIS LINE -->
 
           </tbody>
         </table>
       </div>
     </section>
 
-    <p class="note">
-      This page is designed as a research-forward bibliography. Later revisions can standardize author names,
-      publisher formatting, ISBN presentation, and cover images.
-    </p>
+    <section class="notes" aria-label="Editorial note">
+      Entries on this page may be expanded with standardized publisher data, ISBNs, page references, cover images, and additional research notes as the bibliography grows.
+    </section>
+
+    <footer>
+      Published via GitHub Pages for long-term public access.
+    </footer>
   </main>
 </body>
 </html>
