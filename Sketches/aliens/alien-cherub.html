@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alien Cherub | Ron English Catalogue Raisonné</title>
+
+  <link rel="stylesheet" href="../../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+      --bg:#ffffff;
+      --panel:#f8fafc;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:var(--bg);
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+
+    .breadcrumbs{
+      font-size:.95rem;
+      margin-bottom:20px;
+      color:var(--muted);
+    }
+
+    .breadcrumbs a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .breadcrumbs a:hover{
+      text-decoration:underline;
+    }
+
+    .hero{
+      margin-bottom:28px;
+    }
+
+    .hero h1{
+      margin:0 0 10px;
+      font-size:clamp(2rem, 4vw, 3.4rem);
+      line-height:1.05;
+      letter-spacing:-0.02em;
+    }
+
+    .hero p{
+      margin:0;
+      max-width:780px;
+      color:var(--muted);
+      font-size:1.05rem;
+      line-height:1.6;
+    }
+
+    .meta-card{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:20px;
+      margin-bottom:28px;
+    }
+
+    .meta-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:16px;
+    }
+
+    .meta-label{
+      display:block;
+      font-size:.78rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:var(--muted);
+      margin-bottom:6px;
+    }
+
+    .meta-value{
+      font-size:1rem;
+      line-height:1.45;
+    }
+
+    .section-card{
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+      margin-bottom:24px;
+    }
+
+    .section-card h2{
+      margin:0 0 8px;
+      font-size:1.4rem;
+    }
+
+    .section-intro{
+      margin:0 0 22px;
+      color:var(--muted);
+      line-height:1.6;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .gallery-item{
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      transition:transform .18s ease, box-shadow .18s ease;
+      box-shadow:0 4px 18px rgba(0,0,0,.04);
+    }
+
+    .gallery-item:hover{
+      transform:translateY(-3px);
+      box-shadow:0 10px 24px rgba(0,0,0,.08);
+    }
+
+    .gallery-item img{
+      display:block;
+      width:100%;
+      aspect-ratio:4 / 5;
+      object-fit:cover;
+      background:#f3f4f6;
+    }
+
+    .entry-body{
+      padding:14px 14px 16px;
+    }
+
+    .work-title{
+      margin:0 0 6px;
+      font-size:1rem;
+      font-weight:600;
+      line-height:1.35;
+    }
+
+    .work-note{
+      margin:0;
+      color:var(--muted);
+      font-size:.95rem;
+      line-height:1.45;
+    }
+
+    .back-link{
+      margin-top:28px;
+    }
+
+    .back-link a{
+      display:inline-block;
+      text-decoration:none;
+      color:#111;
+      border:1px solid var(--border);
+      border-radius:999px;
+      padding:10px 16px;
+      background:#fff;
+    }
+
+    .back-link a:hover{
+      background:#f9fafb;
+    }
+
+    @media (max-width:640px){
+      .wrap{
+        padding:22px 14px 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="../../index.html">Catalogue Raisonné</a> /
+      <a href="../index.html">Sketches</a> /
+      <a href="index.html">Aliens</a> /
+      <span>Alien Cherub</span>
+    </nav>
+
+    <header class="hero">
+      <h1>Alien Cherub</h1>
+      <p>
+        Entry gathering the original sketch views and related digitized color versions for
+        <em>Alien Cherub</em>.
+      </p>
+    </header>
+
+    <section class="meta-card" aria-labelledby="entry-details">
+      <div class="meta-grid">
+        <div>
+          <span class="meta-label">Title</span>
+          <div class="meta-value">Alien Cherub</div>
+        </div>
+        <div>
+          <span class="meta-label">Category</span>
+          <div class="meta-value">Sketches / Aliens</div>
+        </div>
+        <div>
+          <span class="meta-label">Artist</span>
+          <div class="meta-value">Ron English</div>
+        </div>
+        <div>
+          <span class="meta-label">Related material</span>
+          <div class="meta-value">Original sketches and digitized colorways</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card" aria-labelledby="original-sketches">
+      <h2 id="original-sketches">Original Sketches</h2>
+      <p class="section-intro">
+        Scanned hand-drawn views associated with the Alien Cherub design.
+      </p>
+
+      <div class="gallery-grid">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub back ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub back ORIGINAL.jpg" alt="Alien Cherub back original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Back View</p>
+            <p class="work-note">Original hand-drawn sketch.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub side ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub side ORIGINAL.jpg" alt="Alien Cherub side original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View</p>
+            <p class="work-note">Original hand-drawn sketch.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub three quarters ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub three quarters ORIGINAL.jpg" alt="Alien Cherub three-quarters original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters View</p>
+            <p class="work-note">Original hand-drawn sketch.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-card" aria-labelledby="digitized-versions">
+      <h2 id="digitized-versions">Digitized Versions</h2>
+      <p class="section-intro">
+        Related digital color renderings and alternate colorways.
+      </p>
+
+      <div class="gallery-grid">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub back ORIGINAL COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub back ORIGINAL COLOR.jpg" alt="Alien Cherub back digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Back View Color</p>
+            <p class="work-note">Digitized color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub front COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub front COLOR.jpg" alt="Alien Cherub front digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Front View Color</p>
+            <p class="work-note">Digitized color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub side COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub side COLOR.jpg" alt="Alien Cherub side digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View Color</p>
+            <p class="work-note">Digitized color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub three quarters COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub three quarters COLOR.jpg" alt="Alien Cherub three-quarters digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Color</p>
+            <p class="work-note">Digitized color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien Cherub three quarters colorway 2.jpg">
+          <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 2.jpg" alt="Alien Cherub three-quarters colorway 2 by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Colorway 2</p>
+            <p class="work-note">Digitized alternate colorway.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien Cherub three quarters colorway 3.jpg">
+          <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 3.jpg" alt="Alien Cherub three-quarters colorway 3 by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Colorway 3</p>
+            <p class="work-note">Digitized alternate colorway.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien Cherub three quarters colorway 4.jpg">
+          <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 4.jpg" alt="Alien Cherub three-quarters colorway 4 by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Colorway 4</p>
+            <p class="work-note">Digitized alternate colorway.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="back-link">
+      <a href="index.html">← Back to Aliens</a>
+    </div>
+  </main>
+</body>
+</html>
