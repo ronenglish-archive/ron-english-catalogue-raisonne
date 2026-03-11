@@ -38,6 +38,7 @@
       display:flex;
       flex-wrap:wrap;
       gap:10px;
+      margin-top:22px;
       margin-bottom:22px;
     }
 
@@ -55,26 +56,33 @@
       background:#f3f6ff;
     }
 
-    h1{
-      font-size:clamp(36px,5vw,62px);
-      margin:0 0 10px;
-      letter-spacing:-.02em;
+    .page-header{
+      max-width:1100px;
+      margin:0;
+      padding:0;
+      text-align:left;
     }
 
-.subtitle{
-  max-width:100ch;
-}
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
 
-.intro p{
-  max-width:110ch;
-}
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 28px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
 
-    .intro p{
-      margin:0;
-      font-size:16px;
-      line-height:1.65;
-      color:#1f2937;
-      max-width:75ch;
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
+      color:var(--muted);
+      font-size:18px;
     }
 
     .entry-grid{
@@ -157,11 +165,12 @@
 
     .notes{
       margin-top:28px;
-      padding:20px;
+      padding:20px 0 0;
       border-top:1px solid var(--border);
       color:var(--muted);
       font-size:15px;
       line-height:1.65;
+      max-width:72ch;
     }
 
     .notes strong{
@@ -195,16 +204,16 @@
       <a class="nav-pill" href="../index.html">Catalogue home</a>
     </nav>
 
-    <header>
-      <h1>Exhibitions</h1>
-      <p class="subtitle">
-        A guide to documented exhibitions featuring Ron English’s work, divided into solo exhibitions and group exhibitions for easier browsing and long-term reference.
-      </p>
+    <header class="page-header">
+      <h1 class="page-title">Exhibitions</h1>
     </header>
 
-    <section class="intro" aria-label="About this section">
+    <section class="intro-text">
       <p>
-        This section separates exhibitions into two paths. Solo exhibitions focus on shows centered on Ron English’s work, while group exhibitions document broader presentations in which his work appeared alongside other artists. Listings can be organized year by year, with venue, city, and dates included when documented.
+        A guide to documented exhibitions featuring Ron English’s work.
+      </p>
+      <p>
+        This section is divided into solo exhibitions and group exhibitions for clearer navigation and reference. Listings may include venue, city, date range, and supporting documentation where that information has been confirmed.
       </p>
     </section>
 
