@@ -5,24 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Warholesque Paintings | Ron English Catalogue Raisonné</title>
 
-  <!-- If this file lives at /paintings/Warholesque/index.html -->
   <link rel="stylesheet" href="../../css/styles.css" />
 
   <style>
-    /* Keep intro readable, but let it use the same page width as everything else */
+    .page-header {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 0.5rem;
+      text-align: left;
+    }
+
+    .page-title {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+
     .intro-text {
       max-width: 1100px;
-      margin: 2rem auto 2.25rem auto;
+      margin: 0 auto 2.25rem auto;
       padding: 0 1rem;
       line-height: 1.6;
+      text-align: left;
+    }
+
+    .intro-meta {
+      margin: 0 0 1rem 0;
+      font-size: 0.98rem;
+      color: #555;
     }
 
     .intro-text h3 {
       margin-top: 1.5rem;
       margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      line-height: 1.3;
     }
 
-    /* GRID: FORCE 2 series cards per row */
     .series-list {
       max-width: 1100px;
       margin: 0 auto 3rem auto;
@@ -33,7 +52,6 @@
       align-items: start;
     }
 
-    /* Each series becomes a card */
     .series-block {
       border: 1px solid #e5e7eb;
       border-radius: 14px;
@@ -65,7 +83,6 @@
       color: #555;
     }
 
-    /* Header links */
     .page-links {
       margin-top: 10px;
     }
@@ -96,7 +113,6 @@
 
 <body>
 
-  <!-- Top navigation: HOME ONLY (no decade pills) -->
   <nav class="top-nav">
     <a class="nav-home nav-pill" href="../../index.html">Catalogue home</a>
   </nav>
@@ -105,10 +121,8 @@
     <h1 class="page-title">Warholesque</h1>
   </header>
 
-  <!-- Intro / Explanation -->
   <section class="intro-text">
-    <p><strong>Warholesque Paintings</strong><br />
-    Silkscreen ink, stencil, and synthetic polymer paint on canvas</p>
+    <p class="intro-meta">Silkscreen ink, stencil, and synthetic polymer paint on canvas</p>
 
     <p>
       A dedicated section for Ron English’s Warholesque paintings and related documented variants.
@@ -146,7 +160,6 @@
     </p>
   </section>
 
-  <!-- Series cards -->
   <main class="series-list" aria-label="Warholesque series list">
 
     <a class="series-block" href="Warholesque-Young-Andy.html" aria-label="Young Andy">
@@ -204,7 +217,8 @@
       </div>
     </a>
 
-    <!--  <a class="series-block" href="Warholesque-Starskull-Camo.html" aria-label="Starskull Camo">
+    <!--
+    <a class="series-block" href="Warholesque-Starskull-Camo.html" aria-label="Starskull Camo">
       <div class="series-header">
         <h2 class="series-title">Starskull Camo</h2>
         <p class="series-meta">Representative images</p>
