@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Murals | Ron English Catalogue Raisonné</title>
+  <title>Public Murals | Ron English Catalogue Raisonné</title>
   <link rel="stylesheet" href="../css/styles.css" />
 
   <style>
@@ -32,7 +32,8 @@
     }
 
     .nav-pills{
-      margin-top:8px;
+      margin-top:22px;
+      margin-bottom:22px;
       display:flex;
       flex-wrap:wrap;
       gap:10px;
@@ -52,28 +53,33 @@
       background:#f3f6ff;
     }
 
-    header{
-      margin-top:20px;
-    }
-
-    h1{
-      font-size:clamp(34px,5vw,58px);
-      margin:0 0 10px;
-      letter-spacing:-.02em;
-    }
-
-    .subtitle{
+    .page-header{
+      max-width:1100px;
       margin:0;
-      max-width:78ch;
-      font-size:18px;
-      line-height:1.6;
-      color:var(--muted);
+      padding:0;
+      text-align:left;
     }
 
-    .note{
-      margin-top:14px;
-      font-size:14px;
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 24px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
+
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
       color:var(--muted);
+      font-size:18px;
     }
 
     .grid{
@@ -145,16 +151,18 @@
       <a class="nav-pill" href="../index.html">Catalogue home</a>
     </nav>
 
-    <header>
-     <!-- PUBLIC MURALS -->
-<h1>Public Murals</h1>
-<p class="intro-box">
-  A catalogue of Ron English’s murals and related public wall works.
-</p>
-<p class="intro-box">
-  This section documents large-scale mural projects, festival works, and site-specific public installations. Entries are organized chronologically and may expand over time as additional images, archival sources, and record details are confirmed.
-</p>
+    <header class="page-header">
+      <h1 class="page-title">Public Murals</h1>
     </header>
+
+    <section class="intro-text">
+      <p>
+        A catalogue of Ron English’s murals and related public wall works.
+      </p>
+      <p>
+        This section documents large-scale mural projects, festival works, and site-specific public installations. Entries are organized chronologically and may expand over time as additional images, archival sources, and record details are confirmed.
+      </p>
+    </section>
 
     <section class="grid" aria-label="Murals">
 
