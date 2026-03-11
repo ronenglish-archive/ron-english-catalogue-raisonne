@@ -38,20 +38,26 @@
       padding:28px 18px 60px;
     }
 
-    .breadcrumbs{
-      font-size:.95rem;
+    .nav-pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
       margin-top:22px;
       margin-bottom:22px;
-      color:var(--muted);
     }
 
-    .breadcrumbs a{
-      color:inherit;
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
       text-decoration:none;
+      font-size:14px;
     }
 
-    .breadcrumbs a:hover{
-      text-decoration:underline;
+    .nav-pill:hover{
+      background:#f3f6ff;
     }
 
     .page-header{
@@ -171,11 +177,10 @@
 <body>
   <main class="wrap">
 
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../../../../index.html">Catalogue home</a> /
-      <a href="../../../../paintings/index.html">Paintings &amp; Works on Paper</a> /
-      <a href="../../../../paintings/1970s.html">1970s</a> /
-      <span>Blue Cavern</span>
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../../../../index.html">Catalogue home</a>
+      <a class="nav-pill" href="../../../../paintings/index.html">Paintings &amp; Works on Paper</a>
+      <a class="nav-pill" href="../../../../paintings/1970s.html">1970s</a>
     </nav>
 
     <header class="page-header">
