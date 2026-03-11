@@ -28,17 +28,33 @@
       padding:28px 18px 60px;
     }
 
-    h1{
-      font-size:clamp(36px,5vw,64px);
-      margin:0 0 8px;
-      letter-spacing:-.02em;
+    .page-header{
+      max-width:1100px;
+      margin:0 auto;
+      padding:0;
+      text-align:left;
     }
 
-    .subtitle{
-      font-size:18px;
-      color:var(--muted);
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(36px,5vw,64px);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+
+    .intro-text{
+      max-width:1100px;
+      margin:0 auto;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
+
+    .intro-text p{
+      margin:0 0 14px;
       max-width:72ch;
-      margin:0;
+      color:var(--muted);
+      font-size:18px;
     }
 
     /* HERO */
@@ -105,6 +121,7 @@
     .entry-body h2{
       margin:0 0 6px;
       font-size:22px;
+      line-height:1.2;
     }
 
     .entry-body p{
@@ -112,6 +129,7 @@
       color:var(--muted);
       font-size:16px;
       max-width:60ch;
+      line-height:1.5;
     }
 
     .cta{
@@ -132,6 +150,7 @@
 
     .nav-pills{
       margin-top:22px;
+      margin-bottom:22px;
       display:flex;
       flex-wrap:wrap;
       gap:10px;
@@ -174,30 +193,30 @@
       <a class="nav-pill" href="../index.html">Main site</a>
     </nav>
 
-<!-- HOME -->
-<h1>Ron English Catalogue Raisonné</h1>
-<p class="intro-box">
-  A structured catalogue documenting Ron English’s paintings, drawings, sculpture, photographic works, murals, billboard interventions, exhibitions, and reference materials.
-</p>
-<p class="intro-box">
-  This site is designed as a long-term public research resource. Each section organizes a different part of Ron English’s practice for clear browsing, citation, and future expansion as additional documentation is verified.
-</p>
+    <header class="page-header">
+      <h1 class="page-title">Ron English Catalogue Raisonné</h1>
+    </header>
 
-    <!-- HERO IMAGE -->
+    <section class="intro-text">
+      <p>
+        A structured catalogue documenting Ron English’s paintings, drawings, sculpture, photographic works, murals, billboard interventions, exhibitions, and reference materials.
+      </p>
+      <p>
+        This site is designed as a long-term public research resource. Each section organizes a different part of Ron English’s practice for clear browsing, citation, and future expansion as additional documentation is verified.
+      </p>
+    </section>
 
     <section class="hero" aria-label="Featured work">
       <img src="images/hero.jpg" alt="Ron English, featured catalogue work">
       <div class="hero-overlay"></div>
     </section>
 
-    <!-- ENTRY GRID -->
-
     <section class="entry-grid" aria-label="Primary catalogue navigation">
 
       <a class="entry" href="paintings/index.html">
         <img src="images/decades.jpg" alt="Browse catalogue by decade">
         <div class="entry-body">
-          <h2>Paintings & Works on Paper</h2>
+          <h2>Paintings &amp; Works on Paper</h2>
           <p>Chronological catalogue of Ron English’s paintings and works on paper.</p>
           <div class="cta"><span class="dot"></span><span>Enter decades</span></div>
         </div>
@@ -206,7 +225,7 @@
       <a class="entry" href="Sketches/index.html">
         <img src="images/Sketches/sketches-hero.jpg" alt="Sketches and drawings by Ron English">
         <div class="entry-body">
-          <h2>Sketches & Drawings</h2>
+          <h2>Sketches &amp; Drawings</h2>
           <p>Preliminary sketches, drawings, and concept studies related to paintings, murals, billboard works, and other projects.</p>
           <div class="cta"><span class="dot"></span><span>Enter sketches</span></div>
         </div>
@@ -224,7 +243,7 @@
       <a class="entry" href="sculpture/index.html">
         <img src="images/sculpture/sculpture-hero.jpg" alt="Sculpture works by Ron English">
         <div class="entry-body">
-          <h2>Sculpture & Three-Dimensional Works</h2>
+          <h2>Sculpture &amp; Three-Dimensional Works</h2>
           <p>Sculpture, vinyl figures, resin works, and other three-dimensional objects from Ron English’s studio practice.</p>
           <div class="cta"><span class="dot"></span><span>Enter sculpture</span></div>
         </div>
@@ -251,9 +270,9 @@
       <a class="entry" href="billboards/index.html">
         <img src="images/billboards/pirated-billboards.jpg" alt="Billboards and poster works by Ron English">
         <div class="entry-body">
-          <h2>Billboards & Posters</h2>
+          <h2>Billboards &amp; Posters</h2>
           <p>Pirated billboards, poster interventions, and advertising takeovers installed in public space.</p>
-          <div class="cta"><span class="dot"></span><span>Enter billboard & poster works</span></div>
+          <div class="cta"><span class="dot"></span><span>Enter billboard &amp; poster works</span></div>
         </div>
       </a>
 
