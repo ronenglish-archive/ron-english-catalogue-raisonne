@@ -56,7 +56,7 @@
 
     .page-header{
       max-width:1100px;
-      margin:0;
+      margin:0 0 28px;
       padding:0;
       text-align:left;
     }
@@ -69,46 +69,11 @@
     }
 
     .intro-text{
-      max-width:1100px;
-      margin:0 0 28px;
-      padding:0;
-      line-height:1.6;
-      text-align:left;
-    }
-
-    .intro-text p{
-      margin:0 0 14px;
+      margin:0;
       max-width:72ch;
       color:var(--muted);
       font-size:18px;
-    }
-
-    .meta-card{
-      background:var(--panel);
-      border:1px solid var(--border);
-      border-radius:var(--radius);
-      padding:20px;
-      margin-bottom:28px;
-    }
-
-    .meta-grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-      gap:16px;
-    }
-
-    .meta-label{
-      display:block;
-      font-size:.78rem;
-      text-transform:uppercase;
-      letter-spacing:.08em;
-      color:var(--muted);
-      margin-bottom:6px;
-    }
-
-    .meta-value{
-      font-size:1rem;
-      line-height:1.45;
+      line-height:1.6;
     }
 
     .section-card{
@@ -129,12 +94,20 @@
       margin:0 0 22px;
       color:var(--muted);
       line-height:1.6;
+      max-width:72ch;
     }
 
     .gallery-grid{
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
       gap:20px;
+    }
+
+    .sketch-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,280px));
+      gap:20px;
+      justify-content:center;
     }
 
     .gallery-item{
@@ -161,6 +134,12 @@
       object-fit:contain;
       background:#f3f4f6;
       padding:10px;
+    }
+
+    .sketch-grid .gallery-item img{
+      height:420px;
+      background:#fff;
+      padding:18px;
     }
 
     .entry-body{
@@ -203,6 +182,14 @@
       .wrap{
         padding:22px 14px 50px;
       }
+
+      .sketch-grid{
+        grid-template-columns:1fr;
+      }
+
+      .sketch-grid .gallery-item img{
+        height:360px;
+      }
     }
   </style>
 </head>
@@ -217,50 +204,23 @@
 
     <header class="page-header">
       <h1 class="page-title">Alien Cherub</h1>
+      <p class="intro-text">
+        Documented visual material associated with the Alien Cherub character.
+      </p>
     </header>
-
-    <section class="intro-text">
-      <p>
-        Sketch entry for <em>Alien Cherub</em>.
-      </p>
-      <p>
-        This page gathers the original sketch views and related digitized color versions for reference within the sketches archive.
-      </p>
-    </section>
-
-    <section class="meta-card" aria-labelledby="entry-details">
-      <div class="meta-grid">
-        <div>
-          <span class="meta-label">Title</span>
-          <div class="meta-value">Alien Cherub</div>
-        </div>
-        <div>
-          <span class="meta-label">Category</span>
-          <div class="meta-value">Sketches / Aliens</div>
-        </div>
-        <div>
-          <span class="meta-label">Artist</span>
-          <div class="meta-value">Ron English</div>
-        </div>
-        <div>
-          <span class="meta-label">Related material</span>
-          <div class="meta-value">Original sketches and digitized colorways</div>
-        </div>
-      </div>
-    </section>
 
     <section class="section-card" aria-labelledby="original-sketches">
       <h2 id="original-sketches">Original Sketches</h2>
       <p class="section-intro">
-        Scanned hand-drawn views associated with the Alien Cherub design.
+        Views of the character in drawing form.
       </p>
 
-      <div class="gallery-grid">
+      <div class="sketch-grid">
         <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub back ORIGINAL.jpg">
           <img src="../../images/Sketches/aliens/Alien cherub back ORIGINAL.jpg" alt="Alien Cherub back original sketch by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Back View</p>
-            <p class="work-note">Original hand-drawn sketch.</p>
+            <p class="work-note">Scanned drawing.</p>
           </div>
         </a>
 
@@ -268,7 +228,7 @@
           <img src="../../images/Sketches/aliens/Alien cherub side ORIGINAL.jpg" alt="Alien Cherub side original sketch by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Side View</p>
-            <p class="work-note">Original hand-drawn sketch.</p>
+            <p class="work-note">Scanned drawing.</p>
           </div>
         </a>
 
@@ -276,7 +236,7 @@
           <img src="../../images/Sketches/aliens/Alien cherub three quarters ORIGINAL.jpg" alt="Alien Cherub three-quarters original sketch by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Three-Quarters View</p>
-            <p class="work-note">Original hand-drawn sketch.</p>
+            <p class="work-note">Scanned drawing.</p>
           </div>
         </a>
       </div>
@@ -285,7 +245,7 @@
     <section class="section-card" aria-labelledby="digitized-versions">
       <h2 id="digitized-versions">Digitized Versions</h2>
       <p class="section-intro">
-        Related digital color renderings and alternate colorways.
+        Color renderings and alternate colorways associated with the design.
       </p>
 
       <div class="gallery-grid">
@@ -293,7 +253,7 @@
           <img src="../../images/Sketches/aliens/Alien cherub back ORIGINAL COLOR.jpg" alt="Alien Cherub back digitized color version by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Back View Color</p>
-            <p class="work-note">Digitized color version.</p>
+            <p class="work-note">Digital color version.</p>
           </div>
         </a>
 
@@ -301,7 +261,7 @@
           <img src="../../images/Sketches/aliens/Alien cherub front COLOR.jpg" alt="Alien Cherub front digitized color version by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Front View Color</p>
-            <p class="work-note">Digitized color version.</p>
+            <p class="work-note">Digital color version.</p>
           </div>
         </a>
 
@@ -309,7 +269,7 @@
           <img src="../../images/Sketches/aliens/Alien cherub side COLOR.jpg" alt="Alien Cherub side digitized color version by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Side View Color</p>
-            <p class="work-note">Digitized color version.</p>
+            <p class="work-note">Digital color version.</p>
           </div>
         </a>
 
@@ -317,7 +277,7 @@
           <img src="../../images/Sketches/aliens/Alien cherub three quarters COLOR.jpg" alt="Alien Cherub three-quarters digitized color version by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Three-Quarters Color</p>
-            <p class="work-note">Digitized color version.</p>
+            <p class="work-note">Digital color version.</p>
           </div>
         </a>
 
@@ -325,7 +285,7 @@
           <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 2.jpg" alt="Alien Cherub three-quarters colorway 2 by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Three-Quarters Colorway 2</p>
-            <p class="work-note">Digitized alternate colorway.</p>
+            <p class="work-note">Alternate colorway.</p>
           </div>
         </a>
 
@@ -333,7 +293,7 @@
           <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 3.jpg" alt="Alien Cherub three-quarters colorway 3 by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Three-Quarters Colorway 3</p>
-            <p class="work-note">Digitized alternate colorway.</p>
+            <p class="work-note">Alternate colorway.</p>
           </div>
         </a>
 
@@ -341,7 +301,7 @@
           <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 4.jpg" alt="Alien Cherub three-quarters colorway 4 by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Three-Quarters Colorway 4</p>
-            <p class="work-note">Digitized alternate colorway.</p>
+            <p class="work-note">Alternate colorway.</p>
           </div>
         </a>
       </div>
