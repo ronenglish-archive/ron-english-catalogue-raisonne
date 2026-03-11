@@ -7,22 +7,70 @@
   <link rel="stylesheet" href="../css/styles.css" />
 
   <style>
+    :root{
+      --muted:#4b5563;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
+    }
+
     .page-container{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 16px;
-      box-sizing: border-box;
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+      box-sizing:border-box;
     }
 
-    .page-header,
-    .decade-context{
-      text-align: center;
+    .top-nav{
+      margin-top:22px;
+      margin-bottom:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
     }
 
-    .decade-context p{
-      max-width: 72ch;
-      margin-left: auto;
-      margin-right: auto;
+    .nav-pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .page-header{
+      max-width:1100px;
+      margin:0;
+      padding:0;
+      text-align:left;
+    }
+
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 28px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
+
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
+      color:var(--muted);
+      font-size:18px;
     }
   </style>
 </head>
@@ -31,8 +79,8 @@
 
   <div class="page-container">
 
-    <nav class="top-nav">
-      <a class="nav-home nav-pill" href="../index.html">Home</a>
+    <nav class="top-nav" aria-label="Site navigation">
+      <a class="nav-home nav-pill" href="../index.html">Catalogue home</a>
 
       <div class="nav-pills">
         <a class="nav-pill is-active" href="1970s.html">1970s</a>
@@ -45,22 +93,19 @@
     </nav>
 
     <header class="page-header">
-      <h1 class="page-title">Paintings &amp; Works on Paper — 1970s</h1>
-      <p class="page-subtitle">
-        Structured index of documented works currently attributed to this decade.
-      </p>
+      <h1 class="page-title">1970s</h1>
     </header>
 
-    <main class="gallery-wrap">
+    <section class="intro-text" aria-label="1970s decade overview">
+      <p>
+        A chronological index of documented paintings and works on paper currently attributed to the 1970s.
+      </p>
+      <p>
+        Entries are organized by year according to the best available documentation at the time of publication. As additional primary sources and verified records emerge, works may be added, revised, or reassigned.
+      </p>
+    </section>
 
-      <section class="decade-context" aria-label="1970s decade overview">
-        <h2 class="section-title">Decade overview</h2>
-        <p>
-          This page presents paintings and works on paper presently documented within the 1970s.
-          Entries are organized by year according to the best available documentation at the time of publication.
-          As additional primary sources and verified records emerge, works may be added, revised, or reassigned.
-        </p>
-      </section>
+    <main class="gallery-wrap">
 
       <section class="gallery-grid" aria-label="1970s works">
 
