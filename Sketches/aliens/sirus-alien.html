@@ -14,7 +14,7 @@
       --shadow:0 10px 30px rgba(0,0,0,.08);
       --radius:18px;
       --bg:#ffffff;
-      --panel:#f8fafc;
+      --panel:#f3f4f6;
     }
 
     *{
@@ -30,6 +30,8 @@
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
       color:#111;
       background:var(--bg);
+      padding-left:0;
+      padding-right:0;
     }
 
     .wrap{
@@ -38,20 +40,26 @@
       padding:28px 18px 60px;
     }
 
-    .breadcrumbs{
-      font-size:.95rem;
+    .nav-pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
       margin-top:22px;
       margin-bottom:22px;
-      color:var(--muted);
     }
 
-    .breadcrumbs a{
-      color:inherit;
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:#fff;
+      color:#111;
       text-decoration:none;
+      font-size:14px;
     }
 
-    .breadcrumbs a:hover{
-      text-decoration:underline;
+    .nav-pill:hover{
+      background:#f9fafb;
     }
 
     .page-header{
@@ -91,7 +99,7 @@
     }
 
     .section-intro{
-      margin:0 0 22px;
+      margin:0 0 18px;
       color:var(--muted);
       line-height:1.6;
       max-width:72ch;
@@ -99,8 +107,15 @@
 
     .gallery-grid{
       display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
       gap:20px;
+    }
+
+    .sketch-hero-grid{
+      display:grid;
+      grid-template-columns:minmax(280px,560px);
+      gap:20px;
+      justify-content:center;
     }
 
     .gallery-item{
@@ -123,62 +138,50 @@
     .gallery-item img{
       display:block;
       width:100%;
-      height:320px;
+      height:280px;
       object-fit:contain;
-      background:#f3f4f6;
-      padding:10px;
+      background:var(--panel);
+      padding:6px;
+      border-bottom:1px solid var(--border);
+    }
+
+    .sketch-hero-grid .gallery-item{
+      max-width:560px;
+      width:100%;
+      margin:0 auto;
+    }
+
+    .sketch-hero-grid .gallery-item img{
+      height:620px;
+      background:var(--panel);
+      padding:8px;
     }
 
     .entry-body{
-      padding:14px 14px 16px;
-    }
-
-    .work-title{
-      margin:0 0 6px;
-      font-size:1rem;
-      font-weight:600;
-      line-height:1.35;
-    }
-
-    .work-note{
-      margin:0;
-      color:var(--muted);
-      font-size:.95rem;
-      line-height:1.45;
-    }
-
-    .featured-sketch{
-      margin:0;
+      padding:10px 12px 12px;
       text-align:center;
     }
 
-    .featured-sketch a{
-      display:block;
-      text-decoration:none;
+    .gallery-item .entry-body .work-title{
+      margin:0 0 4px;
+      padding:0;
+      font-size:1rem;
+      font-weight:600;
+      line-height:1.3;
+      text-align:center;
     }
 
-    .featured-sketch img{
-      display:block;
-      width:100%;
-      max-width:520px;
-      height:auto;
-      margin:0 auto;
-      background:#fff;
-      border:1px solid var(--border);
-      border-radius:16px;
-      padding:18px;
-      box-shadow:0 4px 18px rgba(0,0,0,.04);
-    }
-
-    .featured-sketch figcaption{
-      margin-top:12px;
+    .gallery-item .entry-body .work-note{
+      margin:0;
+      padding:0;
       color:var(--muted);
-      font-size:.95rem;
-      line-height:1.45;
+      font-size:.92rem;
+      line-height:1.35;
+      text-align:center;
     }
 
     .card-text-block{
-      margin-top:22px;
+      margin-top:20px;
       padding:18px;
       border:1px solid var(--border);
       border-radius:14px;
@@ -204,7 +207,7 @@
 
     .card-details{
       display:grid;
-      gap:10px;
+      gap:8px;
     }
 
     .card-detail{
@@ -247,87 +250,98 @@
       .wrap{
         padding:22px 14px 50px;
       }
+
+      .gallery-item img{
+        height:240px;
+      }
+
+      .sketch-hero-grid{
+        grid-template-columns:1fr;
+      }
+
+      .sketch-hero-grid .gallery-item img{
+        height:520px;
+      }
     }
   </style>
 </head>
 <body>
   <main class="wrap">
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../../index.html">Catalogue home</a> /
-      <a href="../index.html">Sketches</a> /
-      <a href="index.html">Aliens</a> /
-      <span>Sirus Alien</span>
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../../index.html">Catalogue home</a>
+      <a class="nav-pill" href="../index.html">Sketches</a>
+      <a class="nav-pill" href="index.html">Aliens</a>
     </nav>
 
     <header class="page-header">
       <h1 class="page-title">Sirus Alien</h1>
       <p class="intro-text">
-        Documented visual material associated with the Sirus Alien character.
+        Documented visual material associated with the Sirus Alien character, including the original sketch, digitized black-and-white and color versions, and related collector card material.
       </p>
     </header>
 
     <section class="section-card" aria-labelledby="original-sketch">
       <h2 id="original-sketch">Original Sketch</h2>
       <p class="section-intro">
-        Drawing associated with the character.
+        Scan of the original drawing.
       </p>
 
-      <figure class="featured-sketch">
-        <a href="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg">
-          <img
-            src="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg"
-            alt="Sirus Alien original drawing by Ron English"
-            loading="lazy" />
+      <div class="sketch-hero-grid">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg" alt="Sirus Alien original drawing by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Original Sketch</p>
+
+          </div>
         </a>
-        <figcaption>Scanned drawing.</figcaption>
-      </figure>
+      </div>
     </section>
 
     <section class="section-card" aria-labelledby="digital-versions">
-      <h2 id="digital-versions">Digital Versions</h2>
+      <h2 id="digital-versions">Digitized Versions</h2>
       <p class="section-intro">
-        Renderings related to the character design.
+        Digitized black-and-white and color renderings related to the character design.
       </p>
 
       <div class="gallery-grid">
-        <a class="gallery-item" href="../../images/Sketches/aliens/Sirus Alien B&amp;W.jpg">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Sirus Alien B&W.jpg">
           <img src="../../images/Sketches/aliens/Sirus Alien B&W.jpg" alt="Sirus Alien black-and-white digital version by Ron English" loading="lazy" />
           <div class="entry-body">
-            <p class="work-title">Black-and-White</p>
-            <p class="work-note">Digital rendering.</p>
+            <p class="work-title">B&W Version</p>
+  
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Sirus Alien COLOR.jpg">
           <img src="../../images/Sketches/aliens/Sirus Alien COLOR.jpg" alt="Sirus Alien color digital version by Ron English" loading="lazy" />
           <div class="entry-body">
-            <p class="work-title">Color</p>
-            <p class="work-note">Digital rendering.</p>
+            <p class="work-title">Color Version</p>
+
           </div>
         </a>
       </div>
     </section>
 
-    <section class="section-card" aria-labelledby="trading-cards">
-      <h2 id="trading-cards">Trading Cards &amp; Related Character Material</h2>
+    <section class="section-card" aria-labelledby="collector-card">
+      <h2 id="collector-card">Collector Card</h2>
       <p class="section-intro">
-        Character-based material currently documented for Sirus Alien.
+        Front and back views of the collector card, with the documented text from the reverse.
       </p>
 
       <div class="gallery-grid">
         <a class="gallery-item" href="../../images/Sketches/aliens/sirus-card-front.jpg">
-          <img src="../../images/Sketches/aliens/sirus-card-front.jpg" alt="Sirus Alien trading card front" loading="lazy" />
+          <img src="../../images/Sketches/aliens/sirus-card-front.jpg" alt="Sirus Alien collector card front" loading="lazy" />
           <div class="entry-body">
-            <p class="work-title">Card Front</p>
-            <p class="work-note">Delusionville Series.</p>
+
+            <p class="work-note">Collector card front.</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/sirus-card-back.jpg">
-          <img src="../../images/Sketches/aliens/sirus-card-back.jpg" alt="Sirus Alien trading card back" loading="lazy" />
+          <img src="../../images/Sketches/aliens/sirus-card-back.jpg" alt="Sirus Alien collector card back" loading="lazy" />
           <div class="entry-body">
-            <p class="work-title">Card Back</p>
-            <p class="work-note">Character profile and poem.</p>
+    
+            <p class="work-note">Collector card back.</p>
           </div>
         </a>
       </div>
