@@ -9,16 +9,16 @@
 
   <style>
     :root{
-      --border:#d9d2c7;
-      --muted:#5f5a52;
+      --border:#e5e7eb;
+      --muted:#6b7280;
       --shadow:0 10px 30px rgba(0,0,0,.08);
       --radius:18px;
-      --bg:#f6f1e8;
-      --card:#fffdf9;
-      --card-hover:#fffaf2;
-      --accent:#7a5c45;
-      --accent-soft:#ede2d2;
-      --panel:#ece7de;
+      --bg:#ffffff;
+      --card:#ffffff;
+      --card-hover:#ffffff;
+      --panel:#f8fafc;
+      --pill-bg:#ffffff;
+      --pill-hover:#f9fafb;
     }
 
     *{
@@ -49,17 +49,18 @@
     .nav-pill{
       padding:8px 14px;
       border-radius:999px;
-      border:1px solid var(--accent-soft);
-      background:#fffaf4;
+      border:1px solid var(--border);
+      background:var(--pill-bg);
       color:#111;
       text-decoration:none;
       font-size:14px;
-      transition:background .12s ease, border-color .12s ease;
+      transition:background .12s ease, border-color .12s ease, transform .12s ease;
     }
 
     .nav-pill:hover{
-      background:#f3eadf;
-      border-color:#d8c4ab;
+      background:var(--pill-hover);
+      border-color:#d1d5db;
+      transform:translateY(-1px);
     }
 
     .page-header{
@@ -107,12 +108,13 @@
       border-radius:var(--radius);
       overflow:hidden;
       box-shadow:var(--shadow);
-      transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+      transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
     }
 
     .gallery-item:hover{
       transform:translateY(-2px);
       box-shadow:0 16px 40px rgba(0,0,0,.12);
+      border-color:#d1d5db;
       background:var(--card-hover);
     }
 
@@ -128,21 +130,29 @@
 
     .entry-body{
       padding:16px 18px 18px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
       text-align:center;
     }
 
     .work-title{
       margin:0;
+      width:100%;
       font-size:18px;
       line-height:1.35;
       font-weight:600;
+      text-align:center;
     }
 
     .work-subtitle{
       margin:6px 0 0;
+      width:100%;
       font-size:14px;
       line-height:1.45;
       color:var(--muted);
+      text-align:center;
     }
 
     footer{
