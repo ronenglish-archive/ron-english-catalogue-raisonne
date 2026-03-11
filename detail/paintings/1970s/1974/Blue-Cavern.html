@@ -76,25 +76,19 @@
       line-height:1.6;
     }
 
-    .work-layout{
-      display:grid;
-      grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);
-      gap:28px;
-      align-items:start;
-    }
-
     .image-card{
       background:#fff;
       border:1px solid var(--border);
       border-radius:var(--radius);
       box-shadow:var(--shadow);
       padding:18px;
+      margin-bottom:28px;
     }
 
     .work-hero{
       display:block;
       width:100%;
-      max-height:72vh;
+      max-height:78vh;
       object-fit:contain;
       background:#f3f4f6;
       border-radius:12px;
@@ -105,6 +99,7 @@
       border:1px solid var(--border);
       border-radius:var(--radius);
       padding:20px;
+      margin-bottom:28px;
     }
 
     .meta-card h2{
@@ -118,7 +113,8 @@
       padding:0;
       margin:0;
       display:grid;
-      gap:14px;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px 20px;
     }
 
     .work-meta li{
@@ -160,15 +156,13 @@
       line-height:1.6;
     }
 
-    @media (max-width:900px){
-      .work-layout{
-        grid-template-columns:1fr;
-      }
-    }
-
     @media (max-width:640px){
       .wrap{
         padding:22px 14px 50px;
+      }
+
+      .work-meta{
+        grid-template-columns:1fr;
       }
     }
   </style>
@@ -191,53 +185,49 @@
       </p>
     </header>
 
-    <section class="work-layout">
+    <section class="image-card">
+      <img
+        src="../../../../images/Paintings/1970s/1974/Blue-Cavern.jpg"
+        alt="Blue Cavern (1974)"
+        class="work-hero"
+        loading="lazy"
+      />
+    </section>
 
-      <div class="image-card">
-        <img
-          src="../../../../images/Paintings/1970s/1974/Blue-Cavern.jpg"
-          alt="Blue Cavern (1974)"
-          class="work-hero"
-          loading="lazy"
-        />
-      </div>
+    <section class="meta-card" aria-labelledby="entry-details">
+      <h2 id="entry-details">Work Details</h2>
 
-      <aside class="meta-card" aria-labelledby="entry-details">
-        <h2 id="entry-details">Work Details</h2>
+      <ul class="work-meta" data-work-id="RE-000001">
+        <li>
+          <span class="meta-label">Title</span>
+          <div class="meta-value">Blue Cavern</div>
+        </li>
 
-        <ul class="work-meta" data-work-id="RE-000001">
-          <li>
-            <span class="meta-label">Title</span>
-            <div class="meta-value">Blue Cavern</div>
-          </li>
+        <li>
+          <span class="meta-label">Date</span>
+          <div class="meta-value">1974</div>
+        </li>
 
-          <li>
-            <span class="meta-label">Date</span>
-            <div class="meta-value">1974</div>
-          </li>
+        <li>
+          <span class="meta-label">Medium</span>
+          <div class="meta-value">Acrylic on canvas</div>
+        </li>
 
-          <li>
-            <span class="meta-label">Medium</span>
-            <div class="meta-value">Acrylic on canvas</div>
-          </li>
+        <li>
+          <span class="meta-label">Dimensions</span>
+          <div class="meta-value">16 × 20 in</div>
+        </li>
 
-          <li>
-            <span class="meta-label">Dimensions</span>
-            <div class="meta-value">16 × 20 in</div>
-          </li>
+        <li>
+          <span class="meta-label">Work ID</span>
+          <div class="meta-value">RE-000001</div>
+        </li>
 
-          <li>
-            <span class="meta-label">Work ID</span>
-            <div class="meta-value">RE-000001</div>
-          </li>
-
-          <li>
-            <span class="meta-label">Signature / marks</span>
-            <div class="meta-value">None observed.</div>
-          </li>
-        </ul>
-      </aside>
-
+        <li>
+          <span class="meta-label">Signature / marks</span>
+          <div class="meta-value">None observed.</div>
+        </li>
+      </ul>
     </section>
 
     <!-- Enable when needed
