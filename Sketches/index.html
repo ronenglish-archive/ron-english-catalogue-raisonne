@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sketches & Drawings | Ron English Catalogue Raisonné</title>
+  <title>Sketches &amp; Drawings | Ron English Catalogue Raisonné</title>
 
   <link rel="stylesheet" href="../css/styles.css" />
 
@@ -14,7 +14,6 @@
       --shadow:0 10px 30px rgba(0,0,0,.08);
       --radius:18px;
       --bg:#ffffff;
-      --panel:#f8fafc;
     }
 
     *{
@@ -42,6 +41,7 @@
       display:flex;
       flex-wrap:wrap;
       gap:10px;
+      margin-top:22px;
       margin-bottom:22px;
     }
 
@@ -59,54 +59,33 @@
       background:#f3f6ff;
     }
 
-    h1{
-      font-size:clamp(34px,5vw,58px);
-      margin:0 0 10px;
-      letter-spacing:-.02em;
-    }
-
-.subtitle{
-  max-width:100ch;
-}
-
-.intro p{
-  max-width:110ch;
-}
-
-    .intro p{
+    .page-header{
+      max-width:1100px;
       margin:0;
-      font-size:16px;
-      line-height:1.65;
-      color:#1f2937;
-      max-width:82ch;
+      padding:0;
+      text-align:left;
     }
 
-    .alpha-nav{
-      margin-top:22px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-      position:sticky;
-      top:12px;
-      z-index:20;
-      padding:10px 0;
-      background:rgba(255,255,255,.92);
-      backdrop-filter:blur(6px);
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
     }
 
-    .alpha-nav a{
-      padding:6px 10px;
-      border-radius:999px;
-      border:1px solid var(--border);
-      background:#fff;
-      color:#374151;
-      text-decoration:none;
-      font-size:13px;
-      line-height:1;
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 24px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
     }
 
-    .alpha-nav a:hover{
-      background:#f8fafc;
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
+      color:var(--muted);
+      font-size:18px;
     }
 
     .entry-grid{
@@ -199,10 +178,6 @@
       .entry-grid{
         grid-template-columns:1fr;
       }
-
-      .alpha-nav{
-        top:8px;
-      }
     }
   </style>
 </head>
@@ -212,19 +187,20 @@
 
     <nav class="nav-pills" aria-label="Site navigation">
       <a class="nav-pill" href="../index.html">Catalogue home</a>
-      <a class="nav-pill" href="index.html">Sketches</a>
     </nav>
 
-    <header>
-<!-- PAINTINGS & WORKS ON PAPER -->
-<h1>Paintings &amp; Works on Paper</h1>
-<p class="intro-box">
-  A chronological catalogue of Ron English’s paintings and works on paper.
-</p>
-<p class="intro-box">
-  This section is organized by decade to support clear browsing across the arc of the artist’s practice. Each decade leads into year-level catalogues and, where available, individual work records with images and supporting details.
-</p>
+    <header class="page-header">
+      <h1 class="page-title">Sketches &amp; Drawings</h1>
+    </header>
 
+    <section class="intro-text">
+      <p>
+        A subject-based index of Ron English’s sketches, drawings, and concept studies.
+      </p>
+      <p>
+        Because many works in this section remain undated, the material is organized by subject group rather than chronology. This approach keeps related imagery together and makes the section easier to browse.
+      </p>
+    </section>
 
     <section class="entry-grid" aria-label="Sketch categories">
 
@@ -248,7 +224,7 @@
         <img src="../images/Sketches/animation-sketches-hero.jpg" alt="Animation sketches by Ron English">
         <div class="entry-body">
           <h3>Animation Sketches</h3>
-         <div class="cta"><span class="dot"></span><span>Enter animation sketches</span></div>
+          <div class="cta"><span class="dot"></span><span>Enter animation sketches</span></div>
         </div>
       </a>
 
@@ -256,7 +232,7 @@
         <img src="../images/Sketches/aquatic-dwellers-hero.jpg" alt="Aquatic dwellers sketches by Ron English">
         <div class="entry-body">
           <h3>Aquatic Dwellers</h3>
-                 <div class="cta"><span class="dot"></span><span>Enter aquatic dwellers</span></div>
+          <div class="cta"><span class="dot"></span><span>Enter aquatic dwellers</span></div>
         </div>
       </a>
 
@@ -264,7 +240,7 @@
         <img src="../images/Sketches/avians-hero.jpg" alt="Avians sketches by Ron English">
         <div class="entry-body">
           <h3>Avians</h3>
-           <div class="cta"><span class="dot"></span><span>Enter avians</span></div>
+          <div class="cta"><span class="dot"></span><span>Enter avians</span></div>
         </div>
       </a>
 
@@ -272,7 +248,7 @@
         <img src="../images/Sketches/bears-hero.jpg" alt="Bears sketches by Ron English">
         <div class="entry-body">
           <h3>Bears</h3>
-           <div class="cta"><span class="dot"></span><span>Enter bears</span></div>
+          <div class="cta"><span class="dot"></span><span>Enter bears</span></div>
         </div>
       </a>
 
@@ -448,7 +424,7 @@
         <img src="../images/Sketches/objects-hero.jpg" alt="Objects sketches by Ron English">
         <div class="entry-body">
           <h3>Objects</h3>
-           <div class="cta"><span class="dot"></span><span>Enter objects</span></div>
+          <div class="cta"><span class="dot"></span><span>Enter objects</span></div>
         </div>
       </a>
 
