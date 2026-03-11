@@ -38,20 +38,26 @@
       padding:28px 18px 60px;
     }
 
-    .breadcrumbs{
-      font-size:.95rem;
+    .nav-pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
       margin-top:22px;
       margin-bottom:22px;
-      color:var(--muted);
     }
 
-    .breadcrumbs a{
-      color:inherit;
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
       text-decoration:none;
+      font-size:14px;
     }
 
-    .breadcrumbs a:hover{
-      text-decoration:underline;
+    .nav-pill:hover{
+      background:#f3f6ff;
     }
 
     .page-header{
@@ -195,12 +201,123 @@
 </head>
 <body>
   <main class="wrap">
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../../index.html">Catalogue home</a> /
-      <a href="../index.html">Sketches</a> /
-      <a href="index.html">Aliens</a> /
-      <span>Alien Cherub</span>
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="../../index.html">Catalogue home</a>
+      <a class="nav-pill" href="../index.html">Sketches</a>
+      <a class="nav-pill" href="index.html">Aliens</a>
     </nav>
+
+    <header class="page-header">
+      <h1 class="page-title">Alien Cherub</h1>
+      <p class="intro-text">
+        Documented visual material associated with the Alien Cherub character.
+      </p>
+    </header>
+
+    <section class="section-card" aria-labelledby="original-sketches">
+      <h2 id="original-sketches">Original Sketches</h2>
+      <p class="section-intro">
+        Views of the character in drawing form.
+      </p>
+
+      <div class="sketch-grid">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub back ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub back ORIGINAL.jpg" alt="Alien Cherub back original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Back View</p>
+            <p class="work-note">Scanned drawing.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub side ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub side ORIGINAL.jpg" alt="Alien Cherub side original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View</p>
+            <p class="work-note">Scanned drawing.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub three quarters ORIGINAL.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub three quarters ORIGINAL.jpg" alt="Alien Cherub three-quarters original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters View</p>
+            <p class="work-note">Scanned drawing.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-card" aria-labelledby="digitized-versions">
+      <h2 id="digitized-versions">Digitized Versions</h2>
+      <p class="section-intro">
+        Color renderings and alternate colorways associated with the design.
+      </p>
+
+      <div class="gallery-grid">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub back ORIGINAL COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub back ORIGINAL COLOR.jpg" alt="Alien Cherub back digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Back View Color</p>
+            <p class="work-note">Digital color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub front COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub front COLOR.jpg" alt="Alien Cherub front digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Front View Color</p>
+            <p class="work-note">Digital color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub side COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub side COLOR.jpg" alt="Alien Cherub side digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View Color</p>
+            <p class="work-note">Digital color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien cherub three quarters COLOR.jpg">
+          <img src="../../images/Sketches/aliens/Alien cherub three quarters COLOR.jpg" alt="Alien Cherub three-quarters digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Color</p>
+            <p class="work-note">Digital color version.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien Cherub three quarters colorway 2.jpg">
+          <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 2.jpg" alt="Alien Cherub three-quarters colorway 2 by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Colorway 2</p>
+            <p class="work-note">Alternate colorway.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien Cherub three quarters colorway 3.jpg">
+          <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 3.jpg" alt="Alien Cherub three-quarters colorway 3 by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Colorway 3</p>
+            <p class="work-note">Alternate colorway.</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Alien Cherub three quarters colorway 4.jpg">
+          <img src="../../images/Sketches/aliens/Alien Cherub three quarters colorway 4.jpg" alt="Alien Cherub three-quarters colorway 4 by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Three-Quarters Colorway 4</p>
+            <p class="work-note">Alternate colorway.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="back-link">
+      <a href="index.html">← Back to Aliens</a>
+    </div>
+  </main>
+</body>
+</html>
 
     <header class="page-header">
       <h1 class="page-title">Alien Cherub</h1>
