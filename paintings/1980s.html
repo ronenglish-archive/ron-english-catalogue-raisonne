@@ -7,97 +7,144 @@
   <link rel="stylesheet" href="../css/styles.css" />
 
   <style>
-    /* Page centering */
+    :root{
+      --muted:#4b5563;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
+    }
+
     .page-container{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 16px;
-      box-sizing: border-box;
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+      box-sizing:border-box;
     }
 
-    /* Center the header + section text */
-    .page-header,
-    .decade-context,
-    .year-overview{
-      text-align: center;
+    .top-nav{
+      margin-top:22px;
+      margin-bottom:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
     }
 
-    /* Keep long paragraphs readable when centered */
-    .decade-context p,
-    .year-overview p{
-      max-width: 72ch;
-      margin-left: auto;
-      margin-right: auto;
+    .nav-pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
     }
 
-    /* Ensure images behave nicely */
+    .page-header{
+      max-width:1100px;
+      margin:0;
+      padding:0;
+      text-align:left;
+    }
+
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 28px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
+
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
+      color:var(--muted);
+      font-size:18px;
+    }
+
+    .decade-hero{
+      margin-top:22px;
+    }
+
     .decade-hero img{
       display:block;
       width:100%;
       height:auto;
+      border-radius:16px;
     }
 
-    /* Center the year grid within the page */
     .year-grid{
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
-      justify-items: center;
-      align-items: stretch;
-      margin-top: 16px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+      gap:18px;
+      justify-items:center;
+      align-items:stretch;
+      margin-top:26px;
     }
 
-    /* Card styling for each year */
     .year-card{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 260px;
-      text-decoration: none;
-      border-radius: 14px;
-      overflow: hidden;
-      border: 1px solid rgba(0,0,0,0.12);
-      background: rgba(255,255,255,0.98);
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-      transition: transform 120ms ease, box-shadow 120ms ease;
+      display:flex;
+      flex-direction:column;
+      width:100%;
+      max-width:260px;
+      text-decoration:none;
+      border-radius:14px;
+      overflow:hidden;
+      border:1px solid rgba(0,0,0,0.12);
+      background:rgba(255,255,255,0.98);
+      box-shadow:0 6px 18px rgba(0,0,0,0.08);
+      transition:transform 120ms ease, box-shadow 120ms ease;
+      color:inherit;
     }
 
     .year-card:hover{
-      transform: translateY(-2px);
-      box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+      transform:translateY(-2px);
+      box-shadow:0 10px 26px rgba(0,0,0,0.12);
     }
 
     .year-card img{
       display:block;
       width:100%;
       height:auto;
+      background:#f3f4f6;
     }
 
     .year-card-body{
-      padding: 12px 14px 14px;
-      text-align: center;
+      padding:12px 14px 14px;
+      text-align:center;
     }
 
     .year-card-title{
-      margin: 0;
-      font-size: 1.05rem;
-      line-height: 1.2;
+      margin:0;
+      font-size:1.05rem;
+      line-height:1.2;
     }
 
     .year-card-desc{
-      margin: 6px 0 0;
-      font-size: 0.95rem;
-      opacity: 0.85;
+      margin:6px 0 0;
+      font-size:0.95rem;
+      opacity:0.85;
     }
 
     .year-card-cta{
-      display: inline-block;
-      margin-top: 10px;
-      font-size: 0.9rem;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(0,0,0,0.16);
-      opacity: 0.9;
+      display:inline-block;
+      margin-top:10px;
+      font-size:0.9rem;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(0,0,0,0.16);
+      opacity:0.9;
     }
   </style>
 </head>
@@ -105,8 +152,8 @@
 <body>
   <div class="page-container">
 
-    <nav class="top-nav">
-      <a class="nav-home nav-pill" href="../index.html">Home</a>
+    <nav class="top-nav" aria-label="Site navigation">
+      <a class="nav-home nav-pill" href="../index.html">Catalogue home</a>
 
       <div class="nav-pills">
         <a class="nav-pill" href="1970s.html">1970s</a>
@@ -119,11 +166,17 @@
     </nav>
 
     <header class="page-header">
-      <h1 class="page-title">Paintings &amp; Works on Paper — 1980s</h1>
-      <p class="page-subtitle">
-        Structured year index of documented works currently attributed to this decade.
-      </p>
+      <h1 class="page-title">1980s</h1>
     </header>
+
+    <section class="intro-text" aria-label="1980s decade overview">
+      <p>
+        A chronological index of documented paintings and works on paper currently attributed to the 1980s.
+      </p>
+      <p>
+        This page provides entry points to year-level catalogues for works presently documented within the decade. Years and records reflect the best available documentation at the time of publication, and entries may be added, revised, or reassigned as additional primary sources and verified records emerge.
+      </p>
+    </section>
 
     <main class="gallery-wrap">
 
@@ -135,76 +188,62 @@
         />
       </section>
 
-      <section aria-label="1980s decade overview" class="decade-context">
-        <h2 class="section-title">Decade overview</h2>
-        <p>
-          This page provides entry points to year-level catalogues for works presently documented within the 1980s.
-          Years and records reflect the best available documentation at the time of publication.
-          As additional primary sources and verified records emerge, entries may be added, revised, or reassigned.
-        </p>
-      </section>
+      <section class="year-grid" role="list" aria-label="1980s year links grid">
 
-      <section aria-label="1980s year overview" class="year-overview">
-        <h2 class="section-title">Browse by year</h2>
-        <p>Select a year to open the year catalogue and view individual entries, images, and notes.</p>
+        <a class="year-card" role="listitem" href="1980s/1984/index.html">
+          <img src="../images/Paintings/1980s/year-1984.jpg" alt="1984 representative image" loading="lazy" />
+          <div class="year-card-body">
+            <h2 class="year-card-title">1984</h2>
+            <p class="year-card-desc">Open the 1984 year catalogue</p>
+            <span class="year-card-cta" aria-hidden="true">View entries</span>
+          </div>
+        </a>
 
-        <div class="year-grid" role="list" aria-label="1980s year links grid">
+        <a class="year-card" role="listitem" href="1980s/1985/index.html">
+          <img src="../images/Paintings/1980s/year-1985.jpg" alt="1985 representative image" loading="lazy" />
+          <div class="year-card-body">
+            <h2 class="year-card-title">1985</h2>
+            <p class="year-card-desc">Open the 1985 year catalogue</p>
+            <span class="year-card-cta" aria-hidden="true">View entries</span>
+          </div>
+        </a>
 
-          <a class="year-card" role="listitem" href="1980s/1984/index.html">
-            <img src="../images/Paintings/1980s/year-1984.jpg" alt="1984 representative image" loading="lazy" />
-            <div class="year-card-body">
-              <h3 class="year-card-title">1984</h3>
-              <p class="year-card-desc">Open the 1984 year catalogue</p>
-              <span class="year-card-cta" aria-hidden="true">View entries</span>
-            </div>
-          </a>
+        <a class="year-card" role="listitem" href="1980s/1986/index.html">
+          <img src="../images/Paintings/1980s/year-1986.jpg" alt="1986 representative image" loading="lazy" />
+          <div class="year-card-body">
+            <h2 class="year-card-title">1986</h2>
+            <p class="year-card-desc">Open the 1986 year catalogue</p>
+            <span class="year-card-cta" aria-hidden="true">View entries</span>
+          </div>
+        </a>
 
-          <a class="year-card" role="listitem" href="1980s/1985/index.html">
-            <img src="../images/Paintings/1980s/year-1985.jpg" alt="1985 representative image" loading="lazy" />
-            <div class="year-card-body">
-              <h3 class="year-card-title">1985</h3>
-              <p class="year-card-desc">Open the 1985 year catalogue</p>
-              <span class="year-card-cta" aria-hidden="true">View entries</span>
-            </div>
-          </a>
+        <a class="year-card" role="listitem" href="1980s/1987/index.html">
+          <img src="../images/Paintings/1980s/year-1987.jpg" alt="1987 representative image" loading="lazy" />
+          <div class="year-card-body">
+            <h2 class="year-card-title">1987</h2>
+            <p class="year-card-desc">Open the 1987 year catalogue</p>
+            <span class="year-card-cta" aria-hidden="true">View entries</span>
+          </div>
+        </a>
 
-          <a class="year-card" role="listitem" href="1980s/1986/index.html">
-            <img src="../images/Paintings/1980s/year-1986.jpg" alt="1986 representative image" loading="lazy" />
-            <div class="year-card-body">
-              <h3 class="year-card-title">1986</h3>
-              <p class="year-card-desc">Open the 1986 year catalogue</p>
-              <span class="year-card-cta" aria-hidden="true">View entries</span>
-            </div>
-          </a>
+        <a class="year-card" role="listitem" href="1980s/1988/index.html">
+          <img src="../images/Paintings/1980s/year-1988.jpg" alt="1988 representative image" loading="lazy" />
+          <div class="year-card-body">
+            <h2 class="year-card-title">1988</h2>
+            <p class="year-card-desc">Open the 1988 year catalogue</p>
+            <span class="year-card-cta" aria-hidden="true">View entries</span>
+          </div>
+        </a>
 
-          <a class="year-card" role="listitem" href="1980s/1987/index.html">
-            <img src="../images/Paintings/1980s/year-1987.jpg" alt="1987 representative image" loading="lazy" />
-            <div class="year-card-body">
-              <h3 class="year-card-title">1987</h3>
-              <p class="year-card-desc">Open the 1987 year catalogue</p>
-              <span class="year-card-cta" aria-hidden="true">View entries</span>
-            </div>
-          </a>
+        <a class="year-card" role="listitem" href="1980s/1989/index.html">
+          <img src="../images/Paintings/1980s/year-1989.jpg" alt="1989 representative image" loading="lazy" />
+          <div class="year-card-body">
+            <h2 class="year-card-title">1989</h2>
+            <p class="year-card-desc">Open the 1989 year catalogue</p>
+            <span class="year-card-cta" aria-hidden="true">View entries</span>
+          </div>
+        </a>
 
-          <a class="year-card" role="listitem" href="1980s/1988/index.html">
-            <img src="../images/Paintings/1980s/year-1988.jpg" alt="1988 representative image" loading="lazy" />
-            <div class="year-card-body">
-              <h3 class="year-card-title">1988</h3>
-              <p class="year-card-desc">Open the 1988 year catalogue</p>
-              <span class="year-card-cta" aria-hidden="true">View entries</span>
-            </div>
-          </a>
-
-          <a class="year-card" role="listitem" href="1980s/1989/index.html">
-            <img src="../images/Paintings/1980s/year-1989.jpg" alt="1989 representative image" loading="lazy" />
-            <div class="year-card-body">
-              <h3 class="year-card-title">1989</h3>
-              <p class="year-card-desc">Open the 1989 year catalogue</p>
-              <span class="year-card-cta" aria-hidden="true">View entries</span>
-            </div>
-          </a>
-
-        </div>
       </section>
     </main>
 
