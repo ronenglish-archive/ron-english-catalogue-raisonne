@@ -147,6 +147,36 @@
       line-height:1.45;
     }
 
+    .featured-sketch{
+      margin:0;
+      text-align:center;
+    }
+
+    .featured-sketch a{
+      display:block;
+      text-decoration:none;
+    }
+
+    .featured-sketch img{
+      display:block;
+      width:100%;
+      max-width:520px;
+      height:auto;
+      margin:0 auto;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:18px;
+      box-shadow:0 4px 18px rgba(0,0,0,.04);
+    }
+
+    .featured-sketch figcaption{
+      margin-top:12px;
+      color:var(--muted);
+      font-size:.95rem;
+      line-height:1.45;
+    }
+
     .card-text-block{
       margin-top:22px;
       padding:18px;
@@ -161,12 +191,6 @@
 
     .card-column{
       min-width:0;
-    }
-
-    .card-column h3{
-      margin:0 0 10px;
-      font-size:1.05rem;
-      line-height:1.3;
     }
 
     .text-label{
@@ -248,14 +272,15 @@
         Drawing associated with the character.
       </p>
 
-      <div class="gallery-grid">
-        <a class="gallery-item" href="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg">
-          <img src="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg" alt="Sirus Alien original drawing by Ron English" loading="lazy" />
-          <div class="entry-body">
-            <p class="work-note">Scanned drawing.</p>
-          </div>
+      <figure class="featured-sketch">
+        <a href="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg">
+          <img
+            src="../../images/Sketches/aliens/Sirus Alien ORIGINAL.jpg"
+            alt="Sirus Alien original drawing by Ron English"
+            loading="lazy" />
         </a>
-      </div>
+        <figcaption>Scanned drawing.</figcaption>
+      </figure>
     </section>
 
     <section class="section-card" aria-labelledby="digital-versions">
@@ -316,7 +341,7 @@
             <p class="card-detail"><strong>Affiliation:</strong> Aliens</p>
             <p class="card-detail"><strong>Occupation:</strong> Amateur Proctologist</p>
             <p class="card-detail"><strong>Preoccupation:</strong> Anal probes</p>
-            <p class="card-detail"><strong>Virtue:</strong> Can put you</p>
+            <p class="card-detail"><strong>Virtue:</strong> Can hurt you</p>
             <p class="card-detail"><strong>Vice:</strong> Thinks everyone is nice</p>
           </div>
         </div>
