@@ -76,14 +76,6 @@
       line-height:1.05;
     }
 
-    .intro-text{
-      margin:0;
-      max-width:72ch;
-      color:var(--muted);
-      font-size:18px;
-      line-height:1.6;
-    }
-
     .section-card{
       background:#fff;
       border:1px solid var(--border);
@@ -116,6 +108,13 @@
       grid-template-columns:minmax(280px,560px);
       gap:20px;
       justify-content:center;
+      margin-bottom:20px;
+    }
+
+    .sketch-secondary-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
     }
 
     .gallery-item{
@@ -153,6 +152,12 @@
 
     .sketch-hero-grid .gallery-item img{
       height:620px;
+      background:var(--panel);
+      padding:8px;
+    }
+
+    .sketch-secondary-grid .gallery-item img{
+      height:340px;
       background:var(--panel);
       padding:8px;
     }
@@ -214,6 +219,10 @@
       .sketch-hero-grid .gallery-item img{
         height:520px;
       }
+
+      .sketch-secondary-grid .gallery-item img{
+        height:300px;
+      }
     }
   </style>
 </head>
@@ -229,13 +238,24 @@
       <h1 class="page-title">Jake and Flake Ape Alien</h1>
     </header>
 
-    <section class="section-card" aria-labelledby="original-sketch">
-      <h2 id="original-sketch">Original Sketch</h2>
+    <section class="section-card" aria-labelledby="original-sketches">
+      <h2 id="original-sketches">Original Sketches</h2>
 
       <div class="sketch-hero-grid">
         <a class="gallery-item" href="../../images/Sketches/aliens/Jake and Flake Ape Alien - original.jpg">
-          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - original.jpg" alt="Jake and Flake Ape Alien original sketch by Ron English" loading="lazy" />
+          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - original.jpg" alt="Jake and Flake Ape Alien front original sketch by Ron English" loading="lazy" />
           <div class="entry-body">
+            <p class="work-title">Front View</p>
+            <p class="work-note">Scan of the original drawing.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="sketch-secondary-grid">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Jake and Flake Ape Alien - side original.jpg">
+          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - side original.jpg" alt="Jake and Flake Ape Alien side original sketch by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View</p>
             <p class="work-note">Scan of the original drawing.</p>
           </div>
         </a>
@@ -245,21 +265,35 @@
     <section class="section-card" aria-labelledby="digitized-versions">
       <h2 id="digitized-versions">Digitized Versions</h2>
       <p class="section-intro">
-        Digitized black-and-white and color versions associated with the design.
+        B&amp;W and color renderings associated with the design.
       </p>
 
       <div class="gallery-grid">
         <a class="gallery-item" href="../../images/Sketches/aliens/Jake and Flake Ape Alien - B&W.jpg">
-          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - B&W.jpg" alt="Jake and Flake Ape Alien digitized black-and-white version by Ron English" loading="lazy" />
+          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - B&W.jpg" alt="Jake and Flake Ape Alien front digitized black-and-white version by Ron English" loading="lazy" />
           <div class="entry-body">
-            <p class="work-title">B&amp;W Version</p>
+            <p class="work-title">Front View B&amp;W</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Jake and Flake Ape Alien - side B&W.jpg">
+          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - side B&W.jpg" alt="Jake and Flake Ape Alien side digitized black-and-white version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View B&amp;W</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Jake and Flake Ape Alien - color.jpg">
-          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - color.jpg" alt="Jake and Flake Ape Alien digitized color version by Ron English" loading="lazy" />
+          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - color.jpg" alt="Jake and Flake Ape Alien front digitized color version by Ron English" loading="lazy" />
           <div class="entry-body">
-            <p class="work-title">Color Version</p>
+            <p class="work-title">Front View Color</p>
+          </div>
+        </a>
+
+        <a class="gallery-item" href="../../images/Sketches/aliens/Jake and Flake Ape Alien - side color.jpg">
+          <img src="../../images/Sketches/aliens/Jake and Flake Ape Alien - side color.jpg" alt="Jake and Flake Ape Alien side digitized color version by Ron English" loading="lazy" />
+          <div class="entry-body">
+            <p class="work-title">Side View Color</p>
           </div>
         </a>
       </div>
