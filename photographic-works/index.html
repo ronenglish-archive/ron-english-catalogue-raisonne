@@ -7,34 +7,78 @@
   <link rel="stylesheet" href="../css/styles.css" />
 
   <style>
-    .page-container{
-      max-width:1100px;
-      margin:0 auto;
-      padding:0 16px;
+    :root{
+      --muted:#4b5563;
+      --border:#e5e7eb;
+    }
+
+    *{
       box-sizing:border-box;
     }
 
-    .page-header,
-    .page-context{
-      text-align:center;
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:#fff;
     }
 
-    .page-context p{
-      max-width:78ch;
-      margin-left:auto;
-      margin-right:auto;
+    .page-container{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+      box-sizing:border-box;
     }
 
-    .page-note{
-      max-width:84ch;
-      margin:18px auto 0;
-      color:#4b5563;
-      line-height:1.65;
+    .top-nav{
+      margin-top:22px;
+      margin-bottom:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
     }
 
-    .page-note a{
-      color:inherit;
-      text-underline-offset:2px;
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+    }
+
+    .page-header{
+      max-width:1100px;
+      margin:0;
+      padding:0;
+      text-align:left;
+    }
+
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 28px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
+
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
+      color:var(--muted);
+      font-size:18px;
     }
 
     .gallery-grid{
@@ -80,6 +124,14 @@
       font-size:15px;
       line-height:1.4;
       color:#111;
+    }
+
+    .site-footer{
+      margin-top:34px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
     }
 
     .lightbox{
@@ -162,29 +214,25 @@
 
   <div class="page-container">
 
-    <nav class="top-nav">
-      <a class="nav-home nav-pill" href="../index.html">Home</a>
+    <nav class="top-nav" aria-label="Site navigation">
+      <a class="nav-pill" href="../index.html">Catalogue home</a>
     </nav>
 
     <header class="page-header">
       <h1 class="page-title">Photographic Works</h1>
-      <p class="page-subtitle">
-        Structured index of documented photographic works presently grouped together pending fuller date verification.
-      </p>
     </header>
 
+    <section class="intro-text" aria-label="Photographic works overview">
+      <p>
+        A structured index of documented photographic works connected to Ron English’s practice.
+      </p>
+      <p>
+        Ron English’s photographic works occupy an important place in his early practice, including staged scenes, hand-drawn figures placed in public settings, and altered environments preserved through photography. Because exact dates for many individual works on this page remain unconfirmed, they are presented together here as photographic works rather than divided into narrower chronological sections.
+      </p>
+    </section>
+
     <main class="gallery-wrap">
-
-      <section class="page-context" aria-label="Photographic works overview">
-        <h2 class="section-title">Overview</h2>
-        <p>
-          Ron English’s photographic works occupy an important place in his early practice. English has explained that he studied photography in college, staged hand-drawn figures in public settings for photographs, and later expanded that approach by altering billboard backgrounds with his own imagery, leaving the photograph as the lasting record. Published surveys of his career have likewise described his work as ranging from staged photography to painting, street art, and culture jamming. Because exact dates for many individual works on this page remain unconfirmed, they are presented together here as photographic works rather than divided into narrower chronological sections.
-        </p>
-
-      </section>
-
       <section class="gallery-grid" aria-label="Photographic works">
-
 
 <button class="gallery-item" type="button" data-full="../images/photos/20 yard perspective.jpg" data-title="20 Yard Perspective">
   <img src="../images/photos/20 yard perspective.jpg" alt="20 Yard Perspective" loading="lazy" />
@@ -766,15 +814,7 @@
   <p class="work-title">Window Shopping</p>
 </button>
 
-
-
-
-
-        
-        </button>
-
       </section>
-
     </main>
 
     <footer class="site-footer">
