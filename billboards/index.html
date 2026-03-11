@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Billboard & Poster Interventions | Ron English Catalogue Raisonné</title>
+  <title>Billboard &amp; Poster Interventions | Ron English Catalogue Raisonné</title>
   <link rel="stylesheet" href="../css/styles.css" />
 
   <style>
@@ -32,7 +32,8 @@
     }
 
     .nav-pills{
-      margin-top:8px;
+      margin-top:22px;
+      margin-bottom:22px;
       display:flex;
       flex-wrap:wrap;
       gap:10px;
@@ -52,28 +53,33 @@
       background:#f3f6ff;
     }
 
-    header{
-      margin-top:20px;
-    }
-
-    h1{
-      font-size:clamp(34px,5vw,58px);
-      margin:0 0 10px;
-      letter-spacing:-.02em;
-    }
-
-    .subtitle{
+    .page-header{
+      max-width:1100px;
       margin:0;
-      max-width:78ch;
-      font-size:18px;
-      line-height:1.6;
-      color:var(--muted);
+      padding:0;
+      text-align:left;
     }
 
-    .note{
-      margin-top:14px;
-      font-size:14px;
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(2rem,4vw,3rem);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+
+    .intro-text{
+      max-width:1100px;
+      margin:0 0 24px;
+      padding:0;
+      line-height:1.6;
+      text-align:left;
+    }
+
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:72ch;
       color:var(--muted);
+      font-size:18px;
     }
 
     .grid{
@@ -145,20 +151,22 @@
       <a class="nav-pill" href="../index.html">Catalogue home</a>
     </nav>
 
-    <header>
-<!-- EXHIBITIONS -->
-<h1>Exhibitions</h1>
-<p class="intro-box">
-  A guide to documented exhibitions featuring Ron English’s work.
-</p>
-<p class="intro-box">
-  This section is divided into solo exhibitions and group exhibitions for clearer navigation and reference. Listings may include venue, city, date range, and supporting documentation where that information has been confirmed.
-</p>
+    <header class="page-header">
+      <h1 class="page-title">Billboard &amp; Poster Interventions</h1>
     </header>
+
+    <section class="intro-text">
+      <p>
+        A catalogue of Ron English’s pirated billboards, poster interventions, and advertising takeovers in public space.
+      </p>
+      <p>
+        This section gathers works that intervene directly in commercial and public visual culture. Entries are presented as individual records and may be expanded over time with fuller documentation, installation details, and related imagery.
+      </p>
+    </section>
 
     <section class="grid" aria-label="Billboards">
 
-           <a class="card" href="1000-points-of-light-nyc-1991.html">
+      <a class="card" href="1000-points-of-light-nyc-1991.html">
         <img src="../images/billboards/1000-points-of-light-nyc-1991.jpg" alt="1000 Points of Light, NYC, 1991 by Ron English">
         <div class="card-body"><h2 class="title">1000 Points of Light, NYC, 1991</h2></div>
       </a>
@@ -198,7 +206,6 @@
         <div class="card-body"><h2 class="title">Better Living Through Chemistry</h2></div>
       </a>
 
-
       <a class="card" href="billboard-liberation-just-do-it.html">
         <img src="../images/billboards/billboard-liberation-just-do-it.jpg" alt="Billboard Liberation - Just Do It by Ron English">
         <div class="card-body"><h2 class="title">Billboard Liberation - Just Do It</h2></div>
@@ -214,7 +221,6 @@
         <div class="card-body"><h2 class="title">Brandalism</h2></div>
       </a>
 
-      
       <a class="card" href="breathe.html">
         <img src="../images/billboards/breathe.jpg" alt="Breathe by Ron English">
         <div class="card-body"><h2 class="title">Breathe</h2></div>
@@ -249,7 +255,7 @@
         <img src="../images/billboards/cereal-killer.jpg" alt="Cereal Killer by Ron English">
         <div class="card-body"><h2 class="title">Cereal Killer</h2></div>
       </a>
-   
+
       <a class="card" href="charlie-warning.html">
         <img src="../images/billboards/charlie-warning.jpg" alt="Charlie - Warning by Ron English">
         <div class="card-body"><h2 class="title">Charlie - Warning</h2></div>
@@ -275,11 +281,11 @@
         <div class="card-body"><h2 class="title">Culture Jamming SXSW</h2></div>
       </a>
 
-     <a class="card" href="detroit.html">
+      <a class="card" href="detroit.html">
         <img src="../images/billboards/detroit.jpg" alt="Detroit">
         <div class="card-body"><h2 class="title">Detroit</h2></div>
       </a>
-  
+
       <a class="card" href="dinosaur.html">
         <img src="../images/billboards/dinosaur.jpg" alt="Dinosaur by Ron English">
         <div class="card-body"><h2 class="title">Dinosaur</h2></div>
@@ -309,7 +315,6 @@
         <img src="../images/billboards/evolution-its-not-for-everyone.jpg" alt="Evolution - It's Not for Everyone by Ron English">
         <div class="card-body"><h2 class="title">Evolution - It's Not for Everyone</h2></div>
       </a>
-
 
       <a class="card" href="evolve.html">
         <img src="../images/billboards/evolve.jpg" alt="Evolve by Ron English">
@@ -341,7 +346,6 @@
         <div class="card-body"><h2 class="title">Fish Eyes</h2></div>
       </a>
 
-      
       <a class="card" href="forever-kool.html">
         <img src="../images/billboards/forever-kool.jpg" alt="Forever Kool, Jersey City, 1995 by Ron English">
         <div class="card-body"><h2 class="title">Forever Kool, Jersey City, 1995</h2></div>
@@ -392,11 +396,11 @@
         <div class="card-body"><h2 class="title">Guggenheim</h2></div>
       </a>
 
-       <a class="card" href="halliburton.html">
+      <a class="card" href="halliburton.html">
         <img src="../images/billboards/halliburton.jpg" alt="Halliburton by Ron English">
         <div class="card-body"><h2 class="title">Halliburton</h2></div>
       </a>
-      
+
       <a class="card" href="halloween-night-dallas-tx-1981.html">
         <img src="../images/billboards/halloween-night-dallas-tx-1981.jpg" alt="Halloween Night, Dallas, TX 1981 by Ron English">
         <div class="card-body"><h2 class="title">Halloween Night, Dallas, TX 1981</h2></div>
@@ -436,7 +440,7 @@
         <img src="../images/billboards/inauguration-obama.jpg" alt="Inauguration Obama by Ron English">
         <div class="card-body"><h2 class="title">Inauguration Obama</h2></div>
       </a>
-      
+
       <a class="card" href="its-a-whole-new-world-road-banner.html">
         <img src="../images/billboards/its-a-whole-new-world-road-banner.jpg" alt="It's a Whole New World - Road Banner by Ron English">
         <div class="card-body"><h2 class="title">It's a Whole New World - Road Banner</h2></div>
@@ -447,7 +451,6 @@
         <div class="card-body"><h2 class="title">It's Armageddon in America</h2></div>
       </a>
 
-
       <a class="card" href="jesus-drove-an-suv.html">
         <img src="../images/billboards/jesus-drove-an-suv.jpg" alt="Jesus Drove an SUV by Ron English">
         <div class="card-body"><h2 class="title">Jesus Drove an SUV</h2></div>
@@ -457,7 +460,6 @@
         <img src="../images/billboards/jesus-returns.jpg" alt="Jesus Returns by Ron English">
         <div class="card-body"><h2 class="title">Jesus Returns</h2></div>
       </a>
-
 
       <a class="card" href="jihad-is-over-version-1.html">
         <img src="../images/billboards/jihad-is-over-version-1.jpg" alt="Jihad Is Over Version 1 by Ron English">
@@ -478,7 +480,6 @@
         <img src="../images/billboards/kid-kools.jpg" alt="Kid Kools by Ron English">
         <div class="card-body"><h2 class="title">Kid Kools</h2></div>
       </a>
-
 
       <a class="card" href="king-of-beers-version-1.html">
         <img src="../images/billboards/king-of-beers-version-1.jpg" alt="The King of Beers Version 1 by Ron English">
@@ -565,7 +566,6 @@
         <div class="card-body"><h2 class="title">MC Super Sized</h2></div>
       </a>
 
-
       <a class="card" href="modern-mickeys.html">
         <img src="../images/billboards/modern-mickeys.jpg" alt="Modern Mickeys by Ron English">
         <div class="card-body"><h2 class="title">Modern Mickeys</h2></div>
@@ -596,7 +596,6 @@
         <div class="card-body"><h2 class="title">New Years Eve</h2></div>
       </a>
 
-
       <a class="card" href="nova-orden-mundial.html">
         <img src="../images/billboards/nova-orden-mundial.jpg" alt="Nova Orden Mundial by Ron English">
         <div class="card-body"><h2 class="title">Nova Orden Mundial</h2></div>
@@ -606,7 +605,6 @@
         <img src="../images/billboards/nova-xeracion.jpg" alt="Nova Xeracion by Ron English">
         <div class="card-body"><h2 class="title">Nova Xeracion</h2></div>
       </a>
-
 
       <a class="card" href="observe-listen-reveal.html">
         <img src="../images/billboards/observe-listen-reveal.jpg" alt="Observe, Listen, Reveal by Ron English">
@@ -632,7 +630,7 @@
         <img src="../images/billboards/palestine-1.jpg" alt="Palestine Wall by Ron English">
         <div class="card-body"><h2 class="title">Palestine Wall</h2></div>
       </a>
-      
+
       <a class="card" href="phat-food.html">
         <img src="../images/billboards/phat-food.jpg" alt="Phat Food by Ron English">
         <div class="card-body"><h2 class="title">Phat Food</h2></div>
@@ -657,11 +655,11 @@
         <img src="../images/billboards/power-before-people.jpg" alt="Power Before People by Ron English">
         <div class="card-body"><h2 class="title">Power Before People</h2></div>
       </a>
-   
+
       <a class="card" href="public-works-grin.html">
         <img src="../images/billboards/public-works-grin.jpg" alt="Public Works Grin by Ron English">
         <div class="card-body"><h2 class="title">Public Works Grin</h2></div>
-      </a>   
+      </a>
 
       <a class="card" href="put-a-tiger-on-the-brink.html">
         <img src="../images/billboards/put-a-tiger-on-the-brink.jpg" alt="Put a Tiger on the Brink by Ron English">
@@ -672,7 +670,6 @@
         <img src="../images/billboards/radiant-child-1984.jpg" alt="Radiant Child, 1984 by Ron English">
         <div class="card-body"><h2 class="title">Radiant Child, 1984</h2></div>
       </a>
-
 
       <a class="card" href="randall-hart.html">
         <img src="../images/billboards/randall-hart.jpg" alt="Randall Hart by Ron English">
@@ -699,8 +696,6 @@
         <div class="card-body"><h2 class="title">Read My Lips</h2></div>
       </a>
 
-
-
       <a class="card" href="ron-english-and-the-artfux-nyc-1990.html">
         <img src="../images/billboards/ron-english-and-the-artfux-nyc-1990.jpg" alt="Ron English and the Artfux, NYC 1990 by Ron English">
         <div class="card-body"><h2 class="title">Ron English and the Artfux, NYC 1990</h2></div>
@@ -715,8 +710,6 @@
         <img src="../images/billboards/ross-perot.jpg" alt="Ross Perot by Ron English">
         <div class="card-body"><h2 class="title">Ross Perot</h2></div>
       </a>
-
- 
 
       <a class="card" href="rush-always-right.html">
         <img src="../images/billboards/rush-always-right.jpg" alt="Rush - Always Right by Ron English">
@@ -768,8 +761,6 @@
         <div class="card-body"><h2 class="title">Some Fred's Are Gonna Roll, NYC, 1990</h2></div>
       </a>
 
-
-
       <a class="card" href="squirrel-squirt-beer.html">
         <img src="../images/billboards/squirrel-squirt-beer.jpg" alt="Squirrel Squirt Beer by Ron English">
         <div class="card-body"><h2 class="title">Squirrel Squirt Beer</h2></div>
@@ -785,7 +776,6 @@
         <div class="card-body"><h2 class="title">Stuckeys, Austin, TX 1985</h2></div>
       </a>
 
-
       <a class="card" href="sugar-the-other-white-powder.html">
         <img src="../images/billboards/sugar-the-other-white-powder.jpg" alt="Sugar, the Other White Powder by Ron English">
         <div class="card-body"><h2 class="title">Sugar, the Other White Powder</h2></div>
@@ -795,12 +785,12 @@
         <img src="../images/billboards/supermarket-1.jpg" alt="Supermarket 1 by Ron English">
         <div class="card-body"><h2 class="title">Supermarket 1</h2></div>
       </a>
-   
+
       <a class="card" href="supermarket-2.html">
         <img src="../images/billboards/supermarket-2.jpg" alt="Supermarket 2 by Ron English">
         <div class="card-body"><h2 class="title">Supermarket 2</h2></div>
       </a>
-         
+
       <a class="card" href="support-our-ceos.html">
         <img src="../images/billboards/support-our-ceos.jpg" alt="Support Our CEOs by Ron English">
         <div class="card-body"><h2 class="title">Support Our CEOs</h2></div>
@@ -826,7 +816,6 @@
         <div class="card-body"><h2 class="title">The Cancer Kid, Jersey City, 1996</h2></div>
       </a>
 
-
       <a class="card" href="the-gefkens.html">
         <img src="../images/billboards/the-gefkens.jpg" alt="The Gefkens by Ron English">
         <div class="card-body"><h2 class="title">The Gefkens</h2></div>
@@ -842,7 +831,6 @@
         <div class="card-body"><h2 class="title">The Late Show</h2></div>
       </a>
 
-      
       <a class="card" href="the-media-is-the-massage-version-2.html">
         <img src="../images/billboards/the-media-is-the-massage-version-2.jpg" alt="The Media Is the Massage Version 2 by Ron English">
         <div class="card-body"><h2 class="title">The Media Is the Massage Version 2</h2></div>
@@ -873,7 +861,6 @@
         <div class="card-body"><h2 class="title">To Serve Man</h2></div>
       </a>
 
-      
       <a class="card" href="trump-golden-billionare.html">
         <img src="../images/billboards/trump-golden-billionare.jpg" alt="Trump - Golden Billionare by Ron English">
         <div class="card-body"><h2 class="title">Trump - Golden Billionare</h2></div>
@@ -884,39 +871,35 @@
         <div class="card-body"><h2 class="title">Two Thousand Years in the Tomb</h2></div>
       </a>
 
-   
       <a class="card" href="wars-fought-orgies-organized.html">
         <img src="../images/billboards/wars-fought-orgies-organized.jpg" alt="Wars Fought, Orgies Organized by Ron English">
         <div class="card-body"><h2 class="title">Wars Fought, Orgies Organized</h2></div>
       </a>
 
- 
       <a class="card" href="we-deceive-you-believe-denver-co.html">
         <img src="../images/billboards/we-deceive-you-believe-denver-co.jpg" alt="We Deceive, You Believe, Denver CO by Ron English">
         <div class="card-body"><h2 class="title">We Deceive, You Believe, Denver CO</h2></div>
       </a>
- 
+
       <a class="card" href="welcome-wall.html">
         <img src="../images/billboards/welcome-wall.jpg" alt="Welcome Wall by Ron English">
         <div class="card-body"><h2 class="title">Welcome Wall</h2></div>
       </a>
-      
-       <a class="card" href="wellington-court-mural-project.html">
+
+      <a class="card" href="wellington-court-mural-project.html">
         <img src="../images/billboards/wellington-court.jpg" alt="Wellington Court Mural Project by Ron English">
         <div class="card-body"><h2 class="title">Wellington Court Mural Project</h2></div>
       </a>
-      
+
       <a class="card" href="where-a-clown-belongs-austin-tx-1983.html">
         <img src="../images/billboards/where-a-clown-belongs-austin-tx-1983.jpg" alt="Where a Clown Belongs, Austin TX 1983 by Ron English">
         <div class="card-body"><h2 class="title">Where a Clown Belongs, Austin TX 1983</h2></div>
       </a>
 
-
       <a class="card" href="you-are-not-a-clone-version-2.html">
         <img src="../images/billboards/you-are-not-a-clone-version-2.jpg" alt="You Are Not a Clone, Version 2 by Ron English">
         <div class="card-body"><h2 class="title">You Are Not a Clone, Version 2</h2></div>
       </a>
-
 
       <a class="card" href="you-are-what-you-own.html">
         <img src="../images/billboards/you-are-what-you-own.jpg" alt="You Are What You Own by Ron English">
@@ -927,7 +910,7 @@
         <img src="../images/billboards/your-apathy-is-our-strength.jpg" alt="Your Apathy Is Our Strength by Ron English">
         <div class="card-body"><h2 class="title">Your Apathy Is Our Strength</h2></div>
       </a>
-      
+
     </section>
 
     <footer>
