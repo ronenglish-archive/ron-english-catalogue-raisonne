@@ -14,7 +14,7 @@
       --shadow:0 10px 30px rgba(0,0,0,.08);
       --radius:18px;
       --bg:#ffffff;
-      --panel:#f8fafc;
+      --panel:#f3f4f6;
     }
 
     *{
@@ -99,7 +99,7 @@
     }
 
     .section-intro{
-      margin:0 0 22px;
+      margin:0 0 18px;
       color:var(--muted);
       line-height:1.6;
       max-width:72ch;
@@ -113,7 +113,7 @@
 
     .sketch-grid{
       display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(220px,280px));
+      grid-template-columns:minmax(280px,540px);
       gap:20px;
       justify-content:center;
     }
@@ -138,36 +138,45 @@
     .gallery-item img{
       display:block;
       width:100%;
-      height:320px;
+      height:280px;
       object-fit:contain;
-      background:#f3f4f6;
-      padding:10px;
+      background:var(--panel);
+      padding:6px;
+      border-bottom:1px solid var(--border);
+    }
+
+    .sketch-grid .gallery-item{
+      max-width:540px;
+      width:100%;
+      margin:0 auto;
     }
 
     .sketch-grid .gallery-item img{
-      height:420px;
-      background:#fff;
-      padding:18px;
+      height:620px;
+      background:var(--panel);
+      padding:8px;
     }
 
     .entry-body{
-      padding:14px 14px 16px;
+      padding:10px 12px 12px;
       text-align:center;
     }
 
-    .work-title{
-      margin:0 0 6px;
+    .gallery-item .entry-body .work-title{
+      margin:0 0 4px;
+      padding:0;
       font-size:1rem;
       font-weight:600;
-      line-height:1.35;
+      line-height:1.3;
       text-align:center;
     }
 
-    .work-note{
+    .gallery-item .entry-body .work-note{
       margin:0;
+      padding:0;
       color:var(--muted);
-      font-size:.95rem;
-      line-height:1.45;
+      font-size:.92rem;
+      line-height:1.35;
       text-align:center;
     }
 
@@ -194,12 +203,16 @@
         padding:22px 14px 50px;
       }
 
+      .gallery-item img{
+        height:240px;
+      }
+
       .sketch-grid{
         grid-template-columns:1fr;
       }
 
       .sketch-grid .gallery-item img{
-        height:360px;
+        height:520px;
       }
     }
   </style>
@@ -243,7 +256,7 @@
       </p>
 
       <div class="gallery-grid">
-        <a class="gallery-item" href="../../images/Sketches/aliens/Aerospam Demotron - B&amp;W.jpg">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Aerospam Demotron - B&W.jpg">
           <img src="../../images/Sketches/aliens/Aerospam Demotron - B&W.jpg" alt="Aerospam Demotron black-and-white digitized version by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">B&amp;W Version</p>
@@ -287,18 +300,14 @@
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 121 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 121 - Aerospam Demotron.jpg" alt="Area 54 Card 121 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-       <p class="work-title">Aerospam Demotron 1/9 Card 121</p>
-
+            <p class="work-title">Aerospam Demotron 1/9 Card 121</p>
           </div>
         </a>
-
-
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 122 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 122 - Aerospam Demotron.jpg" alt="Area 54 Card 122 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-       <p class="work-title">Aerospam Demotron 2/9 Card 122</p>
-
+            <p class="work-title">Aerospam Demotron 2/9 Card 122</p>
           </div>
         </a>
 
@@ -306,66 +315,58 @@
           <img src="../../images/Sketches/aliens/Area 54 Cards - 123 - Aerospam Demotron.jpg" alt="Area 54 Card 123 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
             <p class="work-title">Aerospam Demotron 3/9 Card 123</p>
-
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 124 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 124 - Aerospam Demotron.jpg" alt="Area 54 Card 124 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-   
-              <p class="work-title">Aerospam Demotron 4/9 Card 124</p>
+            <p class="work-title">Aerospam Demotron 4/9 Card 124</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 125 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 125 - Aerospam Demotron.jpg" alt="Area 54 Card 125 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-              <p class="work-title">Aerospam Demotron 5/9 Card 125</p>
-
+            <p class="work-title">Aerospam Demotron 5/9 Card 125</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 126 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 126 - Aerospam Demotron.jpg" alt="Area 54 Card 126 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-        <p class="work-title">Aerospam Demotron 6/9 Card 126</p>
-
+            <p class="work-title">Aerospam Demotron 6/9 Card 126</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 127 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 127 - Aerospam Demotron.jpg" alt="Area 54 Card 127 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-       <p class="work-title">Aerospam Demotron 7/9 Card 127</p>
-
+            <p class="work-title">Aerospam Demotron 7/9 Card 127</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 128 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 128 - Aerospam Demotron.jpg" alt="Area 54 Card 128 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-       <p class="work-title">Aerospam Demotron 8/9 Card 128</p>
-
+            <p class="work-title">Aerospam Demotron 8/9 Card 128</p>
           </div>
         </a>
 
         <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 129 - Aerospam Demotron.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 129 - Aerospam Demotron.jpg" alt="Area 54 Card 129 Aerospam Demotron by Ron English" loading="lazy" />
           <div class="entry-body">
-          <p class="work-title">Aerospam Demotron 9/9 Card 129</p>
-    </div>
+            <p class="work-title">Aerospam Demotron 9/9 Card 129</p>
+          </div>
         </a>
 
-                    <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 121 - Aerospam Demotron 2.jpg">
+        <a class="gallery-item" href="../../images/Sketches/aliens/Area 54 Cards - 121 - Aerospam Demotron 2.jpg">
           <img src="../../images/Sketches/aliens/Area 54 Cards - 121 - Aerospam Demotron 2.jpg" alt="Area 54 Card Rainbow Rally by Ron English" loading="lazy" />
           <div class="entry-body">
-       <p class="work-title">Rainbow Rally</p>
-   
+            <p class="work-title">Rainbow Rally</p>
           </div>
         </a>
-  
-          </div>
+      </div>
     </section>
 
     <div class="back-link">
