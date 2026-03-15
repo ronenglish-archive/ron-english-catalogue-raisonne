@@ -19,8 +19,6 @@
       --radius:18px;
       --bg:#ffffff;
       --panel:#f8fafc;
-      --tile:#ffffff;
-      --tile-border:#e7ebf0;
     }
 
     *{
@@ -102,84 +100,71 @@
       border-radius:12px;
     }
 
-    .meta-card{
-      background:var(--panel);
-      border:1px solid var(--border);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      padding:24px;
+    .meta-card,
+    .notes-card{
+      max-width:720px;
       margin:0 auto 28px;
-      max-width:880px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:18px 20px;
     }
 
-    .meta-card h2{
-      margin:0 auto 18px;
-      max-width:820px;
-      font-size:1.1rem;
+    .meta-card h2,
+    .notes-card h2{
+      margin:0 0 14px;
+      font-size:1rem;
       line-height:1.2;
-      text-align:left;
     }
 
     .work-meta{
-      list-style:none;
-      padding:0;
-      margin:0 auto;
-      max-width:820px;
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-      gap:16px 18px;
-    }
-
-    .work-meta li{
       margin:0;
-      line-height:1.5;
-      background:var(--tile);
-      border:1px solid var(--tile-border);
-      border-radius:14px;
-      padding:14px 16px;
-      min-height:84px;
-      display:flex;
-      flex-direction:column;
-      justify-content:flex-start;
+      padding:0;
     }
 
-    .work-meta li.meta-wide{
-      grid-column:span 2;
+    .meta-row{
+      display:grid;
+      grid-template-columns:180px minmax(0,1fr);
+      gap:18px;
+      padding:10px 0;
+      border-top:1px solid var(--border);
+      align-items:start;
+    }
+
+    .meta-row:first-child{
+      border-top:none;
+      padding-top:0;
     }
 
     .meta-label{
-      display:block;
-      font-size:.74rem;
+      margin:0;
+      font-size:.8rem;
       text-transform:uppercase;
-      letter-spacing:.1em;
-      color:#6b7280;
-      margin-bottom:6px;
+      letter-spacing:.08em;
+      color:var(--muted);
+      line-height:1.4;
     }
 
     .meta-value{
+      margin:0;
       font-size:1rem;
       color:#111;
       line-height:1.5;
     }
 
-    .section-card{
-      margin-top:28px;
-      background:#fff;
-      border:1px solid var(--border);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      padding:22px;
-    }
-
-    .section-card h2{
-      margin:0 0 8px;
-      font-size:1.35rem;
-    }
-
-    .section-card p{
+    .notes-card p{
       margin:0;
       color:var(--muted);
-      line-height:1.6;
+      line-height:1.65;
+      font-size:1rem;
+    }
+
+    .notes-card p + p{
+      margin-top:12px;
+    }
+
+    .notes-empty{
+      font-style:italic;
     }
 
     @media (max-width:640px){
@@ -187,16 +172,19 @@
         padding:22px 14px 50px;
       }
 
-      .meta-card{
-        padding:18px;
+      .meta-card,
+      .notes-card{
+        padding:16px;
       }
 
-      .work-meta{
+      .meta-row{
         grid-template-columns:1fr;
+        gap:4px;
+        padding:10px 0;
       }
 
-      .work-meta li.meta-wide{
-        grid-column:auto;
+      .meta-label{
+        font-size:.74rem;
       }
     }
   </style>
@@ -230,45 +218,57 @@
     <section class="meta-card" aria-labelledby="entry-details">
       <h2 id="entry-details">Work Details</h2>
 
-      <ul class="work-meta" data-work-id="RE-000001">
-        <li>
-          <span class="meta-label">Title</span>
-          <div class="meta-value">Blue Cavern</div>
-        </li>
+      <dl class="work-meta" data-work-id="RE-000001">
+        <div class="meta-row">
+          <dt class="meta-label">Title</dt>
+          <dd class="meta-value">Blue Cavern</dd>
+        </div>
 
-        <li>
-          <span class="meta-label">Date</span>
-          <div class="meta-value">1974</div>
-        </li>
+        <div class="meta-row">
+          <dt class="meta-label">Date</dt>
+          <dd class="meta-value">1974</dd>
+        </div>
 
-        <li>
-          <span class="meta-label">Medium</span>
-          <div class="meta-value">Acrylic on canvas</div>
-        </li>
+        <div class="meta-row">
+          <dt class="meta-label">Medium</dt>
+          <dd class="meta-value">Acrylic on canvas</dd>
+        </div>
 
-        <li>
-          <span class="meta-label">Dimensions</span>
-          <div class="meta-value">16 × 20 in</div>
-        </li>
+        <div class="meta-row">
+          <dt class="meta-label">Dimensions</dt>
+          <dd class="meta-value">16 × 20 in</dd>
+        </div>
 
-        <li>
-          <span class="meta-label">Work ID</span>
-          <div class="meta-value">RE-000001</div>
-        </li>
+        <div class="meta-row">
+          <dt class="meta-label">Work ID</dt>
+          <dd class="meta-value">RE-000001</dd>
+        </div>
 
-        <li class="meta-wide">
-          <span class="meta-label">Signature / marks</span>
-          <div class="meta-value">None observed.</div>
-        </li>
-      </ul>
+        <div class="meta-row">
+          <dt class="meta-label">Signature / marks</dt>
+          <dd class="meta-value">None observed.</dd>
+        </div>
+      </dl>
     </section>
 
-    <!-- Enable when needed
-    <section class="section-card">
-      <h2>Notes</h2>
-      <p></p>
+    <!-- Use this when notes exist -->
+    <section class="notes-card" aria-labelledby="notes-heading">
+      <h2 id="notes-heading">Notes</h2>
+      <p>
+        Example note text goes here. This section can be used for provenance remarks,
+        exhibition history, dating comments, condition observations, inscriptions,
+        publication references, or other catalogue information.
+      </p>
+    </section>
+
+    <!-- Or use this empty version instead
+    <section class="notes-card" aria-labelledby="notes-heading">
+      <h2 id="notes-heading">Notes</h2>
+      <p class="notes-empty">No notes recorded.</p>
     </section>
     -->
+
+    <!-- Or remove the Notes section entirely when not needed -->
 
   </main>
 </body>
