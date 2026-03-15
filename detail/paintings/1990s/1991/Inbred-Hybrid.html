@@ -14,7 +14,6 @@
       --border:#e5e7eb;
       --muted:#4b5563;
       --bg:#ffffff;
-      --panel:#f8fafc;
       --radius:16px;
       --shadow:0 10px 30px rgba(0,0,0,.06);
     }
@@ -35,6 +34,7 @@
       max-width:1080px;
       margin:0 auto;
       padding:30px 18px 18px;
+      text-align:center;
     }
 
     .site-header h1{
@@ -49,6 +49,7 @@
       display:flex;
       flex-wrap:wrap;
       gap:10px;
+      justify-content:center;
     }
 
     .nav-pill{
@@ -75,16 +76,19 @@
       padding:0 18px 60px;
     }
 
+    .hero-wrap{
+      max-width:760px;
+      margin:0 auto 32px;
+    }
+
     .work-hero{
       display:block;
       width:100%;
-      max-height:78vh;
-      object-fit:contain;
+      height:auto;
       background:#f3f4f6;
       border:1px solid var(--border);
       border-radius:18px;
       box-shadow:var(--shadow);
-      margin:0 0 32px;
     }
 
     .work-meta{
@@ -173,6 +177,12 @@
         padding:0 14px 48px;
       }
 
+      .hero-wrap,
+      .work-meta,
+      .section-block{
+        max-width:100%;
+      }
+
       .work-meta strong{
         display:block;
         min-width:0;
@@ -196,12 +206,14 @@
 
   <main class="work-layout">
 
-    <img
-      src="../../../../images/Paintings/1990s/1991/Inbred-HybridL.jpg"
-      alt="Inbred / Hybrid (1991)"
-      class="work-hero"
-      loading="lazy"
-    />
+    <div class="hero-wrap">
+      <img
+        src="../../../../images/Paintings/1990s/1991/Inbred-HybridL.jpg"
+        alt="Inbred / Hybrid (1991)"
+        class="work-hero"
+        loading="lazy"
+      />
+    </div>
 
     <ul class="work-meta" data-work-id="RE-000109">
       <li><strong>Title:</strong> Inbred / Hybrid</li>
@@ -237,7 +249,6 @@
 
     <section class="section-block">
       <h2>Notes</h2>
-
       <p>
         This work references Vincent van Gogh’s <em>Sunflowers</em> series (1888–1889).
       </p>
