@@ -8,12 +8,189 @@
   <meta name="work-id" content="RE-000042" />
 
   <link rel="stylesheet" href="../../../../css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --bg:#ffffff;
+      --radius:16px;
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:#111;
+      background:var(--bg);
+      line-height:1.6;
+    }
+
+    .site-header{
+      max-width:1080px;
+      margin:0 auto;
+      padding:30px 18px 18px;
+      text-align:center;
+    }
+
+    .site-header h1{
+      margin:0 0 14px;
+      font-size:clamp(2rem,4vw,3rem);
+      line-height:1.05;
+      letter-spacing:-.02em;
+      font-weight:700;
+    }
+
+    .top-nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:center;
+    }
+
+    .nav-pill{
+      display:inline-flex;
+      align-items:center;
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+      transition:background-color .15s ease, border-color .15s ease;
+    }
+
+    .nav-pill:hover{
+      background:#f3f6ff;
+      border-color:#bfd1ff;
+    }
+
+    .work-layout{
+      max-width:1080px;
+      margin:0 auto;
+      padding:0 18px 60px;
+    }
+
+    .hero-wrap{
+      max-width:760px;
+      margin:0 auto 32px;
+    }
+
+    .work-hero{
+      display:block;
+      width:100%;
+      height:auto;
+      background:#f3f4f6;
+      border:1px solid var(--border);
+      border-radius:18px;
+      box-shadow:var(--shadow);
+    }
+
+    .work-meta{
+      list-style:none;
+      max-width:760px;
+      margin:0 auto 34px;
+      padding:10px 0;
+      border-top:1px solid var(--border);
+      border-bottom:1px solid var(--border);
+    }
+
+    .work-meta li{
+      display:grid;
+      grid-template-columns:max-content max-content;
+      justify-content:center;
+      align-items:start;
+      column-gap:18px;
+      margin:0;
+      padding:10px 0;
+      border-top:1px solid #f1f5f9;
+    }
+
+    .work-meta li:first-child{
+      border-top:none;
+    }
+
+    .meta-label{
+      font-weight:600;
+      color:#111;
+      text-align:right;
+      white-space:nowrap;
+    }
+
+    .meta-value{
+      color:#111;
+      text-align:left;
+    }
+
+    .section-block{
+      max-width:760px;
+      margin:0 auto 28px;
+      padding-top:18px;
+      border-top:1px solid var(--border);
+    }
+
+    .section-block h2{
+      margin:0 0 12px;
+      font-size:1.05rem;
+      line-height:1.2;
+      letter-spacing:.01em;
+    }
+
+    .section-block p{
+      margin:0 0 14px;
+      color:#111;
+    }
+
+    .section-block p:last-child{
+      margin-bottom:0;
+    }
+
+    .section-block em{
+      font-style:italic;
+    }
+
+    a{
+      color:inherit;
+    }
+
+    @media (max-width:640px){
+      .site-header{
+        padding:24px 14px 16px;
+      }
+
+      .work-layout{
+        padding:0 14px 48px;
+      }
+
+      .hero-wrap,
+      .work-meta,
+      .section-block{
+        max-width:100%;
+      }
+
+      .work-meta li{
+        grid-template-columns:1fr;
+        justify-content:start;
+        row-gap:2px;
+      }
+
+      .meta-label,
+      .meta-value{
+        text-align:left;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
   <header class="site-header">
-    <h1>Ugly Sunset (1987)</h1>
+    <h1>Ugly Sunset</h1>
 
     <nav class="top-nav">
       <a class="nav-pill" href="../../../../index.html">Home</a>
@@ -24,26 +201,31 @@
 
   <main class="work-layout">
 
-    <img
-      src="../../../../images/Paintings/1980s/1987/Ugly-SunsetL.jpg"
-      alt="Ugly Sunset (1987)"
-      class="work-hero"
-      loading="lazy"
-    />
+    <div class="hero-wrap">
+      <img
+        src="../../../../images/Paintings/1980s/1987/Ugly-SunsetL.jpg"
+        alt="Ugly Sunset (1987)"
+        class="work-hero"
+        loading="lazy"
+      />
+    </div>
 
     <ul class="work-meta" data-work-id="RE-000042">
-      <li><strong>Title:</strong> Ugly Sunset</li>
-      <li><strong>Date:</strong> 1987</li>
-      <li><strong>Medium:</strong> Acrylic on canvas</li>
-      <li><strong>Dimensions:</strong> 60 × 84 in</li>
-      <li><strong>Work ID:</strong> RE-000042</li>
-      <li><strong>Signature / marks:</strong> None observed.</li>
+      <li><span class="meta-label">Title:</span><span class="meta-value">Ugly Sunset</span></li>
+      <li><span class="meta-label">Date:</span><span class="meta-value">1987</span></li>
+      <li><span class="meta-label">Medium:</span><span class="meta-value">Acrylic on canvas</span></li>
+      <li><span class="meta-label">Dimensions:</span><span class="meta-value">60 × 84 in</span></li>
+      <li><span class="meta-label">Work ID:</span><span class="meta-value">RE-000042</span></li>
+      <li><span class="meta-label">Signature / marks:</span><span class="meta-value">None observed.</span></li>
     </ul>
 
     <section class="section-block">
       <h2>Notes</h2>
       <p>
         Collaborative work created jointly by Jeff Robinson and Ron English.
+      </p>
+      <p>
+        This work was probably included in a two-person show with Jeff Robinson at Simon Lowinsky Gallery in May 1987; this exhibition history remains tentative pending confirmation.
       </p>
     </section>
 
