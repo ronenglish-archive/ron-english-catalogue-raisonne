@@ -15,10 +15,8 @@
     :root{
       --border:#e5e7eb;
       --muted:#4b5563;
-      --shadow:0 10px 30px rgba(0,0,0,.08);
       --radius:18px;
       --bg:#ffffff;
-      --panel:#f8fafc;
     }
 
     *{
@@ -61,32 +59,22 @@
     }
 
     .page-header{
-      max-width:1100px;
       margin:0 0 28px;
       padding:0;
       text-align:left;
     }
 
     .page-title{
-      margin:0 0 10px;
+      margin:0;
       font-size:clamp(2rem,4vw,3rem);
       letter-spacing:-.02em;
       line-height:1.05;
-    }
-
-    .intro-text{
-      margin:0;
-      max-width:72ch;
-      color:var(--muted);
-      font-size:18px;
-      line-height:1.6;
     }
 
     .image-card{
       background:#fff;
       border:1px solid var(--border);
       border-radius:var(--radius);
-      box-shadow:var(--shadow);
       padding:18px;
       margin-bottom:28px;
     }
@@ -154,17 +142,10 @@
 
     .notes-card p{
       margin:0;
-      color:var(--muted);
+      min-height:1.5em;
+      color:#111;
       line-height:1.65;
       font-size:1rem;
-    }
-
-    .notes-card p + p{
-      margin-top:12px;
-    }
-
-    .notes-empty{
-      font-style:italic;
     }
 
     @media (max-width:640px){
@@ -201,9 +182,6 @@
 
     <header class="page-header">
       <h1 class="page-title">Blue Cavern</h1>
-      <p class="intro-text">
-        Painting entry for <em>Blue Cavern</em>, documented to 1974.
-      </p>
     </header>
 
     <section class="image-card">
@@ -251,24 +229,10 @@
       </dl>
     </section>
 
-    <!-- Use this when notes exist -->
     <section class="notes-card" aria-labelledby="notes-heading">
       <h2 id="notes-heading">Notes</h2>
-      <p>
-        Example note text goes here. This section can be used for provenance remarks,
-        exhibition history, dating comments, condition observations, inscriptions,
-        publication references, or other catalogue information.
-      </p>
+      <p></p>
     </section>
-
-    <!-- Or use this empty version instead
-    <section class="notes-card" aria-labelledby="notes-heading">
-      <h2 id="notes-heading">Notes</h2>
-      <p class="notes-empty">No notes recorded.</p>
-    </section>
-    -->
-
-    <!-- Or remove the Notes section entirely when not needed -->
 
   </main>
 </body>
