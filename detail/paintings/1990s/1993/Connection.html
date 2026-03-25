@@ -14,14 +14,24 @@
       display:flex;
       gap:1rem;
       align-items:flex-start;
-      flex-wrap:wrap;
       margin-bottom:1.5rem;
     }
 
-    .hero-pair .work-hero{
-      flex:1 1 320px;
+    .hero-pair-item{
+      flex:1 1 0;
+      min-width:0;
+    }
+
+    .hero-pair-item .work-hero{
+      display:block;
       width:100%;
       margin:0;
+    }
+
+    @media (max-width: 800px){
+      .hero-pair{
+        flex-direction:column;
+      }
     }
   </style>
 </head>
@@ -41,19 +51,23 @@
   <main class="work-layout">
 
     <div class="hero-pair">
-      <img
-        src="../../../../images/Paintings/1990s/1993/Connection-panel-1L.jpg"
-        alt="Connection, panel A (1993)"
-        class="work-hero"
-        loading="lazy"
-      />
+      <div class="hero-pair-item">
+        <img
+          src="../../../../images/Paintings/1990s/1993/Connection-panel-1L.jpg"
+          alt="Connection, panel A (1993)"
+          class="work-hero"
+          loading="lazy"
+        />
+      </div>
 
-      <img
-        src="../../../../images/Paintings/1990s/1993/Connection-panel-2L.jpg"
-        alt="Connection, panel B (1993)"
-        class="work-hero"
-        loading="lazy"
-      />
+      <div class="hero-pair-item">
+        <img
+          src="../../../../images/Paintings/1990s/1993/Connection-panel-2L.jpg"
+          alt="Connection, panel B (1993)"
+          class="work-hero"
+          loading="lazy"
+        />
+      </div>
     </div>
 
     <ul class="work-meta" data-work-id="RE-000167">
