@@ -66,13 +66,13 @@
       text-align:left;
     }
 
-.intro-text p{
-  margin:0 0 14px;
-  max-width:none;
-  width:100%;
-  color:var(--muted);
-  font-size:18px;
-}
+    .intro-text p{
+      margin:0 0 14px;
+      max-width:none;
+      width:100%;
+      color:var(--muted);
+      font-size:18px;
+    }
 
     .decade-hero{
       margin-top:22px;
@@ -126,27 +126,16 @@
       text-align:center;
     }
 
-    .year-card-title{
-      margin:0;
+    /* 🔥 THIS IS THE IMPORTANT FIX */
+    .year-grid .year-card .year-card-title{
+      display:block;
+      width:100%;
+      text-align:center !important;
+      margin:0 auto;
       font-size:1.05rem;
       line-height:1.2;
     }
 
-    .year-card-desc{
-      margin:6px 0 0;
-      font-size:0.95rem;
-      opacity:0.85;
-    }
-
-    .year-card-cta{
-      display:inline-block;
-      margin-top:10px;
-      font-size:0.9rem;
-      padding:6px 10px;
-      border-radius:999px;
-      border:1px solid rgba(0,0,0,0.16);
-      opacity:0.9;
-    }
   </style>
 </head>
 
@@ -191,91 +180,54 @@
 
       <section class="year-grid" role="list" aria-label="2000s year links grid">
 
-        <a class="year-card" role="listitem" href="2000s/2000/index.html">
+        <a class="year-card" href="2000s/2000/index.html">
           <img src="../images/Paintings/2000s/year-2000.jpg" alt="2000 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2000</h2>
-     
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2000</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2001/index.html">
+        <a class="year-card" href="2000s/2001/index.html">
           <img src="../images/Paintings/2000s/year-2001.jpg" alt="2001 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2001</h2>
- 
- 
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2001</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2002/index.html">
+        <a class="year-card" href="2000s/2002/index.html">
           <img src="../images/Paintings/2000s/year-2002.jpg" alt="2002 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2002</h2>
-   
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2002</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2003/index.html">
+        <a class="year-card" href="2000s/2003/index.html">
           <img src="../images/Paintings/2000s/year-2003.jpg" alt="2003 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2003</h2>
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2003</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2004/index.html">
+        <a class="year-card" href="2000s/2004/index.html">
           <img src="../images/Paintings/2000s/year-2004.jpg" alt="2004 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2004</h2>
-
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2004</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2005/index.html">
+        <a class="year-card" href="2000s/2005/index.html">
           <img src="../images/Paintings/2000s/year-2005.jpg" alt="2005 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2005</h2>
-       
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2005</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2006/index.html">
+        <a class="year-card" href="2000s/2006/index.html">
           <img src="../images/Paintings/2000s/year-2006.jpg" alt="2006 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2006</h2>
-        
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2006</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2007/index.html">
+        <a class="year-card" href="2000s/2007/index.html">
           <img src="../images/Paintings/2000s/year-2007.jpg" alt="2007 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2007</h2>
-        
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2007</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2008/index.html">
+        <a class="year-card" href="2000s/2008/index.html">
           <img src="../images/Paintings/2000s/year-2008.jpg" alt="2008 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2008</h2>
-
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2008</h2></div>
         </a>
 
-        <a class="year-card" role="listitem" href="2000s/2009/index.html">
+        <a class="year-card" href="2000s/2009/index.html">
           <img src="../images/Paintings/2000s/year-2009.jpg" alt="2009 representative image" loading="lazy" />
-          <div class="year-card-body">
-            <h2 class="year-card-title">2009</h2>
-
-          </div>
+          <div class="year-card-body"><h2 class="year-card-title">2009</h2></div>
         </a>
 
       </section>
