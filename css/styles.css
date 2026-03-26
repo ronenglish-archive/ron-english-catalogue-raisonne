@@ -211,9 +211,13 @@ main,
 
 .gallery-item .work-title,
 .gallery-item .work-year {
+  display: block;
+  width: 100%;
   padding-left: 16px;
   padding-right: 16px;
-  text-align: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery-item .work-title {
@@ -228,7 +232,38 @@ main,
   color: #555;
   margin: 0 0 18px 0;
 }
+/* ---------- Year cards ---------- */
+.year-card-body {
+  text-align: center;
+}
 
+.year-card-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.year-card-desc {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 6px auto 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.year-card-cta {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.16);
+  opacity: 0.9;
+}
 @media (max-width: 980px) {
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
