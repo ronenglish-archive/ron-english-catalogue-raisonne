@@ -1,3 +1,88 @@
+/* ---------- Top navigation ---------- */
+.top-nav {
+  max-width: 1100px;
+  margin: 28px auto 22px;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1;
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.nav-pill:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+  color: #111;
+  transform: translateY(-1px);
+}
+
+.nav-pill.is-active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.nav-home {
+  font-weight: 600;
+}
+
+/* ---------- Page header ---------- */
+.page-header {
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.page-title {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.page-subtitle {
+  margin: 0 0 14px;
+  font-size: 1.15rem;
+  color: #444;
+}
+
+.page-links {
+  margin-top: 8px;
+}
+
+.text-link {
+  color: #374151;
+  text-decoration: underline;
+}
+
+.text-link:hover {
+  color: #111;
+}
+
+/* ---------- Gallery pages ---------- */
 .gallery-wrap {
   width: 100%;
 }
@@ -60,6 +145,7 @@
   margin: 0 0 18px 0;
 }
 
+/* ---------- Year cards ---------- */
 .year-card-body {
   text-align: center;
 }
@@ -90,18 +176,6 @@
   border-radius: 999px;
   border: 1px solid rgba(0,0,0,0.16);
   opacity: 0.9;
-}
-
-@media (max-width: 980px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 640px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* ---------- Detail pages ---------- */
@@ -216,8 +290,12 @@
 }
 
 /* ---------- Responsive ---------- */
+@media (max-width: 980px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
-/* Stack series cards on mobile */
 @media (max-width: 720px) {
   .series-list {
     grid-template-columns: 1fr;
@@ -229,6 +307,12 @@
   }
 
   .site-footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .gallery-grid {
     grid-template-columns: 1fr;
   }
 }
