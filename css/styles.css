@@ -1,6 +1,28 @@
+.gallery-wrap {
+  width: 100%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  align-items: start;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  background: #f3f4f6;
+  border-radius: 0;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
 .gallery-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 40px rgba(0,0,0,12);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
 }
 
 .gallery-item img {
@@ -91,6 +113,16 @@
   padding-right: 20px;
 }
 
+.work-layout > p,
+.work-layout > figure,
+.work-layout > section,
+.work-layout > ul,
+.work-layout > ol,
+.work-layout > blockquote {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .work-hero {
   width: auto;
   max-width: 800px;
@@ -104,10 +136,45 @@
   list-style: none;
   padding: 0;
   margin: 0 0 2.5rem 0;
+  text-align: center;
 }
 
 .work-meta li {
   margin-bottom: 0.45rem;
+}
+
+/* ---------- Section blocks ---------- */
+.section-block {
+  margin: 2rem auto 0;
+  text-align: center;
+}
+
+.section-block h2 {
+  margin-bottom: 0.85rem;
+}
+
+.section-block p,
+.section-block ul,
+.section-block ol,
+.section-block figure,
+.section-block figcaption {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-block p {
+  max-width: 70ch;
+}
+
+.section-block ul,
+.section-block ol {
+  display: inline-block;
+  text-align: left;
+  padding-left: 1.25rem;
+}
+
+.section-block figure {
+  text-align: center;
 }
 
 /* ---------- Reference material ---------- */
