@@ -1,113 +1,201 @@
-/* ---------- Top navigation ---------- */
-.top-nav {
+/* ---------- Global reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ---------- Universal spacing + typography ---------- */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* ---------- Page width (shared layout blocks) ---------- */
+.top-nav,
+.page-header,
+.gallery-wrap,
+.detail-wrap,
+.site-footer,
+main,
+.site-header,
+.decade-context {
   max-width: 1100px;
-  margin: 28px auto 22px;
-  padding-left: 18px;
-  padding-right: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Navigation ---------- */
+.top-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .nav-pills {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
-.nav-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 14px;
-  border: 1px solid #d1d5db;
-  border-radius: 999px;
-  background: #fff;
-  color: #111;
+.top-nav a {
   text-decoration: none;
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 999px;
   font-size: 0.95rem;
   line-height: 1;
-  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+  color: #222;
+  background: #fff;
+  white-space: nowrap;
 }
 
-.nav-pill:hover {
-  background: #f3f4f6;
-  border-color: #9ca3af;
-  color: #111;
-  transform: translateY(-1px);
-}
-
-.nav-pill.is-active {
-  background: #111;
+.top-nav a.is-active,
+.top-nav a.active {
+  background: #000;
   color: #fff;
-  border-color: #111;
-}
-
-.nav-home {
+  border-color: #000;
   font-weight: 600;
 }
 
-/* ---------- Page header ---------- */
-.page-header {
+/* ---------- Detail-page header ---------- */
+.site-header {
+  text-align: center;
+}
+
+.site-header .top-nav {
+  justify-content: center;
+}
+
+/* =====================================================
+   WARHOLESQUE SERIES GRID (FIXED TO 2 COLUMNS)
+===================================================== */
+
+/* GRID: exactly 2 columns */
+.series-list {
   max-width: 1100px;
-  margin: 0 auto 28px;
-  padding-left: 18px;
-  padding-right: 18px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  align-items: start;
 }
 
-.page-title {
-  margin: 0 0 10px;
-  font-size: clamp(2rem, 4vw, 3rem);
-  letter-spacing: -0.02em;
-  line-height: 1.05;
+/* Each series becomes a card */
+.series-block {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
 }
 
-.page-subtitle {
-  margin: 0 0 14px;
-  font-size: 1.15rem;
-  color: #444;
+/* Card header */
+.series-header {
+  padding: 14px 14px 12px;
+  border-bottom: 1px solid #eef0f2;
 }
 
+.series-title {
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.series-meta {
+  margin: 8px 0 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Image grid inside each series card */
+.variant-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px;
+  background: #fafafa;
+
+  /* IMPORTANT: make the grid take the full card width */
+  width: 100%;
+}
+
+.variant-grid img {
+  /* IMPORTANT: force each image to fill its grid cell */
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;          /* kills inline spacing issues */
+  border-radius: 10px;
+  background: #f3f4f6;
+}
+
+/* ---------- Intro text ---------- */
+.intro-text {
+  max-width: 1100px;
+  margin: 2rem auto 2.25rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+.intro-text h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Header links ---------- */
 .page-links {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .text-link {
-  color: #374151;
-  text-decoration: underline;
+  display: inline-block;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
 }
 
 .text-link:hover {
-  color: #111;
+  border-bottom-color: currentColor;
 }
 
-/* ---------- Gallery pages ---------- */
+/* ---------- Gallery ---------- */
 .gallery-wrap {
-  width: 100%;
+  margin-bottom: 56px;
 }
 
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
-  align-items: start;
+  gap: 20px;
 }
 
 .gallery-item {
-  display: flex;
-  flex-direction: column;
+  display: block;
   text-decoration: none;
   color: inherit;
-  background: #f3f4f6;
-  border-radius: 0;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
   overflow: hidden;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  transition: transform .12s ease, box-shadow .12s ease;
 }
 
 .gallery-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 16px 40px rgba(0,0,0,.12);
 }
 
 .gallery-item img {
@@ -123,13 +211,9 @@
 
 .gallery-item .work-title,
 .gallery-item .work-year {
-  display: block;
-  width: 100%;
   padding-left: 16px;
   padding-right: 16px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
 }
 
 .gallery-item .work-title {
@@ -145,38 +229,19 @@
   margin: 0 0 18px 0;
 }
 
-/* ---------- Year cards ---------- */
-.year-card-body {
-  text-align: center;
+@media (max-width: 980px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-.year-card-title {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 1.05rem;
-  line-height: 1.2;
+@media (max-width: 640px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.year-card-desc {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin: 6px auto 0;
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
 
-.year-card-cta {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 0.9rem;
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,0.16);
-  opacity: 0.9;
-}
 
 /* ---------- Detail pages ---------- */
 .work-layout {
@@ -185,16 +250,6 @@
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.work-layout > p,
-.work-layout > figure,
-.work-layout > section,
-.work-layout > ul,
-.work-layout > ol,
-.work-layout > blockquote {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .work-hero {
@@ -210,45 +265,10 @@
   list-style: none;
   padding: 0;
   margin: 0 0 2.5rem 0;
-  text-align: center;
 }
 
 .work-meta li {
   margin-bottom: 0.45rem;
-}
-
-/* ---------- Section blocks ---------- */
-.section-block {
-  margin: 2rem auto 0;
-  text-align: center;
-}
-
-.section-block h2 {
-  margin-bottom: 0.85rem;
-}
-
-.section-block p,
-.section-block ul,
-.section-block ol,
-.section-block figure,
-.section-block figcaption {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-block p {
-  max-width: 70ch;
-}
-
-.section-block ul,
-.section-block ol {
-  display: inline-block;
-  text-align: left;
-  padding-left: 1.25rem;
-}
-
-.section-block figure {
-  text-align: center;
 }
 
 /* ---------- Reference material ---------- */
@@ -290,12 +310,8 @@
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 980px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 
+/* Stack series cards on mobile */
 @media (max-width: 720px) {
   .series-list {
     grid-template-columns: 1fr;
@@ -311,8 +327,90 @@
   }
 }
 
-@media (max-width: 640px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
+/* =====================================================
+   LIGHTBOX (for clicking thumbnails to enlarge)
+===================================================== */
+
+.variant-link {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.variant-link:focus {
+  outline: 2px solid #111;
+  outline-offset: 3px;
+}
+
+/* Overlay */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.86);
+  z-index: 9999;
+}
+
+.lightbox.is-open {
+  display: flex;
+}
+
+.lightbox-card {
+  max-width: min(1100px, 96vw);
+  max-height: 92vh;
+  width: 100%;
+  position: relative;
+}
+
+.lightbox-img {
+  width: 100%;
+  max-height: 92vh;
+  object-fit: contain;
+  display: block;
+  border-radius: 12px;
+  background: #111;
+}
+
+.lightbox-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.lightbox-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lightbox-actions a,
+.lightbox-actions button {
+  appearance: none;
+  border: 0;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.lightbox-actions a:hover,
+.lightbox-actions button:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.lightbox-close {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
 }
