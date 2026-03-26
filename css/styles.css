@@ -91,16 +91,6 @@
   padding-right: 20px;
 }
 
-.work-layout > p,
-.work-layout > figure,
-.work-layout > section,
-.work-layout > ul,
-.work-layout > ol,
-.work-layout > blockquote {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .work-hero {
   width: auto;
   max-width: 800px;
@@ -114,45 +104,10 @@
   list-style: none;
   padding: 0;
   margin: 0 0 2.5rem 0;
-  text-align: center;
 }
 
 .work-meta li {
   margin-bottom: 0.45rem;
-}
-
-/* ---------- Section blocks ---------- */
-.section-block {
-  margin: 2rem auto 0;
-  text-align: center;
-}
-
-.section-block h2 {
-  margin-bottom: 0.85rem;
-}
-
-.section-block p,
-.section-block ul,
-.section-block ol,
-.section-block figure,
-.section-block figcaption {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-block p {
-  max-width: 70ch;
-}
-
-.section-block ul,
-.section-block ol {
-  display: inline-block;
-  text-align: left;
-  padding-left: 1.25rem;
-}
-
-.section-block figure {
-  text-align: center;
 }
 
 /* ---------- Reference material ---------- */
