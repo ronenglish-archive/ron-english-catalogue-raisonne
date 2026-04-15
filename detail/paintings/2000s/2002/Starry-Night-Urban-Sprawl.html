@@ -7,14 +7,6 @@
   <link rel="stylesheet" href="../../../../css/styles.css" />
 
   <style>
-    .ancillary-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
-      gap: 1rem;
-      margin-top: 1rem;
-      justify-content: start;
-    }
-
     .ancillary-figure {
       margin: 0;
     }
@@ -31,6 +23,22 @@
       margin-top: 0.5rem;
       font-size: 0.95rem;
       line-height: 1.4;
+      text-align: center;
+    }
+
+    .related-print-figure {
+      margin: 1rem 0 0 0;
+    }
+
+    .related-print-figure img {
+      display: block;
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+    }
+
+    .related-print-figure figcaption {
+      margin-top: 0.3rem;
     }
   </style>
 </head>
@@ -119,7 +127,7 @@
         <a href="https://www.artsy.net/artwork/ron-english-the-mcsupersized-portfolio" target="_blank" rel="noopener noreferrer">Artsy</a>.
       </p>
 
-      <figure class="ref-figure">
+      <figure class="ref-figure related-print-figure">
         <img
           src="../../../../images/Paintings/Prints/supersized-portfolio.png"
           alt="Related McSupersized Portfolio print"
@@ -134,13 +142,19 @@
     <section class="section-block">
       <h2>Ancillary Documentation</h2>
 
-      <div class="ancillary-gallery">
+      <div style="display: flex; justify-content: center; margin-top: 1rem;">
         <figure class="ancillary-figure">
-          <img
-            src="../../../../images/Paintings/Dynamic-Photos/studio-ace-in-car-starry-night-urban-sprawl.jpg"
-            alt="Ron English in the studio with Starry Night Urban Sprawl"
-            loading="lazy"
-          />
+          <a
+            href="../../../../images/Paintings/Dynamic-Photos/studio-ace-in-car-starry-night-urban-sprawl.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Dynamic-Photos/studio-ace-in-car-starry-night-urban-sprawl.jpg"
+              alt="Ron English in the studio with Starry Night Urban Sprawl"
+              loading="lazy"
+            />
+          </a>
           <figcaption>
             Ron English with <em>Starry Night Urban Sprawl</em> in the studio.
           </figcaption>
