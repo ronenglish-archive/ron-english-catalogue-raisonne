@@ -8,6 +8,68 @@
   <meta name="work-id" content="RE-000667" />
 
   <link rel="stylesheet" href="../../../../css/styles.css" />
+
+  <style>
+    .ancillary-gallery.verification-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
+      gap: 1rem;
+      justify-content: start;
+      align-items: start;
+    }
+
+    .ancillary-gallery.verification-gallery .ancillary-figure {
+      margin: 0;
+      max-width: 220px;
+    }
+
+    .ancillary-gallery.verification-gallery .ancillary-figure a {
+      display: block;
+    }
+
+    .ancillary-gallery.verification-gallery .ancillary-figure img {
+      display: block;
+      width: 100%;
+      max-width: 220px;
+      height: auto;
+    }
+
+    .ancillary-gallery.verification-gallery .ancillary-figure figcaption {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      margin-top: 0.45rem;
+    }
+
+    .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo {
+      max-width: 300px;
+    }
+
+    .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo img {
+      max-width: 300px;
+    }
+
+    @media (max-width: 700px) {
+      .ancillary-gallery.verification-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .ancillary-gallery.verification-gallery .ancillary-figure,
+      .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo {
+        max-width: 100%;
+      }
+
+      .ancillary-gallery.verification-gallery .ancillary-figure img,
+      .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo img {
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .ancillary-gallery.verification-gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -145,7 +207,7 @@
         The following documentation includes catalogue reproductions, exhibition-photo records, museum and project webpages, and a photograph of Ron English with the painting.
       </p>
 
-      <div class="ancillary-gallery">
+      <div class="ancillary-gallery verification-gallery">
         <figure class="ancillary-figure">
           <a
             href="../../../../images/Paintings/Web-Documentation/grade-school-guernica-opera-big-picture-pop-catalog.jpg"
@@ -171,7 +233,7 @@
           >
             <img
               src="../../../../images/Paintings/Web-Documentation/grade-school-guernica-power-pathos-catalog.jpg"
-              alt="Catalogue reproduction of Grade School Guernica in Power Pathos"
+              alt="Catalogue reproduction of Grade School Guernica in POWER PATHOS"
               loading="lazy"
             />
           </a>
@@ -210,7 +272,7 @@
             />
           </a>
           <figcaption>
-            Archival screenshot of <em>Arrested Motion</em>’s <em>Status Factory</em> opening coverage, captured April 14, 2026.
+            Archival screenshot of <em>Arrested Motion</em>’s <em>Status Factory</em> coverage, captured April 14, 2026.
           </figcaption>
         </figure>
 
@@ -316,7 +378,7 @@
           </figcaption>
         </figure>
 
-        <figure class="ancillary-figure">
+        <figure class="ancillary-figure archive-photo">
           <a
             href="../../../../images/Paintings/Dynamic-Photos/38.station_museum.jpg"
             target="_blank"
