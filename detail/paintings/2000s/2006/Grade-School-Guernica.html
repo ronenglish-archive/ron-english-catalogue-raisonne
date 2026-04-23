@@ -10,63 +10,63 @@
   <link rel="stylesheet" href="../../../../css/styles.css" />
 
   <style>
-    .ancillary-gallery.verification-gallery {
+    .ancillary-gallery.documentation-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
-      gap: 1rem;
-      justify-content: start;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.25rem;
       align-items: start;
+      margin-top: 1rem;
     }
 
-    .ancillary-gallery.verification-gallery .ancillary-figure {
+    .ancillary-gallery.documentation-grid .ancillary-figure {
       margin: 0;
-      max-width: 220px;
+      padding: 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.03);
     }
 
-    .ancillary-gallery.verification-gallery .ancillary-figure a {
+    .ancillary-gallery.documentation-grid .ancillary-figure a {
       display: block;
+      text-decoration: none;
     }
 
-    .ancillary-gallery.verification-gallery .ancillary-figure img {
+    .ancillary-gallery.documentation-grid .ancillary-figure img {
       display: block;
       width: 100%;
-      max-width: 220px;
+      max-width: 100%;
       height: auto;
+      border-radius: 10px;
     }
 
-    .ancillary-gallery.verification-gallery .ancillary-figure figcaption {
-      font-size: 0.9rem;
-      line-height: 1.4;
-      margin-top: 0.45rem;
+    .ancillary-gallery.documentation-grid .ancillary-figure figcaption {
+      margin-top: 0.7rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
     }
 
-    .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo {
-      max-width: 300px;
+    .ancillary-gallery.documentation-grid .ancillary-figure figcaption em {
+      font-style: italic;
     }
 
-    .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo img {
-      max-width: 300px;
+    .ancillary-gallery.documentation-grid .ancillary-figure.archive-photo {
+      grid-column: span 2;
+      max-width: 720px;
     }
 
-    @media (max-width: 700px) {
-      .ancillary-gallery.verification-gallery {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .ancillary-gallery.verification-gallery .ancillary-figure,
-      .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo {
-        max-width: 100%;
-      }
-
-      .ancillary-gallery.verification-gallery .ancillary-figure img,
-      .ancillary-gallery.verification-gallery .ancillary-figure.archive-photo img {
-        max-width: 100%;
-      }
+    .ancillary-gallery.documentation-grid .ancillary-figure.archive-photo img {
+      max-width: 420px;
+      margin: 0 auto;
     }
 
-    @media (max-width: 480px) {
-      .ancillary-gallery.verification-gallery {
+    @media (max-width: 760px) {
+      .ancillary-gallery.documentation-grid {
         grid-template-columns: 1fr;
+      }
+
+      .ancillary-gallery.documentation-grid .ancillary-figure.archive-photo {
+        grid-column: span 1;
+        max-width: 100%;
       }
     }
   </style>
@@ -121,32 +121,6 @@
 
     <section class="section-block">
       <h2>Notes</h2>
-
-      <p>
-        The work is reproduced in the exhibition catalogue for <em>Big Picture Pop</em>.
-      </p>
-
-      <p>
-        It is also reproduced in the printed <em>POWER PATHOS</em> exhibition catalogue.
-      </p>
-
-      <p>
-        It also appears in the Museo de la Paz de Gernika’s digital exhibition catalogue / flip-book, available
-        <a href="https://www.museodelapaz.eus/en/3d-flip-book/ron-english-guernica-berriro-imajinatzen-reimaginando-el-guernica-eng_fr/" rel="noopener noreferrer" target="_blank">here</a>,
-        accessed April 5, 2026.
-      </p>
-
-      <p>
-        Arrested Motion also documented the painting in its opening and exhibition photographs for Ron English’s <em>Status Factory – The Art of Ron English</em> at Frank M. Doyle Arts Pavilion, available
-        <a href="https://arrestedmotion.com/2010/11/openings-ron-english-status-factory-frank-m-doyle-arts-pavilion/" rel="noopener noreferrer" target="_blank">here</a>,
-        accessed April 14, 2026.
-      </p>
-
-      <p>
-        A later REMEMCHILD digital-memory-platform entry on the 2017 exhibition likewise records the work, available
-        <a href="https://rememchild.remigraid.org/en/ron-english-reimaginando-el-guernica/" rel="noopener noreferrer" target="_blank">here</a>,
-        accessed April 23, 2026.
-      </p>
 
       <p>
         This composition was later adapted by the artist as a related giclée print on Somerset Enhanced Radiant White Satin 330gsm paper issued as <em>Grade School Guernica</em>; the cited Art Collectorz page describes the print as measuring 100 × 49 cm (39.4 × 19.3 inches), published by Lazarides Editions in an edition of 95. See the related print on
@@ -204,10 +178,10 @@
       <h2>Ancillary Documentation</h2>
 
       <p>
-        The following documentation includes catalogue reproductions, exhibition-photo records, museum and project webpages, and a photograph of Ron English with the painting.
+        The following documentation records the painting in exhibition catalogues, exhibition photography, museum materials, and later digital contexts.
       </p>
 
-      <div class="ancillary-gallery verification-gallery">
+      <div class="ancillary-gallery documentation-grid">
         <figure class="ancillary-figure">
           <a
             href="../../../../images/Paintings/Web-Documentation/grade-school-guernica-opera-big-picture-pop-catalog.jpg"
@@ -221,7 +195,7 @@
             />
           </a>
           <figcaption>
-            Catalogue reproduction from <em>Big Picture Pop</em>.
+            Reproduction of the work in the exhibition catalogue for <em>Big Picture Pop</em>.
           </figcaption>
         </figure>
 
@@ -238,7 +212,7 @@
             />
           </a>
           <figcaption>
-            Catalogue reproduction from <em>POWER PATHOS</em>.
+            Reproduction of the work in the printed <em>POWER PATHOS</em> exhibition catalogue.
           </figcaption>
         </figure>
 
@@ -255,7 +229,7 @@
             />
           </a>
           <figcaption>
-            Archival screenshot of Museo de la Paz de Gernika’s digital exhibition catalogue, captured April 5, 2026.
+            Archival screenshot of Museo de la Paz de Gernika’s digital exhibition catalogue / flip-book for <em>Reimagining “Guernica” / La réinvention du “Guernica”</em>, captured April 5, 2026.
           </figcaption>
         </figure>
 
@@ -272,7 +246,7 @@
             />
           </a>
           <figcaption>
-            Archival screenshot of <em>Arrested Motion</em>’s <em>Status Factory</em> coverage, captured April 14, 2026.
+            Archival screenshot from <em>Arrested Motion</em> documenting the painting in Ron English’s <em>Status Factory – The Art of Ron English</em> at Frank M. Doyle Arts Pavilion, captured April 14, 2026.
           </figcaption>
         </figure>
 
@@ -289,7 +263,7 @@
             />
           </a>
           <figcaption>
-            Wide exhibition view from <em>Arrested Motion</em>’s <em>Status Factory</em> coverage.
+            Wider exhibition view from the same <em>Arrested Motion</em> coverage showing the painting on view.
           </figcaption>
         </figure>
 
@@ -306,7 +280,7 @@
             />
           </a>
           <figcaption>
-            Additional wide exhibition view from <em>Arrested Motion</em>’s <em>Status Factory</em> coverage.
+            Additional exhibition view from <em>Arrested Motion</em> documenting the installation context.
           </figcaption>
         </figure>
 
@@ -323,7 +297,7 @@
             />
           </a>
           <figcaption>
-            Detail view from <em>Arrested Motion</em>’s <em>Status Factory</em> coverage.
+            Detail view from the <em>Arrested Motion</em> documentation of <em>Status Factory</em>.
           </figcaption>
         </figure>
 
@@ -340,7 +314,7 @@
             />
           </a>
           <figcaption>
-            Archival screenshot of REMEMCHILD’s page on Ron English’s reimagining of <em>Guernica</em>, captured April 23, 2026.
+            Archival screenshot of REMEMCHILD’s later project page documenting Ron English’s reimagining of <em>Guernica</em>, captured April 23, 2026.
           </figcaption>
         </figure>
 
@@ -357,7 +331,7 @@
             />
           </a>
           <figcaption>
-            Archival screenshot of Museo de la Paz de Gernika’s postcard listing, captured April 23, 2026.
+            Archival screenshot of the Museo de la Paz de Gernika shop listing the postcard reproducing the image, captured April 23, 2026.
           </figcaption>
         </figure>
 
@@ -374,7 +348,7 @@
             />
           </a>
           <figcaption>
-            Archival screenshot of VeVe’s <em>Grade School Guernica 2022</em> page, captured April 16, 2026.
+            Archival screenshot of VeVe’s <em>Grade School Guernica 2022</em> page documenting the work’s later digital collectible use, captured April 16, 2026.
           </figcaption>
         </figure>
 
