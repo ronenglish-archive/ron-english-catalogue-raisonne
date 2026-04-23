@@ -74,42 +74,40 @@
       letter-spacing: 0.02em;
     }
 
-    .circulation-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0.35rem 0.65rem;
-      margin-top: 0.6rem;
-    }
 
-    .circulation-card {
-      display: block;
-      padding: 0.48rem 0.65rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.02);
-      text-decoration: none;
-      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-      line-height: 1.25;
-    }
+.circulation-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.15rem 1rem;
+  margin-top: 0.45rem;
+}
 
-    .circulation-card:hover {
-      transform: translateY(-1px);
-      border-color: rgba(255, 255, 255, 0.2);
-      background: rgba(255, 255, 255, 0.045);
-    }
+.circulation-link {
+  display: block;
+  padding: 0.08rem 0;
+  text-decoration: none;
+  line-height: 1.2;
+}
 
-    .circulation-title {
-      display: inline;
-      font-size: 0.92rem;
-      font-weight: 600;
-    }
+.circulation-link:hover .circulation-title {
+  text-decoration: underline;
+}
 
-    .circulation-source {
-      display: inline;
-      font-size: 0.78rem;
-      opacity: 0.74;
-      margin-left: 0.32rem;
-    }
+.circulation-title {
+  display: inline;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.circulation-source {
+  display: inline;
+  font-size: 0.78rem;
+  opacity: 0.72;
+  margin-left: 0.28rem;
+}
+
+
+    
 
     @media (max-width: 820px) {
       .archive-gallery,
@@ -451,62 +449,75 @@
         </div>
       </div>
 
-      <div class="ancillary-subsection">
-        <h3>Additional Online Circulation</h3>
+     <div class="ancillary-subsection">
+  <h3>Additional Online Circulation</h3>
 
-        <div class="circulation-grid">
-          <a class="circulation-card" href="https://m.blog.naver.com/holysjm/30071276609" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Naver post</span><span class="circulation-source">· m.blog.naver.com</span>
-          </a>
+  <div class="circulation-list">
+    <a class="circulation-link" href="https://m.blog.naver.com/holysjm/30071276609" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Naver post</span>
+      <span class="circulation-source">m.blog.naver.com</span>
+    </a>
 
-          <a class="circulation-card" href="https://okno.mk/node/39246" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">OKNO</span><span class="circulation-source">· okno.mk</span>
-          </a>
+    <a class="circulation-link" href="https://okno.mk/node/39246" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">OKNO</span>
+      <span class="circulation-source">okno.mk</span>
+    </a>
 
-          <a class="circulation-card" href="https://blog.naver.com/wildshark/221217654799" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Naver post</span><span class="circulation-source">· blog.naver.com</span>
-          </a>
+    <a class="circulation-link" href="https://blog.naver.com/wildshark/221217654799" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Naver post</span>
+      <span class="circulation-source">blog.naver.com</span>
+    </a>
 
-          <a class="circulation-card" href="https://www.slideshare.net/slideshow/the-popaganda-of-ron-english-the-godfather-of-street-art-powerpoint/36913079?nway-=" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">The Popaganda of Ron English: The Godfather of Street Art</span><span class="circulation-source">· SlideShare</span>
-          </a>
+    <a class="circulation-link" href="https://www.slideshare.net/slideshow/the-popaganda-of-ron-english-the-godfather-of-street-art-powerpoint/36913079?nway-=" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">The Popaganda of Ron English: The Godfather of Street Art</span>
+      <span class="circulation-source">SlideShare</span>
+    </a>
 
-          <a class="circulation-card" href="https://eurekart.wordpress.com/category/graphic-design/page/2/" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Graphic Design page</span><span class="circulation-source">· Eurekart</span>
-          </a>
+    <a class="circulation-link" href="https://eurekart.wordpress.com/category/graphic-design/page/2/" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Graphic Design page</span>
+      <span class="circulation-source">Eurekart</span>
+    </a>
 
-          <a class="circulation-card" href="https://idread.co.uk/photography/guernica-revisited/" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Guernica Revisited</span><span class="circulation-source">· idread.co.uk</span>
-          </a>
+    <a class="circulation-link" href="https://idread.co.uk/photography/guernica-revisited/" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Guernica Revisited</span>
+      <span class="circulation-source">idread.co.uk</span>
+    </a>
 
-          <a class="circulation-card" href="https://www.penna.gr/prosopa/12798-oi-gouernikes-tou-ron-english" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Oi Gkouernikes tou Ron English</span><span class="circulation-source">· Penna</span>
-          </a>
+    <a class="circulation-link" href="https://www.penna.gr/prosopa/12798-oi-gouernikes-tou-ron-english" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Oi Gkouernikes tou Ron English</span>
+      <span class="circulation-source">Penna</span>
+    </a>
 
-          <a class="circulation-card" href="https://listverse.com/2013/03/02/10-pop-culture-versions-of-famous-paintings/" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">10 Pop Culture Versions of Famous Paintings</span><span class="circulation-source">· Listverse</span>
-          </a>
+    <a class="circulation-link" href="https://listverse.com/2013/03/02/10-pop-culture-versions-of-famous-paintings/" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">10 Pop Culture Versions of Famous Paintings</span>
+      <span class="circulation-source">Listverse</span>
+    </a>
 
-          <a class="circulation-card" href="https://www.oldskull.net/design/la-popaganda-de-ron-english/" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">La Popaganda de Ron English</span><span class="circulation-source">· Old Skull</span>
-          </a>
+    <a class="circulation-link" href="https://www.oldskull.net/design/la-popaganda-de-ron-english/" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">La Popaganda de Ron English</span>
+      <span class="circulation-source">Old Skull</span>
+    </a>
 
-          <a class="circulation-card" href="https://uwsdes220sp2013.wordpress.com/2013/05/14/ron-english/" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Ron English</span><span class="circulation-source">· UWS DES 220</span>
-          </a>
+    <a class="circulation-link" href="https://uwsdes220sp2013.wordpress.com/2013/05/14/ron-english/" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Ron English</span>
+      <span class="circulation-source">UWS DES 220</span>
+    </a>
 
-          <a class="circulation-card" href="https://art-of-being.livejournal.com/135557.html" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">LiveJournal post</span><span class="circulation-source">· art-of-being.livejournal.com</span>
-          </a>
+    <a class="circulation-link" href="https://art-of-being.livejournal.com/135557.html" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">LiveJournal post</span>
+      <span class="circulation-source">art-of-being.livejournal.com</span>
+    </a>
 
-          <a class="circulation-card" href="https://www.piercingmetal.com/piercingmetal-attends-the-ron-english-art-opening-in-nyc/" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">PiercingMetal Attends The Ron English Art Opening In NYC</span><span class="circulation-source">· PiercingMetal</span>
-          </a>
+    <a class="circulation-link" href="https://www.piercingmetal.com/piercingmetal-attends-the-ron-english-art-opening-in-nyc/" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">PiercingMetal Attends The Ron English Art Opening In NYC</span>
+      <span class="circulation-source">PiercingMetal</span>
+    </a>
 
-          <a class="circulation-card" href="https://ameblo.jp/co-violet/entry-10718380961.html" target="_blank" rel="noopener noreferrer">
-            <span class="circulation-title">Ameblo post</span><span class="circulation-source">· ameblo.jp</span>
-          </a>
-        </div>
+    <a class="circulation-link" href="https://ameblo.jp/co-violet/entry-10718380961.html" target="_blank" rel="noopener noreferrer">
+      <span class="circulation-title">Ameblo post</span>
+      <span class="circulation-source">ameblo.jp</span>
+    </a>
+  </div>
       </div>
     </section>
   </main>
