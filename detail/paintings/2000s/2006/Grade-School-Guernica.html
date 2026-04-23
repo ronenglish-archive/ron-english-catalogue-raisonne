@@ -69,43 +69,53 @@
       margin: 0 auto;
     }
 
-    .additional-web-docs {
+    .circulation-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.85rem;
       margin-top: 0.9rem;
-      padding: 1rem 1rem 0.25rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .circulation-card {
+      display: block;
+      padding: 0.95rem 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
       border-radius: 14px;
       background: rgba(255, 255, 255, 0.025);
+      text-decoration: none;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
     }
 
-    .additional-web-docs p {
-      margin-top: 0;
+    .circulation-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, 0.24);
+      background: rgba(255, 255, 255, 0.05);
     }
 
-    .supporting-links {
-      columns: 2;
-      column-gap: 2rem;
-      margin: 0;
-      padding-left: 1.15rem;
+    .circulation-title {
+      display: block;
+      font-size: 0.98rem;
+      line-height: 1.45;
+      font-weight: 600;
+      margin-bottom: 0.18rem;
     }
 
-    .supporting-links li {
-      break-inside: avoid;
-      margin-bottom: 0.55rem;
-      line-height: 1.55;
+    .circulation-source {
+      display: block;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      opacity: 0.78;
     }
 
     @media (max-width: 820px) {
-      .ancillary-gallery.documentation-grid {
+      .ancillary-gallery.documentation-grid,
+      .circulation-grid {
         grid-template-columns: 1fr;
       }
 
       .ancillary-gallery.documentation-grid .ancillary-figure.archive-photo {
         grid-column: span 1;
         max-width: 100%;
-      }
-
-      .supporting-links {
-        columns: 1;
       }
     }
   </style>
@@ -166,14 +176,6 @@
       </p>
 
       <p>
-        This composition was later adapted by the artist as a related giclée print on Somerset Enhanced Radiant White Satin 330gsm paper issued as <em>Grade School Guernica</em>.
-      </p>
-
-      <p>
-        The image was also issued as a postcard by the Museo de la Paz de Gernika shop in connection with the 2017 exhibition, and was later used for VeVe’s <em>Grade School Guernica 2022</em> digital collectible.
-      </p>
-
-      <p>
         In <em>Original Grin</em>, this work was erroneously reported as 12 × 27 inches.
       </p>
 
@@ -186,7 +188,7 @@
       <h2>Ancillary Documentation</h2>
 
       <p>
-        The following materials document the work in exhibition catalogues, museum materials, exhibition photography, related reproductions, reference imagery, and wider online circulation.
+        The following materials document the work in exhibition catalogues, museum materials, exhibition photography, video documentation, related reproductions, reference imagery, and wider online circulation.
       </p>
 
       <div class="ancillary-subsection">
@@ -321,6 +323,25 @@
 
           <figure class="ancillary-figure">
             <a
+              href="../../../../images/Paintings/Web-Documentation2/grade-school-oizmendi-video-still.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../../../../images/Paintings/Web-Documentation2/grade-school-oizmendi-video-still.jpg"
+                alt="Still frame from Oizmendi Telebista video showing Grade School Guernica"
+                loading="lazy"
+              />
+            </a>
+            <figcaption>
+              Still frame at 0:58 from Oizmendi Telebista’s video report on the exhibition, available
+              <a href="https://www.oizmendi.eus/berriak/kultura/ron-english-artistaren-guernica-ren-berrikusketak-ikusgai-daude-kultur-etxean-maiatzaren-21a-bitartean/" target="_blank" rel="noopener noreferrer">here</a>,
+              accessed April 23, 2026.
+            </figcaption>
+          </figure>
+
+          <figure class="ancillary-figure">
+            <a
               href="../../../../images/Paintings/Web-Documentation/various2-guernica-museo-paz-memchild-screenshot.jpg"
               target="_blank"
               rel="noopener noreferrer"
@@ -431,82 +452,76 @@
       </div>
 
       <div class="ancillary-subsection">
-        <h3>Additional Online Documentation</h3>
+        <h3>Additional Online Circulation</h3>
 
-  <div class="additional-web-docs">
-    <p>
-      The following pages show the wider online circulation of the image:
-    </p>
+        <div class="circulation-grid">
+          <a class="circulation-card" href="https://m.blog.naver.com/holysjm/30071276609" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Naver post</span>
+            <span class="circulation-source">m.blog.naver.com</span>
+          </a>
 
-    <ul class="supporting-links clean-link-list">
-      <li>
-        <a href="https://m.blog.naver.com/holysjm/30071276609" target="_blank" rel="noopener noreferrer">
-          Naver post
-        </a>
-      </li>
-      <li>
-        <a href="https://okno.mk/node/39246" target="_blank" rel="noopener noreferrer">
-          OKNO
-        </a>
-      </li>
-      <li>
-        <a href="https://blog.naver.com/wildshark/221217654799" target="_blank" rel="noopener noreferrer">
-          Naver post
-        </a>
-      </li>
-      <li>
-        <a href="https://www.slideshare.net/slideshow/the-popaganda-of-ron-english-the-godfather-of-street-art-powerpoint/36913079?nway-=" target="_blank" rel="noopener noreferrer">
-          “The Popaganda of Ron English: The Godfather of Street Art” (SlideShare)
-        </a>
-      </li>
-      <li>
-        <a href="https://eurekart.wordpress.com/category/graphic-design/page/2/" target="_blank" rel="noopener noreferrer">
-          Eurekart
-        </a>
-      </li>
-      <li>
-        <a href="https://idread.co.uk/photography/guernica-revisited/" target="_blank" rel="noopener noreferrer">
-          “Guernica Revisited” (idread.co.uk)
-        </a>
-      </li>
-      <li>
-        <a href="https://www.penna.gr/prosopa/12798-oi-gouernikes-tou-ron-english" target="_blank" rel="noopener noreferrer">
-          Penna
-        </a>
-      </li>
-      <li>
-        <a href="https://listverse.com/2013/03/02/10-pop-culture-versions-of-famous-paintings/" target="_blank" rel="noopener noreferrer">
-          “10 Pop Culture Versions of Famous Paintings” (Listverse)
-        </a>
-      </li>
-      <li>
-        <a href="https://www.oldskull.net/design/la-popaganda-de-ron-english/" target="_blank" rel="noopener noreferrer">
-          “La Popaganda de Ron English” (Old Skull)
-        </a>
-      </li>
-      <li>
-        <a href="https://uwsdes220sp2013.wordpress.com/2013/05/14/ron-english/" target="_blank" rel="noopener noreferrer">
-          “Ron English” (UWS DES 220)
-        </a>
-      </li>
-      <li>
-        <a href="https://art-of-being.livejournal.com/135557.html" target="_blank" rel="noopener noreferrer">
-          LiveJournal post
-        </a>
-      </li>
-      <li>
-        <a href="https://www.piercingmetal.com/piercingmetal-attends-the-ron-english-art-opening-in-nyc/" target="_blank" rel="noopener noreferrer">
-          “PiercingMetal Attends The Ron English Art Opening In NYC”
-        </a>
-      </li>
-      <li>
-        <a href="https://ameblo.jp/co-violet/entry-10718380961.html" target="_blank" rel="noopener noreferrer">
-          Ameblo post
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+          <a class="circulation-card" href="https://okno.mk/node/39246" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">OKNO</span>
+            <span class="circulation-source">okno.mk</span>
+          </a>
+
+          <a class="circulation-card" href="https://blog.naver.com/wildshark/221217654799" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Naver post</span>
+            <span class="circulation-source">blog.naver.com</span>
+          </a>
+
+          <a class="circulation-card" href="https://www.slideshare.net/slideshow/the-popaganda-of-ron-english-the-godfather-of-street-art-powerpoint/36913079?nway-=" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">The Popaganda of Ron English: The Godfather of Street Art</span>
+            <span class="circulation-source">SlideShare</span>
+          </a>
+
+          <a class="circulation-card" href="https://eurekart.wordpress.com/category/graphic-design/page/2/" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Graphic Design page</span>
+            <span class="circulation-source">Eurekart</span>
+          </a>
+
+          <a class="circulation-card" href="https://idread.co.uk/photography/guernica-revisited/" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Guernica Revisited</span>
+            <span class="circulation-source">idread.co.uk</span>
+          </a>
+
+          <a class="circulation-card" href="https://www.penna.gr/prosopa/12798-oi-gouernikes-tou-ron-english" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Oi Gkouernikes tou Ron English</span>
+            <span class="circulation-source">Penna</span>
+          </a>
+
+          <a class="circulation-card" href="https://listverse.com/2013/03/02/10-pop-culture-versions-of-famous-paintings/" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">10 Pop Culture Versions of Famous Paintings</span>
+            <span class="circulation-source">Listverse</span>
+          </a>
+
+          <a class="circulation-card" href="https://www.oldskull.net/design/la-popaganda-de-ron-english/" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">La Popaganda de Ron English</span>
+            <span class="circulation-source">Old Skull</span>
+          </a>
+
+          <a class="circulation-card" href="https://uwsdes220sp2013.wordpress.com/2013/05/14/ron-english/" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Ron English</span>
+            <span class="circulation-source">UWS DES 220</span>
+          </a>
+
+          <a class="circulation-card" href="https://art-of-being.livejournal.com/135557.html" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">LiveJournal post</span>
+            <span class="circulation-source">art-of-being.livejournal.com</span>
+          </a>
+
+          <a class="circulation-card" href="https://www.piercingmetal.com/piercingmetal-attends-the-ron-english-art-opening-in-nyc/" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">PiercingMetal Attends The Ron English Art Opening In NYC</span>
+            <span class="circulation-source">PiercingMetal</span>
+          </a>
+
+          <a class="circulation-card" href="https://ameblo.jp/co-violet/entry-10718380961.html" target="_blank" rel="noopener noreferrer">
+            <span class="circulation-title">Ameblo post</span>
+            <span class="circulation-source">ameblo.jp</span>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 </html>
