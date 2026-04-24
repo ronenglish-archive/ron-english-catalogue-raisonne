@@ -44,15 +44,18 @@
     .archive-gallery,
     .ancillary-gallery.documentation-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: 1fr;
       gap: 1.2rem;
       align-items: start;
       margin-top: 0.85rem;
     }
 
     .archive-gallery {
-      grid-template-columns: 1fr;
       max-width: 760px;
+    }
+
+    .ancillary-gallery.documentation-grid {
+      max-width: 820px;
     }
 
     .archive-gallery .ancillary-figure a,
@@ -67,12 +70,17 @@
       margin: 0 auto;
     }
 
+    .ancillary-gallery.documentation-grid .ancillary-figure img {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
     .archive-gallery .ancillary-figure figcaption,
     .ancillary-gallery.documentation-grid .ancillary-figure figcaption {
       margin: 0;
       padding: 0.8rem 0.95rem 1rem;
       font-size: 0.95rem;
-      line-height: 1.5;
+      line-height: 1.55;
       border-top: 1px solid rgba(255, 255, 255, 0.08);
       background: rgba(255, 255, 255, 0.02);
     }
@@ -90,15 +98,9 @@
       line-height: 1.35;
     }
 
-    .card-details {
-      margin: 0.45rem 0 0;
-      padding-left: 1.15rem;
-      font-size: 0.9rem;
-      line-height: 1.45;
-    }
-
-    .card-details li {
-      margin: 0.12rem 0;
+    .card-detail-text {
+      display: block;
+      margin-top: 0.35rem;
     }
 
     .card-source {
@@ -126,11 +128,18 @@
     }
 
     .ref-figure.reference-card figcaption {
-      margin: 0;
+      display: block;
+      width: 100%;
+      margin: 0 auto;
       padding: 0.8rem 0 0;
       font-size: 0.95rem;
       line-height: 1.5;
-      text-align: center;
+      text-align: center !important;
+    }
+
+    .ref-figure.reference-card figcaption,
+    .ref-figure.reference-card figcaption * {
+      text-align: center !important;
     }
 
     .circulation-list {
@@ -162,19 +171,6 @@
       font-size: 0.78rem;
       opacity: 0.72;
       margin-left: 0.28rem;
-    }
-
-    .ref-figure.reference-card figcaption {
-      display: block;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center !important;
-    }
-
-    .ref-figure.reference-card figcaption,
-    .ref-figure.reference-card figcaption * {
-      text-align: center !important;
     }
 
     @media (max-width: 820px) {
@@ -441,16 +437,9 @@
           </a>
           <figcaption>
             <span class="card-title">Print reproducing <em>Grade School Guernica</em>.</span>
-            Art Collectorz records this edition with the following details:
-            <ul class="card-details">
-              <li>Publisher: Lazarides Editions.</li>
-              <li>Edition: First Edition.</li>
-              <li>Published: June 30, 2011.</li>
-              <li>Edition size: 95.</li>
-              <li>Medium: giclée print on Somerset Enhanced Radiant White Satin 330 gsm paper.</li>
-              <li>Dimensions: 49 × 100 cm.</li>
-             <li>Original release price: GBP £225.00, as recorded by Art Collectorz.</li>
-            </ul>
+            <span class="card-detail-text">
+              Art Collectorz records this as a First Edition published by Lazarides Editions on June 30, 2011, in an edition of 95. The print is listed as a giclée on Somerset Enhanced Radiant White Satin 330 gsm paper, measuring 49 × 100 cm. Original release price: GBP £225.00, as recorded by Art Collectorz.
+            </span>
             <span class="card-source">
               See the edition listing on
               <a href="https://www.artcollectorz.com/artworks/artwork-detail?artwork_id=10&amp;edition_id=17" target="_blank" rel="noopener noreferrer">Art Collectorz</a>,
@@ -473,13 +462,9 @@
           </a>
           <figcaption>
             <span class="card-title">Postcard reproducing <em>Grade School Guernica</em>.</span>
-            Museo de la Paz de Gernika’s shop listing records this as a Ron English postcard connected to the 2017 temporary exhibition <em>Reimagining “Guernica”</em>.
-            <ul class="card-details">
-              <li>Listed title: <em>Postal “Gradeschool Guernica”. Ron English.</em></li>
-              <li>Product type: postcard.</li>
-              <li>Listed price at time of capture: €1.20.</li>
-   
-            </ul>
+            <span class="card-detail-text">
+              Museo de la Paz de Gernika’s shop listing records this as <em>Postal “Gradeschool Guernica”. Ron English</em>, a postcard connected to the 2017 temporary exhibition <em>Reimagining “Guernica”</em>. Listed price at time of capture: €1.20.
+            </span>
             <span class="card-source">
               Available
               <a href="https://denda.museodelapaz.eus/postales/206-postal-gradeschool-guernica-ron-english-8400000016001.html" target="_blank" rel="noopener noreferrer">here</a>,
@@ -502,18 +487,9 @@
           </a>
           <figcaption>
             <span class="card-title"><em>Grade School Guernica 2022</em>, VeVe digital collectible / digital print.</span>
-            VeVe’s official Ukraine Relief Project announcement identifies this item as a special digital print issued in partnership with Ron English, with net proceeds from the first sale going to the New Zealand Red Cross for Ukraine refugee relief.
-            <ul class="card-details">
-              <li>Drop date: March 12, 2022, 8 AM PT.</li>
-              <li>List price: $100.00.</li>
-              <li>Editions: 4,444.</li>
-              <li>Edition type: First Edition.</li>
-              <li>Rarity: Secret Rare.</li>
-              <li>License: Ron English.</li>
-              <li>Brand: Ukraine Relief Project.</li>
-              <li>Series: Grade School Guernica.</li>
-              <li>Availability: Globally.</li>
-            </ul>
+            <span class="card-detail-text">
+              VeVe’s official Ukraine Relief Project announcement identifies this item as a special digital print issued in partnership with Ron English, with net proceeds from the first sale going to the New Zealand Red Cross for Ukraine refugee relief. The drop was scheduled for March 12, 2022, at 8 AM PT, with 4,444 editions, a list price of $100.00, First Edition status, and Secret Rare rarity.
+            </span>
             <span class="card-source">
               VeVe listing available
               <a href="https://www.veve.me/collectibles/en/collectibles/b3d41370-81f9-40aa-8b5e-8b2b9f3ea2fb" target="_blank" rel="noopener noreferrer">here</a>,
