@@ -68,6 +68,52 @@
       text-decoration: underline;
     }
 
+    .ref-figure.reference-card {
+      max-width: 760px;
+      margin: 0.8rem auto 1.5rem;
+      padding: 0.95rem;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.04);
+      overflow: hidden;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+    }
+
+    .ref-figure.reference-card a {
+      display: block;
+      text-decoration: none;
+    }
+
+    .ref-figure.reference-card img {
+      display: block;
+      width: 100%;
+      max-width: 520px;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+
+    .ref-figure.reference-card figcaption {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0.8rem 0 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      text-align: center !important;
+    }
+
+    .ref-figure.reference-card figcaption,
+    .ref-figure.reference-card figcaption * {
+      text-align: center !important;
+    }
+
+    .ref-figure.reference-card figcaption a {
+      display: inline;
+      text-decoration: underline;
+    }
+
     .card-title {
       display: block;
       margin-bottom: 0.35rem;
@@ -103,6 +149,10 @@
         max-width: 260px;
         max-height: 190px;
       }
+
+      .ref-figure.reference-card img {
+        max-width: 100%;
+      }
     }
   </style>
 </head>
@@ -128,7 +178,7 @@
 
     <img
       src="../../../../images/Paintings/1980s/1988/Goofy-ChaneyL.jpg"
-      alt="Goofy Chaney (1988)"
+      alt="Goofy Chaney"
       class="work-hero"
       loading="lazy"
     />
@@ -168,10 +218,48 @@
       </p>
 
       <p>
-        This painting references Goofy, the Disney cartoon character, as well as Lon Chaney in clown makeup. A representative image of Goofy is available
-        <a href="https://en.wikipedia.org/wiki/Goofy" target="_blank" rel="noopener noreferrer">here</a>. The Chaney image is based directly on the image available
-        <a href="https://www.imdb.com/title/tt0019074/mediaviewer/rm947886080/" target="_blank" rel="noopener noreferrer">here</a>.
+        This painting references Goofy, the Disney cartoon character.
       </p>
+
+      <figure class="ref-figure reference-card">
+        <a
+          href="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
+            alt="Representative reference image of Goofy"
+            loading="lazy"
+          />
+        </a>
+        <figcaption>
+          Representative reference documentation for Goofy, available
+          <a href="https://en.wikipedia.org/wiki/Goofy" target="_blank" rel="noopener noreferrer">here</a>.
+        </figcaption>
+      </figure>
+
+      <p>
+        The composition also references Lon Chaney in clown makeup.
+      </p>
+
+      <figure class="ref-figure reference-card">
+        <a
+          href="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
+            alt="Reference image of Lon Chaney in clown makeup"
+            loading="lazy"
+          />
+        </a>
+        <figcaption>
+          Reference documentation for Lon Chaney in clown makeup, available
+          <a href="https://www.imdb.com/title/tt0019074/mediaviewer/rm947886080/" target="_blank" rel="noopener noreferrer">here</a>.
+        </figcaption>
+      </figure>
     </section>
 
     <section class="section-block">
@@ -196,58 +284,6 @@
             <span class="card-title">Show card for <em>New Paintings</em> at The Art Store.</span>
             <span class="card-detail-text">
               The exhibition card reproduces <em>Goofy Chaney</em>, also known as <em>Transcending Facades</em>.
-            </span>
-          </figcaption>
-        </figure>
-
-        <figure class="ancillary-figure">
-          <a
-            href="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
-              alt="Screenshot documenting Goofy as a Disney cartoon character"
-              loading="lazy"
-            />
-          </a>
-
-          <figcaption>
-            <span class="card-title">Representative reference documentation for Goofy.</span>
-            <span class="card-detail-text">
-              The Wikipedia page for Goofy identifies the figure as a Disney cartoon character and provides context for the character referenced in this painting.
-            </span>
-            <span class="card-source">
-              See the reference page on
-              <a href="https://en.wikipedia.org/wiki/Goofy" target="_blank" rel="noopener noreferrer">Wikipedia</a>,
-              captured April 25, 2026.
-            </span>
-          </figcaption>
-        </figure>
-
-        <figure class="ancillary-figure">
-          <a
-            href="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
-              alt="Screenshot documenting Lon Chaney in clown makeup"
-              loading="lazy"
-            />
-          </a>
-
-          <figcaption>
-            <span class="card-title">Reference documentation for Lon Chaney in clown makeup.</span>
-            <span class="card-detail-text">
-              The IMDb media image documents the Lon Chaney source image referenced in <em>Goofy Chaney</em>.
-            </span>
-            <span class="card-source">
-              See the media image on
-              <a href="https://www.imdb.com/title/tt0019074/mediaviewer/rm947886080/" target="_blank" rel="noopener noreferrer">IMDb</a>,
-              captured April 25, 2026.
             </span>
           </figcaption>
         </figure>
