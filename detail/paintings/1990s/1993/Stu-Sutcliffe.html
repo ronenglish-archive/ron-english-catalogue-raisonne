@@ -12,7 +12,6 @@
   <style>
     .ref-figure.reference-card,
     .ancillary-gallery.documentation-grid .ancillary-figure {
-      margin: 0;
       border: 1px solid rgba(255, 255, 255, 0.16);
       border-radius: 16px;
       background: rgba(255, 255, 255, 0.04);
@@ -21,8 +20,11 @@
     }
 
     .ref-figure.reference-card {
+      display: block;
+      width: 100%;
       max-width: 420px;
-      margin-top: 0.85rem;
+      margin: 0.95rem auto 0;
+      text-align: center;
     }
 
     .ref-figure.reference-card a {
@@ -35,19 +37,22 @@
     }
 
     .ref-figure.reference-card img {
+      display: block;
       width: 100%;
       max-width: 340px;
+      max-height: 340px;
       height: auto;
       object-fit: contain;
       margin: 0 auto;
     }
 
     .ref-figure.reference-card figcaption {
+      display: block;
       margin: 0;
       padding: 0.85rem 1rem;
       font-size: 0.92rem;
       line-height: 1.5;
-      text-align: left;
+      text-align: center;
       background: rgba(255, 255, 255, 0.02);
     }
 
@@ -56,7 +61,7 @@
       grid-template-columns: 1fr;
       gap: 1rem;
       align-items: start;
-      margin-top: 0.85rem;
+      margin: 0.85rem auto 0;
       max-width: 920px;
     }
 
@@ -64,9 +69,10 @@
       display: grid;
       grid-template-columns: minmax(150px, 230px) 1fr;
       align-items: center;
+      margin: 0;
     }
 
-    .ancillary-gallery.documentation-grid .ancillary-figure a {
+    .ancillary-gallery.documentation-grid .ancillary-figure > a {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -78,6 +84,7 @@
     }
 
     .ancillary-gallery.documentation-grid .ancillary-figure img {
+      display: block;
       width: 100%;
       max-width: 210px;
       max-height: 170px;
@@ -127,7 +134,7 @@
         grid-template-columns: 1fr;
       }
 
-      .ancillary-gallery.documentation-grid .ancillary-figure a {
+      .ancillary-gallery.documentation-grid .ancillary-figure > a {
         min-height: auto;
         border-right: 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -150,7 +157,7 @@
       <a class="nav-pill" href="../../../../index.html">Home</a>
       <a class="nav-pill" href="../../../../paintings/1970s.html">1970s</a>
       <a class="nav-pill" href="../../../../paintings/1980s.html">1980s</a>
-      <a class="nav-pill" href="../../../../paintings/1990s.html">1990s</a>
+      <a class="nav-pill is-active" href="../../../../paintings/1990s.html">1990s</a>
       <a class="nav-pill" href="../../../../paintings/2000s.html">2000s</a>
       <a class="nav-pill" href="../../../../paintings/2010s.html">2010s</a>
       <a class="nav-pill" href="../../../../paintings/2020s.html">2020s</a>
@@ -162,7 +169,7 @@
 
     <img
       src="../../../../images/Paintings/1990s/1993/Stu-SutcliffeL.jpg"
-      alt="Stu Sutcliffe, 1993"
+      alt="Stu Sutcliffe (1993)"
       class="work-hero"
       loading="lazy"
     />
@@ -171,7 +178,7 @@
       <li><strong>Title:</strong> Stu Sutcliffe</li>
       <li><strong>Date:</strong> 1993</li>
       <li><strong>Medium:</strong> Oil on canvas</li>
-      <li><strong>Dimensions:</strong> 30 × 30 in</li>
+      <li><strong>Dimensions:</strong> 30 × 30 inches</li>
       <li><strong>Work ID:</strong> RE-000193</li>
       <li><strong>Signature / marks:</strong> None observed.</li>
     </ul>
@@ -179,12 +186,12 @@
     <!--
     <section class="section-block">
       <h2>Exhibitions</h2>
+      <p></p>
     </section>
     -->
 
     <section class="section-block">
       <h2>Literature</h2>
-
       <p>
         Ron English, <em>Popaganda: The Art &amp; Subversion of Ron English</em>
         (San Francisco: Last Gasp, 2001), p. 134. ISBN 1-887128-60-3.
@@ -195,7 +202,7 @@
       <h2>Notes</h2>
 
       <p>
-        In <em>Popaganda: The Art &amp; Subversion of Ron English</em>, this work was erroneously reported as 40 × 40 in.
+        In <em>Popaganda: The Art &amp; Subversion of Ron English</em>, this work was erroneously reported as 40 × 40 inches.
       </p>
 
       <p>
@@ -214,6 +221,7 @@
             loading="lazy"
           />
         </a>
+
         <figcaption>
           Representative photographic image of Stu Sutcliffe, included here as reference documentation for the painting’s subject.
         </figcaption>
@@ -224,6 +232,7 @@
       <h2>Ancillary Documentation</h2>
 
       <div class="ancillary-gallery documentation-grid">
+
         <figure class="ancillary-figure">
           <a
             href="../../../../images/Paintings/Web-Documentation2/stu-sutcliff-sutcliffs-album.jpg"
@@ -236,6 +245,7 @@
               loading="lazy"
             />
           </a>
+
           <figcaption>
             <span class="card-title">Album cover use: <em>The Sutcliffes – Smirk</em>.</span>
             <span class="card-detail-text">
@@ -252,6 +262,7 @@
             </span>
           </figcaption>
         </figure>
+
       </div>
     </section>
 
