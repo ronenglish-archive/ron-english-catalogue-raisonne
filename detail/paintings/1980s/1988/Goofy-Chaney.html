@@ -68,52 +68,6 @@
       text-decoration: underline;
     }
 
-    .ref-figure.reference-card {
-      max-width: 760px;
-      margin: 0.8rem auto 1.5rem;
-      padding: 0.95rem;
-      text-align: center;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.04);
-      overflow: hidden;
-      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
-    }
-
-    .ref-figure.reference-card a {
-      display: block;
-      text-decoration: none;
-    }
-
-    .ref-figure.reference-card img {
-      display: block;
-      width: 100%;
-      max-width: 520px;
-      height: auto;
-      margin: 0 auto;
-      border-radius: 10px;
-    }
-
-    .ref-figure.reference-card figcaption {
-      display: block;
-      width: 100%;
-      margin: 0 auto;
-      padding: 0.8rem 0 0;
-      font-size: 0.95rem;
-      line-height: 1.5;
-      text-align: center !important;
-    }
-
-    .ref-figure.reference-card figcaption,
-    .ref-figure.reference-card figcaption * {
-      text-align: center !important;
-    }
-
-    .ref-figure.reference-card figcaption a {
-      display: inline;
-      text-decoration: underline;
-    }
-
     .card-title {
       display: block;
       margin-bottom: 0.35rem;
@@ -148,10 +102,6 @@
       .ancillary-gallery.documentation-grid .ancillary-figure img {
         max-width: 260px;
         max-height: 190px;
-      }
-
-      .ref-figure.reference-card img {
-        max-width: 100%;
       }
     }
   </style>
@@ -194,6 +144,7 @@
 
     <section class="section-block">
       <h2>Exhibitions</h2>
+
       <p>
         <em>New Paintings</em>, The Art Store, New York, New York, US, May 5–June 2, 1990.
       </p>
@@ -201,6 +152,7 @@
 
     <section class="section-block">
       <h2>Literature</h2>
+
       <p>
         Ron English, <em>Original Grin: The Art of Ron English</em> (Paris: Cernunnos / Abrams, 2019), p. 112. ISBN 978-2374950938.
       </p>
@@ -212,56 +164,62 @@
       <p>
         Also known as <em>Transcending Facades</em>.
       </p>
-
-      <p>
-        This painting references Goofy, the Disney cartoon character.
-      </p>
-
-      <figure class="ref-figure reference-card">
-        <a
-          href="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
-            alt="Representative reference image of Goofy"
-            loading="lazy"
-          />
-        </a>
-        <figcaption>
-          Representative reference documentation for Goofy, available
-          <a href="https://en.wikipedia.org/wiki/Goofy" target="_blank" rel="noopener noreferrer">here</a>.
-        </figcaption>
-      </figure>
-
-      <p>
-        The composition also references Lon Chaney in clown makeup.
-      </p>
-
-      <figure class="ref-figure reference-card">
-        <a
-          href="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
-            alt="Reference image of Lon Chaney in clown makeup"
-            loading="lazy"
-          />
-        </a>
-        <figcaption>
-          Reference documentation for Lon Chaney in clown makeup, available
-          <a href="https://www.imdb.com/title/tt0019074/mediaviewer/rm947886080/" target="_blank" rel="noopener noreferrer">here</a>.
-        </figcaption>
-      </figure>
     </section>
 
     <section class="section-block">
       <h2>Ancillary Documentation</h2>
 
       <div class="ancillary-gallery documentation-grid">
+
+        <figure class="ancillary-figure">
+          <a
+            href="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Web-Documentation2/goofy.jpg"
+              alt="Representative reference image of Goofy"
+              loading="lazy"
+            />
+          </a>
+
+          <figcaption>
+            <span class="card-title">Goofy reference documentation.</span>
+            <span class="card-detail-text">
+              This painting references Goofy, the Disney cartoon character.
+            </span>
+            <span class="card-source">
+              Representative reference documentation available
+              <a href="https://en.wikipedia.org/wiki/Goofy" target="_blank" rel="noopener noreferrer">here</a>.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="ancillary-figure">
+          <a
+            href="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Web-Documentation2/lon-chaney.jpg"
+              alt="Reference image of Lon Chaney in clown makeup"
+              loading="lazy"
+            />
+          </a>
+
+          <figcaption>
+            <span class="card-title">Lon Chaney reference documentation.</span>
+            <span class="card-detail-text">
+              The composition also references Lon Chaney in clown makeup.
+            </span>
+            <span class="card-source">
+              Reference documentation available
+              <a href="https://www.imdb.com/title/tt0019074/mediaviewer/rm947886080/" target="_blank" rel="noopener noreferrer">here</a>.
+            </span>
+          </figcaption>
+        </figure>
 
         <figure class="ancillary-figure">
           <a
