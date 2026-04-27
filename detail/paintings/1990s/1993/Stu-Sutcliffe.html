@@ -10,52 +10,6 @@
   <link rel="stylesheet" href="../../../../css/styles.css" />
 
   <style>
-    .ref-figure.reference-card,
-    .ancillary-gallery.documentation-grid .ancillary-figure {
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.04);
-      overflow: hidden;
-      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
-    }
-
-    .ref-figure.reference-card {
-      display: block;
-      width: 100%;
-      max-width: 420px;
-      margin: 0.95rem auto 0;
-      text-align: center;
-    }
-
-    .ref-figure.reference-card a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.9rem;
-      text-decoration: none;
-      background: rgba(255, 255, 255, 0.025);
-    }
-
-    .ref-figure.reference-card img {
-      display: block;
-      width: 100%;
-      max-width: 340px;
-      max-height: 340px;
-      height: auto;
-      object-fit: contain;
-      margin: 0 auto;
-    }
-
-    .ref-figure.reference-card figcaption {
-      display: block;
-      margin: 0;
-      padding: 0.85rem 1rem;
-      font-size: 0.92rem;
-      line-height: 1.5;
-      text-align: center;
-      background: rgba(255, 255, 255, 0.02);
-    }
-
     .ancillary-gallery.documentation-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -70,6 +24,11 @@
       grid-template-columns: minmax(150px, 230px) 1fr;
       align-items: center;
       margin: 0;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.04);
+      overflow: hidden;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
     }
 
     .ancillary-gallery.documentation-grid .ancillary-figure > a {
@@ -208,30 +167,33 @@
       <p>
         This work references Stu Sutcliffe.
       </p>
-
-      <figure class="ref-figure reference-card">
-        <a
-          href="../../../../images/Paintings/Web-Documentation2/stu-sutcliff.jpg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="../../../../images/Paintings/Web-Documentation2/stu-sutcliff.jpg"
-            alt="Representative photographic image of Stu Sutcliffe"
-            loading="lazy"
-          />
-        </a>
-
-        <figcaption>
-          Representative photographic image of Stu Sutcliffe, included here as reference documentation for the painting’s subject.
-        </figcaption>
-      </figure>
     </section>
 
     <section class="section-block">
       <h2>Ancillary Documentation</h2>
 
       <div class="ancillary-gallery documentation-grid">
+
+        <figure class="ancillary-figure">
+          <a
+            href="../../../../images/Paintings/Web-Documentation2/stu-sutcliff.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Web-Documentation2/stu-sutcliff.jpg"
+              alt="Representative photographic image of Stu Sutcliffe"
+              loading="lazy"
+            />
+          </a>
+
+          <figcaption>
+            <span class="card-title">Reference documentation for Stu Sutcliffe.</span>
+            <span class="card-detail-text">
+              Representative photographic image of Stu Sutcliffe, included here as reference documentation for the painting’s subject.
+            </span>
+          </figcaption>
+        </figure>
 
         <figure class="ancillary-figure">
           <a
