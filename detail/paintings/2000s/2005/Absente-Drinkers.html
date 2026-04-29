@@ -11,7 +11,6 @@
 
   <style>
     .hero-card,
-    .ref-figure,
     .ancillary-gallery.documentation-grid .ancillary-figure {
       margin: 0;
       border: 1px solid rgba(255, 255, 255, 0.16);
@@ -27,7 +26,6 @@
     }
 
     .hero-card img,
-    .ref-figure img,
     .ancillary-gallery.documentation-grid .ancillary-figure img {
       display: block;
       width: 100%;
@@ -37,20 +35,6 @@
 
     .hero-card .work-hero {
       margin: 0;
-    }
-
-    .ref-figure {
-      max-width: 620px;
-      margin: 1rem auto 0;
-      padding: 0.95rem;
-    }
-
-    .ref-figure figcaption {
-      margin: 0.75rem 0 0;
-      font-size: 0.95rem;
-      line-height: 1.5;
-      text-align: center;
-      opacity: 0.9;
     }
 
     .ancillary-gallery.documentation-grid {
@@ -100,6 +84,9 @@
     .ancillary-gallery.documentation-grid .ancillary-figure figcaption a {
       display: inline;
       padding: 0;
+      min-height: 0;
+      border: 0;
+      background: transparent;
       text-decoration: underline;
     }
 
@@ -233,27 +220,36 @@
       <p>
         This work references Henri de Toulouse-Lautrec’s <em>At the Moulin Rouge</em>.
       </p>
-
-      <figure class="ref-figure">
-        <img
-          src="../../../../images/Paintings/Public-Domain/moulin.jpg"
-          alt="Henri de Toulouse-Lautrec, At the Moulin Rouge"
-          loading="lazy"
-        />
-        <figcaption>
-          Henri de Toulouse-Lautrec, <em>At the Moulin Rouge</em>, 1892–1895. Public domain reference image.
-        </figcaption>
-      </figure>
     </section>
 
     <section class="section-block">
       <h2>Ancillary Documentation</h2>
 
       <p>
-        The following material documents the work’s appearance on an auction lot page and in wider online circulation.
+        The following materials document the work’s visual source reference, auction circulation, and representative online appearances.
       </p>
 
       <div class="ancillary-gallery documentation-grid">
+        <figure class="ancillary-figure">
+          <a
+            href="../../../../images/Paintings/Public-Domain/moulin.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Public-Domain/moulin.jpg"
+              alt="Henri de Toulouse-Lautrec, At the Moulin Rouge"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>
+            <span class="card-title">Henri de Toulouse-Lautrec reference image.</span>
+            <span class="card-detail-text">
+              Henri de Toulouse-Lautrec, <em>At the Moulin Rouge</em>, 1892–1895. Public domain reference image retained as supporting documentation for the visual/art-historical reference cited in this work.
+            </span>
+          </figcaption>
+        </figure>
+
         <figure class="ancillary-figure">
           <a
             href="../../../../images/Paintings/Web-Documentation3/absente-drinkers-invaluable.jpg"
