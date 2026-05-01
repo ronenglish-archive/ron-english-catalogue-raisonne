@@ -82,6 +82,12 @@
       background: rgba(255, 255, 255, 0.02);
     }
 
+    .ancillary-gallery.documentation-grid .ancillary-figure figcaption a {
+      display: inline;
+      padding: 0;
+      text-decoration: underline;
+    }
+
     .card-title {
       display: block;
       margin-bottom: 0.35rem;
@@ -94,40 +100,16 @@
       margin-top: 0.35rem;
     }
 
-    .circulation-list {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0.22rem;
-      margin-top: 0.65rem;
-    }
-
-    .circulation-link {
+    .card-source {
       display: block;
-      padding: 0.08rem 0;
-      text-decoration: none;
-      line-height: 1.22;
-    }
-
-    .circulation-link:hover .circulation-title {
-      text-decoration: underline;
-    }
-
-    .circulation-title {
-      display: inline;
-      font-size: 1rem;
-      font-weight: 500;
-    }
-
-    .circulation-source {
-      display: inline;
-      font-size: 0.9rem;
-      opacity: 0.72;
-      margin-left: 0.28rem;
+      margin-top: 0.55rem;
+      font-size: 0.86rem;
+      opacity: 0.86;
+      line-height: 1.45;
     }
 
     @media (max-width: 820px) {
-      .ancillary-gallery.documentation-grid,
-      .circulation-list {
+      .ancillary-gallery.documentation-grid {
         grid-template-columns: 1fr;
       }
 
@@ -186,15 +168,12 @@
 
     <section class="section-block">
       <h2>Exhibitions</h2>
+
       <p><em>Rock, Paper, Scissor</em>, Robert Berman Gallery, Santa Monica, California, US, February 28–March 21, 2009. Curated by Jon Cournoyer.</p>
     </section>
 
     <section class="section-block">
       <h2>Notes</h2>
-
-      <p>
-        This work appears on Robert Berman Gallery Archive’s selected works page for <em>Rock, Paper, Scissor</em>.
-      </p>
 
       <p>
         A reference set assembled and photographed by Ron English is retained as supporting documentation for the painting.
@@ -224,17 +203,54 @@
             </span>
           </figcaption>
         </figure>
-      </div>
-    </section>
 
-    <section class="section-block">
-      <h2>Additional Online Circulation</h2>
+        <figure class="ancillary-figure">
+          <a
+            href="../../../../images/Paintings/Web-Documentation3/berman-rockpaper-jeremiah.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Web-Documentation3/berman-rockpaper-jeremiah.jpg"
+              alt="Robert Berman Gallery Archive documentation for Jeremiah"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>
+            <span class="card-title">Robert Berman Gallery Archive selected-works documentation.</span>
+            <span class="card-detail-text">
+              Archival screenshot documenting this work on Robert Berman Gallery Archive’s selected works page for <em>Rock, Paper, Scissor</em>.
+            </span>
+            <span class="card-source">
+              Source page available
+              <a href="http://www.robertbermangalleryarchive.com/robertbermangallery/exhibitions/rockpaperscissor/selected_rockpaper.htm" target="_blank" rel="noopener noreferrer">here</a>.
+            </span>
+          </figcaption>
+        </figure>
 
-      <div class="circulation-list">
-        <a class="circulation-link" href="http://www.robertbermangalleryarchive.com/robertbermangallery/exhibitions/rockpaperscissor/selected_rockpaper.htm" target="_blank" rel="noopener noreferrer">
-          <span class="circulation-title"><em>Rock, Paper, Scissor</em> — Selected Works</span>
-          <span class="circulation-source">· Robert Berman Gallery Archive</span>
-        </a>
+        <figure class="ancillary-figure">
+          <a
+            href="../../../../images/Paintings/Web-Documentation3/berman-rockpaper-various1.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../../images/Paintings/Web-Documentation3/berman-rockpaper-various1.jpg"
+              alt="Installation view from Rock, Paper, Scissor at Robert Berman Gallery"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>
+            <span class="card-title"><em>Rock, Paper, Scissor</em> installation documentation.</span>
+            <span class="card-detail-text">
+              Exhibition wall photograph documenting works installed for <em>Rock, Paper, Scissor</em> at Robert Berman Gallery, including this work.
+            </span>
+            <span class="card-source">
+              Source page available
+              <a href="http://www.robertbermangalleryarchive.com/robertbermangallery/exhibitions/rockpaperscissor/selected_rockpaper.htm" target="_blank" rel="noopener noreferrer">here</a>.
+            </span>
+          </figcaption>
+        </figure>
       </div>
     </section>
   </main>
