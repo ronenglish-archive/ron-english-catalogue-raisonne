@@ -1,0 +1,4 @@
+﻿"Action","Status","Detail","OldValue","NewValue","BackupPath"
+"Check existing toys link","Not present","No existing toys-site link found on homepage.","","",""
+"Update sculpture card","Updated","Found by: anchor containing old title","Sculpture & Three-Dimensional Works Sculpture, vinyl figures, resin works, and other three-dimensional objects from Ron English’s studio practice.","Sculptures, Toys & Editions -> https://ronenglish-archive.github.io/ron-english-toys/",""
+"Write homepage","Updated","index.html was backed up and updated.","","","D:\github-backups\ron-english-catalogue-raisonne-FULL\link-toys-site-from-main-catalogue-v2-20260513-123611\index.html"
