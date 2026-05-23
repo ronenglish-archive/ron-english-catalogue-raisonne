@@ -180,6 +180,42 @@
       .hero img{height:360px;}
     }
   </style>
+  <style id="main-index-card-image-fit-v1">
+    /*
+      Main homepage card-image repair.
+      The card thumbnails should show the full image instead of cropping the bottom.
+      The large hero/banner image is intentionally not changed by this block.
+    */
+    .entry-grid .entry img {
+      display: block !important;
+      width: 100% !important;
+      height: 280px !important;
+      max-height: none !important;
+      object-fit: contain !important;
+      object-position: center center !important;
+      padding: 16px !important;
+      background: #f3f4f6 !important;
+      border-bottom: 1px solid var(--border) !important;
+    }
+
+    .entry-grid .entry {
+      background: #ffffff !important;
+      overflow: hidden !important;
+    }
+
+    @media (max-width: 900px) {
+      .entry-grid .entry img {
+        height: 280px !important;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .entry-grid .entry img {
+        height: 260px !important;
+        padding: 12px !important;
+      }
+    }
+  </style>
   <link rel="icon" type="image/png" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/favicon.png">
 </head>
 
@@ -301,6 +337,7 @@ Catalogue records may be updated as new information becomes available. Inclusion
 
 </body>
 </html>
+
 
 
 
