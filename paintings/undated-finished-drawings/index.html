@@ -3,100 +3,137 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Undated Finished Drawings &amp; Works on Paper - Ron English Catalogue Raisonn&eacute;</title>
+  <title>Undated Finished Drawings &amp; Works on Paper - Ron English Catalogue Raisonne</title>
   <link rel="stylesheet" href="../../css/styles.css" />
   <style>
-    :root{
-      --border:#e5e7eb;
-      --muted:#4b5563;
-      --shadow:0 10px 30px rgba(0,0,0,.08);
-      --radius:18px;
+    :root {
+      --border: #e5e7eb;
+      --muted: #4b5563;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius: 18px;
     }
 
-    body{
-      margin:0;
-      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
-      color:#111;
-      background:#fff;
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color: #111;
+      background: #fff;
     }
 
-    .wrap{
-      max-width:1100px;
-      margin:0 auto;
-      padding:28px 18px 60px;
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 60px;
     }
 
-    .nav-pills{
-      margin-top:0;
-      margin-bottom:24px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
+    .nav-pills {
+      margin-top: 0;
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
     }
 
-    .nav-pill{
-      padding:8px 14px;
-      border-radius:999px;
-      border:1px solid #d6e1ff;
-      background:#fff;
-      color:#111;
-      text-decoration:none;
-      font-size:14px;
+    .nav-pill {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid #d6e1ff;
+      background: #fff;
+      color: #111;
+      text-decoration: none;
+      font-size: 14px;
     }
 
-    .nav-pill:hover{
-      background:#f3f6ff;
+    .nav-pill:hover {
+      background: #f3f6ff;
     }
 
-    .page-header{
-      text-align:left;
-      margin:0 0 22px;
+    .page-header {
+      text-align: center;
+      margin: 0 0 22px;
     }
 
-    .page-title{
-      margin:0 0 12px;
-      font-size:clamp(34px,5vw,58px);
-      letter-spacing:-.02em;
-      line-height:1.05;
+    .page-title {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 5vw, 58px);
+      letter-spacing: -.02em;
+      line-height: 1.05;
     }
 
-    .intro{
-      max-width:none;
-      width:100%;
-      color:var(--muted);
-      font-size:18px;
-      line-height:1.65;
-      margin:0 0 22px;
+    .intro {
+      max-width: 920px;
+      width: 100%;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.65;
+      text-align: center;
+      margin: 0 auto 28px;
     }
 
-    .notice{
-      border:1px solid var(--border);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      background:#fff;
-      padding:22px;
-      margin-top:24px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 18px;
+      align-items: stretch;
     }
 
-    .notice h2{
-      margin:0 0 8px;
-      font-size:24px;
-      line-height:1.2;
+    .entry-card {
+      display: flex;
+      flex-direction: column;
+      color: inherit;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow);
+      min-height: 100%;
     }
 
-    .notice p{
-      margin:0;
-      color:var(--muted);
-      font-size:16px;
-      line-height:1.55;
+    .entry-card:hover {
+      transform: translateY(-2px);
     }
 
-    footer{
-      margin-top:30px;
-      padding-top:16px;
-      border-top:1px solid var(--border);
-      color:var(--muted);
-      font-size:14px;
+    .thumb-wrap {
+      height: 250px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .thumb-wrap img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .card-body {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-body h2 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+
+    footer {
+      margin-top: 30px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
     }
   </style>
   <link rel="icon" type="image/png" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/favicon.png">
@@ -119,16 +156,425 @@
         This section gathers finished drawings and works on paper whose dates are not currently documented. Dated works on paper remain organized within their respective chronological sections.
       </p>
       <p>
-        Individual records will be added here as the drawings are catalogued. When reliable dating information becomes available, works may be moved into the appropriate year or decade section.
+        Individual records may include related documentation images, work-in-progress views, or photographs of Ron English with the work. When reliable dating information becomes available, records may be moved into the appropriate year or decade section.
       </p>
     </section>
 
-    <section class="notice" aria-label="Placeholder">
-      <h2>Records to be added</h2>
-      <p>
-        This landing page has been created as a placeholder for undated finished drawings and works on paper. No individual entries have been populated yet.
-      </p>
-    </section>
+    <section class="grid" aria-label="Undated finished drawings">
+      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Alchemy-Rabbbit.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Alchemy%20Rabbbit.jpg" alt="Alchemy Rabbbit" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Alchemy Rabbbit</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Alien-Field-Surgery.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Alien%20Field%20Surgery.jpg" alt="Alien Field Surgery" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Alien Field Surgery</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Alien-God-2.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Alien%20God%20(2).jpg" alt="Alien God (2)" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Alien God (2)</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Atomic-Carrot.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Atomic%20Carrot.jpg" alt="Atomic Carrot" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Atomic Carrot</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Bad-Idea.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Bad%20Idea.jpg" alt="Bad Idea" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Bad Idea</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Batman-Grin-and-Robin.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Batman%20Grin%20and%20Robin%2011x17%20inches.jpg" alt="Batman Grin and Robin" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Batman Grin and Robin</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Bill-Portrait.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Bill%20Portrait.jpg" alt="Bill Portrait" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Bill Portrait</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Bowling-Pin-UFO.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Bowling%20Pin%20UFO%2014x17.jpg" alt="Bowling Pin UFO" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Bowling Pin UFO</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Bulb-Alien.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Bulb%20Alien%20ink%20and%20acrylic.jpg" alt="Bulb Alien" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Bulb Alien</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Camo-Buck.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Camo%20Buck%2011x17%20inches.jpg" alt="Camo Buck" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Camo Buck</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Delusionville-Angel.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Delusionville%20Angel.jpg" alt="Delusionville Angel" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Delusionville Angel</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Dreaming.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Dreaming.jpg" alt="Dreaming" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Dreaming</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Eagle.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Eagle.jpg" alt="Eagle" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Eagle</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Elefanka.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Elefanka%20drawing.jpg" alt="Elefanka" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Elefanka</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Elefanka-on-Her-High-Horse.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Elefanka%20on%20her%20high%20horse.jpg" alt="Elefanka on Her High Horse" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Elefanka on Her High Horse</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Escaping-Thoughts.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Escaping%20Thoughts.jpg" alt="Escaping Thoughts" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Escaping Thoughts</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Eyes.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Eyes.jpg" alt="Eyes" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Eyes</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Face-Bits.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Face%20Bits%2011x14%20inches.jpg" alt="Face Bits" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Face Bits</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Flower-Mermaid-2.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Flower%20Mermaid%202.jpg" alt="Flower Mermaid 2" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Flower Mermaid 2</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Fun-Fact-Ferret.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Fun%20Fact%20Ferret.jpg" alt="Fun Fact Ferret" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Fun Fact Ferret</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Gang-of-Three.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Gang%20of%20Three.jpg" alt="Gang of Three" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Gang of Three</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Grin-and-Cathy.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Grin%20and%20Cathy%2011x14%20inches.jpg" alt="Grin and Cathy" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Grin and Cathy</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Grumpy-Monster.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Grumpy%20Monster%20pen%20and%20ink.jpg" alt="Grumpy Monster" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Grumpy Monster</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Guernica-Rings.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Guernica%20Rings.jpg" alt="Guernica Rings" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Guernica Rings</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Howling-Wolf.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Howling%20Wolf%2011x17%20(paper%20size%2C%20drawing%20is%20smaller)%20ink%20colored%20penicil.jpg" alt="Howling Wolf" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Howling Wolf</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/King-of-the-Flies.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/King%20of%20the%20Flies.jpg" alt="King of the Flies" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>King of the Flies</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Lemon-Dissect-Grin.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Lemon%20Dissect%20grin%2014x17.jpg" alt="Lemon Dissect Grin" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Lemon Dissect Grin</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Love-Combrat-in-Tank.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Love%20Combrat%20in%20Tank2.jpg" alt="Love Combrat in Tank" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Love Combrat in Tank</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Mad-Mickey-Grin.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Mad%20Mickey%20Grin%2011x14%20inches.jpg" alt="Mad Mickey Grin" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Mad Mickey Grin</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Mike.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Mike.jpg" alt="Mike" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Mike</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Montana-Mouse-Graffiti-Drawing.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Montana%20Mouse%20graffiti%20drawing%208%20x%2012%20pencil%20and%20ink.jpg" alt="Montana Mouse Graffiti Drawing" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Montana Mouse Graffiti Drawing</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Mousezilla.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Mousezilla%2011x14%20inches%20signed.jpg" alt="Mousezilla" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Mousezilla</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Mushroom-Carrot.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Mushroom%20Carrot%2016x14%20inches.jpg" alt="Mushroom Carrot" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Mushroom Carrot</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Old-Patrick.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/old%20patrick%2011x14%20signed.jpg" alt="Old Patrick" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Old Patrick</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Old-Saturn.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Old%20Saturn%2014x16.jpg" alt="Old Saturn" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Old Saturn</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Old-Spongebob.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Old%20Spongebob%2011x14%20signed.jpg" alt="Old Spongebob" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Old Spongebob</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Picasso-Bull-Eats-the-Alien.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Picasso%20Bull%20Eats%20the%20Alien.jpg" alt="Picasso Bull Eats the Alien" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Picasso Bull Eats the Alien</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Pikachu-Grin.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/pikachu%20grin%20ink%2014x17.jpg" alt="Pikachu Grin" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Pikachu Grin</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Potato-Brain.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Potato%20Brain.jpg" alt="Potato Brain" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Potato Brain</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Potato-Future.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Potato%20Future.jpg" alt="Potato Future" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Potato Future</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Potato-Rabbbit-in-Delusionville.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Potato%20Rabbbit%20in%20Delusionville%2014x17%20inches.jpg" alt="Potato Rabbbit in Delusionville" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Potato Rabbbit in Delusionville</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Potato-TV.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Potato%20TV.jpg" alt="Potato TV" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Potato TV</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Prophet-Potato-1.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Prophet%20Potato%201.jpg" alt="Prophet Potato 1" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Prophet Potato 1</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Prophet-Potato-2.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Prophet%20Potato%202.jpg" alt="Prophet Potato 2" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Prophet Potato 2</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Rabbbit-in-the-Living-Room.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Rabbbit%20in%20the%20Living%20Room.jpg" alt="Rabbbit in the Living Room" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Rabbbit in the Living Room</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Rabbbit-TV.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Rabbbit%20TV.jpg" alt="Rabbbit TV" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Rabbbit TV</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Running-Quack.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Running%20Quack%2014x17.jpg" alt="Running Quack" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Running Quack</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Sad-Clown.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Sad%20Clown.jpg" alt="Sad Clown" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Sad Clown</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Starskull-and-Flowergirl.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Starskull%20and%20Flowergirl%2011x17.jpg" alt="Starskull and Flowergirl" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Starskull and Flowergirl</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Starskull-Lightbulb.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Starskull%20Lightbulb%20acrylic%20and%20ink%20on%20paper.jpg" alt="Starskull Lightbulb" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Starskull Lightbulb</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Teletubbie-Curiosity.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Teletubbie%20Curiosity.jpg" alt="Teletubbie Curiosity" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Teletubbie Curiosity</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Trunk.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Trunk.jpg" alt="Trunk" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Trunk</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Uniboar-Headshot.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Uniboar%20Headshot.jpg" alt="Uniboar Headshot" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Uniboar Headshot</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Uniboar-Portrait.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Uniboar%20Portrait.jpg" alt="Uniboar Portrait" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Uniboar Portrait</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Unipig-on-Boat.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Unipig%20on%20boat%2017x14%20in.jpg" alt="Unipig on Boat" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Unipig on Boat</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Unis-on-the-Island.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/unis%20on%20the%20island.jpg" alt="Unis on the Island" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Unis on the Island</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Wolf-at-the-Window.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Wolf%20at%20the%20window%20pencil%20and%20ink.jpg" alt="Wolf at the Window" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Wolf at the Window</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Wolf-Snacks.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Wolf%20Snacks.jpg" alt="Wolf Snacks" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Wolf Snacks</h2>
+        </div>
+      </a>      <a class="entry-card" href="../../detail/paintings/undated-finished-drawings/Wolves-at-the-Window.html">
+        <div class="thumb-wrap">
+          <img src="../../images/works-on-paper/undated-finished-drawings/Wolves%20at%20the%20Window%20pen%20and%20ink.jpg" alt="Wolves at the Window" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2>Wolves at the Window</h2>
+        </div>
+      </a>    </section>
 
     <footer>
       Published via GitHub Pages for long-term public access. Catalogue records may be updated as new information becomes available.
@@ -137,5 +583,3 @@
   </main>
 </body>
 </html>
-
-
