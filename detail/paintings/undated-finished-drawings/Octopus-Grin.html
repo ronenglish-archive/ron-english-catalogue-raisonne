@@ -3,171 +3,130 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Octopus Grin - Ron English Catalogue Raisonn&eacute;</title>
+  <title>Octopus Grin – Ron English Catalogue Raisonné</title>
+
   <link rel="stylesheet" href="../../../css/styles.css" />
+
   <style>
-    :root {
-      --border: #e5e7eb;
-      --muted: #4b5563;
-      --shadow: 0 10px 30px rgba(0,0,0,.08);
-      --radius: 18px;
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-      color: #111;
-      background: #fff;
-    }
-
-    .wrap {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 28px 18px 60px;
-    }
-
-    .nav-pills {
-      margin-top: 0;
-      margin-bottom: 24px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-    }
-
-    .nav-pill {
-      padding: 8px 14px;
-      border-radius: 999px;
-      border: 1px solid #d6e1ff;
-      background: #fff;
-      color: #111;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    .nav-pill:hover {
-      background: #f3f6ff;
-    }
-
-    .page-header {
-      text-align: center;
-      margin: 0 0 22px;
-    }
-
-    .page-title {
-      margin: 0 0 10px;
-      font-size: clamp(34px, 5vw, 58px);
-      letter-spacing: -.02em;
-      line-height: 1.05;
-    }
-
     .hero-card,
-    .info-card,
-    .section-card {
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      background: #fff;
-      box-shadow: var(--shadow);
+    .ancillary-gallery.documentation-grid .ancillary-figure {
+      margin: 0;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.04);
       overflow: hidden;
-      margin: 0 auto 22px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
     }
 
     .hero-card {
-      max-width: 860px;
-      padding: 18px;
-      background: #f8fafc;
-      text-align: center;
+      margin-bottom: 1.5rem;
+      padding: 0.95rem;
     }
 
-    .hero-card img {
+    .hero-card img,
+    .ancillary-gallery.documentation-grid .ancillary-figure img {
       display: block;
-      max-width: 100%;
-      max-height: 780px;
-      width: auto;
+      width: 100%;
       height: auto;
-      margin: 0 auto;
-      object-fit: contain;
-      border-radius: 12px;
-    }
-
-    .work-meta {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .work-meta li {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--border);
-      line-height: 1.5;
-    }
-
-    .work-meta li:last-child {
-      border-bottom: 0;
-    }
-
-    .info-card,
-    .section-card {
-      max-width: 860px;
-      padding: 20px;
-    }
-
-    .section-card h2 {
-      margin: 0 0 12px;
-      font-size: 24px;
-      text-align: center;
-    }
-
-    .section-card p {
-      color: var(--muted);
-      line-height: 1.65;
-      margin: 0 0 12px;
-    }
-
-    .evidence-card {
-      display: grid;
-      grid-template-columns: minmax(180px, 260px) 1fr;
-      gap: 18px;
-      align-items: center;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 14px;
-      background: #fff;
-    }
-
-    .evidence-card img {
-      display: block;
-      max-width: 100%;
-      max-height: 320px;
-      width: auto;
-      height: auto;
-      margin: 0 auto;
-      object-fit: contain;
       border-radius: 10px;
-      background: #f8fafc;
     }
 
-    .evidence-caption h3 {
-      margin: 0 0 8px;
-      font-size: 18px;
-    }
-
-    .evidence-caption p {
+    .hero-card .work-hero {
       margin: 0;
     }
 
-    footer {
-      max-width: 860px;
-      margin: 30px auto 0;
-      padding-top: 16px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 14px;
+    .ancillary-gallery.documentation-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      align-items: start;
+      max-width: 920px;
+      margin-top: 0.85rem;
     }
 
-    @media (max-width: 720px) {
-      .evidence-card {
+    .ancillary-gallery.documentation-grid .ancillary-figure {
+      display: grid;
+      grid-template-columns: minmax(150px, 230px) 1fr;
+      align-items: center;
+    }
+
+    .ancillary-gallery.documentation-grid .ancillary-figure a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 150px;
+      padding: 0.85rem;
+      text-decoration: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.025);
+    }
+
+    .ancillary-gallery.documentation-grid .ancillary-figure img {
+      width: 100%;
+      max-width: 210px;
+      max-height: 170px;
+      height: auto;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+
+    .ancillary-gallery.documentation-grid .ancillary-figure figcaption {
+      display: block;
+      margin: 0;
+      padding: 0.95rem 1.05rem;
+      font-size: 0.95rem;
+      line-height: 1.55;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .ancillary-gallery.documentation-grid .ancillary-figure figcaption a {
+      display: inline;
+      min-height: 0;
+      padding: 0;
+      text-decoration: underline;
+      border-right: 0;
+      background: transparent;
+    }
+
+    .card-title {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-weight: 650;
+      line-height: 1.35;
+    }
+
+    .card-detail-text {
+      display: block;
+      margin-top: 0.35rem;
+    }
+
+    .card-source {
+      display: block;
+      margin-top: 0.55rem;
+      font-size: 0.86rem;
+      opacity: 0.86;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 820px) {
+      .ancillary-gallery.documentation-grid {
         grid-template-columns: 1fr;
+      }
+
+      .ancillary-gallery.documentation-grid .ancillary-figure {
+        grid-template-columns: 1fr;
+      }
+
+      .ancillary-gallery.documentation-grid .ancillary-figure a {
+        min-height: auto;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .ancillary-gallery.documentation-grid .ancillary-figure img {
+        max-width: 260px;
+        max-height: 190px;
       }
     }
   </style>
@@ -175,60 +134,63 @@
 </head>
 
 <body>
-  <main class="wrap">
+  <header class="site-header">
+    <h1>Octopus Grin</h1>
 
-    <nav class="nav-pills" aria-label="Section navigation">
-      <a class="nav-pill" href="../../../index.html">Catalogue home</a>
+    <nav class="top-nav">
+      <a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Home</a>
       <a class="nav-pill" href="../../../paintings/index.html">Paintings &amp; Works on Paper</a>
-      <a class="nav-pill" href="../../../paintings/undated-finished-drawings/index.html">&larr; Return to Undated Finished Drawings</a>
+      <a class="nav-pill is-active" href="../../../paintings/undated-finished-drawings/index.html">Undated Finished Drawings</a>
     </nav>
 
-    <header class="page-header">
-      <h1 class="page-title">Octopus Grin</h1>
-    </header>
+    <nav class="top-nav year-return-nav">
+      <a class="nav-pill year-return-pill" href="../../../paintings/undated-finished-drawings/index.html">← Return to Undated Finished Drawings</a>
+    </nav>
+  </header>
 
+  <main class="work-layout">
     <figure class="hero-card">
-      <img src="../../../images/works-on-paper/undated-finished-drawings/Octopus%20Grin.jpg" alt="Octopus Grin" />
+      <img
+        src="../../../images/works-on-paper/undated-finished-drawings/Octopus%20Grin.jpg"
+        alt="Octopus Grin"
+        class="work-hero"
+        loading="lazy"
+      />
     </figure>
 
-    <section class="info-card" aria-label="Catalogue metadata">
-      <ul class="work-meta">
-        <li><strong>Title:</strong> Octopus Grin</li>
-        <li><strong>Date:</strong> Undated</li>
-        <li><strong>Category:</strong> Finished drawing / work on paper</li>
-        <li><strong>Medium:</strong> Not documented</li>
-        <li><strong>Dimensions:</strong> Not documented</li>
-        <li><strong>Signature / marks:</strong> None observed</li>
-      </ul>
-    </section>
+    <ul class="work-meta">
+      <li><strong>Title:</strong> Octopus Grin</li>
+      <li><strong>Date:</strong> Undated</li>
+      <li><strong>Medium:</strong> Not documented</li>
+      <li><strong>Dimensions:</strong> Not documented</li>
+      <li><strong>Signature / marks:</strong> None observed.</li>
+    </ul>
 
-    <section class="section-card" aria-label="Notes">
-      <h2>Notes</h2>
-      <p>
-        This record documents <em>Octopus Grin</em> among the undated finished drawings and works on paper.
-      </p>
-    </section>
-
-    <section class="section-card" aria-label="Ancillary documentation">
+    <section class="section-block">
       <h2>Ancillary Documentation</h2>
 
-      <article class="evidence-card">
-        <div>
-          <img src="../../../images/works-on-paper/undated-finished-drawings/five%20points%20festival%20poster%202025.jpg" alt="Five Points Festival poster, 2025, using Octopus Grin" loading="lazy" />
-        </div>
-        <div class="evidence-caption">
-          <h3>Five Points Festival poster, 2025</h3>
-          <p>
-            Poster documentation showing <em>Octopus Grin</em> used for the Five Points Festival poster in 2025.
-          </p>
-        </div>
-      </article>
+      <div class="ancillary-gallery documentation-grid">
+        <figure class="ancillary-figure">
+          <a
+            href="../../../images/works-on-paper/undated-finished-drawings/five%20points%20festival%20poster%202025.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../../images/works-on-paper/undated-finished-drawings/five%20points%20festival%20poster%202025.jpg"
+              alt="Five Points Festival poster, 2025, using Octopus Grin"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>
+            <span class="card-title">Five Points Festival poster, 2025.</span>
+            <span class="card-detail-text">
+              Poster documentation showing <em>Octopus Grin</em> used for the Five Points Festival poster in 2025.
+            </span>
+          </figcaption>
+        </figure>
+      </div>
     </section>
-
-    <footer>
-      Published via GitHub Pages for long-term public access. Catalogue records may be updated as new information becomes available.
-    </footer>
-
   </main>
 </body>
 </html>
