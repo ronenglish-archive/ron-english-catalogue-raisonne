@@ -490,6 +490,78 @@ body main.wrap .footer-pill:focus {
 
 /* END main index biography footer link v1 */
 </style>
+<style id="main-index-biography-callout-card-v1">
+/* BEGIN main index biography callout card v1 */
+
+.bio-callout {
+  margin: 24px auto 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.bio-callout-card {
+  width: min(100%, 620px) !important;
+  display: grid !important;
+  grid-template-columns: 120px minmax(0, 1fr) !important;
+  gap: 18px !important;
+  align-items: center !important;
+  padding: 14px !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  background: #fff !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  box-shadow: var(--shadow) !important;
+  transition: transform .12s ease, box-shadow .12s ease !important;
+}
+
+.bio-callout-card:hover,
+.bio-callout-card:focus {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 16px 40px rgba(0,0,0,.12) !important;
+}
+
+.bio-callout-card img {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  display: block !important;
+  border-radius: 14px !important;
+  background: #f3f4f6 !important;
+}
+
+.bio-callout-text {
+  text-align: left !important;
+}
+
+.bio-callout-text h2 {
+  margin: 0 0 6px !important;
+  font-size: 22px !important;
+  line-height: 1.2 !important;
+}
+
+.bio-callout-text p {
+  margin: 0 !important;
+  color: var(--muted) !important;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+}
+
+@media (max-width: 620px) {
+  .bio-callout-card {
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+    text-align: center !important;
+  }
+
+  .bio-callout-text {
+    text-align: center !important;
+  }
+}
+
+/* END main index biography callout card v1 */
+</style>
 </head>
 
 <body>
@@ -512,7 +584,16 @@ body main.wrap .footer-pill:focus {
       <div class="hero-overlay"></div>
     </section>
 
-    <section class="entry-grid" aria-label="Primary catalogue navigation">
+        <section class="bio-callout" aria-label="Biography">
+      <a class="bio-callout-card" href="biography.html">
+        <img src="images/LOGO.jpg" alt="Ron English Catalogue biography link">
+        <div class="bio-callout-text">
+          <h2>Biography</h2>
+          <p>A brief artist overview with photographs of Ron English in the studio and at work.</p>
+        </div>
+      </a>
+    </section>
+<section class="entry-grid" aria-label="Primary catalogue navigation">
 
       <a class="entry" href="paintings/index.html">
         <img src="images/decades.jpg" alt="Browse catalogue by decade">
@@ -598,7 +679,7 @@ body main.wrap .footer-pill:focus {
       <p>Published via GitHub Pages for long-term public access. This site is provided for research, scholarship, and reference purposes.</p>
       <p>Catalogue records may be updated as new information becomes available. Inclusion of a work does not by itself constitute authentication, and images/text may not be reused without permission where applicable.</p>
       <nav class="footer-pills" aria-label="Footer navigation">
-        <a class="footer-pill" href="biography.html">Biography</a>
+        
         <a class="footer-pill" href="terms-of-use.html">Terms of Use, Copyright &amp; Research Notice</a>
       </nav>
     </footer>
