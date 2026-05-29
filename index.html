@@ -217,6 +217,234 @@
     }
   </style>
   <link rel="icon" type="image/png" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/favicon.png">
+<style id="homepage-card-text-centering-v2">
+/* BEGIN homepage card text centering v2 */
+
+/* Keep the homepage title and introductory copy centered. */
+body main header,
+body main .site-header,
+body main .page-header,
+body main .hero,
+body main .intro,
+body main .intro-text,
+body main .section-intro,
+body main .site-intro,
+body main .catalogue-intro,
+body main .page-intro,
+body main .lede,
+body main .lead,
+body main .deck,
+body main .dek {
+  text-align: center !important;
+}
+
+body main header p,
+body main .site-header p,
+body main .page-header p,
+body main .hero p,
+body main .intro p,
+body main .intro-text p,
+body main .section-intro p,
+body main .site-intro p,
+body main .catalogue-intro p,
+body main .page-intro p,
+body main .lede,
+body main .lead,
+body main .deck,
+body main .dek {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Center every obvious homepage card/tile container. */
+body main .card,
+body main .cards,
+body main .card-grid,
+body main .grid,
+body main .index-grid,
+body main .catalogue-grid,
+body main .category-grid,
+body main .tile,
+body main .tiles,
+body main .catalogue-card,
+body main .category-card,
+body main .index-card,
+body main .section-card,
+body main .work-card,
+body main [class*="card"],
+body main [class*="Card"],
+body main [class*="tile"],
+body main [class*="Tile"] {
+  text-align: center !important;
+}
+
+/* Center linked cards and everything inside them. */
+body main .card a,
+body main .cards a,
+body main .card-grid a,
+body main .grid a,
+body main .index-grid a,
+body main .catalogue-grid a,
+body main .category-grid a,
+body main .tile a,
+body main .tiles a,
+body main .catalogue-card a,
+body main .category-card a,
+body main .index-card a,
+body main .section-card a,
+body main .work-card a,
+body main a.card,
+body main a.tile,
+body main a.catalogue-card,
+body main a.category-card,
+body main a.index-card,
+body main a.section-card,
+body main a.work-card,
+body main a[href*="paintings"],
+body main a[href*="sketches"],
+body main a[href*="Warholesque"],
+body main a[href*="warholesque"],
+body main a[href*="toys"],
+body main a[href*="nfts"],
+body main a[href*="photographic"],
+body main a[href*="murals"],
+body main a[href*="billboards"],
+body main a[href*="exhibitions"],
+body main a[href*="bibliography"] {
+  text-align: center !important;
+}
+
+/* Center common text descendants inside linked cards, even if original CSS targeted them. */
+body main .card a *,
+body main .cards a *,
+body main .card-grid a *,
+body main .grid a *,
+body main .index-grid a *,
+body main .catalogue-grid a *,
+body main .category-grid a *,
+body main .tile a *,
+body main .tiles a *,
+body main .catalogue-card a *,
+body main .category-card a *,
+body main .index-card a *,
+body main .section-card a *,
+body main .work-card a *,
+body main a.card *,
+body main a.tile *,
+body main a.catalogue-card *,
+body main a.category-card *,
+body main a.index-card *,
+body main a.section-card *,
+body main a.work-card *,
+body main a[href*="paintings"] *,
+body main a[href*="sketches"] *,
+body main a[href*="Warholesque"] *,
+body main a[href*="warholesque"] *,
+body main a[href*="toys"] *,
+body main a[href*="nfts"] *,
+body main a[href*="photographic"] *,
+body main a[href*="murals"] *,
+body main a[href*="billboards"] *,
+body main a[href*="exhibitions"] *,
+body main a[href*="bibliography"] * {
+  text-align: center !important;
+}
+
+/* Center headings, paragraphs, subtitles, and captions inside all common card blocks. */
+body main .card h1,
+body main .card h2,
+body main .card h3,
+body main .card h4,
+body main .card p,
+body main .card span,
+body main .card div,
+body main [class*="card"] h1,
+body main [class*="card"] h2,
+body main [class*="card"] h3,
+body main [class*="card"] h4,
+body main [class*="card"] p,
+body main [class*="card"] span,
+body main [class*="card"] div,
+body main [class*="Card"] h1,
+body main [class*="Card"] h2,
+body main [class*="Card"] h3,
+body main [class*="Card"] h4,
+body main [class*="Card"] p,
+body main [class*="Card"] span,
+body main [class*="Card"] div,
+body main .tile h1,
+body main .tile h2,
+body main .tile h3,
+body main .tile h4,
+body main .tile p,
+body main .tile span,
+body main .tile div,
+body main [class*="tile"] h1,
+body main [class*="tile"] h2,
+body main [class*="tile"] h3,
+body main [class*="tile"] h4,
+body main [class*="tile"] p,
+body main [class*="tile"] span,
+body main [class*="tile"] div,
+body main [class*="Tile"] h1,
+body main [class*="Tile"] h2,
+body main [class*="Tile"] h3,
+body main [class*="Tile"] h4,
+body main [class*="Tile"] p,
+body main [class*="Tile"] span,
+body main [class*="Tile"] div,
+body main figcaption,
+body main .caption,
+body main .card-caption,
+body main .thumbnail-caption,
+body main .image-caption,
+body main .card-title,
+body main .card-subtitle,
+body main .card-description,
+body main .card-meta,
+body main .entry-title,
+body main .entry-summary {
+  text-align: center !important;
+}
+
+/* Center text blocks inside cards when they have max-width or block layout. */
+body main .card p,
+body main [class*="card"] p,
+body main [class*="Card"] p,
+body main .tile p,
+body main [class*="tile"] p,
+body main [class*="Tile"] p,
+body main figcaption,
+body main .caption,
+body main .card-caption,
+body main .thumbnail-caption,
+body main .image-caption,
+body main .card-description,
+body main .entry-summary {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* If cards use flex/grid alignment, center their internal text boxes. */
+body main .card,
+body main [class*="card"],
+body main [class*="Card"],
+body main .tile,
+body main [class*="tile"],
+body main [class*="Tile"],
+body main .card a,
+body main .cards a,
+body main .grid a,
+body main .card-grid a,
+body main .index-grid a,
+body main .catalogue-grid a,
+body main .category-grid a {
+  justify-items: center !important;
+  align-items: center !important;
+}
+
+/* END homepage card text centering v2 */
+</style>
 </head>
 
 <body>
@@ -314,7 +542,7 @@
         <img src="images/heroes/exhibitions-hero.jpg" alt="Exhibitions featuring Ron English">
         <div class="entry-body">
           <h2>Exhibitions</h2>
-          <p>Selected solo and group exhibitions documenting the public presentation of Ron English’s work.</p>
+          <p>Selected solo and group exhibitions documenting the public presentation of Ron EnglishÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s work.</p>
         </div>
       </a>
 
@@ -322,14 +550,14 @@
         <img src="images/heroes/bibliography-hero.jpg" alt="Bibliography and references">
         <div class="entry-body">
           <h2>Bibliography</h2>
-          <p>Books, catalogues, articles, interviews, and other reference sources documenting Ron English’s work.</p>
+          <p>Books, catalogues, articles, interviews, and other reference sources documenting Ron EnglishÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s work.</p>
         </div>
       </a>
 
     </section>
 
     <footer>
-      Published via GitHub Pages for long-term public access. This site is provided for research, scholarship, and reference purposes.
+      Published via GitHub Pages for long-term public access. <a href="terms-of-use.html">Terms of Use, Copyright &amp; Research Notice</a>. This site is provided for research, scholarship, and reference purposes.
 Catalogue records may be updated as new information becomes available. Inclusion of a work does not by itself constitute authentication, and images/text may not be reused without permission where applicable.
     </footer>
 
