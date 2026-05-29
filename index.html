@@ -445,26 +445,65 @@ body main .category-grid a {
 
 /* END homepage card text centering v2 */
 </style>
+<style id="main-index-biography-footer-link-v1">
+/* BEGIN main index biography footer link v1 */
+
+body main.wrap footer,
+body main.wrap .page-footer {
+  margin-top: 34px !important;
+  padding-top: 18px !important;
+  border-top: 1px solid var(--border) !important;
+  color: var(--muted) !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+body main.wrap .page-footer p {
+  margin: 0 0 14px !important;
+  text-align: center !important;
+}
+
+body main.wrap .footer-pills {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  margin: 0 auto !important;
+}
+
+body main.wrap .footer-pill {
+  display: inline-block !important;
+  padding: 8px 14px !important;
+  border-radius: 999px !important;
+  border: 1px solid #d6e1ff !important;
+  background: #fff !important;
+  color: #111 !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+
+body main.wrap .footer-pill:hover,
+body main.wrap .footer-pill:focus {
+  background: #f3f6ff !important;
+}
+
+/* END main index biography footer link v1 */
+</style>
 </head>
 
 <body>
 
   <main class="wrap">
-
-    <nav class="nav-pills" aria-label="Site navigation">
-      
-    </nav>
-
-    <header class="page-header">
+<header class="page-header">
       <h1 class="page-title">Ron English Catalogue Raisonn&eacute;</h1>
     </header>
-
   <section class="intro-text">
   <p>
-    This Catalogue Raisonn&eacute; is being developed as a long-term public research resource devoted to the paintings, prints, objects, and related materials of Ron English, with an emphasis on clear browsing, accurate citation, and ongoing expansion.
+    This Catalogue Raisonn&eacute; is being developed as a long-term public research resource devoted to the paintings, works on paper, sketches and drawings, prints, objects, digital works, public projects, and related materials of Ron English, with an emphasis on clear organization, careful citation, and ongoing expansion.
   </p>
   <p>
-    Entries are built from exhibition records, printed sources, verified web documentation, and archival material maintained by the project. Where possible, online sources are supported by archived screenshots or other documentary records, since digital content may change, move, or disappear over time.
+    Entries are built from exhibition records, printed sources, verified web documentation, archival material, and project files maintained by the archive. Where possible, online sources are supported by archived screenshots or other documentary records, since digital content may change, move, or disappear over time.
   </p>
 </section>
 
@@ -555,18 +594,17 @@ body main .category-grid a {
       </a>
 
     </section>
-
-    <footer>
-      Published via GitHub Pages for long-term public access. <a href="terms-of-use.html">Terms of Use, Copyright &amp; Research Notice</a>. This site is provided for research, scholarship, and reference purposes.
-Catalogue records may be updated as new information becomes available. Inclusion of a work does not by itself constitute authentication, and images/text may not be reused without permission where applicable.
+    <footer class="page-footer">
+      <p>Published via GitHub Pages for long-term public access. This site is provided for research, scholarship, and reference purposes.</p>
+      <p>Catalogue records may be updated as new information becomes available. Inclusion of a work does not by itself constitute authentication, and images/text may not be reused without permission where applicable.</p>
+      <nav class="footer-pills" aria-label="Footer navigation">
+        <a class="footer-pill" href="biography.html">Biography</a>
+        <a class="footer-pill" href="terms-of-use.html">Terms of Use, Copyright &amp; Research Notice</a>
+      </nav>
     </footer>
 
   </main>
 
 </body>
 </html>
-
-
-
-
 

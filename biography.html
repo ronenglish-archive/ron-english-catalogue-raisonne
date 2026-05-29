@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biography | Ron English Catalogue Raisonn&eacute;</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+    :root{
+      --border:#e5e7eb;
+      --muted:#4b5563;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      color:#111;
+      background:#fff;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+      box-sizing:border-box;
+    }
+
+    .nav-pills{
+      margin-top:0;
+      margin-bottom:24px;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:10px;
+      text-align:center;
+    }
+
+    .nav-pill{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+      line-height:1.2;
+    }
+
+    .nav-pill:hover,
+    .nav-pill:focus{
+      background:#f3f6ff;
+    }
+
+    .page-header{
+      width:100%;
+      margin:0;
+      padding:0;
+      text-align:center;
+    }
+
+    .page-title{
+      margin:0 0 10px;
+      font-size:clamp(36px,5vw,64px);
+      letter-spacing:-.02em;
+      line-height:1.05;
+    }
+.hero{
+      margin-top:24px;
+      display:grid;
+      grid-template-columns:minmax(260px,360px) minmax(0,1fr);
+      gap:24px;
+      align-items:center;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      background:#fff;
+    }
+
+    .hero-image{
+      height:100%;
+      min-height:360px;
+      background:#f3f4f6;
+      border-right:1px solid var(--border);
+    }
+
+    .hero-image img{
+      width:100%;
+      height:100%;
+      min-height:360px;
+      display:block;
+      object-fit:cover;
+      object-position:center;
+    }
+
+    .hero-text{
+      padding:28px 28px 30px 4px;
+    }
+
+    .hero-text p{
+      margin:0 0 16px;
+      color:var(--muted);
+      font-size:18px;
+      line-height:1.7;
+    }
+
+    .hero-text p:last-child{
+      margin-bottom:0;
+    }
+
+    .bio-section{
+      margin-top:30px;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      background:#fff;
+      padding:26px;
+    }
+
+    .bio-section h2{
+      margin:0 0 14px;
+      font-size:26px;
+      line-height:1.2;
+      text-align:center;
+    }
+
+    .bio-section p{
+      margin:0 auto 16px;
+      color:var(--muted);
+      font-size:17px;
+      line-height:1.7;
+      max-width:920px;
+      text-align:center;
+    }
+
+    .bio-section p:last-child{
+      margin-bottom:0;
+    }
+
+    .image-grid{
+      margin-top:30px;
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+    }
+
+    .image-card{
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      background:#fff;
+    }
+
+    .image-card a{
+      display:block;
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .image-card img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+      object-position:center;
+      display:block;
+      background:#f3f4f6;
+      border-bottom:0;
+    }
+footer{
+      margin-top:34px;
+      padding-top:18px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+      text-align:center;
+    }
+
+    footer p{
+      margin:0 0 14px;
+    }
+
+    .footer-pills{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:10px;
+      margin:0 auto;
+    }
+
+    .footer-pill{
+      display:inline-block;
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid #d6e1ff;
+      background:#fff;
+      color:#111;
+      text-decoration:none;
+      font-size:14px;
+      line-height:1.2;
+    }
+
+    .footer-pill:hover,
+    .footer-pill:focus{
+      background:#f3f6ff;
+    }
+
+    @media (max-width:900px){
+      .hero{
+        grid-template-columns:1fr;
+      }
+
+      .hero-image{
+        border-right:0;
+        border-bottom:0;
+      }
+
+      .hero-text{
+        padding:24px;
+        text-align:center;
+      }
+
+      .image-grid{
+        grid-template-columns:1fr 1fr;
+      }
+    }
+
+    @media (max-width:620px){
+      .image-grid{
+        grid-template-columns:1fr;
+      }
+
+      .image-card img{
+        height:300px;
+      }
+    }
+  </style>
+
+  <link rel="icon" type="image/png" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/favicon.png">
+</head>
+
+<body>
+  <main class="wrap">
+
+    <nav class="nav-pills" aria-label="Site navigation">
+      <a class="nav-pill" href="index.html">Catalogue home</a>
+    </nav>
+
+    <header class="page-header">
+      <h1 class="page-title">Biography</h1>
+
+    </header>
+
+    <section class="hero" aria-label="Ron English biography overview">
+      <div class="hero-image">
+        <img src="images/RonEnglish-6.jpg" alt="Portrait of Ron English">
+      </div>
+      <div class="hero-text">
+        <p>
+          Ron English is an American artist born on June 3, 1959, in Decatur, Illinois. Working across painting, drawing, sculpture, printmaking, public art, photography, design, and digital media, English has developed a body of work that combines technical precision with satire, cultural critique, and a deep engagement with the visual language of popular culture.
+        </p>
+        <p>
+          Often described as the &ldquo;Godfather of Street Art,&rdquo; English is closely associated with culture jamming, billboard interventions, and the term &ldquo;Popaganda,&rdquo; which he coined to describe his fusion of advertising, politics, art history, consumer culture, and pop imagery.
+        </p>
+      </div>
+    </section>
+
+    <section class="bio-section" aria-label="Biography text">
+      <h2>Artist Overview</h2>
+      <p>
+        English&rsquo;s work frequently reimagines familiar icons, mascots, corporate symbols, and art-historical references, transforming them into layered images that are at once playful, unsettling, and critical.
+      </p>
+      <p>
+        Across decades of practice, he has built a visual vocabulary of recurring characters, grinning figures, altered cartoons, anatomical hybrids, and surreal pop-cultural forms. His work moves between studio painting and public intervention, between fine art and mass culture, and between humor and critique, making him one of the most recognizable figures associated with contemporary pop surrealism, street art, and culture-jamming traditions.
+      </p>
+    </section>
+
+    <section class="bio-section" aria-label="Studio and public work images">
+
+      <div class="image-grid">
+        <figure class="image-card">
+          <a href="images/RON-signing-mousemask.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="images/RON-signing-mousemask.jpg" alt="Ron English signing a Mousemask work">
+          </a>
+        </figure>
+
+        <figure class="image-card">
+          <a href="images/RON-abraham-ptg.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="images/RON-abraham-ptg.jpg" alt="Ron English with an Abraham painting">
+          </a>
+        </figure>
+
+        <figure class="image-card">
+          <a href="images/RON-painting-tot2.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="images/RON-painting-tot2.jpg" alt="Ron English painting">
+          </a>
+        </figure>
+
+        <figure class="image-card">
+          <a href="images/RON-rabbbit-mural.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="images/RON-rabbbit-mural.jpg" alt="Ron English working on a Rabbbit mural">
+          </a>
+        </figure>
+
+        <figure class="image-card">
+          <a href="images/Ron-English-Mural-Festival-allcitycanvas1.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="images/Ron-English-Mural-Festival-allcitycanvas1.jpg" alt="Ron English mural festival documentation">
+          </a>
+        </figure>
+
+        <figure class="image-card">
+          <a href="images/RON-libertygrinchina.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="images/RON-libertygrinchina.jpg" alt="Ron English with Liberty Grin in China">
+          </a>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      <p>Published via GitHub Pages for long-term public access.</p>
+      <nav class="footer-pills" aria-label="Footer navigation">
+        <a class="footer-pill" href="index.html">Catalogue home</a>
+        <a class="footer-pill" href="terms-of-use.html">Terms of Use, Copyright &amp; Research Notice</a>
+      </nav>
+    </footer>
+
+  </main>
+</body>
+</html>
