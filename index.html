@@ -562,6 +562,65 @@ body main.wrap .footer-pill:focus {
 
 /* END main index biography callout card v1 */
 </style>
+<style id="main-index-submit-documentation-callout-bottom-v2">
+/* BEGIN main index submit documentation callout bottom v2 */
+
+.submit-doc-callout {
+  margin: 26px auto 0 !important;
+  padding-top: 4px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.submit-doc-card {
+  width: min(100%, 540px) !important;
+  display: block !important;
+  padding: 12px 16px !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 16px !important;
+  background: #fff !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  text-align: center !important;
+  transition: background .12s ease, border-color .12s ease !important;
+}
+
+.submit-doc-card:hover,
+.submit-doc-card:focus {
+  background: #f9fafb !important;
+  border-color: #d6e1ff !important;
+}
+
+.submit-doc-card h2 {
+  margin: 0 0 4px !important;
+  font-size: 16px !important;
+  line-height: 1.25 !important;
+  font-weight: 650 !important;
+}
+
+.submit-doc-card p {
+  margin: 0 auto 8px !important;
+  color: var(--muted) !important;
+  font-size: 13px !important;
+  line-height: 1.45 !important;
+  max-width: 48ch !important;
+}
+
+.submit-doc-pill {
+  display: inline-block !important;
+  padding: 6px 11px !important;
+  border-radius: 999px !important;
+  border: 1px solid #d6e1ff !important;
+  background: #fff !important;
+  color: #111 !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  font-weight: 600 !important;
+}
+
+/* END main index submit documentation callout bottom v2 */
+</style>
 </head>
 
 <body>
@@ -675,7 +734,14 @@ body main.wrap .footer-pill:focus {
       </a>
 
     </section>
-    <footer class="page-footer">
+        <section class="submit-doc-callout" aria-label="Submit archival material">
+      <a class="submit-doc-card" href="https://docs.google.com/forms/d/e/1FAIpQLSephCTyQksaXN-UPNXpbEHqz5uFEBpeDrAuSaeY3vuBcDdHcg/viewform" target="_blank" rel="noopener noreferrer">
+        <h2>Have documentation to share?</h2>
+        <p>Share source references, images, or archival material that may help document works in the catalogue.</p>
+        <span class="submit-doc-pill">Submit archival material</span>
+      </a>
+    </section>
+<footer class="page-footer">
       <p>Published via GitHub Pages for long-term public access. This site is provided for research, scholarship, and reference purposes.</p>
       <p>Catalogue records may be updated as new information becomes available. Inclusion of a work does not by itself constitute authentication, and images/text may not be reused without permission where applicable.</p>
       <nav class="footer-pills" aria-label="Footer navigation">
