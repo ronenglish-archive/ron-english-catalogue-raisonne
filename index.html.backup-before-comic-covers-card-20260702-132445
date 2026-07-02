@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -694,7 +694,7 @@ body main.wrap .footer-pill:focus {
       </a>
 
       <a class="entry" href="https://ronenglish-archive.github.io/ron-english-comic-book-covers/">
-        <img src="images/heroes/comic-book-covers-hero.jpg" alt="Comic Book Covers by Ron English">
+        <img src="https://ronenglish-archive.github.io/ron-english-comic-book-covers/images/Comic-Book-Covers/comic%20cover%20Miracle%20Man%20walks%20on%20water-V5-extra-bright.jpg" alt="Comic Book Covers by Ron English">
         <div class="entry-body">
           <h2>Comic Book Covers</h2>
           <p>AI-assisted comic book cover compositions created by Ron English from his own drawings and paintings, with artist-directed titles, cover text, styling, and final selection.</p>
@@ -762,5 +762,4 @@ body main.wrap .footer-pill:focus {
 
 </body>
 </html>
-
 
