@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-09-21T20:37:39.8361087Z",
+    "generated_utc":  "2026-09-21T21:24:04.6361079Z",
     "source":  "Public reachability graph from the Ron English Catalogue Raisonne home page",
     "record_count":  16149,
     "records":  [
@@ -48121,11 +48121,11 @@
                     },
                     {
                         "title":  "Grin Planet Head 6",
-                        "work_id":  "Unknown",
+                        "work_id":  "RE-016708",
                         "work_ids":  [
-
+                                         "RE-016708"
                                      ],
-                        "work_id_status":  "unknown",
+                        "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
                         "series":  "",
@@ -48133,16 +48133,16 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/grin-planet-head-4.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/grin-planet-head-4.html",
-                        "search_text":  "grin planet head 6 unknown sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 4 html",
-                        "search_id":  "UNKNOWN"
+                        "search_text":  "grin planet head 6 re 016708 re 016708 sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 4 html",
+                        "search_id":  "RE016708RE016708"
                     },
                     {
                         "title":  "Grin Planet Head 7",
-                        "work_id":  "Unknown",
+                        "work_id":  "RE-016710",
                         "work_ids":  [
-
+                                         "RE-016710"
                                      ],
-                        "work_id_status":  "unknown",
+                        "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
                         "series":  "",
@@ -48150,16 +48150,16 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/grin-planet-head-8.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/grin-planet-head-8.html",
-                        "search_text":  "grin planet head 7 unknown sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 8 html",
-                        "search_id":  "UNKNOWN"
+                        "search_text":  "grin planet head 7 re 016710 re 016710 sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 8 html",
+                        "search_id":  "RE016710RE016710"
                     },
                     {
                         "title":  "Grin Planet Head 8",
-                        "work_id":  "Unknown",
+                        "work_id":  "RE-016711",
                         "work_ids":  [
-
+                                         "RE-016711"
                                      ],
-                        "work_id_status":  "unknown",
+                        "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
                         "series":  "",
@@ -48167,16 +48167,16 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/grin-planet-head-9.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/grin-planet-head-9.html",
-                        "search_text":  "grin planet head 8 unknown sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 9 html",
-                        "search_id":  "UNKNOWN"
+                        "search_text":  "grin planet head 8 re 016711 re 016711 sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 9 html",
+                        "search_id":  "RE016711RE016711"
                     },
                     {
                         "title":  "Grin Planet Head 9",
-                        "work_id":  "Unknown",
+                        "work_id":  "RE-016712",
                         "work_ids":  [
-
+                                         "RE-016712"
                                      ],
-                        "work_id_status":  "unknown",
+                        "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
                         "series":  "",
@@ -48184,8 +48184,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/grin-planet-head-10.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/grin-planet-head-10.html",
-                        "search_text":  "grin planet head 9 unknown sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 10 html",
-                        "search_id":  "UNKNOWN"
+                        "search_text":  "grin planet head 9 re 016712 re 016712 sketches drawings grins https ronenglish archive github io ron english sketches grins sketches grins works grin planet head 10 html",
+                        "search_id":  "RE016712RE016712"
                     },
                     {
                         "title":  "Grin Reaper",
