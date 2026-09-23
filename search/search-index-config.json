@@ -1,14 +1,12 @@
 {
     "version":  1,
     "include_missing_work_id_urls":  [
-                                         "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Baby-Bigfoot.html",
                                          "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Psycodelic-Dead-Toy-Soldier.html",
                                          "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2014/Heart-of-Skull-Grin.html",
                                          "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2014/Rabbbit-in-the-Clouds.html",
                                          "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2021/Paws-Wolf-Portrait.html",
                                          "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2021/Tom-and-Jerry-Grin-Primal-Pop.html",
-                                         "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2023/Light-Cult-Crypto-Club-Bulb.html",
-                                         "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/jewelry-and-accessories/works/wing-glasses.html"
+                                         "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2023/Light-Cult-Crypto-Club-Bulb.html"
                                      ],
     "exclude_urls":  [
                          "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/hats/sets/widemouth-hats.html"
