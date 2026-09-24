@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artwork image - Ron English Catalogue Raisonne</title>
+  <style>
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: #111;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .viewer-bar {
+      padding: 0.65rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      background: #181818;
+    }
+
+    .viewer-stage {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .viewer-stage img {
+      display: block;
+      max-width: 100%;
+      max-height: calc(100vh - 4rem);
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .viewer-error {
+      max-width: 46rem;
+      padding: 2rem;
+      line-height: 1.5;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="viewer-bar">Ron English Catalogue Raisonne - artwork image</div>
+
+  <main class="viewer-stage" id="stage">
+    <div class="viewer-error">Loading image...</div>
+  </main>
+
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var src = params.get("src");
+      var stage = document.getElementById("stage");
+
+      if (!src) {
+        stage.innerHTML = '<div class="viewer-error">No image URL was supplied.</div>';
+        return;
+      }
+
+      try {
+        var url = new URL(src);
+
+        if (url.protocol !== "https:" || url.hostname !== "raw.githubusercontent.com") {
+          throw new Error("Unsupported image source");
+        }
+
+        var img = document.createElement("img");
+        img.src = url.href;
+        img.alt = "Artwork image";
+        img.referrerPolicy = "no-referrer";
+
+        img.onerror = function () {
+          stage.innerHTML = '<div class="viewer-error">The artwork image could not be loaded.</div>';
+        };
+
+        stage.innerHTML = "";
+        stage.appendChild(img);
+      }
+      catch (error) {
+        stage.innerHTML = '<div class="viewer-error">Invalid image URL.</div>';
+      }
+    }());
+  </script>
+</body>
+</html>
