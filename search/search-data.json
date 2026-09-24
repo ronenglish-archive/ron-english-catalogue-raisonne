@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-09-23T14:43:22.6752150Z",
+    "generated_utc":  "2026-09-24T12:50:43.0142962Z",
     "source":  "Public reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  16817,
+    "record_count":  16827,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -29930,6 +29930,23 @@
                         "search_id":  "RE016053RE016053"
                     },
                     {
+                        "title":  "Crucifiction of Mickey Mouse",
+                        "work_id":  "RE-016475",
+                        "work_ids":  [
+                                         "RE-016475"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2004/Crucifiction-of-Mickey-Mouse.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2004/Crucifiction-of-Mickey-Mouse.html",
+                        "search_text":  "crucifiction of mickey mouse re 016475 re 016475 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2004 crucifiction of mickey mouse html",
+                        "search_id":  "RE016475RE016475"
+                    },
+                    {
                         "title":  "Cry Your Eyes Out",
                         "work_id":  "RE-013390",
                         "work_ids":  [
@@ -31458,6 +31475,23 @@
                         "path":  "detail/paintings/2010s/2013/Dead-Toy-Soldier-Blue.html",
                         "search_text":  "dead toy soldier blue re 001169 re 001169 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 dead toy soldier blue html",
                         "search_id":  "RE001169RE001169"
+                    },
+                    {
+                        "title":  "Dead Toy Soldier (Purple)",
+                        "work_id":  "RE-001303",
+                        "work_ids":  [
+                                         "RE-001303"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Psycodelic-Dead-Toy-Soldier.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2013/Psycodelic-Dead-Toy-Soldier.html",
+                        "search_text":  "dead toy soldier purple re 001303 re 001303 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 psycodelic dead toy soldier html",
+                        "search_id":  "RE001303RE001303"
                     },
                     {
                         "title":  "Dead Toy Soldier (Red)",
@@ -57507,7 +57541,7 @@
                         "search_id":  "RE016717RE016717"
                     },
                     {
-                        "title":  "Homer Pollock 2",
+                        "title":  "Homer Pollock",
                         "work_id":  "RE-000585",
                         "work_ids":  [
                                          "RE-000585"
@@ -57520,7 +57554,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2004/Homer-Pollock-2.html",
                         "repository":  "ron-english-paintings-2000s",
                         "path":  "detail/paintings/2000s/2004/Homer-Pollock-2.html",
-                        "search_text":  "homer pollock 2 re 000585 re 000585 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2004 homer pollock 2 html",
+                        "search_text":  "homer pollock re 000585 re 000585 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2004 homer pollock 2 html",
                         "search_id":  "RE000585RE000585"
                     },
                     {
@@ -227494,23 +227528,6 @@
                         "search_id":  "RE000553RE000553"
                     },
                     {
-                        "title":  "Monkey Shriner",
-                        "work_id":  "RE-001303",
-                        "work_ids":  [
-                                         "RE-001303"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "year":  "2010",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2015/Monkey-Shriner.html",
-                        "repository":  "ron-english-paintings-2010s",
-                        "path":  "detail/paintings/2010s/2015/Monkey-Shriner.html",
-                        "search_text":  "monkey shriner re 001303 re 001303 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2015 monkey shriner html",
-                        "search_id":  "RE001303RE001303"
-                    },
-                    {
                         "title":  "Monkey Shriner Grin Head",
                         "work_id":  "RE-016237",
                         "work_ids":  [
@@ -228852,6 +228869,23 @@
                         "path":  "Sketches/light-cult/works/re-016441.html",
                         "search_text":  "mousemask luminosity re 016433 re 016433 sketches drawings light cult https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016441 html",
                         "search_id":  "RE016433RE016433"
+                    },
+                    {
+                        "title":  "Mousemask Monotone",
+                        "work_id":  "RE-000381",
+                        "work_ids":  [
+                                         "RE-000381"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2009/Mousemask-Monotone.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2009/Mousemask-Monotone.html",
+                        "search_text":  "mousemask monotone re 000381 re 000381 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2009 mousemask monotone html",
+                        "search_id":  "RE000381RE000381"
                     },
                     {
                         "title":  "Mousemask Murphy Back",
@@ -231623,23 +231657,6 @@
                         "path":  "Sketches/bigfoot/new-urban-bigfoot.html",
                         "search_text":  "new urban bigfoot re 013647 re 013647 sketches drawings bigfoot new urban bigfoot html https ronenglish archive github io ron english sketches animals sketches bigfoot new urban bigfoot html",
                         "search_id":  "RE013647RE013647"
-                    },
-                    {
-                        "title":  "New Wave",
-                        "work_id":  "RE-000381",
-                        "work_ids":  [
-                                         "RE-000381"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "year":  "1990",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1998/New-Wave.html",
-                        "repository":  "ron-english-paintings-1990s",
-                        "path":  "detail/paintings/1990s/1998/New-Wave.html",
-                        "search_text":  "new wave re 000381 re 000381 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1998 new wave html",
-                        "search_id":  "RE000381RE000381"
                     },
                     {
                         "title":  "New Years Eve",
@@ -235334,11 +235351,11 @@
                     },
                     {
                         "title":  "Paws Wolf Portrait",
-                        "work_id":  "",
+                        "work_id":  "RE-001617",
                         "work_ids":  [
-
+                                         "RE-001617"
                                      ],
-                        "work_id_status":  "missing",
+                        "work_id_status":  "valid",
                         "section":  "Paintings",
                         "category":  "Paintings",
                         "series":  "",
@@ -235346,8 +235363,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2021/Paws-Wolf-Portrait.html",
                         "repository":  "ron-english-paintings-2020s",
                         "path":  "detail/paintings/2020s/2021/Paws-Wolf-Portrait.html",
-                        "search_text":  "paws wolf portrait paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2021 paws wolf portrait html",
-                        "search_id":  ""
+                        "search_text":  "paws wolf portrait re 001617 re 001617 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2021 paws wolf portrait html",
+                        "search_id":  "RE001617RE001617"
                     },
                     {
                         "title":  "Peace \u0026 Love",
@@ -240994,23 +241011,6 @@
                         "search_id":  "RE016864RE016864"
                     },
                     {
-                        "title":  "Psycodelic Dead Toy Soldier",
-                        "work_id":  "",
-                        "work_ids":  [
-
-                                     ],
-                        "work_id_status":  "missing",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "year":  "2010",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Psycodelic-Dead-Toy-Soldier.html",
-                        "repository":  "ron-english-paintings-2010s",
-                        "path":  "detail/paintings/2010s/2013/Psycodelic-Dead-Toy-Soldier.html",
-                        "search_text":  "psycodelic dead toy soldier paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 psycodelic dead toy soldier html",
-                        "search_id":  ""
-                    },
-                    {
                         "title":  "Pubescent Pop Artist – Blue on Blue",
                         "work_id":  "RE-000985",
                         "work_ids":  [
@@ -243273,11 +243273,11 @@
                     },
                     {
                         "title":  "Rabbbit in the Clouds",
-                        "work_id":  "",
+                        "work_id":  "RE-001181",
                         "work_ids":  [
-
+                                         "RE-001181"
                                      ],
-                        "work_id_status":  "missing",
+                        "work_id_status":  "valid",
                         "section":  "Paintings",
                         "category":  "Paintings",
                         "series":  "",
@@ -243285,8 +243285,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2014/Rabbbit-in-the-Clouds.html",
                         "repository":  "ron-english-paintings-2010s",
                         "path":  "detail/paintings/2010s/2014/Rabbbit-in-the-Clouds.html",
-                        "search_text":  "rabbbit in the clouds paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2014 rabbbit in the clouds html",
-                        "search_id":  ""
+                        "search_text":  "rabbbit in the clouds re 001181 re 001181 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2014 rabbbit in the clouds html",
+                        "search_id":  "RE001181RE001181"
                     },
                     {
                         "title":  "Rabbbit in the hand",
@@ -249783,6 +249783,23 @@
                         "search_id":  "RE000022RE000022"
                     },
                     {
+                        "title":  "Salamander Heart with Baby a la Pollack",
+                        "work_id":  "RE-001209",
+                        "work_ids":  [
+                                         "RE-001209"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "1990",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1990/Salamander-Heart-with-Baby-a-la-Pollack.html",
+                        "repository":  "ron-english-paintings-1990s",
+                        "path":  "detail/paintings/1990s/1990/Salamander-Heart-with-Baby-a-la-Pollack.html",
+                        "search_text":  "salamander heart with baby a la pollack re 001209 re 001209 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1990 salamander heart with baby a la pollack html",
+                        "search_id":  "RE001209RE001209"
+                    },
+                    {
                         "title":  "Salamander Hula",
                         "work_id":  "RE-014733",
                         "work_ids":  [
@@ -256160,6 +256177,40 @@
                         "search_id":  "RE014035RE014035"
                     },
                     {
+                        "title":  "Smile - Silver",
+                        "work_id":  "RE-016634",
+                        "work_ids":  [
+                                         "RE-016634"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2019/Smile-Silver.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2019/Smile-Silver.html",
+                        "search_text":  "smile silver re 016634 re 016634 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2019 smile silver html",
+                        "search_id":  "RE016634RE016634"
+                    },
+                    {
+                        "title":  "Smile - Yellow",
+                        "work_id":  "RE-016709",
+                        "work_ids":  [
+                                         "RE-016709"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2019/Smile-Yellow.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2019/Smile-Yellow.html",
+                        "search_text":  "smile yellow re 016709 re 016709 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2019 smile yellow html",
+                        "search_id":  "RE016709RE016709"
+                    },
+                    {
                         "title":  "Smile High",
                         "work_id":  "RE-014506",
                         "work_ids":  [
@@ -260070,6 +260121,23 @@
                         "path":  "Sketches/aquatic-dwellers/aqua-apes/star.html",
                         "search_text":  "star sketch re 014275 re 014275 sketches drawings aquatic dwellers aqua apes https ronenglish archive github io ron english sketches animals sketches aquatic dwellers aqua apes star html",
                         "search_id":  "RE014275RE014275"
+                    },
+                    {
+                        "title":  "Star Skull",
+                        "work_id":  "RE-016599",
+                        "work_ids":  [
+                                         "RE-016599"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2010/Star-Skull.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2010/Star-Skull.html",
+                        "search_text":  "star skull re 016599 re 016599 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2010 star skull html",
+                        "search_id":  "RE016599RE016599"
                     },
                     {
                         "title":  "Star Skull Alien",
@@ -269405,6 +269473,23 @@
                         "search_id":  "RE016866RE016866"
                     },
                     {
+                        "title":  "The Sea Monkeys",
+                        "work_id":  "RE-016318",
+                        "work_ids":  [
+                                         "RE-016318"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2008/The-Sea-Monkeys.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2008/The-Sea-Monkeys.html",
+                        "search_text":  "the sea monkeys re 016318 re 016318 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2008 the sea monkeys html",
+                        "search_id":  "RE016318RE016318"
+                    },
+                    {
                         "title":  "The Secret History of Art",
                         "work_id":  "RE-000449",
                         "work_ids":  [
@@ -271514,11 +271599,11 @@
                     },
                     {
                         "title":  "Tom and Jerry Grin Primal Pop",
-                        "work_id":  "",
+                        "work_id":  "RE-001621",
                         "work_ids":  [
-
+                                         "RE-001621"
                                      ],
-                        "work_id_status":  "missing",
+                        "work_id_status":  "valid",
                         "section":  "Paintings",
                         "category":  "Paintings",
                         "series":  "",
@@ -271526,8 +271611,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2021/Tom-and-Jerry-Grin-Primal-Pop.html",
                         "repository":  "ron-english-paintings-2020s",
                         "path":  "detail/paintings/2020s/2021/Tom-and-Jerry-Grin-Primal-Pop.html",
-                        "search_text":  "tom and jerry grin primal pop paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2021 tom and jerry grin primal pop html",
-                        "search_id":  ""
+                        "search_text":  "tom and jerry grin primal pop re 001621 re 001621 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2021 tom and jerry grin primal pop html",
+                        "search_id":  "RE001621RE001621"
                     },
                     {
                         "title":  "Tom and Jerry Grin Splash Primal Pop",
@@ -272344,6 +272429,23 @@
                         "path":  "detail/paintings/1990s/1999/English-Johnston-collaboration-Torsos-and-Tank.html",
                         "search_text":  "torsos and tank re 000396 re 000396 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1999 english johnston collaboration torsos and tank html",
                         "search_id":  "RE000396RE000396"
+                    },
+                    {
+                        "title":  "Tortoise and Hare",
+                        "work_id":  "RE-016315",
+                        "work_ids":  [
+                                         "RE-016315"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2002/Tortoise-and-Hare.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2002/Tortoise-and-Hare.html",
+                        "search_text":  "tortoise and hare re 016315 re 016315 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2002 tortoise and hare html",
+                        "search_id":  "RE016315RE016315"
                     },
                     {
                         "title":  "Totem-Tree-Sketch",
@@ -275440,6 +275542,23 @@
                         "search_id":  "RE013974RE013974"
                     },
                     {
+                        "title":  "Ugh Banner",
+                        "work_id":  "RE-000055",
+                        "work_ids":  [
+                                         "RE-000055"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "1980",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1980s/detail/paintings/1980s/1988/Ugh-Banner.html",
+                        "repository":  "ron-english-paintings-1980s",
+                        "path":  "detail/paintings/1980s/1988/Ugh-Banner.html",
+                        "search_text":  "ugh banner re 000055 re 000055 paintings paintings 1980 https ronenglish archive github io ron english paintings 1980s detail paintings 1980s 1988 ugh banner html",
+                        "search_id":  "RE000055RE000055"
+                    },
+                    {
                         "title":  "Ugh the Urban Caveman",
                         "work_id":  "RE-001804",
                         "work_ids":  [
@@ -277665,6 +277784,23 @@
                         "path":  "Sketches/light-cult/works/re-015064.html",
                         "search_text":  "vigilaluz re 015064 re 015064 sketches drawings light cult https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 015064 html",
                         "search_id":  "RE015064RE015064"
+                    },
+                    {
+                        "title":  "Villa New Balance",
+                        "work_id":  "RE-016314",
+                        "work_ids":  [
+                                         "RE-016314"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2017/Villa-New-Balance.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2017/Villa-New-Balance.html",
+                        "search_text":  "villa new balance re 016314 re 016314 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2017 villa new balance html",
+                        "search_id":  "RE016314RE016314"
                     },
                     {
                         "title":  "Violent Tornados",
@@ -281169,6 +281305,23 @@
                         "search_id":  "RE000271RE000271"
                     },
                     {
+                        "title":  "Woodstock - Yin Yang",
+                        "work_id":  "RE-016312",
+                        "work_ids":  [
+                                         "RE-016312"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "1990",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1995/Woodstock-Yin-Yang.html",
+                        "repository":  "ron-english-paintings-1990s",
+                        "path":  "detail/paintings/1990s/1995/Woodstock-Yin-Yang.html",
+                        "search_text":  "woodstock yin yang re 016312 re 016312 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1995 woodstock yin yang html",
+                        "search_id":  "RE016312RE016312"
+                    },
+                    {
                         "title":  "Woodstock Grin Side",
                         "work_id":  "RE-016248",
                         "work_ids":  [
@@ -281830,6 +281983,23 @@
                         "path":  "detail/paintings/1990s/1999/Yin-Yang-Charlie-Brown-in-the-Psychedelic-Suburb.html",
                         "search_text":  "yin yang charlie brown in the psychedelic suburb re 000420 re 000420 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1999 yin yang charlie brown in the psychedelic suburb html",
                         "search_id":  "RE000420RE000420"
+                    },
+                    {
+                        "title":  "Yin Yang Globe",
+                        "work_id":  "RE-016313",
+                        "work_ids":  [
+                                         "RE-016313"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "1990",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1999/Yin-Yang-Globe.html",
+                        "repository":  "ron-english-paintings-1990s",
+                        "path":  "detail/paintings/1990s/1999/Yin-Yang-Globe.html",
+                        "search_text":  "yin yang globe re 016313 re 016313 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1999 yin yang globe html",
+                        "search_id":  "RE016313RE016313"
                     },
                     {
                         "title":  "Yin Yang Grin Head",
