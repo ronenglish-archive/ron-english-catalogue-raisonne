@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-09-24T12:50:43.0142962Z",
+    "generated_utc":  "2026-09-25T15:53:41.6638146Z",
     "source":  "Public reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  16827,
+    "record_count":  16837,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -4185,6 +4185,23 @@
                         "path":  "billboards/all-american.html",
                         "search_text":  "all american re 011800 re 011800 billboards billboards https ronenglish archive github io ron english billboards billboards all american html",
                         "search_id":  "RE011800RE011800"
+                    },
+                    {
+                        "title":  "All-American Temper Tot Blue Outline",
+                        "work_id":  "RE-016309",
+                        "work_ids":  [
+                                         "RE-016309"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2015/All-American-Temper-Tot-Blue-Outline.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2015/All-American-Temper-Tot-Blue-Outline.html",
+                        "search_text":  "all american temper tot blue outline re 016309 re 016309 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2015 all american temper tot blue outline html",
+                        "search_id":  "RE016309RE016309"
                     },
                     {
                         "title":  "Allen Wolf",
@@ -17074,6 +17091,23 @@
                         "path":  "Sketches/kaijus/works/re-014514--02.html",
                         "search_text":  "bulloney re 014514 re 014514 sketches drawings kaijus https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 014514 02 html",
                         "search_id":  "RE014514RE014514"
+                    },
+                    {
+                        "title":  "Bullseye Grin",
+                        "work_id":  "RE-016059",
+                        "work_ids":  [
+                                         "RE-016059"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Bullseye-Grin.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Bullseye-Grin.html",
+                        "search_text":  "bullseye grin re 016059 re 016059 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 bullseye grin html",
+                        "search_id":  "RE016059RE016059"
                     },
                     {
                         "title":  "Bunnies",
@@ -47761,6 +47795,23 @@
                         "path":  "detail/paintings/2000s/2008/Frehley-with-Fruit.html",
                         "search_text":  "frehley with fruit re 000805 re 000805 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2008 frehley with fruit html",
                         "search_id":  "RE000805RE000805"
+                    },
+                    {
+                        "title":  "French Fry",
+                        "work_id":  "RE-016208",
+                        "work_ids":  [
+                                         "RE-016208"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Pop Culture Public Figures",
+                        "series":  "",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-016208.html",
+                        "repository":  "ron-english-sketches-pop-culture",
+                        "path":  "Sketches/pop-culture-public-figures/works/re-016208.html",
+                        "search_text":  "french fry re 016208 re 016208 sketches drawings pop culture public figures https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 016208 html",
+                        "search_id":  "RE016208RE016208"
                     },
                     {
                         "title":  "French Kiss Christina",
@@ -215135,6 +215186,23 @@
                         "search_id":  "RE001237RE001237"
                     },
                     {
+                        "title":  "Lightbulb Grenade",
+                        "work_id":  "RE-016167",
+                        "work_ids":  [
+                                         "RE-016167"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Lightbulb-Grenade.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Lightbulb-Grenade.html",
+                        "search_text":  "lightbulb grenade re 016167 re 016167 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 lightbulb grenade html",
+                        "search_id":  "RE016167RE016167"
+                    },
+                    {
                         "title":  "Lightning",
                         "work_id":  "RE-014249",
                         "work_ids":  [
@@ -231897,6 +231965,74 @@
                         "search_id":  "RE016278RE016278"
                     },
                     {
+                        "title":  "Nissin Battle",
+                        "work_id":  "RE-016211",
+                        "work_ids":  [
+                                         "RE-016211"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Nissin-Battle.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Nissin-Battle.html",
+                        "search_text":  "nissin battle re 016211 re 016211 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 nissin battle html",
+                        "search_id":  "RE016211RE016211"
+                    },
+                    {
+                        "title":  "Nissin Hands",
+                        "work_id":  "RE-016215",
+                        "work_ids":  [
+                                         "RE-016215"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Nissin-Hands.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Nissin-Hands.html",
+                        "search_text":  "nissin hands re 016215 re 016215 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 nissin hands html",
+                        "search_id":  "RE016215RE016215"
+                    },
+                    {
+                        "title":  "Nissin Lightning",
+                        "work_id":  "RE-016213",
+                        "work_ids":  [
+                                         "RE-016213"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Nissin-Lightning.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Nissin-Lightning.html",
+                        "search_text":  "nissin lightning re 016213 re 016213 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 nissin lightning html",
+                        "search_id":  "RE016213RE016213"
+                    },
+                    {
+                        "title":  "Nissin Pointing",
+                        "work_id":  "RE-016301",
+                        "work_ids":  [
+                                         "RE-016301"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Nissin-Pointing.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Nissin-Pointing.html",
+                        "search_text":  "nissin pointing re 016301 re 016301 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 nissin pointing html",
+                        "search_id":  "RE016301RE016301"
+                    },
+                    {
                         "title":  "No and Yes",
                         "work_id":  "RE-012643",
                         "work_ids":  [
@@ -237509,6 +237645,23 @@
                         "search_id":  "RE001354RE001354"
                     },
                     {
+                        "title":  "Pink Temper Tot",
+                        "work_id":  "RE-016170",
+                        "work_ids":  [
+                                         "RE-016170"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Pink-Temper-Tot.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Pink-Temper-Tot.html",
+                        "search_text":  "pink temper tot re 016170 re 016170 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 pink temper tot html",
+                        "search_id":  "RE016170RE016170"
+                    },
+                    {
                         "title":  "Pink Temper Tot Battles Mousemask Murphy",
                         "work_id":  "RE-001481",
                         "work_ids":  [
@@ -238000,6 +238153,23 @@
                         "path":  "Sketches/early-works/late-1970s-early-1980s/works/re-015472.html",
                         "search_text":  "playing dominoes re 015472 re 015472 sketches drawings early works late 1970s early 1980s 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015472 html",
                         "search_id":  "RE015472RE015472"
+                    },
+                    {
+                        "title":  "Plein Air Picasso Guernica",
+                        "work_id":  "RE-016207",
+                        "work_ids":  [
+                                         "RE-016207"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Plein-Air-Picasso-Guernica.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2026/Plein-Air-Picasso-Guernica.html",
+                        "search_text":  "plein air picasso guernica re 016207 re 016207 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 plein air picasso guernica html",
+                        "search_id":  "RE016207RE016207"
                     },
                     {
                         "title":  "Plessy School, New Orleans",
