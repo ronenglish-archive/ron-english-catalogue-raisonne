@@ -5,6 +5,7 @@
                                          "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2023/Light-Cult-Crypto-Club-Bulb.html"
                                      ],
     "exclude_urls":  [
+                         "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/tots/temper-tot/digital-drawings.html",
                          "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/hats/sets/widemouth-hats.html"
                      ],
     "notes":  "Only use include_missing_work_id_urls for confirmed individual work pages whose authoritative Work ID is genuinely unavailable. Never invent an ID."
