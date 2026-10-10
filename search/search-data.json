@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-10-09T14:49:25.2028486Z",
+    "generated_utc":  "2026-10-10T21:59:20.8928575Z",
     "source":  "LIVE GitHub Pages reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  17775,
+    "record_count":  17773,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -44968,24 +44968,6 @@
                         "search_id":  "RE001530RE001530"
                     },
                     {
-                        "title":  "Elefanka on her High Horse",
-                        "work_id":  "RE-001766",
-                        "work_ids":  [
-                                         "RE-001766"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2020",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Elefanka-on-her-High-Horse.html",
-                        "repository":  "ron-english-paintings-2020s",
-                        "path":  "detail/paintings/2020s/2026/Elefanka-on-her-High-Horse.html",
-                        "search_text":  "elefanka on her high horse re 001766 re 001766 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 elefanka on her high horse html",
-                        "search_id":  "RE001766RE001766"
-                    },
-                    {
                         "title":  "Elefanka Portrait",
                         "work_id":  "RE-001614",
                         "work_ids":  [
@@ -54010,24 +53992,6 @@
                         "path":  "Sketches/aquatic-dwellers/mermaids/flower-mermaid.html",
                         "search_text":  "flower mermaid re 011973 re 011973 sketches drawings aquatic dwellers mermaids 2026 https ronenglish archive github io ron english sketches animals sketches aquatic dwellers mermaids flower mermaid html",
                         "search_id":  "RE011973RE011973"
-                    },
-                    {
-                        "title":  "Flower Mermaid 2",
-                        "work_id":  "RE-011682",
-                        "work_ids":  [
-                                         "RE-011682"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Aquatic Dwellers",
-                        "series":  "Mermaids",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2026",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/mermaids/flower-mermaid-2.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/aquatic-dwellers/mermaids/flower-mermaid-2.html",
-                        "search_text":  "flower mermaid 2 re 011682 re 011682 sketches drawings aquatic dwellers mermaids 2026 https ronenglish archive github io ron english sketches animals sketches aquatic dwellers mermaids flower mermaid 2 html",
-                        "search_id":  "RE011682RE011682"
                     },
                     {
                         "title":  "Flower Mind",
@@ -75135,6 +75099,24 @@
                         "path":  "detail/paintings/2000s/2008/Lady-in-Waiting.html",
                         "search_text":  "lady in waiting re 000824 re 000824 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2008 lady in waiting html",
                         "search_id":  "RE000824RE000824"
+                    },
+                    {
+                        "title":  "Lady Lick",
+                        "work_id":  "RE-000974",
+                        "work_ids":  [
+                                         "RE-000974"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2010/Lady-Lick.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2010/Lady-Lick.html",
+                        "search_text":  "lady lick re 000974 re 000974 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2010 lady lick html",
+                        "search_id":  "RE000974RE000974"
                     },
                     {
                         "title":  "Lady Lick - Variant 1",
@@ -235369,24 +235351,6 @@
                         "search_id":  "RE010532RE010532"
                     },
                     {
-                        "title":  "Light Cult Crypto Club Bulb",
-                        "work_id":  "",
-                        "work_ids":  [
-
-                                     ],
-                        "work_id_status":  "missing",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2020",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2023/Light-Cult-Crypto-Club-Bulb.html",
-                        "repository":  "ron-english-paintings-2020s",
-                        "path":  "detail/paintings/2020s/2023/Light-Cult-Crypto-Club-Bulb.html",
-                        "search_text":  "light cult crypto club bulb paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2023 light cult crypto club bulb html",
-                        "search_id":  ""
-                    },
-                    {
                         "title":  "Light Cult Crypto Club -Turn On",
                         "work_id":  "RE-011703",
                         "work_ids":  [
@@ -246380,15 +246344,15 @@
                                          "RE-011682"
                                      ],
                         "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Aquatic Dwellers",
+                        "series":  "Mermaids",
                         "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2020",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2025/Mermaid-Flower.html",
-                        "repository":  "ron-english-paintings-2020s",
-                        "path":  "detail/paintings/2020s/2025/Mermaid-Flower.html",
-                        "search_text":  "mermaid flower re 011682 re 011682 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2025 mermaid flower html",
+                        "year":  "2025",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/mermaids/flower-mermaid-2.html",
+                        "repository":  "ron-english-sketches-animals",
+                        "path":  "Sketches/aquatic-dwellers/mermaids/flower-mermaid-2.html",
+                        "search_text":  "mermaid flower re 011682 re 011682 sketches drawings aquatic dwellers mermaids 2025 https ronenglish archive github io ron english sketches animals sketches aquatic dwellers mermaids flower mermaid 2 html",
                         "search_id":  "RE011682RE011682"
                     },
                     {
@@ -249416,7 +249380,7 @@
                         "search_id":  "RE000218RE000218"
                     },
                     {
-                        "title":  "Money is the Root of All Art version 2",
+                        "title":  "Money Is the Root of All Art version 2",
                         "work_id":  "RE-000257",
                         "work_ids":  [
                                          "RE-000257"
@@ -249434,7 +249398,7 @@
                         "search_id":  "RE000257RE000257"
                     },
                     {
-                        "title":  "Money is the Root of All Freedom",
+                        "title":  "Money Is the Root of All Freedom",
                         "work_id":  "RE-000258",
                         "work_ids":  [
                                          "RE-000258"
@@ -293596,21 +293560,21 @@
                     },
                     {
                         "title":  "Tantrum Tot",
-                        "work_id":  "RE-011982",
+                        "work_id":  "RE-017246",
                         "work_ids":  [
-                                         "RE-011982"
+                                         "RE-017246"
                                      ],
                         "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Tots",
+                        "series":  "Return to category",
                         "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2020",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Tantrum-Tot.html",
-                        "repository":  "ron-english-paintings-2020s",
-                        "path":  "detail/paintings/2020s/2026/Tantrum-Tot.html",
-                        "search_text":  "tantrum tot re 011982 re 011982 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 tantrum tot html",
-                        "search_id":  "RE011982RE011982"
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/tots/tantrum-tot/re-017246.html",
+                        "repository":  "ron-english-sketches-mythic-dark",
+                        "path":  "Sketches/tots/tantrum-tot/re-017246.html",
+                        "search_text":  "tantrum tot re 017246 re 017246 sketches drawings tots return to category https ronenglish archive github io ron english sketches mythic dark sketches tots tantrum tot re 017246 html",
+                        "search_id":  "RE017246RE017246"
                     },
                     {
                         "title":  "Target",
@@ -307751,24 +307715,6 @@
                     },
                     {
                         "title":  "Uncle Scam",
-                        "work_id":  "RE-011983",
-                        "work_ids":  [
-                                         "RE-011983"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2020",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2026/Uncle-Scam.html",
-                        "repository":  "ron-english-paintings-2020s",
-                        "path":  "detail/paintings/2020s/2026/Uncle-Scam.html",
-                        "search_text":  "uncle scam re 011983 re 011983 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2026 uncle scam html",
-                        "search_id":  "RE011983RE011983"
-                    },
-                    {
-                        "title":  "Uncle Scam",
                         "work_id":  "RE-014078",
                         "work_ids":  [
                                          "RE-014078"
@@ -307784,6 +307730,24 @@
                         "path":  "Sketches/people-characters/works/re-014078.html",
                         "search_text":  "uncle scam re 014078 re 014078 sketches drawings people characters uncle scam https ronenglish archive github io ron english sketches people characters sketches people characters works re 014078 html",
                         "search_id":  "RE014078RE014078"
+                    },
+                    {
+                        "title":  "Uncle Scam",
+                        "work_id":  "RE-017247",
+                        "work_ids":  [
+                                         "RE-017247"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "People Characters",
+                        "series":  "Return to category",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-people-characters/Sketches/people-characters/sets/uncle-scam-re-017247.html",
+                        "repository":  "ron-english-sketches-people-characters",
+                        "path":  "Sketches/people-characters/sets/uncle-scam-re-017247.html",
+                        "search_text":  "uncle scam re 017247 re 017247 sketches drawings people characters return to category https ronenglish archive github io ron english sketches people characters sketches people characters sets uncle scam re 017247 html",
+                        "search_id":  "RE017247RE017247"
                     },
                     {
                         "title":  "Uncle Scam - USSA",
@@ -313960,7 +313924,7 @@
                         "search_id":  "RE000270RE000270"
                     },
                     {
-                        "title":  "Woodstock - Salamander guitar",
+                        "title":  "Woodstock - Salamander Guitar",
                         "work_id":  "RE-000271",
                         "work_ids":  [
                                          "RE-000271"
