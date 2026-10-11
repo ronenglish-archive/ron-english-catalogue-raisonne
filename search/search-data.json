@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-10-10T21:59:20.8928575Z",
+    "generated_utc":  "2026-10-11T12:42:18.3214520Z",
     "source":  "LIVE GitHub Pages reachability graph from the Ron English Catalogue Raisonne home page",
     "record_count":  17773,
     "records":  [
@@ -65644,11 +65644,11 @@
                     },
                     {
                         "title":  "Heart of Skull Grin",
-                        "work_id":  "",
+                        "work_id":  "RE-017248",
                         "work_ids":  [
-
+                                         "RE-017248"
                                      ],
-                        "work_id_status":  "missing",
+                        "work_id_status":  "valid",
                         "section":  "Paintings",
                         "category":  "Paintings",
                         "series":  "",
@@ -65657,8 +65657,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2014/Heart-of-Skull-Grin.html",
                         "repository":  "ron-english-paintings-2010s",
                         "path":  "detail/paintings/2010s/2014/Heart-of-Skull-Grin.html",
-                        "search_text":  "heart of skull grin paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2014 heart of skull grin html",
-                        "search_id":  ""
+                        "search_text":  "heart of skull grin re 017248 re 017248 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2014 heart of skull grin html",
+                        "search_id":  "RE017248RE017248"
                     },
                     {
                         "title":  "Heart Rib",
@@ -299705,24 +299705,6 @@
                     },
                     {
                         "title":  "The Politics of Creation",
-                        "work_id":  "RE-000094",
-                        "work_ids":  [
-                                         "RE-000094"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "1990",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1990/The-Politics-of-Creation.html",
-                        "repository":  "ron-english-paintings-1990s",
-                        "path":  "detail/paintings/1990s/1990/The-Politics-of-Creation.html",
-                        "search_text":  "the politics of creation re 000094 re 000094 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1990 the politics of creation html",
-                        "search_id":  "RE000094RE000094"
-                    },
-                    {
-                        "title":  "The Politics of Creation II",
                         "work_id":  "RE-000300",
                         "work_ids":  [
                                          "RE-000300"
@@ -299733,11 +299715,29 @@
                         "series":  "",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "1990",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1990/The-Politics-of-Creation.html",
+                        "repository":  "ron-english-paintings-1990s",
+                        "path":  "detail/paintings/1990s/1990/The-Politics-of-Creation.html",
+                        "search_text":  "the politics of creation re 000300 re 000300 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1990 the politics of creation html",
+                        "search_id":  "RE000300RE000300"
+                    },
+                    {
+                        "title":  "The Politics of Creation II",
+                        "work_id":  "RE-000094",
+                        "work_ids":  [
+                                         "RE-000094"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "1990",
                         "url":  "https://ronenglish-archive.github.io/ron-english-paintings-1990s/detail/paintings/1990s/1991/Politics-of-Creation-II.html",
                         "repository":  "ron-english-paintings-1990s",
                         "path":  "detail/paintings/1990s/1991/Politics-of-Creation-II.html",
-                        "search_text":  "the politics of creation ii re 000300 re 000300 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1991 politics of creation ii html",
-                        "search_id":  "RE000300RE000300"
+                        "search_text":  "the politics of creation ii re 000094 re 000094 paintings paintings 1990 https ronenglish archive github io ron english paintings 1990s detail paintings 1990s 1991 politics of creation ii html",
+                        "search_id":  "RE000094RE000094"
                     },
                     {
                         "title":  "The Poor - What Are They Good For",
