@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-10-11T12:42:18.3214520Z",
+    "generated_utc":  "2026-10-11T19:12:15.7681314Z",
     "source":  "LIVE GitHub Pages reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  17773,
+    "record_count":  17918,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -33222,24 +33222,6 @@
                         "path":  "detail/paintings/2000s/2001/Cowgirl-Betty.html",
                         "search_text":  "cowgirl betty re 000458 re 000458 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2001 cowgirl betty html",
                         "search_id":  "RE000458RE000458"
-                    },
-                    {
-                        "title":  "Cowgirl Bikini",
-                        "work_id":  "RE-000XXX",
-                        "work_ids":  [
-                                         "RE-000XXX"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Warholesque",
-                        "category":  "Warholesque",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2007",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Cowgirl-Bikini.html",
-                        "repository":  "ron-english-warholesque",
-                        "path":  "paintings/Warholesque/Warholesque-Cowgirl-Bikini.html",
-                        "search_text":  "cowgirl bikini re 000xxx re 000xxx warholesque warholesque 2007 https ronenglish archive github io ron english warholesque paintings warholesque warholesque cowgirl bikini html",
-                        "search_id":  "RE000XXXRE000XXX"
                     },
                     {
                         "title":  "Cowgirl Bikini - Variant 1",
@@ -77563,6 +77545,24 @@
                         "search_id":  "RE015990RE015990"
                     },
                     {
+                        "title":  "Light Cult Crypto Club #0000",
+                        "work_id":  "RE-001811",
+                        "work_ids":  [
+                                         "RE-001811"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-0001-1000/items/lccc-0000.html",
+                        "repository":  "ron-english-light-cult-0001-1000",
+                        "path":  "items/lccc-0000.html",
+                        "search_text":  "light cult crypto club 0000 re 001811 re 001811 light cult light cult https ronenglish archive github io ron english light cult 0001 1000 items lccc 0000 html",
+                        "search_id":  "RE001811RE001811"
+                    },
+                    {
                         "title":  "Light Cult Crypto Club #0001",
                         "work_id":  "RE-001812",
                         "work_ids":  [
@@ -93239,6 +93239,114 @@
                         "path":  "items/lccc-1000.html",
                         "search_text":  "light cult crypto club 1000 re 002682 re 002682 light cult light cult https ronenglish archive github io ron english light cult 0001 1000 items lccc 1000 html",
                         "search_id":  "RE002682RE002682"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #10000",
+                        "work_id":  "RE-010623",
+                        "work_ids":  [
+                                         "RE-010623"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-10000.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-10000.html",
+                        "search_text":  "light cult crypto club 10000 re 010623 re 010623 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 10000 html",
+                        "search_id":  "RE010623RE010623"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #10001",
+                        "work_id":  "RE-010624",
+                        "work_ids":  [
+                                         "RE-010624"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-10001.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-10001.html",
+                        "search_text":  "light cult crypto club 10001 re 010624 re 010624 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 10001 html",
+                        "search_id":  "RE010624RE010624"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #10002",
+                        "work_id":  "RE-010625",
+                        "work_ids":  [
+                                         "RE-010625"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-10002.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-10002.html",
+                        "search_text":  "light cult crypto club 10002 re 010625 re 010625 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 10002 html",
+                        "search_id":  "RE010625RE010625"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #10003",
+                        "work_id":  "RE-010626",
+                        "work_ids":  [
+                                         "RE-010626"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-10003.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-10003.html",
+                        "search_text":  "light cult crypto club 10003 re 010626 re 010626 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 10003 html",
+                        "search_id":  "RE010626RE010626"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #10004",
+                        "work_id":  "RE-010627",
+                        "work_ids":  [
+                                         "RE-010627"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-10004.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-10004.html",
+                        "search_text":  "light cult crypto club 10004 re 010627 re 010627 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 10004 html",
+                        "search_id":  "RE010627RE010627"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #10005",
+                        "work_id":  "RE-010628",
+                        "work_ids":  [
+                                         "RE-010628"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-10005.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-10005.html",
+                        "search_text":  "light cult crypto club 10005 re 010628 re 010628 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 10005 html",
+                        "search_id":  "RE010628RE010628"
                     },
                     {
                         "title":  "Light Cult Crypto Club #1001",
@@ -233803,6 +233911,888 @@
                         "search_id":  "RE010397RE010397"
                     },
                     {
+                        "title":  "Light Cult Crypto Club #9747",
+                        "work_id":  "RE-010398",
+                        "work_ids":  [
+                                         "RE-010398"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9747.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9747.html",
+                        "search_text":  "light cult crypto club 9747 re 010398 re 010398 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9747 html",
+                        "search_id":  "RE010398RE010398"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9748",
+                        "work_id":  "RE-010399",
+                        "work_ids":  [
+                                         "RE-010399"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9748.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9748.html",
+                        "search_text":  "light cult crypto club 9748 re 010399 re 010399 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9748 html",
+                        "search_id":  "RE010399RE010399"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9749",
+                        "work_id":  "RE-010400",
+                        "work_ids":  [
+                                         "RE-010400"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9749.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9749.html",
+                        "search_text":  "light cult crypto club 9749 re 010400 re 010400 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9749 html",
+                        "search_id":  "RE010400RE010400"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9750",
+                        "work_id":  "RE-010401",
+                        "work_ids":  [
+                                         "RE-010401"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9750.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9750.html",
+                        "search_text":  "light cult crypto club 9750 re 010401 re 010401 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9750 html",
+                        "search_id":  "RE010401RE010401"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9751",
+                        "work_id":  "RE-010402",
+                        "work_ids":  [
+                                         "RE-010402"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9751.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9751.html",
+                        "search_text":  "light cult crypto club 9751 re 010402 re 010402 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9751 html",
+                        "search_id":  "RE010402RE010402"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9752",
+                        "work_id":  "RE-010403",
+                        "work_ids":  [
+                                         "RE-010403"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9752.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9752.html",
+                        "search_text":  "light cult crypto club 9752 re 010403 re 010403 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9752 html",
+                        "search_id":  "RE010403RE010403"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9753",
+                        "work_id":  "RE-010404",
+                        "work_ids":  [
+                                         "RE-010404"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9753.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9753.html",
+                        "search_text":  "light cult crypto club 9753 re 010404 re 010404 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9753 html",
+                        "search_id":  "RE010404RE010404"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9754",
+                        "work_id":  "RE-010405",
+                        "work_ids":  [
+                                         "RE-010405"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9754.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9754.html",
+                        "search_text":  "light cult crypto club 9754 re 010405 re 010405 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9754 html",
+                        "search_id":  "RE010405RE010405"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9755",
+                        "work_id":  "RE-010406",
+                        "work_ids":  [
+                                         "RE-010406"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9755.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9755.html",
+                        "search_text":  "light cult crypto club 9755 re 010406 re 010406 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9755 html",
+                        "search_id":  "RE010406RE010406"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9756",
+                        "work_id":  "RE-010407",
+                        "work_ids":  [
+                                         "RE-010407"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9756.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9756.html",
+                        "search_text":  "light cult crypto club 9756 re 010407 re 010407 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9756 html",
+                        "search_id":  "RE010407RE010407"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9757",
+                        "work_id":  "RE-010408",
+                        "work_ids":  [
+                                         "RE-010408"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9757.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9757.html",
+                        "search_text":  "light cult crypto club 9757 re 010408 re 010408 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9757 html",
+                        "search_id":  "RE010408RE010408"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9758",
+                        "work_id":  "RE-010409",
+                        "work_ids":  [
+                                         "RE-010409"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9758.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9758.html",
+                        "search_text":  "light cult crypto club 9758 re 010409 re 010409 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9758 html",
+                        "search_id":  "RE010409RE010409"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9759",
+                        "work_id":  "RE-010410",
+                        "work_ids":  [
+                                         "RE-010410"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9759.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9759.html",
+                        "search_text":  "light cult crypto club 9759 re 010410 re 010410 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9759 html",
+                        "search_id":  "RE010410RE010410"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9761",
+                        "work_id":  "RE-010411",
+                        "work_ids":  [
+                                         "RE-010411"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9761.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9761.html",
+                        "search_text":  "light cult crypto club 9761 re 010411 re 010411 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9761 html",
+                        "search_id":  "RE010411RE010411"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9762",
+                        "work_id":  "RE-010412",
+                        "work_ids":  [
+                                         "RE-010412"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9762.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9762.html",
+                        "search_text":  "light cult crypto club 9762 re 010412 re 010412 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9762 html",
+                        "search_id":  "RE010412RE010412"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9763",
+                        "work_id":  "RE-010413",
+                        "work_ids":  [
+                                         "RE-010413"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9763.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9763.html",
+                        "search_text":  "light cult crypto club 9763 re 010413 re 010413 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9763 html",
+                        "search_id":  "RE010413RE010413"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9764",
+                        "work_id":  "RE-010414",
+                        "work_ids":  [
+                                         "RE-010414"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9764.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9764.html",
+                        "search_text":  "light cult crypto club 9764 re 010414 re 010414 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9764 html",
+                        "search_id":  "RE010414RE010414"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9765",
+                        "work_id":  "RE-010415",
+                        "work_ids":  [
+                                         "RE-010415"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9765.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9765.html",
+                        "search_text":  "light cult crypto club 9765 re 010415 re 010415 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9765 html",
+                        "search_id":  "RE010415RE010415"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9766",
+                        "work_id":  "RE-010416",
+                        "work_ids":  [
+                                         "RE-010416"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9766.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9766.html",
+                        "search_text":  "light cult crypto club 9766 re 010416 re 010416 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9766 html",
+                        "search_id":  "RE010416RE010416"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9767",
+                        "work_id":  "RE-010417",
+                        "work_ids":  [
+                                         "RE-010417"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9767.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9767.html",
+                        "search_text":  "light cult crypto club 9767 re 010417 re 010417 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9767 html",
+                        "search_id":  "RE010417RE010417"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9768",
+                        "work_id":  "RE-010418",
+                        "work_ids":  [
+                                         "RE-010418"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9768.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9768.html",
+                        "search_text":  "light cult crypto club 9768 re 010418 re 010418 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9768 html",
+                        "search_id":  "RE010418RE010418"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9769",
+                        "work_id":  "RE-010419",
+                        "work_ids":  [
+                                         "RE-010419"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9769.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9769.html",
+                        "search_text":  "light cult crypto club 9769 re 010419 re 010419 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9769 html",
+                        "search_id":  "RE010419RE010419"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9770",
+                        "work_id":  "RE-010420",
+                        "work_ids":  [
+                                         "RE-010420"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9770.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9770.html",
+                        "search_text":  "light cult crypto club 9770 re 010420 re 010420 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9770 html",
+                        "search_id":  "RE010420RE010420"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9771",
+                        "work_id":  "RE-010421",
+                        "work_ids":  [
+                                         "RE-010421"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9771.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9771.html",
+                        "search_text":  "light cult crypto club 9771 re 010421 re 010421 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9771 html",
+                        "search_id":  "RE010421RE010421"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9774",
+                        "work_id":  "RE-010422",
+                        "work_ids":  [
+                                         "RE-010422"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9774.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9774.html",
+                        "search_text":  "light cult crypto club 9774 re 010422 re 010422 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9774 html",
+                        "search_id":  "RE010422RE010422"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9775",
+                        "work_id":  "RE-010423",
+                        "work_ids":  [
+                                         "RE-010423"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9775.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9775.html",
+                        "search_text":  "light cult crypto club 9775 re 010423 re 010423 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9775 html",
+                        "search_id":  "RE010423RE010423"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9776",
+                        "work_id":  "RE-010424",
+                        "work_ids":  [
+                                         "RE-010424"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9776.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9776.html",
+                        "search_text":  "light cult crypto club 9776 re 010424 re 010424 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9776 html",
+                        "search_id":  "RE010424RE010424"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9777",
+                        "work_id":  "RE-010425",
+                        "work_ids":  [
+                                         "RE-010425"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9777.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9777.html",
+                        "search_text":  "light cult crypto club 9777 re 010425 re 010425 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9777 html",
+                        "search_id":  "RE010425RE010425"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9778",
+                        "work_id":  "RE-010426",
+                        "work_ids":  [
+                                         "RE-010426"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9778.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9778.html",
+                        "search_text":  "light cult crypto club 9778 re 010426 re 010426 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9778 html",
+                        "search_id":  "RE010426RE010426"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9779",
+                        "work_id":  "RE-010427",
+                        "work_ids":  [
+                                         "RE-010427"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9779.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9779.html",
+                        "search_text":  "light cult crypto club 9779 re 010427 re 010427 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9779 html",
+                        "search_id":  "RE010427RE010427"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9780",
+                        "work_id":  "RE-010428",
+                        "work_ids":  [
+                                         "RE-010428"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9780.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9780.html",
+                        "search_text":  "light cult crypto club 9780 re 010428 re 010428 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9780 html",
+                        "search_id":  "RE010428RE010428"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9781",
+                        "work_id":  "RE-010429",
+                        "work_ids":  [
+                                         "RE-010429"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9781.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9781.html",
+                        "search_text":  "light cult crypto club 9781 re 010429 re 010429 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9781 html",
+                        "search_id":  "RE010429RE010429"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9782",
+                        "work_id":  "RE-010430",
+                        "work_ids":  [
+                                         "RE-010430"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9782.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9782.html",
+                        "search_text":  "light cult crypto club 9782 re 010430 re 010430 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9782 html",
+                        "search_id":  "RE010430RE010430"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9783",
+                        "work_id":  "RE-010431",
+                        "work_ids":  [
+                                         "RE-010431"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9783.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9783.html",
+                        "search_text":  "light cult crypto club 9783 re 010431 re 010431 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9783 html",
+                        "search_id":  "RE010431RE010431"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9784",
+                        "work_id":  "RE-010432",
+                        "work_ids":  [
+                                         "RE-010432"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9784.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9784.html",
+                        "search_text":  "light cult crypto club 9784 re 010432 re 010432 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9784 html",
+                        "search_id":  "RE010432RE010432"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9785",
+                        "work_id":  "RE-010433",
+                        "work_ids":  [
+                                         "RE-010433"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9785.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9785.html",
+                        "search_text":  "light cult crypto club 9785 re 010433 re 010433 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9785 html",
+                        "search_id":  "RE010433RE010433"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9786",
+                        "work_id":  "RE-010434",
+                        "work_ids":  [
+                                         "RE-010434"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9786.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9786.html",
+                        "search_text":  "light cult crypto club 9786 re 010434 re 010434 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9786 html",
+                        "search_id":  "RE010434RE010434"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9787",
+                        "work_id":  "RE-010435",
+                        "work_ids":  [
+                                         "RE-010435"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9787.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9787.html",
+                        "search_text":  "light cult crypto club 9787 re 010435 re 010435 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9787 html",
+                        "search_id":  "RE010435RE010435"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9788",
+                        "work_id":  "RE-010436",
+                        "work_ids":  [
+                                         "RE-010436"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9788.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9788.html",
+                        "search_text":  "light cult crypto club 9788 re 010436 re 010436 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9788 html",
+                        "search_id":  "RE010436RE010436"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9789",
+                        "work_id":  "RE-010437",
+                        "work_ids":  [
+                                         "RE-010437"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9789.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9789.html",
+                        "search_text":  "light cult crypto club 9789 re 010437 re 010437 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9789 html",
+                        "search_id":  "RE010437RE010437"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9790",
+                        "work_id":  "RE-010438",
+                        "work_ids":  [
+                                         "RE-010438"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9790.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9790.html",
+                        "search_text":  "light cult crypto club 9790 re 010438 re 010438 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9790 html",
+                        "search_id":  "RE010438RE010438"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9791",
+                        "work_id":  "RE-010439",
+                        "work_ids":  [
+                                         "RE-010439"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9791.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9791.html",
+                        "search_text":  "light cult crypto club 9791 re 010439 re 010439 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9791 html",
+                        "search_id":  "RE010439RE010439"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9792",
+                        "work_id":  "RE-010440",
+                        "work_ids":  [
+                                         "RE-010440"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9792.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9792.html",
+                        "search_text":  "light cult crypto club 9792 re 010440 re 010440 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9792 html",
+                        "search_id":  "RE010440RE010440"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9793",
+                        "work_id":  "RE-010441",
+                        "work_ids":  [
+                                         "RE-010441"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9793.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9793.html",
+                        "search_text":  "light cult crypto club 9793 re 010441 re 010441 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9793 html",
+                        "search_id":  "RE010441RE010441"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9794",
+                        "work_id":  "RE-010442",
+                        "work_ids":  [
+                                         "RE-010442"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9794.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9794.html",
+                        "search_text":  "light cult crypto club 9794 re 010442 re 010442 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9794 html",
+                        "search_id":  "RE010442RE010442"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9795",
+                        "work_id":  "RE-010443",
+                        "work_ids":  [
+                                         "RE-010443"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9795.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9795.html",
+                        "search_text":  "light cult crypto club 9795 re 010443 re 010443 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9795 html",
+                        "search_id":  "RE010443RE010443"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9798",
+                        "work_id":  "RE-010444",
+                        "work_ids":  [
+                                         "RE-010444"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9798.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9798.html",
+                        "search_text":  "light cult crypto club 9798 re 010444 re 010444 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9798 html",
+                        "search_id":  "RE010444RE010444"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9799",
+                        "work_id":  "RE-010445",
+                        "work_ids":  [
+                                         "RE-010445"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9799.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9799.html",
+                        "search_text":  "light cult crypto club 9799 re 010445 re 010445 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9799 html",
+                        "search_id":  "RE010445RE010445"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9800",
+                        "work_id":  "RE-010446",
+                        "work_ids":  [
+                                         "RE-010446"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9800.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9800.html",
+                        "search_text":  "light cult crypto club 9800 re 010446 re 010446 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9800 html",
+                        "search_id":  "RE010446RE010446"
+                    },
+                    {
                         "title":  "Light Cult Crypto Club #9801",
                         "work_id":  "RE-010447",
                         "work_ids":  [
@@ -235349,6 +236339,1626 @@
                         "path":  "items/lccc-9900.html",
                         "search_text":  "light cult crypto club 9900 re 010532 re 010532 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9900 html",
                         "search_id":  "RE010532RE010532"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9901",
+                        "work_id":  "RE-010533",
+                        "work_ids":  [
+                                         "RE-010533"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9901.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9901.html",
+                        "search_text":  "light cult crypto club 9901 re 010533 re 010533 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9901 html",
+                        "search_id":  "RE010533RE010533"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9902",
+                        "work_id":  "RE-010534",
+                        "work_ids":  [
+                                         "RE-010534"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9902.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9902.html",
+                        "search_text":  "light cult crypto club 9902 re 010534 re 010534 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9902 html",
+                        "search_id":  "RE010534RE010534"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9903",
+                        "work_id":  "RE-010535",
+                        "work_ids":  [
+                                         "RE-010535"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9903.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9903.html",
+                        "search_text":  "light cult crypto club 9903 re 010535 re 010535 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9903 html",
+                        "search_id":  "RE010535RE010535"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9904",
+                        "work_id":  "RE-010536",
+                        "work_ids":  [
+                                         "RE-010536"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9904.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9904.html",
+                        "search_text":  "light cult crypto club 9904 re 010536 re 010536 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9904 html",
+                        "search_id":  "RE010536RE010536"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9905",
+                        "work_id":  "RE-010537",
+                        "work_ids":  [
+                                         "RE-010537"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9905.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9905.html",
+                        "search_text":  "light cult crypto club 9905 re 010537 re 010537 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9905 html",
+                        "search_id":  "RE010537RE010537"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9906",
+                        "work_id":  "RE-010538",
+                        "work_ids":  [
+                                         "RE-010538"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9906.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9906.html",
+                        "search_text":  "light cult crypto club 9906 re 010538 re 010538 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9906 html",
+                        "search_id":  "RE010538RE010538"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9907",
+                        "work_id":  "RE-010539",
+                        "work_ids":  [
+                                         "RE-010539"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9907.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9907.html",
+                        "search_text":  "light cult crypto club 9907 re 010539 re 010539 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9907 html",
+                        "search_id":  "RE010539RE010539"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9908",
+                        "work_id":  "RE-010540",
+                        "work_ids":  [
+                                         "RE-010540"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9908.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9908.html",
+                        "search_text":  "light cult crypto club 9908 re 010540 re 010540 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9908 html",
+                        "search_id":  "RE010540RE010540"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9909",
+                        "work_id":  "RE-010541",
+                        "work_ids":  [
+                                         "RE-010541"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9909.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9909.html",
+                        "search_text":  "light cult crypto club 9909 re 010541 re 010541 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9909 html",
+                        "search_id":  "RE010541RE010541"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9910",
+                        "work_id":  "RE-010542",
+                        "work_ids":  [
+                                         "RE-010542"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9910.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9910.html",
+                        "search_text":  "light cult crypto club 9910 re 010542 re 010542 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9910 html",
+                        "search_id":  "RE010542RE010542"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9911",
+                        "work_id":  "RE-010543",
+                        "work_ids":  [
+                                         "RE-010543"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9911.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9911.html",
+                        "search_text":  "light cult crypto club 9911 re 010543 re 010543 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9911 html",
+                        "search_id":  "RE010543RE010543"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9912",
+                        "work_id":  "RE-010544",
+                        "work_ids":  [
+                                         "RE-010544"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9912.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9912.html",
+                        "search_text":  "light cult crypto club 9912 re 010544 re 010544 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9912 html",
+                        "search_id":  "RE010544RE010544"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9913",
+                        "work_id":  "RE-010545",
+                        "work_ids":  [
+                                         "RE-010545"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9913.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9913.html",
+                        "search_text":  "light cult crypto club 9913 re 010545 re 010545 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9913 html",
+                        "search_id":  "RE010545RE010545"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9914",
+                        "work_id":  "RE-010546",
+                        "work_ids":  [
+                                         "RE-010546"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9914.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9914.html",
+                        "search_text":  "light cult crypto club 9914 re 010546 re 010546 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9914 html",
+                        "search_id":  "RE010546RE010546"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9915",
+                        "work_id":  "RE-010547",
+                        "work_ids":  [
+                                         "RE-010547"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9915.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9915.html",
+                        "search_text":  "light cult crypto club 9915 re 010547 re 010547 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9915 html",
+                        "search_id":  "RE010547RE010547"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9916",
+                        "work_id":  "RE-010548",
+                        "work_ids":  [
+                                         "RE-010548"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9916.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9916.html",
+                        "search_text":  "light cult crypto club 9916 re 010548 re 010548 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9916 html",
+                        "search_id":  "RE010548RE010548"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9917",
+                        "work_id":  "RE-010549",
+                        "work_ids":  [
+                                         "RE-010549"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9917.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9917.html",
+                        "search_text":  "light cult crypto club 9917 re 010549 re 010549 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9917 html",
+                        "search_id":  "RE010549RE010549"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9918",
+                        "work_id":  "RE-010550",
+                        "work_ids":  [
+                                         "RE-010550"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9918.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9918.html",
+                        "search_text":  "light cult crypto club 9918 re 010550 re 010550 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9918 html",
+                        "search_id":  "RE010550RE010550"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9919",
+                        "work_id":  "RE-010551",
+                        "work_ids":  [
+                                         "RE-010551"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9919.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9919.html",
+                        "search_text":  "light cult crypto club 9919 re 010551 re 010551 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9919 html",
+                        "search_id":  "RE010551RE010551"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9920",
+                        "work_id":  "RE-010552",
+                        "work_ids":  [
+                                         "RE-010552"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9920.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9920.html",
+                        "search_text":  "light cult crypto club 9920 re 010552 re 010552 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9920 html",
+                        "search_id":  "RE010552RE010552"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9921",
+                        "work_id":  "RE-010553",
+                        "work_ids":  [
+                                         "RE-010553"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9921.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9921.html",
+                        "search_text":  "light cult crypto club 9921 re 010553 re 010553 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9921 html",
+                        "search_id":  "RE010553RE010553"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9923",
+                        "work_id":  "RE-010554",
+                        "work_ids":  [
+                                         "RE-010554"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9923.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9923.html",
+                        "search_text":  "light cult crypto club 9923 re 010554 re 010554 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9923 html",
+                        "search_id":  "RE010554RE010554"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9924",
+                        "work_id":  "RE-010555",
+                        "work_ids":  [
+                                         "RE-010555"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9924.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9924.html",
+                        "search_text":  "light cult crypto club 9924 re 010555 re 010555 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9924 html",
+                        "search_id":  "RE010555RE010555"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9925",
+                        "work_id":  "RE-010556",
+                        "work_ids":  [
+                                         "RE-010556"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9925.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9925.html",
+                        "search_text":  "light cult crypto club 9925 re 010556 re 010556 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9925 html",
+                        "search_id":  "RE010556RE010556"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9926",
+                        "work_id":  "RE-010557",
+                        "work_ids":  [
+                                         "RE-010557"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9926.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9926.html",
+                        "search_text":  "light cult crypto club 9926 re 010557 re 010557 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9926 html",
+                        "search_id":  "RE010557RE010557"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9927",
+                        "work_id":  "RE-010558",
+                        "work_ids":  [
+                                         "RE-010558"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9927.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9927.html",
+                        "search_text":  "light cult crypto club 9927 re 010558 re 010558 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9927 html",
+                        "search_id":  "RE010558RE010558"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9929",
+                        "work_id":  "RE-010559",
+                        "work_ids":  [
+                                         "RE-010559"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9929.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9929.html",
+                        "search_text":  "light cult crypto club 9929 re 010559 re 010559 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9929 html",
+                        "search_id":  "RE010559RE010559"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9930",
+                        "work_id":  "RE-010560",
+                        "work_ids":  [
+                                         "RE-010560"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9930.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9930.html",
+                        "search_text":  "light cult crypto club 9930 re 010560 re 010560 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9930 html",
+                        "search_id":  "RE010560RE010560"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9933",
+                        "work_id":  "RE-010561",
+                        "work_ids":  [
+                                         "RE-010561"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9933.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9933.html",
+                        "search_text":  "light cult crypto club 9933 re 010561 re 010561 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9933 html",
+                        "search_id":  "RE010561RE010561"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9934",
+                        "work_id":  "RE-010562",
+                        "work_ids":  [
+                                         "RE-010562"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9934.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9934.html",
+                        "search_text":  "light cult crypto club 9934 re 010562 re 010562 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9934 html",
+                        "search_id":  "RE010562RE010562"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9935",
+                        "work_id":  "RE-010563",
+                        "work_ids":  [
+                                         "RE-010563"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9935.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9935.html",
+                        "search_text":  "light cult crypto club 9935 re 010563 re 010563 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9935 html",
+                        "search_id":  "RE010563RE010563"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9936",
+                        "work_id":  "RE-010564",
+                        "work_ids":  [
+                                         "RE-010564"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9936.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9936.html",
+                        "search_text":  "light cult crypto club 9936 re 010564 re 010564 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9936 html",
+                        "search_id":  "RE010564RE010564"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9937",
+                        "work_id":  "RE-010565",
+                        "work_ids":  [
+                                         "RE-010565"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9937.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9937.html",
+                        "search_text":  "light cult crypto club 9937 re 010565 re 010565 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9937 html",
+                        "search_id":  "RE010565RE010565"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9938",
+                        "work_id":  "RE-010566",
+                        "work_ids":  [
+                                         "RE-010566"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9938.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9938.html",
+                        "search_text":  "light cult crypto club 9938 re 010566 re 010566 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9938 html",
+                        "search_id":  "RE010566RE010566"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9939",
+                        "work_id":  "RE-010567",
+                        "work_ids":  [
+                                         "RE-010567"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9939.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9939.html",
+                        "search_text":  "light cult crypto club 9939 re 010567 re 010567 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9939 html",
+                        "search_id":  "RE010567RE010567"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9940",
+                        "work_id":  "RE-010568",
+                        "work_ids":  [
+                                         "RE-010568"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9940.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9940.html",
+                        "search_text":  "light cult crypto club 9940 re 010568 re 010568 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9940 html",
+                        "search_id":  "RE010568RE010568"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9941",
+                        "work_id":  "RE-010569",
+                        "work_ids":  [
+                                         "RE-010569"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9941.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9941.html",
+                        "search_text":  "light cult crypto club 9941 re 010569 re 010569 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9941 html",
+                        "search_id":  "RE010569RE010569"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9942",
+                        "work_id":  "RE-010570",
+                        "work_ids":  [
+                                         "RE-010570"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9942.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9942.html",
+                        "search_text":  "light cult crypto club 9942 re 010570 re 010570 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9942 html",
+                        "search_id":  "RE010570RE010570"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9943",
+                        "work_id":  "RE-010571",
+                        "work_ids":  [
+                                         "RE-010571"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9943.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9943.html",
+                        "search_text":  "light cult crypto club 9943 re 010571 re 010571 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9943 html",
+                        "search_id":  "RE010571RE010571"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9944",
+                        "work_id":  "RE-010572",
+                        "work_ids":  [
+                                         "RE-010572"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9944.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9944.html",
+                        "search_text":  "light cult crypto club 9944 re 010572 re 010572 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9944 html",
+                        "search_id":  "RE010572RE010572"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9945",
+                        "work_id":  "RE-010573",
+                        "work_ids":  [
+                                         "RE-010573"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9945.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9945.html",
+                        "search_text":  "light cult crypto club 9945 re 010573 re 010573 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9945 html",
+                        "search_id":  "RE010573RE010573"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9946",
+                        "work_id":  "RE-010574",
+                        "work_ids":  [
+                                         "RE-010574"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9946.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9946.html",
+                        "search_text":  "light cult crypto club 9946 re 010574 re 010574 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9946 html",
+                        "search_id":  "RE010574RE010574"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9947",
+                        "work_id":  "RE-010575",
+                        "work_ids":  [
+                                         "RE-010575"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9947.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9947.html",
+                        "search_text":  "light cult crypto club 9947 re 010575 re 010575 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9947 html",
+                        "search_id":  "RE010575RE010575"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9948",
+                        "work_id":  "RE-010576",
+                        "work_ids":  [
+                                         "RE-010576"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9948.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9948.html",
+                        "search_text":  "light cult crypto club 9948 re 010576 re 010576 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9948 html",
+                        "search_id":  "RE010576RE010576"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9949",
+                        "work_id":  "RE-010577",
+                        "work_ids":  [
+                                         "RE-010577"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9949.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9949.html",
+                        "search_text":  "light cult crypto club 9949 re 010577 re 010577 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9949 html",
+                        "search_id":  "RE010577RE010577"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9950",
+                        "work_id":  "RE-010578",
+                        "work_ids":  [
+                                         "RE-010578"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9950.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9950.html",
+                        "search_text":  "light cult crypto club 9950 re 010578 re 010578 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9950 html",
+                        "search_id":  "RE010578RE010578"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9951",
+                        "work_id":  "RE-010579",
+                        "work_ids":  [
+                                         "RE-010579"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9951.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9951.html",
+                        "search_text":  "light cult crypto club 9951 re 010579 re 010579 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9951 html",
+                        "search_id":  "RE010579RE010579"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9952",
+                        "work_id":  "RE-010580",
+                        "work_ids":  [
+                                         "RE-010580"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9952.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9952.html",
+                        "search_text":  "light cult crypto club 9952 re 010580 re 010580 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9952 html",
+                        "search_id":  "RE010580RE010580"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9953",
+                        "work_id":  "RE-010581",
+                        "work_ids":  [
+                                         "RE-010581"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9953.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9953.html",
+                        "search_text":  "light cult crypto club 9953 re 010581 re 010581 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9953 html",
+                        "search_id":  "RE010581RE010581"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9954",
+                        "work_id":  "RE-010582",
+                        "work_ids":  [
+                                         "RE-010582"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9954.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9954.html",
+                        "search_text":  "light cult crypto club 9954 re 010582 re 010582 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9954 html",
+                        "search_id":  "RE010582RE010582"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9955",
+                        "work_id":  "RE-010583",
+                        "work_ids":  [
+                                         "RE-010583"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9955.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9955.html",
+                        "search_text":  "light cult crypto club 9955 re 010583 re 010583 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9955 html",
+                        "search_id":  "RE010583RE010583"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9957",
+                        "work_id":  "RE-010584",
+                        "work_ids":  [
+                                         "RE-010584"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9957.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9957.html",
+                        "search_text":  "light cult crypto club 9957 re 010584 re 010584 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9957 html",
+                        "search_id":  "RE010584RE010584"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9958",
+                        "work_id":  "RE-010585",
+                        "work_ids":  [
+                                         "RE-010585"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9958.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9958.html",
+                        "search_text":  "light cult crypto club 9958 re 010585 re 010585 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9958 html",
+                        "search_id":  "RE010585RE010585"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9959",
+                        "work_id":  "RE-010586",
+                        "work_ids":  [
+                                         "RE-010586"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9959.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9959.html",
+                        "search_text":  "light cult crypto club 9959 re 010586 re 010586 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9959 html",
+                        "search_id":  "RE010586RE010586"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9960",
+                        "work_id":  "RE-010587",
+                        "work_ids":  [
+                                         "RE-010587"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9960.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9960.html",
+                        "search_text":  "light cult crypto club 9960 re 010587 re 010587 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9960 html",
+                        "search_id":  "RE010587RE010587"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9961",
+                        "work_id":  "RE-010588",
+                        "work_ids":  [
+                                         "RE-010588"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9961.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9961.html",
+                        "search_text":  "light cult crypto club 9961 re 010588 re 010588 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9961 html",
+                        "search_id":  "RE010588RE010588"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9962",
+                        "work_id":  "RE-010589",
+                        "work_ids":  [
+                                         "RE-010589"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9962.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9962.html",
+                        "search_text":  "light cult crypto club 9962 re 010589 re 010589 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9962 html",
+                        "search_id":  "RE010589RE010589"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9963",
+                        "work_id":  "RE-010590",
+                        "work_ids":  [
+                                         "RE-010590"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9963.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9963.html",
+                        "search_text":  "light cult crypto club 9963 re 010590 re 010590 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9963 html",
+                        "search_id":  "RE010590RE010590"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9964",
+                        "work_id":  "RE-010591",
+                        "work_ids":  [
+                                         "RE-010591"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9964.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9964.html",
+                        "search_text":  "light cult crypto club 9964 re 010591 re 010591 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9964 html",
+                        "search_id":  "RE010591RE010591"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9965",
+                        "work_id":  "RE-010592",
+                        "work_ids":  [
+                                         "RE-010592"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9965.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9965.html",
+                        "search_text":  "light cult crypto club 9965 re 010592 re 010592 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9965 html",
+                        "search_id":  "RE010592RE010592"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9967",
+                        "work_id":  "RE-010593",
+                        "work_ids":  [
+                                         "RE-010593"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9967.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9967.html",
+                        "search_text":  "light cult crypto club 9967 re 010593 re 010593 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9967 html",
+                        "search_id":  "RE010593RE010593"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9968",
+                        "work_id":  "RE-010594",
+                        "work_ids":  [
+                                         "RE-010594"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9968.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9968.html",
+                        "search_text":  "light cult crypto club 9968 re 010594 re 010594 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9968 html",
+                        "search_id":  "RE010594RE010594"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9969",
+                        "work_id":  "RE-010595",
+                        "work_ids":  [
+                                         "RE-010595"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9969.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9969.html",
+                        "search_text":  "light cult crypto club 9969 re 010595 re 010595 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9969 html",
+                        "search_id":  "RE010595RE010595"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9970",
+                        "work_id":  "RE-010596",
+                        "work_ids":  [
+                                         "RE-010596"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9970.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9970.html",
+                        "search_text":  "light cult crypto club 9970 re 010596 re 010596 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9970 html",
+                        "search_id":  "RE010596RE010596"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9971",
+                        "work_id":  "RE-010597",
+                        "work_ids":  [
+                                         "RE-010597"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9971.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9971.html",
+                        "search_text":  "light cult crypto club 9971 re 010597 re 010597 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9971 html",
+                        "search_id":  "RE010597RE010597"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9972",
+                        "work_id":  "RE-010598",
+                        "work_ids":  [
+                                         "RE-010598"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9972.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9972.html",
+                        "search_text":  "light cult crypto club 9972 re 010598 re 010598 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9972 html",
+                        "search_id":  "RE010598RE010598"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9973",
+                        "work_id":  "RE-010599",
+                        "work_ids":  [
+                                         "RE-010599"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9973.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9973.html",
+                        "search_text":  "light cult crypto club 9973 re 010599 re 010599 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9973 html",
+                        "search_id":  "RE010599RE010599"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9974",
+                        "work_id":  "RE-010600",
+                        "work_ids":  [
+                                         "RE-010600"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9974.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9974.html",
+                        "search_text":  "light cult crypto club 9974 re 010600 re 010600 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9974 html",
+                        "search_id":  "RE010600RE010600"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9975",
+                        "work_id":  "RE-010601",
+                        "work_ids":  [
+                                         "RE-010601"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9975.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9975.html",
+                        "search_text":  "light cult crypto club 9975 re 010601 re 010601 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9975 html",
+                        "search_id":  "RE010601RE010601"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9976",
+                        "work_id":  "RE-010602",
+                        "work_ids":  [
+                                         "RE-010602"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9976.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9976.html",
+                        "search_text":  "light cult crypto club 9976 re 010602 re 010602 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9976 html",
+                        "search_id":  "RE010602RE010602"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9977",
+                        "work_id":  "RE-010603",
+                        "work_ids":  [
+                                         "RE-010603"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9977.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9977.html",
+                        "search_text":  "light cult crypto club 9977 re 010603 re 010603 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9977 html",
+                        "search_id":  "RE010603RE010603"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9979",
+                        "work_id":  "RE-010604",
+                        "work_ids":  [
+                                         "RE-010604"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9979.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9979.html",
+                        "search_text":  "light cult crypto club 9979 re 010604 re 010604 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9979 html",
+                        "search_id":  "RE010604RE010604"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9980",
+                        "work_id":  "RE-010605",
+                        "work_ids":  [
+                                         "RE-010605"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9980.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9980.html",
+                        "search_text":  "light cult crypto club 9980 re 010605 re 010605 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9980 html",
+                        "search_id":  "RE010605RE010605"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9981",
+                        "work_id":  "RE-010606",
+                        "work_ids":  [
+                                         "RE-010606"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9981.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9981.html",
+                        "search_text":  "light cult crypto club 9981 re 010606 re 010606 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9981 html",
+                        "search_id":  "RE010606RE010606"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9982",
+                        "work_id":  "RE-010607",
+                        "work_ids":  [
+                                         "RE-010607"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9982.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9982.html",
+                        "search_text":  "light cult crypto club 9982 re 010607 re 010607 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9982 html",
+                        "search_id":  "RE010607RE010607"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9983",
+                        "work_id":  "RE-010608",
+                        "work_ids":  [
+                                         "RE-010608"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9983.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9983.html",
+                        "search_text":  "light cult crypto club 9983 re 010608 re 010608 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9983 html",
+                        "search_id":  "RE010608RE010608"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9984",
+                        "work_id":  "RE-010609",
+                        "work_ids":  [
+                                         "RE-010609"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9984.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9984.html",
+                        "search_text":  "light cult crypto club 9984 re 010609 re 010609 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9984 html",
+                        "search_id":  "RE010609RE010609"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9986",
+                        "work_id":  "RE-010610",
+                        "work_ids":  [
+                                         "RE-010610"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9986.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9986.html",
+                        "search_text":  "light cult crypto club 9986 re 010610 re 010610 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9986 html",
+                        "search_id":  "RE010610RE010610"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9988",
+                        "work_id":  "RE-010611",
+                        "work_ids":  [
+                                         "RE-010611"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9988.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9988.html",
+                        "search_text":  "light cult crypto club 9988 re 010611 re 010611 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9988 html",
+                        "search_id":  "RE010611RE010611"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9989",
+                        "work_id":  "RE-010612",
+                        "work_ids":  [
+                                         "RE-010612"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9989.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9989.html",
+                        "search_text":  "light cult crypto club 9989 re 010612 re 010612 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9989 html",
+                        "search_id":  "RE010612RE010612"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9990",
+                        "work_id":  "RE-010613",
+                        "work_ids":  [
+                                         "RE-010613"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9990.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9990.html",
+                        "search_text":  "light cult crypto club 9990 re 010613 re 010613 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9990 html",
+                        "search_id":  "RE010613RE010613"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9991",
+                        "work_id":  "RE-010614",
+                        "work_ids":  [
+                                         "RE-010614"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9991.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9991.html",
+                        "search_text":  "light cult crypto club 9991 re 010614 re 010614 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9991 html",
+                        "search_id":  "RE010614RE010614"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9992",
+                        "work_id":  "RE-010615",
+                        "work_ids":  [
+                                         "RE-010615"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9992.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9992.html",
+                        "search_text":  "light cult crypto club 9992 re 010615 re 010615 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9992 html",
+                        "search_id":  "RE010615RE010615"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9993",
+                        "work_id":  "RE-010616",
+                        "work_ids":  [
+                                         "RE-010616"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9993.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9993.html",
+                        "search_text":  "light cult crypto club 9993 re 010616 re 010616 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9993 html",
+                        "search_id":  "RE010616RE010616"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9994",
+                        "work_id":  "RE-010617",
+                        "work_ids":  [
+                                         "RE-010617"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9994.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9994.html",
+                        "search_text":  "light cult crypto club 9994 re 010617 re 010617 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9994 html",
+                        "search_id":  "RE010617RE010617"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9995",
+                        "work_id":  "RE-010618",
+                        "work_ids":  [
+                                         "RE-010618"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9995.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9995.html",
+                        "search_text":  "light cult crypto club 9995 re 010618 re 010618 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9995 html",
+                        "search_id":  "RE010618RE010618"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9996",
+                        "work_id":  "RE-010619",
+                        "work_ids":  [
+                                         "RE-010619"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9996.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9996.html",
+                        "search_text":  "light cult crypto club 9996 re 010619 re 010619 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9996 html",
+                        "search_id":  "RE010619RE010619"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9997",
+                        "work_id":  "RE-010620",
+                        "work_ids":  [
+                                         "RE-010620"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9997.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9997.html",
+                        "search_text":  "light cult crypto club 9997 re 010620 re 010620 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9997 html",
+                        "search_id":  "RE010620RE010620"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9998",
+                        "work_id":  "RE-010621",
+                        "work_ids":  [
+                                         "RE-010621"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9998.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9998.html",
+                        "search_text":  "light cult crypto club 9998 re 010621 re 010621 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9998 html",
+                        "search_id":  "RE010621RE010621"
+                    },
+                    {
+                        "title":  "Light Cult Crypto Club #9999",
+                        "work_id":  "RE-010622",
+                        "work_ids":  [
+                                         "RE-010622"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Light Cult",
+                        "category":  "Light Cult",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-light-cult-9001-10000/items/lccc-9999.html",
+                        "repository":  "ron-english-light-cult-9001-10000",
+                        "path":  "items/lccc-9999.html",
+                        "search_text":  "light cult crypto club 9999 re 010622 re 010622 light cult light cult https ronenglish archive github io ron english light cult 9001 10000 items lccc 9999 html",
+                        "search_id":  "RE010622RE010622"
                     },
                     {
                         "title":  "Light Cult Crypto Club -Turn On",
