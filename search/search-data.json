@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-10-11T19:12:15.7681314Z",
+    "generated_utc":  "2026-10-20T12:42:00.5120987Z",
     "source":  "LIVE GitHub Pages reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  17918,
+    "record_count":  17933,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -561,6 +561,24 @@
                         "path":  "Sketches/poultry/entries/re-014305.html",
                         "search_text":  "500 pound poultry back re 014305 re 014305 sketches drawings poultry 500 pound poultry https ronenglish archive github io ron english sketches animals sketches poultry entries re 014305 html",
                         "search_id":  "RE014305RE014305"
+                    },
+                    {
+                        "title":  "500-Pound Poultry Front",
+                        "work_id":  "RE-014315",
+                        "work_ids":  [
+                                         "RE-014315"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Poultry",
+                        "series":  "500-Pound Poultry",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/poultry/entries/re-014315.html",
+                        "repository":  "ron-english-sketches-animals",
+                        "path":  "Sketches/poultry/entries/re-014315.html",
+                        "search_text":  "500 pound poultry front re 014315 re 014315 sketches drawings poultry 500 pound poultry https ronenglish archive github io ron english sketches animals sketches poultry entries re 014315 html",
+                        "search_id":  "RE014315RE014315"
                     },
                     {
                         "title":  "500-Pound Poultry Front Body",
@@ -16360,6 +16378,24 @@
                         "search_id":  "RE015684RE015684"
                     },
                     {
+                        "title":  "Bird Brain",
+                        "work_id":  "RE-012858",
+                        "work_ids":  [
+                                         "RE-012858"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Buzzards",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/buzzards/entries/re-012858.html",
+                        "repository":  "ron-english-sketches-animals",
+                        "path":  "Sketches/buzzards/entries/re-012858.html",
+                        "search_text":  "bird brain re 012858 re 012858 sketches drawings buzzards https ronenglish archive github io ron english sketches animals sketches buzzards entries re 012858 html",
+                        "search_id":  "RE012858RE012858"
+                    },
+                    {
                         "title":  "Birdface",
                         "work_id":  "RE-016371",
                         "work_ids":  [
@@ -19832,6 +19868,24 @@
                         "path":  "Sketches/aliens/groups/brooke-chinook.html",
                         "search_text":  "brooke chinook re 012558 re 012558 sketches drawings aliens alien heads https ronenglish archive github io ron english sketches aliens sketches aliens groups brooke chinook html",
                         "search_id":  "RE012558RE012558"
+                    },
+                    {
+                        "title":  "Brooke Waters",
+                        "work_id":  "RE-012651",
+                        "work_ids":  [
+                                         "RE-012651"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Aquatic Dwellers",
+                        "series":  "Aqua Apes",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/aqua-apes/brooke-waters.html",
+                        "repository":  "ron-english-sketches-animals",
+                        "path":  "Sketches/aquatic-dwellers/aqua-apes/brooke-waters.html",
+                        "search_text":  "brooke waters re 012651 re 012651 sketches drawings aquatic dwellers aqua apes https ronenglish archive github io ron english sketches animals sketches aquatic dwellers aqua apes brooke waters html",
+                        "search_id":  "RE012651RE012651"
                     },
                     {
                         "title":  "Brooke Waters Aqua Ape",
@@ -239762,24 +239816,6 @@
                     },
                     {
                         "title":  "Little Mouse",
-                        "work_id":  "RE-015867",
-                        "work_ids":  [
-                                         "RE-015867"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Mice",
-                        "series":  "Little Mouse",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/mice/entries/re-015867.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/mice/entries/re-015867.html",
-                        "search_text":  "little mouse re 015867 re 015867 sketches drawings mice little mouse https ronenglish archive github io ron english sketches animals sketches mice entries re 015867 html",
-                        "search_id":  "RE015867RE015867"
-                    },
-                    {
-                        "title":  "Little Mouse 2",
                         "work_id":  "RE-015792",
                         "work_ids":  [
                                          "RE-015792"
@@ -239787,13 +239823,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Mice",
-                        "series":  "Little Mouse",
+                        "series":  "",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/mice/entries/little-mouse-2.html",
                         "repository":  "ron-english-sketches-animals",
                         "path":  "Sketches/mice/entries/little-mouse-2.html",
-                        "search_text":  "little mouse 2 re 015792 re 015792 sketches drawings mice little mouse https ronenglish archive github io ron english sketches animals sketches mice entries little mouse 2 html",
+                        "search_text":  "little mouse re 015792 re 015792 sketches drawings mice https ronenglish archive github io ron english sketches animals sketches mice entries little mouse 2 html",
                         "search_id":  "RE015792RE015792"
                     },
                     {
@@ -290841,6 +290877,244 @@
                         "search_id":  "RE011712RE011712"
                     },
                     {
+                        "title":  "Starskull Camo - Variant 1",
+                        "work_id":  "RE-011142",
+                        "work_ids":  [
+                                         "RE-011142"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 1 re 011142 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011142"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 10",
+                        "work_id":  "RE-011151",
+                        "work_ids":  [
+                                         "RE-011151"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 10 re 011151 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011151"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 11",
+                        "work_id":  "RE-011152",
+                        "work_ids":  [
+                                         "RE-011152"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 11 re 011152 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011152"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 12",
+                        "work_id":  "RE-011153",
+                        "work_ids":  [
+                                         "RE-011153"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 12 re 011153 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011153"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 13",
+                        "work_id":  "RE-011154",
+                        "work_ids":  [
+                                         "RE-011154"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 13 re 011154 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011154"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 14",
+                        "work_id":  "RE-011155",
+                        "work_ids":  [
+                                         "RE-011155"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 14 re 011155 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011155"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 2",
+                        "work_id":  "RE-011143",
+                        "work_ids":  [
+                                         "RE-011143"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 2 re 011143 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011143"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 3",
+                        "work_id":  "RE-011144",
+                        "work_ids":  [
+                                         "RE-011144"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 3 re 011144 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011144"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 4",
+                        "work_id":  "RE-011145",
+                        "work_ids":  [
+                                         "RE-011145"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 4 re 011145 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011145"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 5",
+                        "work_id":  "RE-011146",
+                        "work_ids":  [
+                                         "RE-011146"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 5 re 011146 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011146"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 6",
+                        "work_id":  "RE-011147",
+                        "work_ids":  [
+                                         "RE-011147"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 6 re 011147 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011147"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 7",
+                        "work_id":  "RE-011148",
+                        "work_ids":  [
+                                         "RE-011148"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 7 re 011148 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011148"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 8",
+                        "work_id":  "RE-011149",
+                        "work_ids":  [
+                                         "RE-011149"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 8 re 011149 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011149"
+                    },
+                    {
+                        "title":  "Starskull Camo - Variant 9",
+                        "work_id":  "RE-011150",
+                        "work_ids":  [
+                                         "RE-011150"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Warholesque",
+                        "category":  "Warholesque",
+                        "series":  "Warholesque",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-warholesque/paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "repository":  "ron-english-warholesque",
+                        "path":  "paintings/Warholesque/Warholesque-Starskull-Camo.html",
+                        "search_text":  "starskull camo variant 9 re 011150 warholesque warholesque warholesque https ronenglish archive github io ron english warholesque paintings warholesque warholesque starskull camo html",
+                        "search_id":  "RE011150"
+                    },
+                    {
                         "title":  "Starskull Comics - Death Forever",
                         "work_id":  "RE-016899",
                         "work_ids":  [
@@ -294611,13 +294885,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Tvities",
-                        "series":  "",
+                        "series":  "Televisionaries",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/tvities/super-stellar-vision/index.html",
                         "repository":  "ron-english-sketches-pop-culture",
                         "path":  "Sketches/tvities/super-stellar-vision/index.html",
-                        "search_text":  "super stellar vision re 015696 re 015696 sketches drawings tvities https ronenglish archive github io ron english sketches pop culture sketches tvities super stellar vision index html",
+                        "search_text":  "super stellar vision re 015696 re 015696 sketches drawings tvities televisionaries https ronenglish archive github io ron english sketches pop culture sketches tvities super stellar vision index html",
                         "search_id":  "RE015696RE015696"
                     },
                     {
@@ -308874,13 +309148,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Tvities",
-                        "series":  "",
+                        "series":  "Televisionaries",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/tvities/tv-superman-1/index.html",
                         "repository":  "ron-english-sketches-pop-culture",
                         "path":  "Sketches/tvities/tv-superman-1/index.html",
-                        "search_text":  "tv superman 1 re 015991 re 015991 sketches drawings tvities https ronenglish archive github io ron english sketches pop culture sketches tvities tv superman 1 index html",
+                        "search_text":  "tv superman 1 re 015991 re 015991 sketches drawings tvities televisionaries https ronenglish archive github io ron english sketches pop culture sketches tvities tv superman 1 index html",
                         "search_id":  "RE015991RE015991"
                     },
                     {
@@ -308892,13 +309166,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Tvities",
-                        "series":  "",
+                        "series":  "Televisionaries",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/tvities/tv-superman-2/index.html",
                         "repository":  "ron-english-sketches-pop-culture",
                         "path":  "Sketches/tvities/tv-superman-2/index.html",
-                        "search_text":  "tv superman 2 re 016895 re 016895 sketches drawings tvities https ronenglish archive github io ron english sketches pop culture sketches tvities tv superman 2 index html",
+                        "search_text":  "tv superman 2 re 016895 re 016895 sketches drawings tvities televisionaries https ronenglish archive github io ron english sketches pop culture sketches tvities tv superman 2 index html",
                         "search_id":  "RE016895RE016895"
                     },
                     {
@@ -308928,13 +309202,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Tvities",
-                        "series":  "",
+                        "series":  "Televisionaries",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/tvities/tv-tom/index.html",
                         "repository":  "ron-english-sketches-pop-culture",
                         "path":  "Sketches/tvities/tv-tom/index.html",
-                        "search_text":  "tv tom re 013586 re 013586 sketches drawings tvities https ronenglish archive github io ron english sketches pop culture sketches tvities tv tom index html",
+                        "search_text":  "tv tom re 013586 re 013586 sketches drawings tvities televisionaries https ronenglish archive github io ron english sketches pop culture sketches tvities tv tom index html",
                         "search_id":  "RE013586RE013586"
                     },
                     {
@@ -308954,24 +309228,6 @@
                         "path":  "Sketches/rabbbits/entries/re-013191.html",
                         "search_text":  "tv you can t unsee re 013191 re 013191 sketches drawings rabbbits telebunnny https ronenglish archive github io ron english sketches animals sketches rabbbits entries re 013191 html",
                         "search_id":  "RE013191RE013191"
-                    },
-                    {
-                        "title":  "TVity Messiah",
-                        "work_id":  "RE-016145",
-                        "work_ids":  [
-                                         "RE-016145"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Tvities",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/tvities/t-vity-messiah/index.html",
-                        "repository":  "ron-english-sketches-pop-culture",
-                        "path":  "Sketches/tvities/t-vity-messiah/index.html",
-                        "search_text":  "tvity messiah re 016145 re 016145 sketches drawings tvities https ronenglish archive github io ron english sketches pop culture sketches tvities t vity messiah index html",
-                        "search_id":  "RE016145RE016145"
                     },
                     {
                         "title":  "Tweetie Bird",
