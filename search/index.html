@@ -101,6 +101,22 @@
     var qText = normalizeText(rawQuery);
     var qId = normalizeId(rawQuery);
     var score = 0;
+    // RON-AUTHORITATIVE-ID-SEARCH-FIX-V1
+    // Work-ID-shaped queries must match authoritative metadata only.
+    // Never let legacy URL filenames or arbitrary search_text satisfy these queries.
+    if (/^RE[\s-]*\d/i.test(rawQuery)) {
+      var ids = Array.isArray(record.work_ids) && record.work_ids.length
+        ? record.work_ids
+        : (record.work_id ? [record.work_id] : []);
+      for (var idIndex = 0; idIndex < ids.length; idIndex++) {
+        var canonicalId = normalizeId(ids[idIndex]);
+        if (canonicalId === qId) { return 1000; }
+        if (qId.length < canonicalId.length && canonicalId.indexOf(qId) === 0) {
+          score = 650;
+        }
+      }
+      return score;
+    }
 
     if(qId && record.search_id){
       if(record.search_id === qId){ score += 1000; }
