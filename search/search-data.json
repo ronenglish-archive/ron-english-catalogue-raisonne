@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-10-22T18:59:19.5480607Z",
+    "generated_utc":  "2026-10-23T10:36:10.1239770Z",
     "source":  "LIVE GitHub Pages reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  17935,
+    "record_count":  17938,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -2083,9 +2083,9 @@
                     },
                     {
                         "title":  "Adventures in Space - A Long Time",
-                        "work_id":  "RE-016694",
+                        "work_id":  "RE-017269",
                         "work_ids":  [
-                                         "RE-016694"
+                                         "RE-017269"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -2096,8 +2096,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Space.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Space.html",
-                        "search_text":  "adventures in space a long time re 016694 re 016694 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers space html",
-                        "search_id":  "RE016694RE016694"
+                        "search_text":  "adventures in space a long time re 017269 re 017269 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers space html",
+                        "search_id":  "RE017269RE017269"
                     },
                     {
                         "title":  "Adventures in Space - Superstar",
@@ -2119,9 +2119,9 @@
                     },
                     {
                         "title":  "Adventures In Space - We The They",
-                        "work_id":  "RE-016696",
+                        "work_id":  "RE-017270",
                         "work_ids":  [
-                                         "RE-016696"
+                                         "RE-017270"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -2132,8 +2132,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Space-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Space-Version-2.html",
-                        "search_text":  "adventures in space we the they re 016696 re 016696 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers space version 2 html",
-                        "search_id":  "RE016696RE016696"
+                        "search_text":  "adventures in space we the they re 017270 re 017270 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers space version 2 html",
+                        "search_id":  "RE017270RE017270"
                     },
                     {
                         "title":  "Adventures Into Terror",
@@ -8835,9 +8835,9 @@
                     },
                     {
                         "title":  "Baby Alien Comics - It\u0027s Game Day",
-                        "work_id":  "RE-012172",
+                        "work_id":  "RE-017109",
                         "work_ids":  [
-                                         "RE-012172"
+                                         "RE-017109"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -8848,8 +8848,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Comic-Book-Cover-Version-38.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Comic-Book-Cover-Version-38.html",
-                        "search_text":  "baby alien comics it s game day re 012172 re 012172 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 38 html",
-                        "search_id":  "RE012172RE012172"
+                        "search_text":  "baby alien comics it s game day re 017109 re 017109 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 38 html",
+                        "search_id":  "RE017109RE017109"
                     },
                     {
                         "title":  "Baby Alien Comics - Jell-O",
@@ -12864,24 +12864,6 @@
                         "path":  "detail/paintings/2010s/2013/Beau-Liefs-Chapel.html",
                         "search_text":  "beau lief s chapel re 001163 re 001163 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 beau liefs chapel html",
                         "search_id":  "RE001163RE001163"
-                    },
-                    {
-                        "title":  "Beau Lief\u0027s Chapel",
-                        "work_id":  "RE-001759",
-                        "work_ids":  [
-                                         "RE-001759"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Buildings",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/structures-and-architecture/works/re-001759.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/structures-and-architecture/works/re-001759.html",
-                        "search_text":  "beau lief s chapel re 001759 re 001759 sketches drawings objects buildings https ronenglish archive github io ron english sketches objects sketches objects structures and architecture works re 001759 html",
-                        "search_id":  "RE001759RE001759"
                     },
                     {
                         "title":  "Beauregard",
@@ -23419,6 +23401,24 @@
                         "search_id":  "RE000903RE000903"
                     },
                     {
+                        "title":  "Camo Deer",
+                        "work_id":  "RE-016362",
+                        "work_ids":  [
+                                         "RE-016362"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2009/Camo-Deer.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2009/Camo-Deer.html",
+                        "search_text":  "camo deer re 016362 re 016362 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2009 camo deer html",
+                        "search_id":  "RE016362RE016362"
+                    },
+                    {
                         "title":  "Camo Deer at Beacon Waterfall",
                         "work_id":  "RE-000956",
                         "work_ids":  [
@@ -24518,9 +24518,9 @@
                     },
                     {
                         "title":  "Captain Caption",
-                        "work_id":  "RE-001759",
+                        "work_id":  "RE-017212",
                         "work_ids":  [
-                                         "RE-001759"
+                                         "RE-017212"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -24531,8 +24531,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Captain-Caption.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Captain-Caption.html",
-                        "search_text":  "captain caption re 001759 re 001759 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers captain caption html",
-                        "search_id":  "RE001759RE001759"
+                        "search_text":  "captain caption re 017212 re 017212 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers captain caption html",
+                        "search_id":  "RE017212RE017212"
                     },
                     {
                         "title":  "Captain Comic",
@@ -25652,9 +25652,9 @@
                     },
                     {
                         "title":  "Cathy Cowgirl Comics - Big Udders",
-                        "work_id":  "RE-011712",
+                        "work_id":  "RE-017211",
                         "work_ids":  [
-                                         "RE-011712"
+                                         "RE-017211"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -25665,8 +25665,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Cathy-Cowgirl-Big-Udders-Milk-Farm.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Cathy-Cowgirl-Big-Udders-Milk-Farm.html",
-                        "search_text":  "cathy cowgirl comics big udders re 011712 re 011712 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers cathy cowgirl big udders milk farm html",
-                        "search_id":  "RE011712RE011712"
+                        "search_text":  "cathy cowgirl comics big udders re 017211 re 017211 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers cathy cowgirl big udders milk farm html",
+                        "search_id":  "RE017211RE017211"
                     },
                     {
                         "title":  "Cathy Cowgirl Comics - Got Beef?",
@@ -27539,6 +27539,24 @@
                         "path":  "Sketches/aliens/charlie-brown-alien.html",
                         "search_text":  "charlie brown alien re 014055 re 014055 sketches drawings aliens alien characters https ronenglish archive github io ron english sketches aliens sketches aliens charlie brown alien html",
                         "search_id":  "RE014055RE014055"
+                    },
+                    {
+                        "title":  "Charlie Brown and Snoopy",
+                        "work_id":  "RE-016363",
+                        "work_ids":  [
+                                         "RE-016363"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2008/Charlie-Brown-and-Snoopy.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2008/Charlie-Brown-and-Snoopy.html",
+                        "search_text":  "charlie brown and snoopy re 016363 re 016363 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2008 charlie brown and snoopy html",
+                        "search_id":  "RE016363RE016363"
                     },
                     {
                         "title":  "Charlie Brown Figure Ground",
@@ -34752,6 +34770,24 @@
                         "search_id":  "RE000793RE000793"
                     },
                     {
+                        "title":  "Cowgirl Train",
+                        "work_id":  "RE-017250",
+                        "work_ids":  [
+                                         "RE-017250"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2004/Cowgirl-Train.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2004/Cowgirl-Train.html",
+                        "search_text":  "cowgirl train re 017250 re 017250 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2004 cowgirl train html",
+                        "search_id":  "RE017250RE017250"
+                    },
+                    {
                         "title":  "Cowgirl, Roskilde",
                         "work_id":  "RE-011994",
                         "work_ids":  [
@@ -38147,9 +38183,9 @@
                     },
                     {
                         "title":  "Delusional Sports - No Brain No Pain Version 2",
-                        "work_id":  "RE-016887",
+                        "work_id":  "RE-017273",
                         "work_ids":  [
-                                         "RE-016887"
+                                         "RE-017273"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -38160,8 +38196,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Sports-Version-13.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Sports-Version-13.html",
-                        "search_text":  "delusional sports no brain no pain version 2 re 016887 re 016887 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers sports version 13 html",
-                        "search_id":  "RE016887RE016887"
+                        "search_text":  "delusional sports no brain no pain version 2 re 017273 re 017273 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers sports version 13 html",
+                        "search_id":  "RE017273RE017273"
                     },
                     {
                         "title":  "Delusional Sports - The Alien Advantage",
@@ -38183,9 +38219,9 @@
                     },
                     {
                         "title":  "Delusional Sports - The Head Injury",
-                        "work_id":  "RE-016697",
+                        "work_id":  "RE-017271",
                         "work_ids":  [
-                                         "RE-016697"
+                                         "RE-017271"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -38196,8 +38232,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Sports.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Sports.html",
-                        "search_text":  "delusional sports the head injury re 016697 re 016697 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers sports html",
-                        "search_id":  "RE016697RE016697"
+                        "search_text":  "delusional sports the head injury re 017271 re 017271 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers sports html",
+                        "search_id":  "RE017271RE017271"
                     },
                     {
                         "title":  "Delusional Sports - The Masters of Mediocrity",
@@ -40793,9 +40829,9 @@
                     },
                     {
                         "title":  "Dog Days - Meet Ponzie",
-                        "work_id":  "RE-015581",
+                        "work_id":  "RE-017263",
                         "work_ids":  [
-                                         "RE-015581"
+                                         "RE-017263"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -40806,14 +40842,14 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Dog-Days-Version-6.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Dog-Days-Version-6.html",
-                        "search_text":  "dog days meet ponzie re 015581 re 015581 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dog days version 6 html",
-                        "search_id":  "RE015581RE015581"
+                        "search_text":  "dog days meet ponzie re 017263 re 017263 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dog days version 6 html",
+                        "search_id":  "RE017263RE017263"
                     },
                     {
                         "title":  "Dog Days - Noodle Poodle",
-                        "work_id":  "RE-013277",
+                        "work_id":  "RE-017255",
                         "work_ids":  [
-                                         "RE-013277"
+                                         "RE-017255"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -40824,8 +40860,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Dog-Days-Version-4.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Dog-Days-Version-4.html",
-                        "search_text":  "dog days noodle poodle re 013277 re 013277 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dog days version 4 html",
-                        "search_id":  "RE013277RE013277"
+                        "search_text":  "dog days noodle poodle re 017255 re 017255 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dog days version 4 html",
+                        "search_id":  "RE017255RE017255"
                     },
                     {
                         "title":  "Dog Days - The Plugged In People",
@@ -40937,9 +40973,9 @@
                     },
                     {
                         "title":  "Dog Says - Checking His Pee Mail",
-                        "work_id":  "RE-015580",
+                        "work_id":  "RE-017262",
                         "work_ids":  [
-                                         "RE-015580"
+                                         "RE-017262"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -40950,8 +40986,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Dog-Days-Version-7.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Dog-Days-Version-7.html",
-                        "search_text":  "dog says checking his pee mail re 015580 re 015580 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dog days version 7 html",
-                        "search_id":  "RE015580RE015580"
+                        "search_text":  "dog says checking his pee mail re 017262 re 017262 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dog days version 7 html",
+                        "search_id":  "RE017262RE017262"
                     },
                     {
                         "title":  "Dog World Magazine 1",
@@ -43129,24 +43165,6 @@
                         "repository":  "ron-english-paintings-2020s",
                         "path":  "detail/paintings/2020s/2025/Duck-Mermaid.html",
                         "search_text":  "duck mermaid re 011986 re 011986 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2025 duck mermaid html",
-                        "search_id":  "RE011986RE011986"
-                    },
-                    {
-                        "title":  "Duck Mermaid",
-                        "work_id":  "RE-011986",
-                        "work_ids":  [
-                                         "RE-011986"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Aquatic Dwellers",
-                        "series":  "Mermaids",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2026",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/mermaids/duck-mermaid.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/aquatic-dwellers/mermaids/duck-mermaid.html",
-                        "search_text":  "duck mermaid re 011986 re 011986 sketches drawings aquatic dwellers mermaids 2026 https ronenglish archive github io ron english sketches animals sketches aquatic dwellers mermaids duck mermaid html",
                         "search_id":  "RE011986RE011986"
                     },
                     {
@@ -48013,9 +48031,9 @@
                     },
                     {
                         "title":  "Extinct Alien -Evolution Led Nowhere",
-                        "work_id":  "RE-013902",
+                        "work_id":  "RE-017258",
                         "work_ids":  [
-                                         "RE-013902"
+                                         "RE-017258"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -48026,8 +48044,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Extinct-Alien-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Extinct-Alien-Version-2.html",
-                        "search_text":  "extinct alien evolution led nowhere re 013902 re 013902 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers extinct alien version 2 html",
-                        "search_id":  "RE013902RE013902"
+                        "search_text":  "extinct alien evolution led nowhere re 017258 re 017258 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers extinct alien version 2 html",
+                        "search_id":  "RE017258RE017258"
                     },
                     {
                         "title":  "Extraterrestrial Opificer",
@@ -54099,24 +54117,6 @@
                         "repository":  "ron-english-paintings-2020s",
                         "path":  "detail/paintings/2020s/2025/Flower-Mermaid.html",
                         "search_text":  "flower mermaid re 011973 re 011973 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2025 flower mermaid html",
-                        "search_id":  "RE011973RE011973"
-                    },
-                    {
-                        "title":  "Flower Mermaid",
-                        "work_id":  "RE-011973",
-                        "work_ids":  [
-                                         "RE-011973"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Aquatic Dwellers",
-                        "series":  "Mermaids",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2026",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/mermaids/flower-mermaid.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/aquatic-dwellers/mermaids/flower-mermaid.html",
-                        "search_text":  "flower mermaid re 011973 re 011973 sketches drawings aquatic dwellers mermaids 2026 https ronenglish archive github io ron english sketches animals sketches aquatic dwellers mermaids flower mermaid html",
                         "search_id":  "RE011973RE011973"
                     },
                     {
@@ -61303,6 +61303,24 @@
                         "search_id":  "RE001337RE001337"
                     },
                     {
+                        "title":  "Grin Monotone",
+                        "work_id":  "RE-015506",
+                        "work_ids":  [
+                                         "RE-015506"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2009/Grin-Monotone.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2009/Grin-Monotone.html",
+                        "search_text":  "grin monotone re 015506 re 015506 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2009 grin monotone html",
+                        "search_id":  "RE015506RE015506"
+                    },
+                    {
                         "title":  "Grin Mouth",
                         "work_id":  "RE-013716",
                         "work_ids":  [
@@ -61445,6 +61463,24 @@
                         "path":  "Sketches/grins/works/re-015847--grin-planet.html",
                         "search_text":  "grin planet re 015847 re 015847 sketches drawings grins grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 015847 grin planet html",
                         "search_id":  "RE015847RE015847"
+                    },
+                    {
+                        "title":  "Grin Polka Tile Painting",
+                        "work_id":  "RE-014320",
+                        "work_ids":  [
+                                         "RE-014320"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Grin-Polka-Tile-Painting.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2013/Grin-Polka-Tile-Painting.html",
+                        "search_text":  "grin polka tile painting re 014320 re 014320 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 grin polka tile painting html",
+                        "search_id":  "RE014320RE014320"
                     },
                     {
                         "title":  "Grin Reaper",
@@ -64671,24 +64707,6 @@
                         "search_id":  "RE014811RRE014811R"
                     },
                     {
-                        "title":  "Hand Holding Lamp 1",
-                        "work_id":  "RE-014811-R",
-                        "work_ids":  [
-                                         "RE-014811-R"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Lamp",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/household-functional-objects/containers-packaging/works/re-014811-r-hand-holding-lamp-1.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/household-functional-objects/containers-packaging/works/re-014811-r-hand-holding-lamp-1.html",
-                        "search_text":  "hand holding lamp 1 re 014811 r re 014811 r sketches drawings objects lamp https ronenglish archive github io ron english sketches objects sketches objects household functional objects containers packaging works re 014811 r hand holding lamp 1 html",
-                        "search_id":  "RE014811RRE014811R"
-                    },
-                    {
                         "title":  "Hand Holding Lamp 2",
                         "work_id":  "RE-014838",
                         "work_ids":  [
@@ -64704,24 +64722,6 @@
                         "repository":  "ron-english-sketches-mythic-dark",
                         "path":  "Sketches/light-cult/works/re-014838.html",
                         "search_text":  "hand holding lamp 2 re 014838 re 014838 sketches drawings light cult lamp https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 014838 html",
-                        "search_id":  "RE014838RE014838"
-                    },
-                    {
-                        "title":  "Hand Holding Lamp 2",
-                        "work_id":  "RE-014838",
-                        "work_ids":  [
-                                         "RE-014838"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Lamp",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/household-functional-objects/containers-packaging/works/re-014838-hand-holding-lamp-2.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/household-functional-objects/containers-packaging/works/re-014838-hand-holding-lamp-2.html",
-                        "search_text":  "hand holding lamp 2 re 014838 re 014838 sketches drawings objects lamp https ronenglish archive github io ron english sketches objects sketches objects household functional objects containers packaging works re 014838 hand holding lamp 2 html",
                         "search_id":  "RE014838RE014838"
                     },
                     {
@@ -75618,24 +75618,6 @@
                         "search_id":  "RE013765RE013765"
                     },
                     {
-                        "title":  "Lamp",
-                        "work_id":  "RE-014811-V",
-                        "work_ids":  [
-                                         "RE-014811-V"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Lamp",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/household-functional-objects/containers-packaging/works/re-014811-v-lamp.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/household-functional-objects/containers-packaging/works/re-014811-v-lamp.html",
-                        "search_text":  "lamp re 014811 v re 014811 v sketches drawings objects lamp https ronenglish archive github io ron english sketches objects sketches objects household functional objects containers packaging works re 014811 v lamp html",
-                        "search_id":  "RE014811VRE014811V"
-                    },
-                    {
                         "title":  "Lamp Left",
                         "work_id":  "RE-014811-V",
                         "work_ids":  [
@@ -76588,24 +76570,6 @@
                         "path":  "Sketches/words-and-phrases/works/re-015181.html",
                         "search_text":  "lemon maid re 015181 re 015181 sketches drawings words and phrases words phrases https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015181 html",
                         "search_id":  "RE015181RE015181"
-                    },
-                    {
-                        "title":  "Lemonboy Carton",
-                        "work_id":  "RE-015801",
-                        "work_ids":  [
-                                         "RE-015801"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Containers \u0026 Packaging",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/household-functional-objects/works/re-015801.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/household-functional-objects/works/re-015801.html",
-                        "search_text":  "lemonboy carton re 015801 re 015801 sketches drawings objects containers packaging https ronenglish archive github io ron english sketches objects sketches objects household functional objects works re 015801 html",
-                        "search_id":  "RE015801RE015801"
                     },
                     {
                         "title":  "Lennon Marx",
@@ -241994,9 +241958,9 @@
                     },
                     {
                         "title":  "Mad Happy Comics - Worry",
-                        "work_id":  "RE-013068",
+                        "work_id":  "RE-017206",
                         "work_ids":  [
-                                         "RE-013068"
+                                         "RE-017206"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -242007,8 +241971,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Comic-Book-Cover-Version-75.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Comic-Book-Cover-Version-75.html",
-                        "search_text":  "mad happy comics worry re 013068 re 013068 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 75 html",
-                        "search_id":  "RE013068RE013068"
+                        "search_text":  "mad happy comics worry re 017206 re 017206 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 75 html",
+                        "search_id":  "RE017206RE017206"
                     },
                     {
                         "title":  "Mad Happy Pepe",
@@ -250245,9 +250209,9 @@
                     },
                     {
                         "title":  "Miracle Man - He\u0027s Back",
-                        "work_id":  "RE-015582",
+                        "work_id":  "RE-017264",
                         "work_ids":  [
-                                         "RE-015582"
+                                         "RE-017264"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -250258,8 +250222,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Miracle-Man-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Miracle-Man-Version-2.html",
-                        "search_text":  "miracle man he s back re 015582 re 015582 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man version 2 html",
-                        "search_id":  "RE015582RE015582"
+                        "search_text":  "miracle man he s back re 017264 re 017264 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man version 2 html",
+                        "search_id":  "RE017264RE017264"
                     },
                     {
                         "title":  "Miracle Man - On Thin Ice",
@@ -250317,9 +250281,9 @@
                     },
                     {
                         "title":  "Miracle Man - The Funky Monkey",
-                        "work_id":  "RE-015273",
+                        "work_id":  "RE-017261",
                         "work_ids":  [
-                                         "RE-015273"
+                                         "RE-017261"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -250330,8 +250294,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Miracle-Man-Version-5.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Miracle-Man-Version-5.html",
-                        "search_text":  "miracle man the funky monkey re 015273 re 015273 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man version 5 html",
-                        "search_id":  "RE015273RE015273"
+                        "search_text":  "miracle man the funky monkey re 017261 re 017261 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man version 5 html",
+                        "search_id":  "RE017261RE017261"
                     },
                     {
                         "title":  "Miracle Man - The Mouse That Roared",
@@ -250425,9 +250389,9 @@
                     },
                     {
                         "title":  "Miracle Man Meets 500 Pound Poultry",
-                        "work_id":  "RE-015584",
+                        "work_id":  "RE-017265",
                         "work_ids":  [
-                                         "RE-015584"
+                                         "RE-017265"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -250438,8 +250402,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Miracle-Man-vs-500-Pound-Poultry.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Miracle-Man-vs-500-Pound-Poultry.html",
-                        "search_text":  "miracle man meets 500 pound poultry re 015584 re 015584 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man vs 500 pound poultry html",
-                        "search_id":  "RE015584RE015584"
+                        "search_text":  "miracle man meets 500 pound poultry re 017265 re 017265 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man vs 500 pound poultry html",
+                        "search_id":  "RE017265RE017265"
                     },
                     {
                         "title":  "Miracle Man Meets Mc Supersized",
@@ -250569,9 +250533,9 @@
                     },
                     {
                         "title":  "Miracle Man vs Thinkman",
-                        "work_id":  "RE-011706",
+                        "work_id":  "RE-017252",
                         "work_ids":  [
-                                         "RE-011706"
+                                         "RE-017252"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -250582,8 +250546,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Miracle-Man-Brain.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Miracle-Man-Brain.html",
-                        "search_text":  "miracle man vs thinkman re 011706 re 011706 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man brain html",
-                        "search_id":  "RE011706RE011706"
+                        "search_text":  "miracle man vs thinkman re 017252 re 017252 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers miracle man brain html",
+                        "search_id":  "RE017252RE017252"
                     },
                     {
                         "title":  "Miracle Man vs. the Harmonic Screamer",
@@ -265204,6 +265168,24 @@
                         "search_id":  "RE013201RE013201"
                     },
                     {
+                        "title":  "Plaid Tile Dead Toy Soldier Painting (Green)",
+                        "work_id":  "RE-017249",
+                        "work_ids":  [
+                                         "RE-017249"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Plaid-Tile-Dead-Toy-Soldier-Painting-Green.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2013/Plaid-Tile-Dead-Toy-Soldier-Painting-Green.html",
+                        "search_text":  "plaid tile dead toy soldier painting green re 017249 re 017249 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 plaid tile dead toy soldier painting green html",
+                        "search_id":  "RE017249RE017249"
+                    },
+                    {
                         "title":  "Plaintive Grin",
                         "work_id":  "RE-000854",
                         "work_ids":  [
@@ -266987,9 +266969,9 @@
                     },
                     {
                         "title":  "Potato Comic 3",
-                        "work_id":  "RE-011703",
+                        "work_id":  "RE-017251",
                         "work_ids":  [
-                                         "RE-011703"
+                                         "RE-017251"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
@@ -267000,8 +266982,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-people-characters/Sketches/people-characters/works/re-011703-potato-comic-3.html",
                         "repository":  "ron-english-sketches-people-characters",
                         "path":  "Sketches/people-characters/works/re-011703-potato-comic-3.html",
-                        "search_text":  "potato comic 3 re 011703 re 011703 sketches drawings people characters potato comic https ronenglish archive github io ron english sketches people characters sketches people characters works re 011703 potato comic 3 html",
-                        "search_id":  "RE011703RE011703"
+                        "search_text":  "potato comic 3 re 017251 re 017251 sketches drawings people characters potato comic https ronenglish archive github io ron english sketches people characters sketches people characters works re 011703 potato comic 3 html",
+                        "search_id":  "RE017251RE017251"
                     },
                     {
                         "title":  "Potato Comic 4",
@@ -278259,9 +278241,9 @@
                     },
                     {
                         "title":  "Ruling Class Heroes - We Deceive You Believe",
-                        "work_id":  "RE-014914",
+                        "work_id":  "RE-017260",
                         "work_ids":  [
-                                         "RE-014914"
+                                         "RE-017260"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -278272,8 +278254,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Heros-Version-23.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Heros-Version-23.html",
-                        "search_text":  "ruling class heroes we deceive you believe re 014914 re 014914 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers heros version 23 html",
-                        "search_id":  "RE014914RE014914"
+                        "search_text":  "ruling class heroes we deceive you believe re 017260 re 017260 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers heros version 23 html",
+                        "search_id":  "RE017260RE017260"
                     },
                     {
                         "title":  "Ruling Class Heroes - We Need Your Head",
@@ -278403,9 +278385,9 @@
                     },
                     {
                         "title":  "Ruling Class Heros - The Crash Will Be a Splash",
-                        "work_id":  "RE-014917",
+                        "work_id":  "RE-016754",
                         "work_ids":  [
-                                         "RE-014917"
+                                         "RE-016754"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -278416,8 +278398,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Heros-Version-24.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Heros-Version-24.html",
-                        "search_text":  "ruling class heros the crash will be a splash re 014917 re 014917 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers heros version 24 html",
-                        "search_id":  "RE014917RE014917"
+                        "search_text":  "ruling class heros the crash will be a splash re 016754 re 016754 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers heros version 24 html",
+                        "search_id":  "RE016754RE016754"
                     },
                     {
                         "title":  "Ruling Class Heros - The Toilet That Wouldn\u0027t Flush",
@@ -283715,9 +283697,9 @@
                     },
                     {
                         "title":  "Sirius Circus Alien Side",
-                        "work_id":  "RE-014971",
+                        "work_id":  "RE-016547",
                         "work_ids":  [
-                                         "RE-014971"
+                                         "RE-016547"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
@@ -283728,8 +283710,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/sirius-circus-alien-side.html",
                         "repository":  "ron-english-sketches-aliens",
                         "path":  "Sketches/aliens/sirius-circus-alien-side.html",
-                        "search_text":  "sirius circus alien side re 014971 re 014971 sketches drawings aliens sirus circus alien https ronenglish archive github io ron english sketches aliens sketches aliens sirius circus alien side html",
-                        "search_id":  "RE014971RE014971"
+                        "search_text":  "sirius circus alien side re 016547 re 016547 sketches drawings aliens sirus circus alien https ronenglish archive github io ron english sketches aliens sketches aliens sirius circus alien side html",
+                        "search_id":  "RE016547RE016547"
                     },
                     {
                         "title":  "Siron Alien",
@@ -284812,6 +284794,24 @@
                         "search_id":  "RE015788RE015788"
                     },
                     {
+                        "title":  "Sleepy Sheep",
+                        "work_id":  "RE-013628",
+                        "work_ids":  [
+                                         "RE-013628"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Sheep",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-013628.html",
+                        "repository":  "ron-english-sketches-animals",
+                        "path":  "Sketches/sheep/entries/re-013628.html",
+                        "search_text":  "sleepy sheep re 013628 re 013628 sketches drawings sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 013628 html",
+                        "search_id":  "RE013628RE013628"
+                    },
+                    {
                         "title":  "Slice of Hell",
                         "work_id":  "RE-013201",
                         "work_ids":  [
@@ -285515,9 +285515,9 @@
                     },
                     {
                         "title":  "Slomo Snapper - Every Rainbow Obscures a Cloud",
-                        "work_id":  "RE-016693",
+                        "work_id":  "RE-017268",
                         "work_ids":  [
-                                         "RE-016693"
+                                         "RE-017268"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -285528,8 +285528,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Slomoe-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Slomoe-Version-2.html",
-                        "search_text":  "slomo snapper every rainbow obscures a cloud re 016693 re 016693 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers slomoe version 2 html",
-                        "search_id":  "RE016693RE016693"
+                        "search_text":  "slomo snapper every rainbow obscures a cloud re 017268 re 017268 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers slomoe version 2 html",
+                        "search_id":  "RE017268RE017268"
                     },
                     {
                         "title":  "Slomoe Snapper - Patience Is Wasted",
@@ -288306,24 +288306,6 @@
                         "search_id":  "RE000867RE000867"
                     },
                     {
-                        "title":  "Splash 1",
-                        "work_id":  "RE-015881",
-                        "work_ids":  [
-                                         "RE-015881"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Patterns \u0026 Symbols",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015881.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/patterns-and-symbols/works/re-015881.html",
-                        "search_text":  "splash 1 re 015881 re 015881 sketches drawings objects patterns symbols https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015881 html",
-                        "search_id":  "RE015881RE015881"
-                    },
-                    {
                         "title":  "Splash Marilyn Mickeys - Variant 1",
                         "work_id":  "RE-011167",
                         "work_ids":  [
@@ -289114,9 +289096,9 @@
                     },
                     {
                         "title":  "Sports Version 3",
-                        "work_id":  "RE-016727",
+                        "work_id":  "RE-017272",
                         "work_ids":  [
-                                         "RE-016727"
+                                         "RE-017272"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -289127,8 +289109,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Sports-Version-3.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Sports-Version-3.html",
-                        "search_text":  "sports version 3 re 016727 re 016727 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers sports version 3 html",
-                        "search_id":  "RE016727RE016727"
+                        "search_text":  "sports version 3 re 017272 re 017272 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers sports version 3 html",
+                        "search_id":  "RE017272RE017272"
                     },
                     {
                         "title":  "Sporty Body 1",
@@ -290391,6 +290373,24 @@
                         "search_id":  "RE001557RE001557"
                     },
                     {
+                        "title":  "Star Skull Diamond",
+                        "work_id":  "RE-015045",
+                        "work_ids":  [
+                                         "RE-015045"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2012/Star-Skull-Diamond.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2012/Star-Skull-Diamond.html",
+                        "search_text":  "star skull diamond re 015045 re 015045 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2012 star skull diamond html",
+                        "search_id":  "RE015045RE015045"
+                    },
+                    {
                         "title":  "Star Skull Lady Lips",
                         "work_id":  "RE-001142",
                         "work_ids":  [
@@ -291241,6 +291241,42 @@
                         "search_id":  "RE011150"
                     },
                     {
+                        "title":  "Starskull Collage 1",
+                        "work_id":  "RE-016645",
+                        "work_ids":  [
+                                         "RE-016645"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2012/Starskull-Collage-1.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2012/Starskull-Collage-1.html",
+                        "search_text":  "starskull collage 1 re 016645 re 016645 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2012 starskull collage 1 html",
+                        "search_id":  "RE016645RE016645"
+                    },
+                    {
+                        "title":  "Starskull Collage 2",
+                        "work_id":  "RE-001750",
+                        "work_ids":  [
+                                         "RE-001750"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2012/Starskull-Collage-2.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2012/Starskull-Collage-2.html",
+                        "search_text":  "starskull collage 2 re 001750 re 001750 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2012 starskull collage 2 html",
+                        "search_id":  "RE001750RE001750"
+                    },
+                    {
                         "title":  "Starskull Comics - Death Forever",
                         "work_id":  "RE-016899",
                         "work_ids":  [
@@ -291296,9 +291332,9 @@
                     },
                     {
                         "title":  "Starskull Comics - You Will Be Famous Forever",
-                        "work_id":  "RE-016914",
+                        "work_id":  "RE-017274",
                         "work_ids":  [
-                                         "RE-016914"
+                                         "RE-017274"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -291309,8 +291345,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Starskull-Version-4.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Starskull-Version-4.html",
-                        "search_text":  "starskull comics you will be famous forever re 016914 re 016914 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers starskull version 4 html",
-                        "search_id":  "RE016914RE016914"
+                        "search_text":  "starskull comics you will be famous forever re 017274 re 017274 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers starskull version 4 html",
+                        "search_id":  "RE017274RE017274"
                     },
                     {
                         "title":  "Starskull Cowgirl Back",
@@ -295814,9 +295850,9 @@
                     },
                     {
                         "title":  "Surreal Science - Unread This Comic",
-                        "work_id":  "RE-016543",
+                        "work_id":  "RE-017267",
                         "work_ids":  [
-                                         "RE-016543"
+                                         "RE-017267"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -295827,8 +295863,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Science-Version-8.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Science-Version-8.html",
-                        "search_text":  "surreal science unread this comic re 016543 re 016543 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers science version 8 html",
-                        "search_id":  "RE016543RE016543"
+                        "search_text":  "surreal science unread this comic re 017267 re 017267 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers science version 8 html",
+                        "search_id":  "RE017267RE017267"
                     },
                     {
                         "title":  "Surreal Science - Well... This Ain\u0027t Right",
@@ -295850,9 +295886,9 @@
                     },
                     {
                         "title":  "Surreal Science - Why Is He So Freaking Famous",
-                        "work_id":  "RE-016499",
+                        "work_id":  "RE-017266",
                         "work_ids":  [
-                                         "RE-016499"
+                                         "RE-017266"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -295863,8 +295899,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Science-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Science-Version-2.html",
-                        "search_text":  "surreal science why is he so freaking famous re 016499 re 016499 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers science version 2 html",
-                        "search_id":  "RE016499RE016499"
+                        "search_text":  "surreal science why is he so freaking famous re 017266 re 017266 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers science version 2 html",
+                        "search_id":  "RE017266RE017266"
                     },
                     {
                         "title":  "Surrealasaurus",
@@ -296515,7 +296551,7 @@
                         "search_id":  "RE011783RE011783"
                     },
                     {
-                        "title":  "Tantrum Tot",
+                        "title":  "Tantrum Tot Toddler",
                         "work_id":  "RE-017246",
                         "work_ids":  [
                                          "RE-017246"
@@ -296523,13 +296559,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Tots",
-                        "series":  "Return to category",
+                        "series":  "",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/tots/tantrum-tot/re-017246.html",
                         "repository":  "ron-english-sketches-mythic-dark",
                         "path":  "Sketches/tots/tantrum-tot/re-017246.html",
-                        "search_text":  "tantrum tot re 017246 re 017246 sketches drawings tots return to category https ronenglish archive github io ron english sketches mythic dark sketches tots tantrum tot re 017246 html",
+                        "search_text":  "tantrum tot toddler re 017246 re 017246 sketches drawings tots https ronenglish archive github io ron english sketches mythic dark sketches tots tantrum tot re 017246 html",
                         "search_id":  "RE017246RE017246"
                     },
                     {
@@ -297290,9 +297326,9 @@
                     },
                     {
                         "title":  "Telecrucified",
-                        "work_id":  "RE-014521",
+                        "work_id":  "RE-013234",
                         "work_ids":  [
-                                         "RE-014521"
+                                         "RE-013234"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
@@ -297303,8 +297339,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014521.html",
                         "repository":  "ron-english-sketches-pop-culture",
                         "path":  "Sketches/pop-culture-public-figures/works/re-014521.html",
-                        "search_text":  "telecrucified re 014521 re 014521 sketches drawings pop culture public figures telechubbies https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014521 html",
-                        "search_id":  "RE014521RE014521"
+                        "search_text":  "telecrucified re 013234 re 013234 sketches drawings pop culture public figures telechubbies https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014521 html",
+                        "search_id":  "RE013234RE013234"
                     },
                     {
                         "title":  "Telegrinnie",
@@ -299871,9 +299907,9 @@
                     },
                     {
                         "title":  "The Annoyingly Enlightened",
-                        "work_id":  "RE-013899",
+                        "work_id":  "RE-017256",
                         "work_ids":  [
-                                         "RE-013899"
+                                         "RE-017256"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -299884,8 +299920,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Enlightened-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Enlightened-Version-2.html",
-                        "search_text":  "the annoyingly enlightened re 013899 re 013899 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers enlightened version 2 html",
-                        "search_id":  "RE013899RE013899"
+                        "search_text":  "the annoyingly enlightened re 017256 re 017256 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers enlightened version 2 html",
+                        "search_id":  "RE017256RE017256"
                     },
                     {
                         "title":  "The Anti-Warhol",
@@ -300609,9 +300645,9 @@
                     },
                     {
                         "title":  "The Extinct Alien",
-                        "work_id":  "RE-013901",
+                        "work_id":  "RE-017257",
                         "work_ids":  [
-                                         "RE-013901"
+                                         "RE-017257"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -300622,8 +300658,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Extinct-Alien.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Extinct-Alien.html",
-                        "search_text":  "the extinct alien re 013901 re 013901 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers extinct alien html",
-                        "search_id":  "RE013901RE013901"
+                        "search_text":  "the extinct alien re 017257 re 017257 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers extinct alien html",
+                        "search_id":  "RE017257RE017257"
                     },
                     {
                         "title":  "The Fact Factory",
@@ -301779,9 +301815,9 @@
                     },
                     {
                         "title":  "The New Normal - Draw My Body",
-                        "work_id":  "RE-014852",
+                        "work_id":  "RE-017259",
                         "work_ids":  [
-                                         "RE-014852"
+                                         "RE-017259"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -301792,8 +301828,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Normal.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Normal.html",
-                        "search_text":  "the new normal draw my body re 014852 re 014852 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers normal html",
-                        "search_id":  "RE014852RE014852"
+                        "search_text":  "the new normal draw my body re 017259 re 017259 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers normal html",
+                        "search_id":  "RE017259RE017259"
                     },
                     {
                         "title":  "The New Normal - Everyone\u0027s An Artist",
@@ -302265,9 +302301,9 @@
                     },
                     {
                         "title":  "The New Now - Why the Universe Goes on Forever",
-                        "work_id":  "RE-015861",
+                        "work_id":  "RE-016523",
                         "work_ids":  [
-                                         "RE-015861"
+                                         "RE-016523"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -302278,8 +302314,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Now-Version-5.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Now-Version-5.html",
-                        "search_text":  "the new now why the universe goes on forever re 015861 re 015861 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers now version 5 html",
-                        "search_id":  "RE015861RE015861"
+                        "search_text":  "the new now why the universe goes on forever re 016523 re 016523 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers now version 5 html",
+                        "search_id":  "RE016523RE016523"
                     },
                     {
                         "title":  "The New Now - You Can Change The Future",
@@ -302553,9 +302589,9 @@
                     },
                     {
                         "title":  "The Petal Pals - Larry Lotus",
-                        "work_id":  "RE-016017",
+                        "work_id":  "RE-017210",
                         "work_ids":  [
-                                         "RE-016017"
+                                         "RE-017210"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -302566,8 +302602,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Petal-Pals-Version-7.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Petal-Pals-Version-7.html",
-                        "search_text":  "the petal pals larry lotus re 016017 re 016017 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers petal pals version 7 html",
-                        "search_id":  "RE016017RE016017"
+                        "search_text":  "the petal pals larry lotus re 017210 re 017210 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers petal pals version 7 html",
+                        "search_id":  "RE017210RE017210"
                     },
                     {
                         "title":  "The Petal Pals - Meet the Mean Flowers",
@@ -310671,6 +310707,24 @@
                     },
                     {
                         "title":  "Uncle Scam",
+                        "work_id":  "RE-011983",
+                        "work_ids":  [
+                                         "RE-011983"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2020",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2025/Uncle-Scam.html",
+                        "repository":  "ron-english-paintings-2020s",
+                        "path":  "detail/paintings/2020s/2025/Uncle-Scam.html",
+                        "search_text":  "uncle scam re 011983 re 011983 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2025 uncle scam html",
+                        "search_id":  "RE011983RE011983"
+                    },
+                    {
+                        "title":  "Uncle Scam",
                         "work_id":  "RE-014078",
                         "work_ids":  [
                                          "RE-014078"
@@ -310696,13 +310750,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "People Characters",
-                        "series":  "Return to category",
+                        "series":  "Uncle Scam",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-people-characters/Sketches/people-characters/sets/uncle-scam-re-017247.html",
                         "repository":  "ron-english-sketches-people-characters",
                         "path":  "Sketches/people-characters/sets/uncle-scam-re-017247.html",
-                        "search_text":  "uncle scam re 017247 re 017247 sketches drawings people characters return to category https ronenglish archive github io ron english sketches people characters sketches people characters sets uncle scam re 017247 html",
+                        "search_text":  "uncle scam re 017247 re 017247 sketches drawings people characters uncle scam https ronenglish archive github io ron english sketches people characters sketches people characters sets uncle scam re 017247 html",
                         "search_id":  "RE017247RE017247"
                     },
                     {
@@ -314019,9 +314073,9 @@
                     },
                     {
                         "title":  "Washington Dc Comics - The Gods Demand",
-                        "work_id":  "RE-013222",
+                        "work_id":  "RE-017254",
                         "work_ids":  [
-                                         "RE-013222"
+                                         "RE-017254"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -314032,8 +314086,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/DC-Version-2.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/DC-Version-2.html",
-                        "search_text":  "washington dc comics the gods demand re 013222 re 013222 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dc version 2 html",
-                        "search_id":  "RE013222RE013222"
+                        "search_text":  "washington dc comics the gods demand re 017254 re 017254 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers dc version 2 html",
+                        "search_id":  "RE017254RE017254"
                     },
                     {
                         "title":  "Watching TV",
@@ -315009,9 +315063,9 @@
                     },
                     {
                         "title":  "Weird War Tales - Join the Circus",
-                        "work_id":  "RE-012202",
+                        "work_id":  "RE-017253",
                         "work_ids":  [
-                                         "RE-012202"
+                                         "RE-017253"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Comic Book Covers",
@@ -315022,8 +315076,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Comic-Book-Cover-Version-44.html",
                         "repository":  "ron-english-comic-book-covers",
                         "path":  "detail/comic-book-covers/Comic-Book-Cover-Version-44.html",
-                        "search_text":  "weird war tales join the circus re 012202 re 012202 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 44 html",
-                        "search_id":  "RE012202RE012202"
+                        "search_text":  "weird war tales join the circus re 017253 re 017253 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 44 html",
+                        "search_id":  "RE017253RE017253"
                     },
                     {
                         "title":  "Weird War Tales - Monkey Shines",
