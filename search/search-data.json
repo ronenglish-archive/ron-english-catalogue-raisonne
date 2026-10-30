@@ -1,8 +1,8 @@
 {
     "schema_version":  1,
-    "generated_utc":  "2026-10-23T10:36:10.1239770Z",
+    "generated_utc":  "2026-10-30T00:37:16.2424334Z",
     "source":  "LIVE GitHub Pages reachability graph from the Ron English Catalogue Raisonne home page",
-    "record_count":  17938,
+    "record_count":  17928,
     "records":  [
                     {
                         "title":  "$ Guitar",
@@ -2946,7 +2946,7 @@
                         "search_id":  "RE015612RE015612"
                     },
                     {
-                        "title":  "Alien Astronaut Body 2",
+                        "title":  "Alien Astronaut Body",
                         "work_id":  "RE-014390",
                         "work_ids":  [
                                          "RE-014390"
@@ -2960,7 +2960,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/body-parts/bodies/works/re-014390.html",
                         "repository":  "ron-english-sketches-objects",
                         "path":  "Sketches/objects/body-parts/bodies/works/re-014390.html",
-                        "search_text":  "alien astronaut body 2 re 014390 re 014390 sketches drawings objects bodies https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 014390 html",
+                        "search_text":  "alien astronaut body re 014390 re 014390 sketches drawings objects bodies https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 014390 html",
                         "search_id":  "RE014390RE014390"
                     },
                     {
@@ -4204,24 +4204,6 @@
                         "path":  "detail/paintings/2000s/2007/Alien-Sea-Monkeys.html",
                         "search_text":  "alien sea monkeys re 000706 re 000706 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2007 alien sea monkeys html",
                         "search_id":  "RE000706RE000706"
-                    },
-                    {
-                        "title":  "Alien Shoe",
-                        "work_id":  "RE-015926",
-                        "work_ids":  [
-                                         "RE-015926"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Objects",
-                        "series":  "Shoes",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/shoes/works/re-015926-alien-shoe.html",
-                        "repository":  "ron-english-sketches-objects",
-                        "path":  "Sketches/objects/wearables-and-accessories/shoes/works/re-015926-alien-shoe.html",
-                        "search_text":  "alien shoe re 015926 re 015926 sketches drawings objects shoes https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories shoes works re 015926 alien shoe html",
-                        "search_id":  "RE015926RE015926"
                     },
                     {
                         "title":  "Alien Spiral Eyes",
@@ -11660,24 +11642,6 @@
                         "search_id":  "RE000777RE000777"
                     },
                     {
-                        "title":  "Batman",
-                        "work_id":  "RE-014604",
-                        "work_ids":  [
-                                         "RE-014604"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Pop Culture Public Figures",
-                        "series":  "Batman Sketches",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014604.html",
-                        "repository":  "ron-english-sketches-pop-culture",
-                        "path":  "Sketches/pop-culture-public-figures/works/re-014604.html",
-                        "search_text":  "batman re 014604 re 014604 sketches drawings pop culture public figures batman sketches https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014604 html",
-                        "search_id":  "RE014604RE014604"
-                    },
-                    {
                         "title":  "Batman and Rabbbit Comic Cover",
                         "work_id":  "RE-001519",
                         "work_ids":  [
@@ -11712,6 +11676,24 @@
                         "path":  "detail/paintings/2000s/2002/Batman-and-Robin-Rich.html",
                         "search_text":  "batman and robin rich re 000495 re 000495 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2002 batman and robin rich html",
                         "search_id":  "RE000495RE000495"
+                    },
+                    {
+                        "title":  "Batman and Robin Sketch",
+                        "work_id":  "RE-014604",
+                        "work_ids":  [
+                                         "RE-014604"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Pop Culture Public Figures",
+                        "series":  "Batman Sketches",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014604.html",
+                        "repository":  "ron-english-sketches-pop-culture",
+                        "path":  "Sketches/pop-culture-public-figures/works/re-014604.html",
+                        "search_text":  "batman and robin sketch re 014604 re 014604 sketches drawings pop culture public figures batman sketches https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014604 html",
+                        "search_id":  "RE014604RE014604"
                     },
                     {
                         "title":  "Batman and Snoopy",
@@ -11840,6 +11822,24 @@
                         "search_id":  "RE001376RE001376"
                     },
                     {
+                        "title":  "Batman Grin",
+                        "work_id":  "RE-016177",
+                        "work_ids":  [
+                                         "RE-016177"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Grins",
+                        "series":  "Mythic, Monsters \u0026 Supernatural",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016177--batman-grin-version-3-front.html",
+                        "repository":  "ron-english-sketches-grins",
+                        "path":  "Sketches/grins/works/re-016177--batman-grin-version-3-front.html",
+                        "search_text":  "batman grin re 016177 re 016177 sketches drawings grins mythic monsters supernatural https ronenglish archive github io ron english sketches grins sketches grins works re 016177 batman grin version 3 front html",
+                        "search_id":  "RE016177RE016177"
+                    },
+                    {
                         "title":  "Batman Grin 2",
                         "work_id":  "RE-016714",
                         "work_ids":  [
@@ -11892,42 +11892,6 @@
                         "path":  "detail/paintings/2020s/2020/Batman-Grin.html",
                         "search_text":  "batman grin spray re 001565 re 001565 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2020 batman grin html",
                         "search_id":  "RE001565RE001565"
-                    },
-                    {
-                        "title":  "Batman Grin Version 3 Front",
-                        "work_id":  "RE-016177",
-                        "work_ids":  [
-                                         "RE-016177"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Batman Grin",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016177--batman-grin-version-3-front.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-016177--batman-grin-version-3-front.html",
-                        "search_text":  "batman grin version 3 front re 016177 re 016177 sketches drawings grins batman grin https ronenglish archive github io ron english sketches grins sketches grins works re 016177 batman grin version 3 front html",
-                        "search_id":  "RE016177RE016177"
-                    },
-                    {
-                        "title":  "Batman Grin Version 3 Side",
-                        "work_id":  "RE-016695",
-                        "work_ids":  [
-                                         "RE-016695"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Batman Grin",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016695--batman-grin-version-3-side.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-016695--batman-grin-version-3-side.html",
-                        "search_text":  "batman grin version 3 side re 016695 re 016695 sketches drawings grins batman grin https ronenglish archive github io ron english sketches grins sketches grins works re 016695 batman grin version 3 side html",
-                        "search_id":  "RE016695RE016695"
                     },
                     {
                         "title":  "Batman Robin",
@@ -12712,13 +12676,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Sheep",
-                        "series":  "Beau Leif Sheep",
+                        "series":  "Beau Leif",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-015994.html",
                         "repository":  "ron-english-sketches-animals",
                         "path":  "Sketches/sheep/entries/re-015994.html",
-                        "search_text":  "beau leif sheep praying re 015994 re 015994 sketches drawings sheep beau leif sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 015994 html",
+                        "search_text":  "beau leif sheep praying re 015994 re 015994 sketches drawings sheep beau leif https ronenglish archive github io ron english sketches animals sketches sheep entries re 015994 html",
                         "search_id":  "RE015994RE015994"
                     },
                     {
@@ -12748,13 +12712,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Sheep",
-                        "series":  "Beau Leif Sheep",
+                        "series":  "Beau Leif",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-013324.html",
                         "repository":  "ron-english-sketches-animals",
                         "path":  "Sketches/sheep/entries/re-013324.html",
-                        "search_text":  "beau leif sheep standing re 013324 re 013324 sketches drawings sheep beau leif sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 013324 html",
+                        "search_text":  "beau leif sheep standing re 013324 re 013324 sketches drawings sheep beau leif https ronenglish archive github io ron english sketches animals sketches sheep entries re 013324 html",
                         "search_id":  "RE013324RE013324"
                     },
                     {
@@ -15730,24 +15694,6 @@
                         "search_id":  "RE015683RE015683"
                     },
                     {
-                        "title":  "Big-Eye Messiah",
-                        "work_id":  "RE-015861",
-                        "work_ids":  [
-                                         "RE-015861"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Pop Culture Public Figures",
-                        "series":  "Pop Culture \u0026 Public Figures",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-015861.html",
-                        "repository":  "ron-english-sketches-pop-culture",
-                        "path":  "Sketches/pop-culture-public-figures/works/re-015861.html",
-                        "search_text":  "big eye messiah re 015861 re 015861 sketches drawings pop culture public figures pop culture public figures https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 015861 html",
-                        "search_id":  "RE015861RE015861"
-                    },
-                    {
                         "title":  "Big-Eye Orion",
                         "work_id":  "RE-014241",
                         "work_ids":  [
@@ -17510,24 +17456,6 @@
                         "path":  "detail/paintings/2010s/2019/Bob-Ross-Grin.html",
                         "search_text":  "bob ross grin re 001523 re 001523 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2019 bob ross grin html",
                         "search_id":  "RE001523RE001523"
-                    },
-                    {
-                        "title":  "Bob Ross Grin",
-                        "work_id":  "RE-016184",
-                        "work_ids":  [
-                                         "RE-016184"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Celebrities \u0026 Public Figures",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016184--bob-ross-grin.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-016184--bob-ross-grin.html",
-                        "search_text":  "bob ross grin re 016184 re 016184 sketches drawings grins celebrities public figures https ronenglish archive github io ron english sketches grins sketches grins works re 016184 bob ross grin html",
-                        "search_id":  "RE016184RE016184"
                     },
                     {
                         "title":  "Boba Fett Grin",
@@ -22517,24 +22445,6 @@
                         "path":  "detail/paintings/2000s/2002/Butterfly.html",
                         "search_text":  "butterfly re 000499 re 000499 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2002 butterfly html",
                         "search_id":  "RE000499RE000499"
-                    },
-                    {
-                        "title":  "Butterfly Grin",
-                        "work_id":  "RE-014761",
-                        "work_ids":  [
-                                         "RE-014761"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Bats and Insects",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-014761--butterfly-grin.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-014761--butterfly-grin.html",
-                        "search_text":  "butterfly grin re 014761 re 014761 sketches drawings grins bats and insects https ronenglish archive github io ron english sketches grins sketches grins works re 014761 butterfly grin html",
-                        "search_id":  "RE014761RE014761"
                     },
                     {
                         "title":  "Butterfly Grin Wing",
@@ -30781,6 +30691,24 @@
                         "search_id":  "RE001103RE001103"
                     },
                     {
+                        "title":  "Comic Cowgirl",
+                        "work_id":  "RE-017214",
+                        "work_ids":  [
+                                         "RE-017214"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2000",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2009/Comic-Cowgirl.html",
+                        "repository":  "ron-english-paintings-2000s",
+                        "path":  "detail/paintings/2000s/2009/Comic-Cowgirl.html",
+                        "search_text":  "comic cowgirl re 017214 re 017214 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2009 comic cowgirl html",
+                        "search_id":  "RE017214RE017214"
+                    },
+                    {
                         "title":  "Comic Cowgirl with Hat",
                         "work_id":  "RE-001043",
                         "work_ids":  [
@@ -35293,9 +35221,9 @@
                     },
                     {
                         "title":  "Creature from the Black Lagoon Grin Standing",
-                        "work_id":  "RE-015936",
+                        "work_id":  "RE-014934",
                         "work_ids":  [
-                                         "RE-015936"
+                                         "RE-014934"
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
@@ -35306,8 +35234,8 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-015936--creature-from-the-black-lagoon-grin-standing.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/re-015936--creature-from-the-black-lagoon-grin-standing.html",
-                        "search_text":  "creature from the black lagoon grin standing re 015936 re 015936 sketches drawings grins creature from the black lagoon https ronenglish archive github io ron english sketches grins sketches grins works re 015936 creature from the black lagoon grin standing html",
-                        "search_id":  "RE015936RE015936"
+                        "search_text":  "creature from the black lagoon grin standing re 014934 re 014934 sketches drawings grins creature from the black lagoon https ronenglish archive github io ron english sketches grins sketches grins works re 015936 creature from the black lagoon grin standing html",
+                        "search_id":  "RE014934RE014934"
                     },
                     {
                         "title":  "Creature of Rock",
@@ -37200,13 +37128,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Objects",
-                        "series":  "Darth Vader Grin",
+                        "series":  "Darth Vader Bodies",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/body-parts/bodies/works/re-013605.html",
                         "repository":  "ron-english-sketches-objects",
                         "path":  "Sketches/objects/body-parts/bodies/works/re-013605.html",
-                        "search_text":  "darth vader grin body re 013605 re 013605 sketches drawings objects darth vader grin https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 013605 html",
+                        "search_text":  "darth vader grin body re 013605 re 013605 sketches drawings objects darth vader bodies https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 013605 html",
                         "search_id":  "RE013605RE013605"
                     },
                     {
@@ -37218,13 +37146,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Objects",
-                        "series":  "Darth Vader Grin",
+                        "series":  "Darth Vader Bodies",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/body-parts/bodies/works/re-013993-r.html",
                         "repository":  "ron-english-sketches-objects",
                         "path":  "Sketches/objects/body-parts/bodies/works/re-013993-r.html",
-                        "search_text":  "darth vader grin body 2 re 013993 r re 013993 r sketches drawings objects darth vader grin https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 013993 r html",
+                        "search_text":  "darth vader grin body 2 re 013993 r re 013993 r sketches drawings objects darth vader bodies https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 013993 r html",
                         "search_id":  "RE013993RRE013993R"
                     },
                     {
@@ -37236,13 +37164,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Objects",
-                        "series":  "Darth Vader Grin",
+                        "series":  "Darth Vader Bodies",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/body-parts/bodies/works/re-014143.html",
                         "repository":  "ron-english-sketches-objects",
                         "path":  "Sketches/objects/body-parts/bodies/works/re-014143.html",
-                        "search_text":  "darth vader grin body 3 re 014143 re 014143 sketches drawings objects darth vader grin https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 014143 html",
+                        "search_text":  "darth vader grin body 3 re 014143 re 014143 sketches drawings objects darth vader bodies https ronenglish archive github io ron english sketches objects sketches objects body parts bodies works re 014143 html",
                         "search_id":  "RE014143RE014143"
                     },
                     {
@@ -37568,6 +37496,24 @@
                         "path":  "detail/paintings/2010s/2013/Dead-Toy-Soldier-Red.html",
                         "search_text":  "dead toy soldier red re 001171 re 001171 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 dead toy soldier red html",
                         "search_id":  "RE001171RE001171"
+                    },
+                    {
+                        "title":  "Dead Toy Soldier Diamond",
+                        "work_id":  "RE-017249",
+                        "work_ids":  [
+                                         "RE-017249"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Plaid-Tile-Dead-Toy-Soldier-Painting-Green.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2013/Plaid-Tile-Dead-Toy-Soldier-Painting-Green.html",
+                        "search_text":  "dead toy soldier diamond re 017249 re 017249 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 plaid tile dead toy soldier painting green html",
+                        "search_id":  "RE017249RE017249"
                     },
                     {
                         "title":  "Deadheads Don\u0027t Wear Plaid",
@@ -39838,24 +39784,6 @@
                         "search_id":  "RE001220RE001220"
                     },
                     {
-                        "title":  "Dino Grenade",
-                        "work_id":  "RE-016076",
-                        "work_ids":  [
-                                         "RE-016076"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Kaijus",
-                        "series":  "Dino Grenade",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/kaijus/works/re-016076.html",
-                        "repository":  "ron-english-sketches-mythic-dark",
-                        "path":  "Sketches/kaijus/works/re-016076.html",
-                        "search_text":  "dino grenade re 016076 re 016076 sketches drawings kaijus dino grenade https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016076 html",
-                        "search_id":  "RE016076RE016076"
-                    },
-                    {
                         "title":  "Dino Grenade Left Side",
                         "work_id":  "RE-012641",
                         "work_ids":  [
@@ -39928,7 +39856,7 @@
                         "search_id":  "RE013894RE013894"
                     },
                     {
-                        "title":  "Dino Grenade Portrait",
+                        "title":  "Dino Grenade Portrait Sitting",
                         "work_id":  "RE-016164",
                         "work_ids":  [
                                          "RE-016164"
@@ -39942,7 +39870,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/kaijus/works/re-016164.html",
                         "repository":  "ron-english-sketches-mythic-dark",
                         "path":  "Sketches/kaijus/works/re-016164.html",
-                        "search_text":  "dino grenade portrait re 016164 re 016164 sketches drawings kaijus dino grenade https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016164 html",
+                        "search_text":  "dino grenade portrait sitting re 016164 re 016164 sketches drawings kaijus dino grenade https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016164 html",
                         "search_id":  "RE016164RE016164"
                     },
                     {
@@ -49488,7 +49416,7 @@
                         "search_id":  "RE011829RE011829"
                     },
                     {
-                        "title":  "family symbols sketch",
+                        "title":  "Family Symbols Sketch",
                         "work_id":  "RE-014603",
                         "work_ids":  [
                                          "RE-014603"
@@ -53004,7 +52932,7 @@
                         "search_id":  "RE015055RE015055"
                     },
                     {
-                        "title":  "Fish in Cowboy Hat",
+                        "title":  "Fish in Hat",
                         "work_id":  "RE-016161",
                         "work_ids":  [
                                          "RE-016161"
@@ -53018,8 +52946,26 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/fish/fish-in-cowboy-hat.html",
                         "repository":  "ron-english-sketches-animals",
                         "path":  "Sketches/aquatic-dwellers/fish/fish-in-cowboy-hat.html",
-                        "search_text":  "fish in cowboy hat re 016161 re 016161 sketches drawings aquatic dwellers fish https ronenglish archive github io ron english sketches animals sketches aquatic dwellers fish fish in cowboy hat html",
+                        "search_text":  "fish in hat re 016161 re 016161 sketches drawings aquatic dwellers fish https ronenglish archive github io ron english sketches animals sketches aquatic dwellers fish fish in cowboy hat html",
                         "search_id":  "RE016161RE016161"
+                    },
+                    {
+                        "title":  "Fish out of water",
+                        "work_id":  "RE-016162",
+                        "work_ids":  [
+                                         "RE-016162"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Aquatic Dwellers",
+                        "series":  "Fish",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/fish/fish-soup.html",
+                        "repository":  "ron-english-sketches-animals",
+                        "path":  "Sketches/aquatic-dwellers/fish/fish-soup.html",
+                        "search_text":  "fish out of water re 016162 re 016162 sketches drawings aquatic dwellers fish https ronenglish archive github io ron english sketches animals sketches aquatic dwellers fish fish soup html",
+                        "search_id":  "RE016162RE016162"
                     },
                     {
                         "title":  "Fish Soup",
@@ -53038,24 +52984,6 @@
                         "path":  "Sketches/people-characters/works/re-014849.html",
                         "search_text":  "fish soup re 014849 re 014849 sketches drawings people characters character groups ensembles https ronenglish archive github io ron english sketches people characters sketches people characters works re 014849 html",
                         "search_id":  "RE014849RE014849"
-                    },
-                    {
-                        "title":  "Fish Soup",
-                        "work_id":  "RE-016162",
-                        "work_ids":  [
-                                         "RE-016162"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Aquatic Dwellers",
-                        "series":  "Fish",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/fish/fish-soup.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/aquatic-dwellers/fish/fish-soup.html",
-                        "search_text":  "fish soup re 016162 re 016162 sketches drawings aquatic dwellers fish https ronenglish archive github io ron english sketches animals sketches aquatic dwellers fish fish soup html",
-                        "search_id":  "RE016162RE016162"
                     },
                     {
                         "title":  "Fish Soup Sketch",
@@ -60187,24 +60115,6 @@
                         "search_id":  "RE011839RE011839"
                     },
                     {
-                        "title":  "Grenade Bulb Patch",
-                        "work_id":  "RE-015777",
-                        "work_ids":  [
-                                         "RE-015777"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Light Cult",
-                        "series":  "Light Cult — Objects",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-015777.html",
-                        "repository":  "ron-english-sketches-mythic-dark",
-                        "path":  "Sketches/light-cult/works/re-015777.html",
-                        "search_text":  "grenade bulb patch re 015777 re 015777 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 015777 html",
-                        "search_id":  "RE015777RE015777"
-                    },
-                    {
                         "title":  "Grenade Bulb Patch Variations",
                         "work_id":  "RE-015778",
                         "work_ids":  [
@@ -60609,13 +60519,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
-                        "series":  "Mythic, Monsters \u0026 Supernatural",
+                        "series":  "Grim Reapers",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-012579--grim-grin.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/re-012579--grim-grin.html",
-                        "search_text":  "grim grin re 012579 re 012579 sketches drawings grins mythic monsters supernatural https ronenglish archive github io ron english sketches grins sketches grins works re 012579 grim grin html",
+                        "search_text":  "grim grin re 012579 re 012579 sketches drawings grins grim reapers https ronenglish archive github io ron english sketches grins sketches grins works re 012579 grim grin html",
                         "search_id":  "RE012579RE012579"
                     },
                     {
@@ -60627,13 +60537,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
-                        "series":  "Mythic, Monsters \u0026 Supernatural",
+                        "series":  "Grim Reapers",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-012227--grim-reaper.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/re-012227--grim-reaper.html",
-                        "search_text":  "grim reaper re 012227 re 012227 sketches drawings grins mythic monsters supernatural https ronenglish archive github io ron english sketches grins sketches grins works re 012227 grim reaper html",
+                        "search_text":  "grim reaper re 012227 re 012227 sketches drawings grins grim reapers https ronenglish archive github io ron english sketches grins sketches grins works re 012227 grim reaper html",
                         "search_id":  "RE012227RE012227"
                     },
                     {
@@ -61509,13 +61419,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
-                        "series":  "Mythic, Monsters \u0026 Supernatural",
+                        "series":  "Grim Reapers",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-013433--grin-reaper.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/re-013433--grin-reaper.html",
-                        "search_text":  "grin reaper re 013433 re 013433 sketches drawings grins mythic monsters supernatural https ronenglish archive github io ron english sketches grins sketches grins works re 013433 grin reaper html",
+                        "search_text":  "grin reaper re 013433 re 013433 sketches drawings grins grim reapers https ronenglish archive github io ron english sketches grins sketches grins works re 013433 grin reaper html",
                         "search_id":  "RE013433RE013433"
                     },
                     {
@@ -62633,24 +62543,6 @@
                         "path":  "Sketches/grins/works/re-016716--grinplanet-nobody-10.html",
                         "search_text":  "grinplanet animation re 016716 re 016716 sketches drawings grins grin planet animation https ronenglish archive github io ron english sketches grins sketches grins works re 016716 grinplanet nobody 10 html",
                         "search_id":  "RE016716RE016716"
-                    },
-                    {
-                        "title":  "Grinplanet Nobody",
-                        "work_id":  "RE-016211",
-                        "work_ids":  [
-                                         "RE-016211"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Grinnies",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016211--grinplanet-nobody-1.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-016211--grinplanet-nobody-1.html",
-                        "search_text":  "grinplanet nobody re 016211 re 016211 sketches drawings grins grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 016211 grinplanet nobody 1 html",
-                        "search_id":  "RE016211RE016211"
                     },
                     {
                         "title":  "Grinplanet Nobody Animation 1",
@@ -67196,7 +67088,7 @@
                         "search_id":  "RE012972RE012972"
                     },
                     {
-                        "title":  "Homer Grin CHubby",
+                        "title":  "Homer Grin Chubby",
                         "work_id":  "RE-016269",
                         "work_ids":  [
                                          "RE-016269"
@@ -70781,7 +70673,7 @@
                         "search_id":  "RE011856RE011856"
                     },
                     {
-                        "title":  "Jesus Sketch",
+                        "title":  "Jesus Rough Sketch",
                         "work_id":  "RE-014155",
                         "work_ids":  [
                                          "RE-014155"
@@ -70795,7 +70687,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/mythic-fantastical-figures/works/re-014155.html",
                         "repository":  "ron-english-sketches-mythic-dark",
                         "path":  "Sketches/mythic-fantastical-figures/works/re-014155.html",
-                        "search_text":  "jesus sketch re 014155 re 014155 sketches drawings mythic fantastical figures jesus https ronenglish archive github io ron english sketches mythic dark sketches mythic fantastical figures works re 014155 html",
+                        "search_text":  "jesus rough sketch re 014155 re 014155 sketches drawings mythic fantastical figures jesus https ronenglish archive github io ron english sketches mythic dark sketches mythic fantastical figures works re 014155 html",
                         "search_id":  "RE014155RE014155"
                     },
                     {
@@ -238699,24 +238591,6 @@
                         "search_id":  "RE011976RE011976"
                     },
                     {
-                        "title":  "Li\u0027l Bigfoot Messiah",
-                        "work_id":  "RE-011976",
-                        "work_ids":  [
-                                         "RE-011976"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Bigfoot",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/bigfoot/li-l-bigfoot-messiah.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/bigfoot/li-l-bigfoot-messiah.html",
-                        "search_text":  "li l bigfoot messiah re 011976 re 011976 sketches drawings bigfoot https ronenglish archive github io ron english sketches animals sketches bigfoot li l bigfoot messiah html",
-                        "search_id":  "RE011976RE011976"
-                    },
-                    {
                         "title":  "Li\u0027l Bigfoot Side and Front",
                         "work_id":  "RE-012246",
                         "work_ids":  [
@@ -246637,7 +246511,7 @@
                         "search_id":  "RE011977RE011977"
                     },
                     {
-                        "title":  "MC Star",
+                        "title":  "MC Star 1",
                         "work_id":  "RE-015857",
                         "work_ids":  [
                                          "RE-015857"
@@ -246645,14 +246519,32 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Objects",
-                        "series":  "Patterns \u0026 Symbols",
+                        "series":  "MC Star Set",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015857-mc-star.html",
                         "repository":  "ron-english-sketches-objects",
                         "path":  "Sketches/objects/patterns-and-symbols/works/re-015857-mc-star.html",
-                        "search_text":  "mc star re 015857 re 015857 sketches drawings objects patterns symbols https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015857 mc star html",
+                        "search_text":  "mc star 1 re 015857 re 015857 sketches drawings objects mc star set https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015857 mc star html",
                         "search_id":  "RE015857RE015857"
+                    },
+                    {
+                        "title":  "MC Star 2",
+                        "work_id":  "RE-015861",
+                        "work_ids":  [
+                                         "RE-015861"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Objects",
+                        "series":  "MC Star Set",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015861-mc-star-2.html",
+                        "repository":  "ron-english-sketches-objects",
+                        "path":  "Sketches/objects/patterns-and-symbols/works/re-015861-mc-star-2.html",
+                        "search_text":  "mc star 2 re 015861 re 015861 sketches drawings objects mc star set https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015861 mc star 2 html",
+                        "search_id":  "RE015861RE015861"
                     },
                     {
                         "title":  "MC Star City",
@@ -253204,13 +253096,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Grins",
-                        "series":  "Mythic, Monsters \u0026 Supernatural",
+                        "series":  "Grinmonster",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "2026",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-014875--monster-grin.html",
                         "repository":  "ron-english-sketches-grins",
                         "path":  "Sketches/grins/works/re-014875--monster-grin.html",
-                        "search_text":  "monster grin re 014875 re 014875 sketches drawings grins mythic monsters supernatural 2026 https ronenglish archive github io ron english sketches grins sketches grins works re 014875 monster grin html",
+                        "search_text":  "monster grin re 014875 re 014875 sketches drawings grins grinmonster 2026 https ronenglish archive github io ron english sketches grins sketches grins works re 014875 monster grin html",
                         "search_id":  "RE014875RE014875"
                     },
                     {
@@ -259352,7 +259244,7 @@
                         "search_id":  "RE011697RE011697"
                     },
                     {
-                        "title":  "Old Patrick",
+                        "title":  "Old Patrick on Bench",
                         "work_id":  "RE-013526",
                         "work_ids":  [
                                          "RE-013526"
@@ -259366,7 +259258,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-013526.html",
                         "repository":  "ron-english-sketches-pop-culture",
                         "path":  "Sketches/pop-culture-public-figures/works/re-013526.html",
-                        "search_text":  "old patrick re 013526 re 013526 sketches drawings pop culture public figures old patrick https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 013526 html",
+                        "search_text":  "old patrick on bench re 013526 re 013526 sketches drawings pop culture public figures old patrick https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 013526 html",
                         "search_id":  "RE013526RE013526"
                     },
                     {
@@ -264916,6 +264808,24 @@
                         "search_id":  "RE012723RE012723"
                     },
                     {
+                        "title":  "Pinocchio Grin Sketch",
+                        "work_id":  "RE-013795",
+                        "work_ids":  [
+                                         "RE-013795"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Grins",
+                        "series":  "Pinocchio Grin",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-013795--pinocchio-sketch.html",
+                        "repository":  "ron-english-sketches-grins",
+                        "path":  "Sketches/grins/works/re-013795--pinocchio-sketch.html",
+                        "search_text":  "pinocchio grin sketch re 013795 re 013795 sketches drawings grins pinocchio grin https ronenglish archive github io ron english sketches grins sketches grins works re 013795 pinocchio sketch html",
+                        "search_id":  "RE013795RE013795"
+                    },
+                    {
                         "title":  "Pinocchio Grin Three Quarters",
                         "work_id":  "RE-016250",
                         "work_ids":  [
@@ -264932,24 +264842,6 @@
                         "path":  "Sketches/grins/works/re-016250--pinocchio-grin-three-quarters.html",
                         "search_text":  "pinocchio grin three quarters re 016250 re 016250 sketches drawings grins pinocchio grin https ronenglish archive github io ron english sketches grins sketches grins works re 016250 pinocchio grin three quarters html",
                         "search_id":  "RE016250RE016250"
-                    },
-                    {
-                        "title":  "Pinocchio Sketch",
-                        "work_id":  "RE-013795",
-                        "work_ids":  [
-                                         "RE-013795"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Pinocchio Grin",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-013795--pinocchio-sketch.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-013795--pinocchio-sketch.html",
-                        "search_text":  "pinocchio sketch re 013795 re 013795 sketches drawings grins pinocchio grin https ronenglish archive github io ron english sketches grins sketches grins works re 013795 pinocchio sketch html",
-                        "search_id":  "RE013795RE013795"
                     },
                     {
                         "title":  "Pin-Up Grin",
@@ -265166,24 +265058,6 @@
                         "path":  "Sketches/kaijus/works/re-013201--02.html",
                         "search_text":  "pizz eyes re 013201 re 013201 sketches drawings kaijus pizza faces https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 013201 02 html",
                         "search_id":  "RE013201RE013201"
-                    },
-                    {
-                        "title":  "Plaid Tile Dead Toy Soldier Painting (Green)",
-                        "work_id":  "RE-017249",
-                        "work_ids":  [
-                                         "RE-017249"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2010",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Plaid-Tile-Dead-Toy-Soldier-Painting-Green.html",
-                        "repository":  "ron-english-paintings-2010s",
-                        "path":  "detail/paintings/2010s/2013/Plaid-Tile-Dead-Toy-Soldier-Painting-Green.html",
-                        "search_text":  "plaid tile dead toy soldier painting green re 017249 re 017249 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 plaid tile dead toy soldier painting green html",
-                        "search_id":  "RE017249RE017249"
                     },
                     {
                         "title":  "Plaintive Grin",
@@ -274322,11 +274196,11 @@
                         "category":  "Paintings",
                         "series":  "",
                         "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2000",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2000s/detail/paintings/2000s/2008/Ribcage-Heart.html",
-                        "repository":  "ron-english-paintings-2000s",
-                        "path":  "detail/paintings/2000s/2008/Ribcage-Heart.html",
-                        "search_text":  "ribcage heart re 000895 re 000895 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2008 ribcage heart html",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2018/Ribcage-Heart.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2018/Ribcage-Heart.html",
+                        "search_text":  "ribcage heart re 000895 re 000895 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2018 ribcage heart html",
                         "search_id":  "RE000895RE000895"
                     },
                     {
@@ -279177,24 +279051,6 @@
                     },
                     {
                         "title":  "Salt of the Girth",
-                        "work_id":  "RE-001252",
-                        "work_ids":  [
-                                         "RE-001252"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Paintings",
-                        "category":  "Paintings",
-                        "series":  "",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2010",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2014/Salt-of-the-Girth.html",
-                        "repository":  "ron-english-paintings-2010s",
-                        "path":  "detail/paintings/2010s/2014/Salt-of-the-Girth.html",
-                        "search_text":  "salt of the girth re 001252 re 001252 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2014 salt of the girth html",
-                        "search_id":  "RE001252RE001252"
-                    },
-                    {
-                        "title":  "Salt of the Girth",
                         "work_id":  "RE-001358",
                         "work_ids":  [
                                          "RE-001358"
@@ -279228,6 +279084,24 @@
                         "path":  "Sketches/pop-culture-public-figures/works/re-013857.html",
                         "search_text":  "salt of the girth re 013857 re 013857 sketches drawings pop culture public figures pop culture public figures https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 013857 html",
                         "search_id":  "RE013857RE013857"
+                    },
+                    {
+                        "title":  "Salt of the Girth Collage",
+                        "work_id":  "RE-001252",
+                        "work_ids":  [
+                                         "RE-001252"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Paintings",
+                        "category":  "Paintings",
+                        "series":  "",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "2010",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2014/Salt-of-the-Girth.html",
+                        "repository":  "ron-english-paintings-2010s",
+                        "path":  "detail/paintings/2010s/2014/Salt-of-the-Girth.html",
+                        "search_text":  "salt of the girth collage re 001252 re 001252 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2014 salt of the girth html",
+                        "search_id":  "RE001252RE001252"
                     },
                     {
                         "title":  "Salt of the Light",
@@ -283480,24 +283354,6 @@
                         "search_id":  "RE015347RE015347"
                     },
                     {
-                        "title":  "Side Grin",
-                        "work_id":  "RE-016213",
-                        "work_ids":  [
-                                         "RE-016213"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Grinnies",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016213--side-grin.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-016213--side-grin.html",
-                        "search_text":  "side grin re 016213 re 016213 sketches drawings grins grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 016213 side grin html",
-                        "search_id":  "RE016213RE016213"
-                    },
-                    {
                         "title":  "Side Smile",
                         "work_id":  "RE-014353",
                         "work_ids":  [
@@ -284450,24 +284306,6 @@
                         "path":  "Sketches/aliens/skullcrow.html",
                         "search_text":  "skullcrow re 015657 re 015657 sketches drawings aliens alien heads https ronenglish archive github io ron english sketches aliens sketches aliens skullcrow html",
                         "search_id":  "RE015657RE015657"
-                    },
-                    {
-                        "title":  "Skullgrin Sketch",
-                        "work_id":  "RE-013158",
-                        "work_ids":  [
-                                         "RE-013158"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Mythic, Monsters \u0026 Supernatural",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-013158--skullgrin-sketch.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-013158--skullgrin-sketch.html",
-                        "search_text":  "skullgrin sketch re 013158 re 013158 sketches drawings grins mythic monsters supernatural https ronenglish archive github io ron english sketches grins sketches grins works re 013158 skullgrin sketch html",
-                        "search_id":  "RE013158RE013158"
                     },
                     {
                         "title":  "Skullsnout",
@@ -287639,10 +287477,27 @@
                         "search_id":  "RE014967RE014967"
                     },
                     {
-                        "title":  "South Park Last Supper Panels A and B",
-                        "work_id":  "RE-014971-A / RE-014971-B",
+                        "title":  "South Park Last Supper Panel A",
+                        "work_id":  "RE-014971-A",
                         "work_ids":  [
-                                         "RE-014971-A",
+                                         "RE-014971-A"
+                                     ],
+                        "work_id_status":  "valid",
+                        "section":  "Sketches \u0026 Drawings",
+                        "category":  "Pop Culture Public Figures",
+                        "series":  "South Park Last Supper",
+                        "hierarchy_source":  "live_logical_navigation",
+                        "year":  "",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014971-panel-a.html",
+                        "repository":  "ron-english-sketches-pop-culture",
+                        "path":  "Sketches/pop-culture-public-figures/works/re-014971-panel-a.html",
+                        "search_text":  "south park last supper panel a re 014971 a re 014971 a sketches drawings pop culture public figures south park last supper https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014971 panel a html",
+                        "search_id":  "RE014971ARE014971A"
+                    },
+                    {
+                        "title":  "South Park Last Supper Panel B",
+                        "work_id":  "RE-014971-B",
+                        "work_ids":  [
                                          "RE-014971-B"
                                      ],
                         "work_id_status":  "valid",
@@ -287651,11 +287506,11 @@
                         "series":  "South Park Last Supper",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014971-a.html",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014971-panel-b.html",
                         "repository":  "ron-english-sketches-pop-culture",
-                        "path":  "Sketches/pop-culture-public-figures/works/re-014971-a.html",
-                        "search_text":  "south park last supper panels a and b re 014971 a re 014971 b re 014971 a re 014971 b sketches drawings pop culture public figures south park last supper https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014971 a html",
-                        "search_id":  "RE014971ARE014971BRE014971ARE014971B"
+                        "path":  "Sketches/pop-culture-public-figures/works/re-014971-panel-b.html",
+                        "search_text":  "south park last supper panel b re 014971 b re 014971 b sketches drawings pop culture public figures south park last supper https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014971 panel b html",
+                        "search_id":  "RE014971BRE014971B"
                     },
                     {
                         "title":  "South Park Last Supper Stan",
@@ -291575,11 +291430,11 @@
                         "category":  "Objects",
                         "series":  "Hats \u0026 Helmets",
                         "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2025",
+                        "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/hats/works/re-001741-starskull-helmet.html",
                         "repository":  "ron-english-sketches-objects",
                         "path":  "Sketches/objects/wearables-and-accessories/hats/works/re-001741-starskull-helmet.html",
-                        "search_text":  "starskull helmet re 001741 re 001741 sketches drawings objects hats helmets 2025 https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories hats works re 001741 starskull helmet html",
+                        "search_text":  "starskull helmet re 001741 re 001741 sketches drawings objects hats helmets https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories hats works re 001741 starskull helmet html",
                         "search_id":  "RE001741RE001741"
                     },
                     {
@@ -294507,13 +294362,13 @@
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
                         "category":  "Cereal Killers",
-                        "series":  "Sugar POW",
+                        "series":  "",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-cereal-killers/Sketches/cereal-killers/sugar-pow/sugar-pow/index.html",
                         "repository":  "ron-english-sketches-cereal-killers",
                         "path":  "Sketches/cereal-killers/sugar-pow/sugar-pow/index.html",
-                        "search_text":  "sugar pow re 013884 re 013884 sketches drawings cereal killers sugar pow https ronenglish archive github io ron english sketches cereal killers sketches cereal killers sugar pow sugar pow index html",
+                        "search_text":  "sugar pow re 013884 re 013884 sketches drawings cereal killers https ronenglish archive github io ron english sketches cereal killers sketches cereal killers sugar pow sugar pow index html",
                         "search_id":  "RE013884RE013884"
                     },
                     {
@@ -296162,14 +296017,14 @@
                                      ],
                         "work_id_status":  "valid",
                         "section":  "Sketches \u0026 Drawings",
-                        "category":  "Aquatic Dwellers",
-                        "series":  "Aqua Apes",
+                        "category":  "People Characters",
+                        "series":  "Swirls",
                         "hierarchy_source":  "live_logical_navigation",
                         "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/aqua-apes/swirly-angie-aqua-ape.html",
-                        "repository":  "ron-english-sketches-animals",
-                        "path":  "Sketches/aquatic-dwellers/aqua-apes/swirly-angie-aqua-ape.html",
-                        "search_text":  "swirly angie aqua ape re 013074 re 013074 sketches drawings aquatic dwellers aqua apes https ronenglish archive github io ron english sketches animals sketches aquatic dwellers aqua apes swirly angie aqua ape html",
+                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-people-characters/Sketches/people-characters/works/re-013074.html",
+                        "repository":  "ron-english-sketches-people-characters",
+                        "path":  "Sketches/people-characters/works/re-013074.html",
+                        "search_text":  "swirly angie aqua ape re 013074 re 013074 sketches drawings people characters swirls https ronenglish archive github io ron english sketches people characters sketches people characters works re 013074 html",
                         "search_id":  "RE013074RE013074"
                     },
                     {
@@ -297017,24 +296872,6 @@
                         "path":  "detail/paintings/2000s/2003/Teen-Ace-with-Vase.html",
                         "search_text":  "teen ace with vase re 000563 re 000563 paintings paintings 2000 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2003 teen ace with vase html",
                         "search_id":  "RE000563RE000563"
-                    },
-                    {
-                        "title":  "Telealien",
-                        "work_id":  "RE-014865",
-                        "work_ids":  [
-                                         "RE-014865"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Pop Culture Public Figures",
-                        "series":  "Telechubbies",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "2026",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014865.html",
-                        "repository":  "ron-english-sketches-pop-culture",
-                        "path":  "Sketches/pop-culture-public-figures/works/re-014865.html",
-                        "search_text":  "telealien re 014865 re 014865 sketches drawings pop culture public figures telechubbies 2026 https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014865 html",
-                        "search_id":  "RE014865RE014865"
                     },
                     {
                         "title":  "Telebulby",
@@ -308816,24 +308653,6 @@
                         "search_id":  "RE012686RE012686"
                     },
                     {
-                        "title":  "Tupac Grin",
-                        "work_id":  "RE-016215",
-                        "work_ids":  [
-                                         "RE-016215"
-                                     ],
-                        "work_id_status":  "valid",
-                        "section":  "Sketches \u0026 Drawings",
-                        "category":  "Grins",
-                        "series":  "Celebrities \u0026 Public Figures",
-                        "hierarchy_source":  "live_logical_navigation",
-                        "year":  "",
-                        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016215--tupac-grin.html",
-                        "repository":  "ron-english-sketches-grins",
-                        "path":  "Sketches/grins/works/re-016215--tupac-grin.html",
-                        "search_text":  "tupac grin re 016215 re 016215 sketches drawings grins celebrities public figures https ronenglish archive github io ron english sketches grins sketches grins works re 016215 tupac grin html",
-                        "search_id":  "RE016215RE016215"
-                    },
-                    {
                         "title":  "Tupac Turtle Back",
                         "work_id":  "RE-013384-V",
                         "work_ids":  [
@@ -312524,7 +312343,7 @@
                         "search_id":  "RE013121RE013121"
                     },
                     {
-                        "title":  "Ve",
+                        "title":  "Ve Ve 1",
                         "work_id":  "RE-015209",
                         "work_ids":  [
                                          "RE-015209"
@@ -312538,11 +312357,11 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/words-and-phrases/works/re-015209.html",
                         "repository":  "ron-english-sketches-and-drawings",
                         "path":  "Sketches/words-and-phrases/works/re-015209.html",
-                        "search_text":  "ve re 015209 re 015209 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015209 html",
+                        "search_text":  "ve ve 1 re 015209 re 015209 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015209 html",
                         "search_id":  "RE015209RE015209"
                     },
                     {
-                        "title":  "Ve",
+                        "title":  "Ve Ve 2",
                         "work_id":  "RE-015210",
                         "work_ids":  [
                                          "RE-015210"
@@ -312556,7 +312375,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/words-and-phrases/works/re-015210.html",
                         "repository":  "ron-english-sketches-and-drawings",
                         "path":  "Sketches/words-and-phrases/works/re-015210.html",
-                        "search_text":  "ve re 015210 re 015210 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015210 html",
+                        "search_text":  "ve ve 2 re 015210 re 015210 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015210 html",
                         "search_id":  "RE015210RE015210"
                     },
                     {
@@ -312830,7 +312649,7 @@
                         "search_id":  "RE000880RE000880"
                     },
                     {
-                        "title":  "Veve",
+                        "title":  "VeVe 1",
                         "work_id":  "RE-015218",
                         "work_ids":  [
                                          "RE-015218"
@@ -312844,11 +312663,11 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/words-and-phrases/works/re-015218.html",
                         "repository":  "ron-english-sketches-and-drawings",
                         "path":  "Sketches/words-and-phrases/works/re-015218.html",
-                        "search_text":  "veve re 015218 re 015218 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015218 html",
+                        "search_text":  "veve 1 re 015218 re 015218 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 015218 html",
                         "search_id":  "RE015218RE015218"
                     },
                     {
-                        "title":  "VeVe",
+                        "title":  "VeVe 2",
                         "work_id":  "RE-016642",
                         "work_ids":  [
                                          "RE-016642"
@@ -312862,7 +312681,7 @@
                         "url":  "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/words-and-phrases/works/re-016642.html",
                         "repository":  "ron-english-sketches-and-drawings",
                         "path":  "Sketches/words-and-phrases/works/re-016642.html",
-                        "search_text":  "veve re 016642 re 016642 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 016642 html",
+                        "search_text":  "veve 2 re 016642 re 016642 sketches drawings words and phrases veve https ronenglish archive github io ron english sketches and drawings sketches words and phrases works re 016642 html",
                         "search_id":  "RE016642RE016642"
                     },
                     {
