@@ -104,7 +104,12 @@
     // RON-AUTHORITATIVE-ID-SEARCH-FIX-V1
     // Work-ID-shaped queries must match authoritative metadata only.
     // Never let legacy URL filenames or arbitrary search_text satisfy these queries.
-    if (/^RE[\s-]*\d/i.test(rawQuery)) {
+    // RON-AUTHORITATIVE-ID-SEARCH-FIX-V2: numeric-only Work IDs are IDs too.
+    // Keep ordinary four-digit year queries (e.g. 2018) as text searches.
+    var trimmedQuery = String(rawQuery || "").trim();
+    var numericWorkId = /^\d{5,6}(?:[- ]?[A-Za-z])?$/.test(trimmedQuery) || /^0\d{3,6}(?:[- ]?[A-Za-z])?$/.test(trimmedQuery);
+    if (/^RE[\s-]*\d/i.test(trimmedQuery) || numericWorkId) {
+      if (numericWorkId) { qId = "RE" + qId; }
       var ids = Array.isArray(record.work_ids) && record.work_ids.length
         ? record.work_ids
         : (record.work_id ? [record.work_id] : []);
