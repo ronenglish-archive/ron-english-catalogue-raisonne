@@ -53282,13 +53282,13 @@
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
       "category": "Plants & Botanicals",
-      "series": "",
+      "series": "Flower Sketches",
       "hierarchy_source": "live_logical_navigation",
       "year": "",
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/botanicals/flaming-rose/index.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/botanicals/flaming-rose/index.html",
-      "search_text": "flaming rose re 013066 re 013066 sketches drawings plants botanicals https ronenglish archive github io ron english sketches objects sketches botanicals flaming rose index html",
+      "search_text": "flaming rose re 013066 re 013066 sketches drawings plants botanicals flower sketches https ronenglish archive github io ron english sketches objects sketches botanicals flaming rose index html",
       "search_id": "RE013066RE013066"
     },
     {
@@ -54092,13 +54092,13 @@
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
       "category": "Plants & Botanicals",
-      "series": "",
+      "series": "Flower Sketches",
       "hierarchy_source": "live_logical_navigation",
       "year": "",
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/botanicals/flowers-re-013907/index.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/botanicals/flowers-re-013907/index.html",
-      "search_text": "flower sketches re 013907 re 013907 sketches drawings plants botanicals https ronenglish archive github io ron english sketches objects sketches botanicals flowers re 013907 index html",
+      "search_text": "flower sketches re 013907 re 013907 sketches drawings plants botanicals flower sketches https ronenglish archive github io ron english sketches objects sketches botanicals flowers re 013907 index html",
       "search_id": "RE013907RE013907"
     },
     {
@@ -305287,7 +305287,7 @@
       "search_id": "RE017043RE017043"
     },
     {
-      "title": "Tiger Flower",
+      "title": "Tiger Flower 2",
       "work_id": "RE-012609",
       "work_ids": [
         "RE-012609"
@@ -305301,11 +305301,11 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/botanicals/tiger-flower-re-012609/index.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/botanicals/tiger-flower-re-012609/index.html",
-      "search_text": "tiger flower re 012609 re 012609 sketches drawings plants botanicals https ronenglish archive github io ron english sketches objects sketches botanicals tiger flower re 012609 index html",
+      "search_text": "tiger flower 2 re 012609 re 012609 sketches drawings plants botanicals https ronenglish archive github io ron english sketches objects sketches botanicals tiger flower re 012609 index html",
       "search_id": "RE012609RE012609"
     },
     {
-      "title": "Tiger Flower",
+      "title": "Tiger Flower 1",
       "work_id": "RE-016520",
       "work_ids": [
         "RE-016520"
@@ -305319,7 +305319,7 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/botanicals/tiger-flower/index.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/botanicals/tiger-flower/index.html",
-      "search_text": "tiger flower re 016520 re 016520 sketches drawings plants botanicals https ronenglish archive github io ron english sketches objects sketches botanicals tiger flower index html",
+      "search_text": "tiger flower 1 re 016520 re 016520 sketches drawings plants botanicals https ronenglish archive github io ron english sketches objects sketches botanicals tiger flower index html",
       "search_id": "RE016520RE016520"
     },
     {
