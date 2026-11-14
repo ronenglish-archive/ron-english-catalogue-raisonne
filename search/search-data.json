@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17988,
+  "record_count": 17987,
   "records": [
     {
       "title": "$ Guitar",
@@ -11875,24 +11875,7 @@
       "search_text": "batman grin and robin re 011669 re 011669 sketches drawings grins batman family https ronenglish archive github io ron english sketches grins sketches grins works re 011669 batman grin and robin html",
       "search_id": "RE011669RE011669"
     },
-    {
-      "title": "Batman Grin Spray",
-      "work_id": "RE-001565",
-      "work_ids": [
-        "RE-001565"
-      ],
-      "work_id_status": "valid",
-      "section": "Paintings",
-      "category": "Paintings",
-      "series": "",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "2020",
-      "url": "https://ronenglish-archive.github.io/ron-english-paintings-2020s/detail/paintings/2020s/2020/Batman-Grin.html",
-      "repository": "ron-english-paintings-2020s",
-      "path": "detail/paintings/2020s/2020/Batman-Grin.html",
-      "search_text": "batman grin spray re 001565 re 001565 paintings paintings 2020 https ronenglish archive github io ron english paintings 2020s detail paintings 2020s 2020 batman grin html",
-      "search_id": "RE001565RE001565"
-    },
+
     {
       "title": "Batman Robin",
       "work_id": "RE-017209",
