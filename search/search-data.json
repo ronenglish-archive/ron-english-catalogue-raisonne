@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17987,
+  "record_count": 17980,
   "records": [
     {
       "title": "$ Guitar",
@@ -5214,24 +5214,6 @@
       "path": "area-54-cards-packs/cards/RE-011025.html",
       "search_text": "andresonor vanvermon re 011025 re 011025 nfts nfts 2022 https ronenglish archive github io ron english nfts area 54 cards packs cards re 011025 html",
       "search_id": "RE011025RE011025"
-    },
-    {
-      "title": "Andresonor Vanvermon",
-      "work_id": "RE-013949",
-      "work_ids": [
-        "RE-013949"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Andresonor Vanvermon",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/andresonor-vanvermon.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/andresonor-vanvermon.html",
-      "search_text": "andresonor vanvermon re 013949 re 013949 sketches drawings aliens andresonor vanvermon https ronenglish archive github io ron english sketches aliens sketches aliens andresonor vanvermon html",
-      "search_id": "RE013949RE013949"
     },
     {
       "title": "Andresonor Vanvermon",
@@ -22870,24 +22852,6 @@
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
       "category": "Aliens",
-      "series": "Caezahr",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/caezahr.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/caezahr.html",
-      "search_text": "caezahr re 013946 re 013946 sketches drawings aliens caezahr https ronenglish archive github io ron english sketches aliens sketches aliens caezahr html",
-      "search_id": "RE013946RE013946"
-    },
-    {
-      "title": "Caezahr",
-      "work_id": "RE-013946",
-      "work_ids": [
-        "RE-013946"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
       "series": "Alien Heads",
       "hierarchy_source": "live_logical_navigation",
       "year": "",
@@ -29340,24 +29304,6 @@
       "path": "Sketches/ducks/entries/re-013622.html",
       "search_text": "cluckin bell re 013622 re 013622 sketches drawings ducks https ronenglish archive github io ron english sketches animals sketches ducks entries re 013622 html",
       "search_id": "RE013622RE013622"
-    },
-    {
-      "title": "Cluckin' Bell",
-      "work_id": "RE-016777",
-      "work_ids": [
-        "RE-016777"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Kaijus",
-      "series": "Poultry",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/kaijus/works/re-016777.html",
-      "repository": "ron-english-sketches-mythic-dark",
-      "path": "Sketches/kaijus/works/re-016777.html",
-      "search_text": "cluckin bell re 016777 re 016777 sketches drawings kaijus poultry https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016777 html",
-      "search_id": "RE016777RE016777"
     },
     {
       "title": "Cluckzilla",
@@ -47013,24 +46959,6 @@
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
       "category": "Aliens",
-      "series": "Equinoxious",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/equinoxious.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/equinoxious.html",
-      "search_text": "equinoxious re 013949 re 013949 sketches drawings aliens equinoxious https ronenglish archive github io ron english sketches aliens sketches aliens equinoxious html",
-      "search_id": "RE013949RE013949"
-    },
-    {
-      "title": "Equinoxious",
-      "work_id": "RE-013949",
-      "work_ids": [
-        "RE-013949"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
       "series": "Alien Heads",
       "hierarchy_source": "live_logical_navigation",
       "year": "",
@@ -47399,24 +47327,6 @@
       "path": "area-54-cards-packs/cards/RE-011006.html",
       "search_text": "etymogual benedictus re 011006 re 011006 nfts nfts 2022 https ronenglish archive github io ron english nfts area 54 cards packs cards re 011006 html",
       "search_id": "RE011006RE011006"
-    },
-    {
-      "title": "Etymogual Benedictus",
-      "work_id": "RE-013249",
-      "work_ids": [
-        "RE-013249"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Alien Heads",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/etymogual-benedictus.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/etymogual-benedictus.html",
-      "search_text": "etymogual benedictus re 013249 re 013249 sketches drawings aliens alien heads https ronenglish archive github io ron english sketches aliens sketches aliens etymogual benedictus html",
-      "search_id": "RE013249RE013249"
     },
     {
       "title": "Etymogual Benedictus",
@@ -72327,24 +72237,6 @@
       "repository": "ron-english-sketches-aliens",
       "path": "Sketches/aliens/groups/kidmark-que.html",
       "search_text": "kidmark que re 013249 re 013249 sketches drawings aliens alien heads https ronenglish archive github io ron english sketches aliens sketches aliens groups kidmark que html",
-      "search_id": "RE013249RE013249"
-    },
-    {
-      "title": "Kidmark Que",
-      "work_id": "RE-013249",
-      "work_ids": [
-        "RE-013249"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Kidmark Que",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/kidmark-que.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/kidmark-que.html",
-      "search_text": "kidmark que re 013249 re 013249 sketches drawings aliens kidmark que https ronenglish archive github io ron english sketches aliens sketches aliens kidmark que html",
       "search_id": "RE013249RE013249"
     },
     {
@@ -257046,24 +256938,6 @@
       "repository": "ron-english-sketches-aliens",
       "path": "Sketches/aliens/groups/nebulator.html",
       "search_text": "nebulator re 013946 re 013946 sketches drawings aliens alien heads https ronenglish archive github io ron english sketches aliens sketches aliens groups nebulator html",
-      "search_id": "RE013946RE013946"
-    },
-    {
-      "title": "Nebulator",
-      "work_id": "RE-013946",
-      "work_ids": [
-        "RE-013946"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Nebulator",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/nebulator.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/nebulator.html",
-      "search_text": "nebulator re 013946 re 013946 sketches drawings aliens nebulator https ronenglish archive github io ron english sketches aliens sketches aliens nebulator html",
       "search_id": "RE013946RE013946"
     },
     {
