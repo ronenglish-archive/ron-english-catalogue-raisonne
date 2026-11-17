@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17987,
+  "record_count": 17986,
   "records": [
     {
       "title": "$ Guitar",
@@ -29340,24 +29340,6 @@
       "path": "Sketches/ducks/entries/re-013622.html",
       "search_text": "cluckin bell re 013622 re 013622 sketches drawings ducks https ronenglish archive github io ron english sketches animals sketches ducks entries re 013622 html",
       "search_id": "RE013622RE013622"
-    },
-    {
-      "title": "Cluckin' Bell",
-      "work_id": "RE-016777",
-      "work_ids": [
-        "RE-016777"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Kaijus",
-      "series": "Poultry",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/kaijus/works/re-016777.html",
-      "repository": "ron-english-sketches-mythic-dark",
-      "path": "Sketches/kaijus/works/re-016777.html",
-      "search_text": "cluckin bell re 016777 re 016777 sketches drawings kaijus poultry https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016777 html",
-      "search_id": "RE016777RE016777"
     },
     {
       "title": "Cluckzilla",
