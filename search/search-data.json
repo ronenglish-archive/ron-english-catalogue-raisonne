@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17976,
+  "record_count": 17977,
   "records": [
     {
       "title": "$ Guitar",
@@ -2965,9 +2965,9 @@
     },
     {
       "title": "Alien Baby Grin",
-      "work_id": "RE-016294",
+      "work_id": "RE-016238",
       "work_ids": [
-        "RE-016294"
+        "RE-016238"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -2978,8 +2978,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016294--alien-baby-grin.html",
       "repository": "ron-english-sketches-grins",
       "path": "Sketches/grins/works/re-016294--alien-baby-grin.html",
-      "search_text": "alien baby grin re 016294 re 016294 sketches drawings grins aliens https ronenglish archive github io ron english sketches grins sketches grins works re 016294 alien baby grin html",
-      "search_id": "RE016294RE016294"
+      "search_text": "alien baby grin re 016238 re 016238 sketches drawings grins aliens https ronenglish archive github io ron english sketches grins sketches grins works re 016294 alien baby grin html",
+      "search_id": "RE016238RE016238"
     },
     {
       "title": "Alien Body - Aviatian",
@@ -3790,6 +3790,24 @@
       "path": "Sketches/grins/works/re-015606--alien-grin.html",
       "search_text": "alien grin re 015606 re 015606 sketches drawings grins alien heads https ronenglish archive github io ron english sketches grins sketches grins works re 015606 alien grin html",
       "search_id": "RE015606RE015606"
+    },
+    {
+      "title": "Alien Grin 2",
+      "work_id": "RE-017145",
+      "work_ids": [
+        "RE-017145"
+      ],
+      "work_id_status": "valid",
+      "section": "Sketches & Drawings",
+      "category": "Grins",
+      "series": "Aliens",
+      "hierarchy_source": "live_logical_navigation",
+      "year": "",
+      "url": "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-017145--alien-grin-2.html",
+      "repository": "ron-english-sketches-grins",
+      "path": "Sketches/grins/works/re-017145--alien-grin-2.html",
+      "search_text": "alien grin 2 re 017145 re 017145 sketches drawings grins aliens https ronenglish archive github io ron english sketches grins sketches grins works re 017145 alien grin 2 html",
+      "search_id": "RE017145RE017145"
     },
     {
       "title": "Alien Hall Rough Sketch",
@@ -283391,9 +283409,9 @@
     },
     {
       "title": "Sirus Alien",
-      "work_id": "RE-015599",
+      "work_id": "RE-015598",
       "work_ids": [
-        "RE-015599"
+        "RE-015598"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -283404,8 +283422,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/sirus-alien.html",
       "repository": "ron-english-sketches-aliens",
       "path": "Sketches/aliens/sirus-alien.html",
-      "search_text": "sirus alien re 015599 re 015599 sketches drawings aliens alien characters https ronenglish archive github io ron english sketches aliens sketches aliens sirus alien html",
-      "search_id": "RE015599RE015599"
+      "search_text": "sirus alien re 015598 re 015598 sketches drawings aliens alien characters https ronenglish archive github io ron english sketches aliens sketches aliens sirus alien html",
+      "search_id": "RE015598RE015598"
     },
     {
       "title": "Sitting Bunnny",
@@ -283733,9 +283751,9 @@
     },
     {
       "title": "Skewered Elefanka",
-      "work_id": "RE-017139",
+      "work_id": "RE-017138",
       "work_ids": [
-        "RE-017139"
+        "RE-017138"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -283746,14 +283764,14 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/elephants/works/re-017139.html",
       "repository": "ron-english-sketches-animals",
       "path": "Sketches/elephants/works/re-017139.html",
-      "search_text": "skewered elefanka re 017139 re 017139 sketches drawings elephants https ronenglish archive github io ron english sketches animals sketches elephants works re 017139 html",
-      "search_id": "RE017139RE017139"
+      "search_text": "skewered elefanka re 017138 re 017138 sketches drawings elephants https ronenglish archive github io ron english sketches animals sketches elephants works re 017139 html",
+      "search_id": "RE017138RE017138"
     },
     {
       "title": "Skewered Grinnie 1",
-      "work_id": "RE-017140",
+      "work_id": "RE-017138",
       "work_ids": [
-        "RE-017140"
+        "RE-017138"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -283764,14 +283782,14 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-017140--skewered-grinnie-1.html",
       "repository": "ron-english-sketches-grins",
       "path": "Sketches/grins/works/re-017140--skewered-grinnie-1.html",
-      "search_text": "skewered grinnie 1 re 017140 re 017140 sketches drawings grins skewered grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 017140 skewered grinnie 1 html",
-      "search_id": "RE017140RE017140"
+      "search_text": "skewered grinnie 1 re 017138 re 017138 sketches drawings grins skewered grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 017140 skewered grinnie 1 html",
+      "search_id": "RE017138RE017138"
     },
     {
       "title": "Skewered Grinnie 2",
-      "work_id": "RE-017141",
+      "work_id": "RE-017138",
       "work_ids": [
-        "RE-017141"
+        "RE-017138"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -283782,8 +283800,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-017141--skewered-grinnie-2.html",
       "repository": "ron-english-sketches-grins",
       "path": "Sketches/grins/works/re-017141--skewered-grinnie-2.html",
-      "search_text": "skewered grinnie 2 re 017141 re 017141 sketches drawings grins skewered grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 017141 skewered grinnie 2 html",
-      "search_id": "RE017141RE017141"
+      "search_text": "skewered grinnie 2 re 017138 re 017138 sketches drawings grins skewered grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 017141 skewered grinnie 2 html",
+      "search_id": "RE017138RE017138"
     },
     {
       "title": "Skewered Mouse",
@@ -283805,9 +283823,9 @@
     },
     {
       "title": "Skewered Rabbbit",
-      "work_id": "RE-017143",
+      "work_id": "RE-017144",
       "work_ids": [
-        "RE-017143"
+        "RE-017144"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -283818,8 +283836,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/rabbbits/entries/re-017143.html",
       "repository": "ron-english-sketches-animals",
       "path": "Sketches/rabbbits/entries/re-017143.html",
-      "search_text": "skewered rabbbit re 017143 re 017143 sketches drawings rabbbits https ronenglish archive github io ron english sketches animals sketches rabbbits entries re 017143 html",
-      "search_id": "RE017143RE017143"
+      "search_text": "skewered rabbbit re 017144 re 017144 sketches drawings rabbbits https ronenglish archive github io ron english sketches animals sketches rabbbits entries re 017143 html",
+      "search_id": "RE017144RE017144"
     },
     {
       "title": "Skewered Unicorn Nose",
@@ -283841,9 +283859,9 @@
     },
     {
       "title": "Skewered Unipig",
-      "work_id": "RE-017145",
+      "work_id": "RE-017144",
       "work_ids": [
-        "RE-017145"
+        "RE-017144"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -283854,8 +283872,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/swine/entries/re-017145.html",
       "repository": "ron-english-sketches-animals",
       "path": "Sketches/swine/entries/re-017145.html",
-      "search_text": "skewered unipig re 017145 re 017145 sketches drawings swine https ronenglish archive github io ron english sketches animals sketches swine entries re 017145 html",
-      "search_id": "RE017145RE017145"
+      "search_text": "skewered unipig re 017144 re 017144 sketches drawings swine https ronenglish archive github io ron english sketches animals sketches swine entries re 017145 html",
+      "search_id": "RE017144RE017144"
     },
     {
       "title": "Skidmark",
