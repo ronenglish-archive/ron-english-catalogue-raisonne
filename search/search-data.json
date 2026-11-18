@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17977,
+  "record_count": 17978,
   "records": [
     {
       "title": "$ Guitar",
@@ -322979,5 +322979,5 @@
       "search_text": "hitchin a ride re 014036 re 014036 sketches drawings rabbbits https ronenglish archive github io ron english sketches animals sketches rabbbits entries re 014036 html",
       "search_id": "RE014036RE014036"
     }
-  ]
+  ,{"title":"Squirrel Squirt King Three Quarters","work_id":"RE-017143","work_ids":["RE-017143"],"work_id_status":"valid","section":"Sketches \u0026 Drawings","category":"Squirrels","series":"Squirrel Squirt King","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/squirrels/squirrel-squirt-king-three-quarters.html","repository":"ron-english-sketches-animals","path":"Sketches/squirrels/squirrel-squirt-king-three-quarters.html","search_text":"squirrel squirt king three quarters re 017143 re 017143 sketches drawings squirrels squirrel squirt king https ronenglish archive github io ron english sketches animals sketches squirrels squirrel squirt king three quarters html","search_id":"RE017143RE017143"}]
 }
