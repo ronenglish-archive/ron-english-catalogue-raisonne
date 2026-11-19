@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17978,
+  "record_count": 17983,
   "records": [
     {
       "title": "$ Guitar",
@@ -2099,24 +2099,7 @@
       "search_text": "adventures in space a long time re 017269 re 017269 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers space html",
       "search_id": "RE017269RE017269"
     },
-    {
-      "title": "Adventures in Space - Superstar",
-      "work_id": "RE-012454",
-      "work_ids": [
-        "RE-012454"
-      ],
-      "work_id_status": "valid",
-      "section": "Comic Book Covers",
-      "category": "Comic Book Covers",
-      "series": "",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "2026",
-      "url": "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Blank.html",
-      "repository": "ron-english-comic-book-covers",
-      "path": "detail/comic-book-covers/Blank.html",
-      "search_text": "adventures in space superstar re 012454 re 012454 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers blank html",
-      "search_id": "RE012454RE012454"
-    },
+    {"title":"Adventures in Space - Superstar","work_id":"RE-016050","work_ids":["RE-016050"],"work_id_status":"valid","section":"Comic Book Covers","category":"Comic Book Covers","series":"","hierarchy_source":"live_logical_navigation","year":"2026","url":"https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Blank.html","repository":"ron-english-comic-book-covers","path":"detail/comic-book-covers/Blank.html","search_text":"adventures in space superstar re 016050 re 016050 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers blank html","search_id":"RE016050RE016050"},
     {
       "title": "Adventures In Space - We The They",
       "work_id": "RE-017270",
@@ -16301,24 +16284,7 @@
       "search_text": "bird brain re 012858 re 012858 sketches drawings buzzards https ronenglish archive github io ron english sketches animals sketches buzzards entries re 012858 html",
       "search_id": "RE012858RE012858"
     },
-    {
-      "title": "Birdface",
-      "work_id": "RE-016371",
-      "work_ids": [
-        "RE-016371"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Light Cult",
-      "series": "Light Cult — Characters",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016371.html",
-      "repository": "ron-english-sketches-mythic-dark",
-      "path": "Sketches/light-cult/works/re-016371.html",
-      "search_text": "birdface re 016371 re 016371 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016371 html",
-      "search_id": "RE016371RE016371"
-    },
+    {"title":"Birdface","work_id":"RE-014801","work_ids":["RE-014801"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Light Cult","series":"Light Cult — Characters","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016371.html","repository":"ron-english-sketches-mythic-dark","path":"Sketches/light-cult/works/re-016371.html","search_text":"birdface re 014801 re 014801 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016371 html","search_id":"RE014801RE014801"},
     {
       "title": "Bird's Eye View",
       "work_id": "RE-000320",
@@ -273391,24 +273357,7 @@
       "search_text": "red temper tot re 001307 re 001307 paintings paintings 2010 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2015 red temper tot html",
       "search_id": "RE001307RE001307"
     },
-    {
-      "title": "Religion Is War - Your Eternity",
-      "work_id": "RE-012144",
-      "work_ids": [
-        "RE-012144"
-      ],
-      "work_id_status": "valid",
-      "section": "Comic Book Covers",
-      "category": "Comic Book Covers",
-      "series": "",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "2026",
-      "url": "https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Comic-Book-Cover-Version-37.html",
-      "repository": "ron-english-comic-book-covers",
-      "path": "detail/comic-book-covers/Comic-Book-Cover-Version-37.html",
-      "search_text": "religion is war your eternity re 012144 re 012144 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 37 html",
-      "search_id": "RE012144RE012144"
-    },
+    {"title":"Religion Is War - Your Eternity","work_id":"RE-016443","work_ids":["RE-016443"],"work_id_status":"valid","section":"Comic Book Covers","category":"Comic Book Covers","series":"","hierarchy_source":"live_logical_navigation","year":"2026","url":"https://ronenglish-archive.github.io/ron-english-comic-book-covers/detail/comic-book-covers/Comic-Book-Cover-Version-37.html","repository":"ron-english-comic-book-covers","path":"detail/comic-book-covers/Comic-Book-Cover-Version-37.html","search_text":"religion is war your eternity re 016443 re 016443 comic book covers comic book covers 2026 https ronenglish archive github io ron english comic book covers detail comic book covers comic book cover version 37 html","search_id":"RE016443RE016443"},
     {
       "title": "Rembrandt of Rock (Paul)",
       "work_id": "RE-000598",
@@ -308524,24 +308473,7 @@
       "search_text": "tupac turtle side re 016824 re 016824 sketches drawings turtles tupac turtle https ronenglish archive github io ron english sketches animals sketches turtles entries re 016824 html",
       "search_id": "RE016824RE016824"
     },
-    {
-      "title": "Turbo Lumen",
-      "work_id": "RE-015040",
-      "work_ids": [
-        "RE-015040"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Light Cult",
-      "series": "Light Cult — Characters",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-015040.html",
-      "repository": "ron-english-sketches-mythic-dark",
-      "path": "Sketches/light-cult/works/re-015040.html",
-      "search_text": "turbo lumen re 015040 re 015040 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 015040 html",
-      "search_id": "RE015040RE015040"
-    },
+    {"title":"Turbo Lumen","work_id":"RE-016413","work_ids":["RE-016413"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Light Cult","series":"Light Cult — Characters","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-015040.html","repository":"ron-english-sketches-mythic-dark","path":"Sketches/light-cult/works/re-015040.html","search_text":"turbo lumen re 016413 re 016413 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 015040 html","search_id":"RE016413RE016413"},
     {
       "title": "Turtasaurus",
       "work_id": "RE-016757",
@@ -322957,5 +322889,10 @@
       "search_text": "hitchin a ride re 014036 re 014036 sketches drawings rabbbits https ronenglish archive github io ron english sketches animals sketches rabbbits entries re 014036 html",
       "search_id": "RE014036RE014036"
     }
-  ,{"title":"Squirrel Squirt King Three Quarters","work_id":"RE-017143","work_ids":["RE-017143"],"work_id_status":"valid","section":"Sketches \u0026 Drawings","category":"Squirrels","series":"Squirrel Squirt King","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/squirrels/squirrel-squirt-king-three-quarters.html","repository":"ron-english-sketches-animals","path":"Sketches/squirrels/squirrel-squirt-king-three-quarters.html","search_text":"squirrel squirt king three quarters re 017143 re 017143 sketches drawings squirrels squirrel squirt king https ronenglish archive github io ron english sketches animals sketches squirrels squirrel squirt king three quarters html","search_id":"RE017143RE017143"}]
+  ,{"title":"Squirrel Squirt King Three Quarters","work_id":"RE-017143","work_ids":["RE-017143"],"work_id_status":"valid","section":"Sketches \u0026 Drawings","category":"Squirrels","series":"Squirrel Squirt King","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/squirrels/squirrel-squirt-king-three-quarters.html","repository":"ron-english-sketches-animals","path":"Sketches/squirrels/squirrel-squirt-king-three-quarters.html","search_text":"squirrel squirt king three quarters re 017143 re 017143 sketches drawings squirrels squirrel squirt king https ronenglish archive github io ron english sketches animals sketches squirrels squirrel squirt king three quarters html","search_id":"RE017143RE017143"},
+    {"title":"Forever Grin","work_id":"RE-016222","work_ids":["RE-016222"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Grins","series":"Grinnies","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016222--forever-grin.html","repository":"ron-english-sketches-grins","path":"Sketches/grins/works/re-016222--forever-grin.html","search_text":"forever grin re 016222 re 016222 sketches drawings grins grinnies https ronenglish archive github io ron english sketches grins sketches grins works re 016222 forever grin html","search_id":"RE016222RE016222"},
+    {"title":"Orion Chapeau","work_id":"RE-017142","work_ids":["RE-017142"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Aliens","series":"Alien Characters","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/orion-chapeau.html","repository":"ron-english-sketches-aliens","path":"Sketches/aliens/orion-chapeau.html","search_text":"orion chapeau re 017142 re 017142 sketches drawings aliens alien characters https ronenglish archive github io ron english sketches aliens sketches aliens orion chapeau html","search_id":"RE017142RE017142"},
+    {"title":"Stormtrooper Front","work_id":"RE-014386","work_ids":["RE-014386"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Pop Culture & Public Figures","series":"Star Wars","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014386-stormtrooper-front.html","repository":"ron-english-sketches-pop-culture","path":"Sketches/pop-culture-public-figures/works/re-014386-stormtrooper-front.html","search_text":"stormtrooper front re 014386 re 014386 sketches drawings pop culture public figures star wars https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014386 stormtrooper front html","search_id":"RE014386RE014386"},
+    {"title":"Hair","work_id":"RE-016053","work_ids":["RE-016053"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Objects","series":"Hats & Helmets","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/hats/works/re-016053-hair.html","repository":"ron-english-sketches-objects","path":"Sketches/objects/wearables-and-accessories/hats/works/re-016053-hair.html","search_text":"hair re 016053 re 016053 sketches drawings objects hats helmets https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories hats works re 016053 hair html","search_id":"RE016053RE016053"},
+    {"title":"Full Figure Bulb","work_id":"RE-016463","work_ids":["RE-016463"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Light Cult","series":"Light Cult — Body Parts","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016463-full-figure-bulb.html","repository":"ron-english-sketches-mythic-dark","path":"Sketches/light-cult/works/re-016463-full-figure-bulb.html","search_text":"full figure bulb re 016463 re 016463 sketches drawings light cult light cult body parts https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016463 full figure bulb html","search_id":"RE016463RE016463"}]
 }
