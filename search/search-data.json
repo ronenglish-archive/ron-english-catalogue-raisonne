@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 17983,
+  "record_count": 17986,
   "records": [
     {
       "title": "$ Guitar",
@@ -19437,9 +19437,9 @@
     },
     {
       "title": "Bright Beast",
-      "work_id": "RE-016410",
+      "work_id": "RE-014842",
       "work_ids": [
-        "RE-016410"
+        "RE-014842"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -19450,8 +19450,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016410-1.html",
       "repository": "ron-english-sketches-mythic-dark",
       "path": "Sketches/light-cult/works/re-016410-1.html",
-      "search_text": "bright beast re 016410 re 016410 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016410 1 html",
-      "search_id": "RE016410RE016410"
+      "search_text": "bright beast re 014842 re 014842 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016410 1 html",
+      "search_id": "RE014842RE014842"
     },
     {
       "title": "Bright Eyes",
@@ -22086,9 +22086,9 @@
     },
     {
       "title": "Burner",
-      "work_id": "RE-014843",
+      "work_id": "RE-014842",
       "work_ids": [
-        "RE-014843"
+        "RE-014842"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -22099,8 +22099,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-014843.html",
       "repository": "ron-english-sketches-mythic-dark",
       "path": "Sketches/light-cult/works/re-014843.html",
-      "search_text": "burner re 014843 re 014843 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 014843 html",
-      "search_id": "RE014843RE014843"
+      "search_text": "burner re 014842 re 014842 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 014843 html",
+      "search_id": "RE014842RE014842"
     },
     {
       "title": "Burning Bright",
@@ -41521,9 +41521,9 @@
     },
     {
       "title": "Double Bulb",
-      "work_id": "RE-014843",
+      "work_id": "RE-014842",
       "work_ids": [
-        "RE-014843"
+        "RE-014842"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -41534,8 +41534,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016796.html",
       "repository": "ron-english-sketches-mythic-dark",
       "path": "Sketches/light-cult/works/re-016796.html",
-      "search_text": "double bulb re 014843 re 014843 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016796 html",
-      "search_id": "RE014843RE014843"
+      "search_text": "double bulb re 014842 re 014842 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016796 html",
+      "search_id": "RE014842RE014842"
     },
     {
       "title": "Double Camo Rabbbits",
@@ -66013,9 +66013,9 @@
     },
     {
       "title": "Heavy Lumen",
-      "work_id": "RE-016410",
+      "work_id": "RE-014842",
       "work_ids": [
-        "RE-016410"
+        "RE-014842"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -66026,8 +66026,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016410-2.html",
       "repository": "ron-english-sketches-mythic-dark",
       "path": "Sketches/light-cult/works/re-016410-2.html",
-      "search_text": "heavy lumen re 016410 re 016410 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016410 2 html",
-      "search_id": "RE016410RE016410"
+      "search_text": "heavy lumen re 014842 re 014842 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016410 2 html",
+      "search_id": "RE014842RE014842"
     },
     {
       "title": "Heavy Watt",
@@ -66247,9 +66247,9 @@
     },
     {
       "title": "Helmet",
-      "work_id": "RE-016421",
+      "work_id": "RE-014842",
       "work_ids": [
-        "RE-016421"
+        "RE-014842"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -66260,8 +66260,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016421.html",
       "repository": "ron-english-sketches-mythic-dark",
       "path": "Sketches/light-cult/works/re-016421.html",
-      "search_text": "helmet re 016421 re 016421 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016421 html",
-      "search_id": "RE016421RE016421"
+      "search_text": "helmet re 014842 re 014842 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016421 html",
+      "search_id": "RE014842RE014842"
     },
     {
       "title": "Helms Christ",
@@ -247061,9 +247061,9 @@
     },
     {
       "title": "MC Supersized Icon",
-      "work_id": "RE-015858",
+      "work_id": "RE-015922",
       "work_ids": [
-        "RE-015858"
+        "RE-015922"
       ],
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
@@ -247074,8 +247074,8 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015858-mc-supersized-icon.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/objects/patterns-and-symbols/works/re-015858-mc-supersized-icon.html",
-      "search_text": "mc supersized icon re 015858 re 015858 sketches drawings objects patterns symbols https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015858 mc supersized icon html",
-      "search_id": "RE015858RE015858"
+      "search_text": "mc supersized icon re 015922 re 015922 sketches drawings objects patterns symbols https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015858 mc supersized icon html",
+      "search_id": "RE015922RE015922"
     },
     {
       "title": "MC Supersized Last Supper",
@@ -322894,5 +322894,8 @@
     {"title":"Orion Chapeau","work_id":"RE-017142","work_ids":["RE-017142"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Aliens","series":"Alien Characters","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/orion-chapeau.html","repository":"ron-english-sketches-aliens","path":"Sketches/aliens/orion-chapeau.html","search_text":"orion chapeau re 017142 re 017142 sketches drawings aliens alien characters https ronenglish archive github io ron english sketches aliens sketches aliens orion chapeau html","search_id":"RE017142RE017142"},
     {"title":"Stormtrooper Front","work_id":"RE-014386","work_ids":["RE-014386"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Pop Culture & Public Figures","series":"Star Wars","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-014386-stormtrooper-front.html","repository":"ron-english-sketches-pop-culture","path":"Sketches/pop-culture-public-figures/works/re-014386-stormtrooper-front.html","search_text":"stormtrooper front re 014386 re 014386 sketches drawings pop culture public figures star wars https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 014386 stormtrooper front html","search_id":"RE014386RE014386"},
     {"title":"Hair","work_id":"RE-016053","work_ids":["RE-016053"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Objects","series":"Hats & Helmets","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/hats/works/re-016053-hair.html","repository":"ron-english-sketches-objects","path":"Sketches/objects/wearables-and-accessories/hats/works/re-016053-hair.html","search_text":"hair re 016053 re 016053 sketches drawings objects hats helmets https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories hats works re 016053 hair html","search_id":"RE016053RE016053"},
-    {"title":"Full Figure Bulb","work_id":"RE-016463","work_ids":["RE-016463"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Light Cult","series":"Light Cult — Body Parts","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016463-full-figure-bulb.html","repository":"ron-english-sketches-mythic-dark","path":"Sketches/light-cult/works/re-016463-full-figure-bulb.html","search_text":"full figure bulb re 016463 re 016463 sketches drawings light cult light cult body parts https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016463 full figure bulb html","search_id":"RE016463RE016463"}]
+    {"title":"Full Figure Bulb","work_id":"RE-016463","work_ids":["RE-016463"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Light Cult","series":"Light Cult — Body Parts","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-016463-full-figure-bulb.html","repository":"ron-english-sketches-mythic-dark","path":"Sketches/light-cult/works/re-016463-full-figure-bulb.html","search_text":"full figure bulb re 016463 re 016463 sketches drawings light cult light cult body parts https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016463 full figure bulb html","search_id":"RE016463RE016463"},
+    {"title":"Eyehat","work_id":"RE-014421","work_ids":["RE-014421"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Objects","series":"Hats & Helmets","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/wearables-and-accessories/hats/works/re-014421-eyehat.html","repository":"ron-english-sketches-objects","path":"Sketches/objects/wearables-and-accessories/hats/works/re-014421-eyehat.html","search_text":"eyehat re 014421 re 014421 sketches drawings objects hats helmets https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories hats works re 014421 eyehat html","search_id":"RE014421RE014421"},
+    {"title":"Plug","work_id":"RE-015858","work_ids":["RE-015858"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Objects","series":"Phones & Electronics","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/household-functional-objects/phones-electronics/works/re-015858-plug.html","repository":"ron-english-sketches-objects","path":"Sketches/objects/household-functional-objects/phones-electronics/works/re-015858-plug.html","search_text":"plug re 015858 re 015858 sketches drawings objects phones electronics https ronenglish archive github io ron english sketches objects sketches objects household functional objects phones electronics works re 015858 plug html","search_id":"RE015858RE015858"},
+    {"title":"Space Icons","work_id":"RE-015922","work_ids":["RE-015922"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Objects","series":"Patterns & Symbols","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015922-space-icons.html","repository":"ron-english-sketches-objects","path":"Sketches/objects/patterns-and-symbols/works/re-015922-space-icons.html","search_text":"space icons re 015922 re 015922 sketches drawings objects patterns symbols https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015922 space icons html","search_id":"RE015922RE015922"}]
 }
