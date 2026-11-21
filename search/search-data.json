@@ -29260,24 +29260,7 @@
       "search_text": "cluck monster re 016341 re 016341 sketches drawings kaijus poultry https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016341 html",
       "search_id": "RE016341RE016341"
     },
-    {
-      "title": "Cluckin' Bell",
-      "work_id": "RE-013622",
-      "work_ids": [
-        "RE-013622"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Ducks",
-      "series": "",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/ducks/entries/re-013622.html",
-      "repository": "ron-english-sketches-animals",
-      "path": "Sketches/ducks/entries/re-013622.html",
-      "search_text": "cluckin bell re 013622 re 013622 sketches drawings ducks https ronenglish archive github io ron english sketches animals sketches ducks entries re 013622 html",
-      "search_id": "RE013622RE013622"
-    },
+    {"title":"Cluckin' Bell","work_id":"RE-013622","work_ids":["RE-013622"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Poultry","series":"","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/poultry/entries/re-013622.html","repository":"ron-english-sketches-animals","path":"Sketches/poultry/entries/re-013622.html","search_text":"cluckin bell re 013622 re 013622 sketches drawings poultry https ronenglish archive github io ron english sketches animals sketches poultry entries re 013622 html","search_id":"RE013622RE013622"},
     {
       "title": "Cluckzilla",
       "work_id": "RE-015685",
@@ -262721,24 +262704,7 @@
       "search_text": "pepe eyes re 012200 re 012200 sketches drawings pop culture public figures pepe https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 012200 1 html",
       "search_id": "RE012200RE012200"
     },
-    {
-      "title": "Pepe Eyes",
-      "work_id": "RE-017078",
-      "work_ids": [
-        "RE-017078"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Pop Culture & Public Figures",
-      "series": "Pepe",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-017078.html",
-      "repository": "ron-english-sketches-pop-culture",
-      "path": "Sketches/pop-culture-public-figures/works/re-017078.html",
-      "search_text": "pepe eyes re 017078 re 017078 sketches drawings pop culture public figures pepe https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 017078 html",
-      "search_id": "RE017078RE017078"
-    },
+    {"title":"Pepe Eyes 2","work_id":"RE-017078","work_ids":["RE-017078"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Pop Culture & Public Figures","series":"Pepe","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-pop-culture/Sketches/pop-culture-public-figures/works/re-017078.html","repository":"ron-english-sketches-pop-culture","path":"Sketches/pop-culture-public-figures/works/re-017078.html","search_text":"pepe eyes 2 re 017078 re 017078 sketches drawings pop culture public figures pepe https ronenglish archive github io ron english sketches pop culture sketches pop culture public figures works re 017078 html","search_id":"RE017078RE017078"},
     {
       "title": "Pepe Fred Flintstone",
       "work_id": "RE-014781",
