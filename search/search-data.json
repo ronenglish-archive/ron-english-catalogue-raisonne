@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 18019,
+  "record_count": 18012,
   "records": [
     {
       "title": "$ Guitar",
@@ -3827,24 +3827,6 @@
       "path": "Sketches/objects/wearables-and-accessories/hats/alien-horn-hat/index.html",
       "search_text": "alien horn hat re 016040 re 016040 sketches drawings objects hats helmets https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories hats alien horn hat index html",
       "search_id": "RE016040RE016040"
-    },
-    {
-      "title": "Alien Illuminati",
-      "work_id": "RE-011663",
-      "work_ids": [
-        "RE-011663"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Alien Characters",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/alien-illuminati.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/alien-illuminati.html",
-      "search_text": "alien illuminati re 011663 re 011663 sketches drawings aliens alien characters https ronenglish archive github io ron english sketches aliens sketches aliens alien illuminati html",
-      "search_id": "RE011663RE011663"
     },
     {
       "title": "Alien Illuminati",
@@ -8023,24 +8005,6 @@
       "search_id": "RE016168RE016168"
     },
     {
-      "title": "Astro Brain",
-      "work_id": "RE-015584",
-      "work_ids": [
-        "RE-015584"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Astro",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/astro-brain.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/astro-brain.html",
-      "search_text": "astro brain re 015584 re 015584 sketches drawings aliens astro https ronenglish archive github io ron english sketches aliens sketches aliens astro brain html",
-      "search_id": "RE015584RE015584"
-    },
-    {
       "title": "Astro Bulb",
       "work_id": "RE-016452",
       "work_ids": [
@@ -8057,60 +8021,6 @@
       "path": "Sketches/light-cult/works/re-016452.html",
       "search_text": "astro bulb re 016452 re 016452 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 016452 html",
       "search_id": "RE016452RE016452"
-    },
-    {
-      "title": "Astro China",
-      "work_id": "RE-015582",
-      "work_ids": [
-        "RE-015582"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Astro",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/astro-china.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/astro-china.html",
-      "search_text": "astro china re 015582 re 015582 sketches drawings aliens astro https ronenglish archive github io ron english sketches aliens sketches aliens astro china html",
-      "search_id": "RE015582RE015582"
-    },
-    {
-      "title": "Astro Fish",
-      "work_id": "RE-015580",
-      "work_ids": [
-        "RE-015580"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Astro",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/astro-fish.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/astro-fish.html",
-      "search_text": "astro fish re 015580 re 015580 sketches drawings aliens astro https ronenglish archive github io ron english sketches aliens sketches aliens astro fish html",
-      "search_id": "RE015580RE015580"
-    },
-    {
-      "title": "Astro Map",
-      "work_id": "RE-015581",
-      "work_ids": [
-        "RE-015581"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Astro",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/astro-map.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/astro-map.html",
-      "search_text": "astro map re 015581 re 015581 sketches drawings aliens astro https ronenglish archive github io ron english sketches aliens sketches aliens astro map html",
-      "search_id": "RE015581RE015581"
     },
     {
       "title": "Astro Star Comics - Astro Meets Queen Kong",
@@ -8201,24 +8111,6 @@
       "path": "Sketches/objects/wearables-and-accessories/jewelry-and-accessories/works/re-013533-astro-thumb-ring.html",
       "search_text": "astro thumb ring re 013533 re 013533 sketches drawings objects thumb rings https ronenglish archive github io ron english sketches objects sketches objects wearables and accessories jewelry and accessories works re 013533 astro thumb ring html",
       "search_id": "RE013533RE013533"
-    },
-    {
-      "title": "Astro Yin Yang",
-      "work_id": "RE-017219",
-      "work_ids": [
-        "RE-017219"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Aliens",
-      "series": "Astro",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/astro-yin-yang.html",
-      "repository": "ron-english-sketches-aliens",
-      "path": "Sketches/aliens/astro-yin-yang.html",
-      "search_text": "astro yin yang re 017219 re 017219 sketches drawings aliens astro https ronenglish archive github io ron english sketches aliens sketches aliens astro yin yang html",
-      "search_id": "RE017219RE017219"
     },
     {
       "title": "Astrobaby",
@@ -255123,24 +255015,6 @@
       "path": "Sketches/kaijus/works/re-016775--02.html",
       "search_text": "mr speechbubble re 016775 re 016775 sketches drawings kaijus standalone kaiju https ronenglish archive github io ron english sketches mythic dark sketches kaijus works re 016775 02 html",
       "search_id": "RE016775RE016775"
-    },
-    {
-      "title": "Mr Wattson",
-      "work_id": "RE-016420",
-      "work_ids": [
-        "RE-016420"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Light Cult",
-      "series": "Light Cult — Characters",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-mythic-dark/Sketches/light-cult/works/re-015077.html",
-      "repository": "ron-english-sketches-mythic-dark",
-      "path": "Sketches/light-cult/works/re-015077.html",
-      "search_text": "mr wattson re 016420 re 016420 sketches drawings light cult light cult characters https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 015077 html",
-      "search_id": "RE016420RE016420"
     },
     {
       "title": "Mr Wonderful — Page 2",
