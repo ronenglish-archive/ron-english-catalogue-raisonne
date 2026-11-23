@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 18014,
+  "record_count": 18025,
   "records": [
     {
       "title": "$ Guitar",
@@ -281086,13 +281086,13 @@
       "work_id_status": "valid",
       "section": "Sketches & Drawings",
       "category": "Grins",
-      "series": "Animals",
+      "series": "Sever Fairy Landshark Grin",
       "hierarchy_source": "live_logical_navigation",
       "year": "",
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016261--sever-fairy-landshark-grin-side.html",
       "repository": "ron-english-sketches-grins",
       "path": "Sketches/grins/works/re-016261--sever-fairy-landshark-grin-side.html",
-      "search_text": "sever fairy landshark grin side re 016261 re 016261 sketches drawings grins animals https ronenglish archive github io ron english sketches grins sketches grins works re 016261 sever fairy landshark grin side html",
+      "search_text": "sever fairy landshark grin side re 016261 re 016261 sketches drawings grins sever fairy landshark grin https ronenglish archive github io ron english sketches grins sketches grins works re 016261 sever fairy landshark grin side html",
       "search_id": "RE016261RE016261"
     },
     {
@@ -322534,5 +322534,203 @@
     {"title":"Pensive Coco","work_id":"RE-015582","work_ids":["RE-015582"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Cereal Killers","series":"Coco Paunch","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-cereal-killers/Sketches/cereal-killers/coco-paunch/pensive-coco/index.html","repository":"ron-english-sketches-cereal-killers","path":"Sketches/cereal-killers/coco-paunch/pensive-coco/index.html","search_text":"pensive coco re 015582 re 015582 sketches drawings cereal killers coco paunch https ronenglish archive github io ron english sketches cereal killers sketches cereal killers coco paunch pensive coco index html","search_id":"RE015582RE015582"},
     {"title":"Gnashley with hat 2","work_id":"RE-015580","work_ids":["RE-015580"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Grins","series":"Gnashley (Humans)","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-015580--gnashley-with-hat-2.html","repository":"ron-english-sketches-grins","path":"Sketches/grins/works/re-015580--gnashley-with-hat-2.html","search_text":"gnashley with hat 2 re 015580 re 015580 sketches drawings grins gnashley humans https ronenglish archive github io ron english sketches grins sketches grins works re 015580 gnashley with hat 2 html","search_id":"RE015580RE015580"},
     {"title":"Gnashley with hat side","work_id":"RE-015581","work_ids":["RE-015581"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Grins","series":"Gnashley (Humans)","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-015581--gnashley-with-hat-side.html","repository":"ron-english-sketches-grins","path":"Sketches/grins/works/re-015581--gnashley-with-hat-side.html","search_text":"gnashley with hat side re 015581 re 015581 sketches drawings grins gnashley humans https ronenglish archive github io ron english sketches grins sketches grins works re 015581 gnashley with hat side html","search_id":"RE015581RE015581"},
-    {"title":"Gnashley with hat","work_id":"RE-017219","work_ids":["RE-017219"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Grins","series":"Gnashley (Humans)","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-017219--gnashley-with-hat.html","repository":"ron-english-sketches-grins","path":"Sketches/grins/works/re-017219--gnashley-with-hat.html","search_text":"gnashley with hat re 017219 re 017219 sketches drawings grins gnashley humans https ronenglish archive github io ron english sketches grins sketches grins works re 017219 gnashley with hat html","search_id":"RE017219RE017219"}]
+    {"title":"Gnashley with hat","work_id":"RE-017219","work_ids":["RE-017219"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Grins","series":"Gnashley (Humans)","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-017219--gnashley-with-hat.html","repository":"ron-english-sketches-grins","path":"Sketches/grins/works/re-017219--gnashley-with-hat.html","search_text":"gnashley with hat re 017219 re 017219 sketches drawings grins gnashley humans https ronenglish archive github io ron english sketches grins sketches grins works re 017219 gnashley with hat html","search_id":"RE017219RE017219"},
+    {
+        "title":  "Batman Grin and Robin 2",
+        "work_id":  "RE-015584",
+        "work_ids":  [
+                         "RE-015584"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Grins",
+        "series":  "Batman Family",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-015584--batman-grin-and-robin-2.html",
+        "repository":  "ron-english-sketches-grins",
+        "path":  "Sketches/grins/works/re-015584--batman-grin-and-robin-2.html",
+        "search_text":  "batman grin and robin 2 re 015584 re 015584 sketches drawings grins batman family https ronenglish archive github io ron english sketches grins sketches grins works re 015584 batman grin and robin 2 html",
+        "search_id":  "RE015584RE015584"
+    },
+    {
+        "title":  "Suit Up",
+        "work_id":  "RE-016169",
+        "work_ids":  [
+                         "RE-016169"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Objects",
+        "series":  "Torsos",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/body-parts/torso/works/re-016169-suit-up.html",
+        "repository":  "ron-english-sketches-objects",
+        "path":  "Sketches/objects/body-parts/torso/works/re-016169-suit-up.html",
+        "search_text":  "suit up re 016169 re 016169 sketches drawings objects torsos https ronenglish archive github io ron english sketches objects sketches objects body parts torso works re 016169 suit up html",
+        "search_id":  "RE016169RE016169"
+    },
+    {
+        "title":  "Piggie Grin",
+        "work_id":  "RE-016285",
+        "work_ids":  [
+                         "RE-016285"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Grins",
+        "series":  "Animals",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016285--piggie-grin.html",
+        "repository":  "ron-english-sketches-grins",
+        "path":  "Sketches/grins/works/re-016285--piggie-grin.html",
+        "search_text":  "piggie grin re 016285 re 016285 sketches drawings grins animals https ronenglish archive github io ron english sketches grins sketches grins works re 016285 piggie grin html",
+        "search_id":  "RE016285RE016285"
+    },
+    {
+        "title":  "CB Astronaut Sketches",
+        "work_id":  "RE-017326",
+        "work_ids":  [
+                         "RE-017326"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Aliens",
+        "series":  "CB Astronaut",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-aliens/Sketches/aliens/cb-astronaut-sketches.html",
+        "repository":  "ron-english-sketches-aliens",
+        "path":  "Sketches/aliens/cb-astronaut-sketches.html",
+        "search_text":  "cb astronaut sketches re 017326 re 017326 sketches drawings aliens cb astronaut https ronenglish archive github io ron english sketches aliens sketches aliens cb astronaut sketches html",
+        "search_id":  "RE017326RE017326"
+    },
+    {
+        "title":  "Landshark 1",
+        "work_id":  "RE-016420",
+        "work_ids":  [
+                         "RE-016420"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Grins",
+        "series":  "Sever Fairy Landshark Grin",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-016420--landshark-1.html",
+        "repository":  "ron-english-sketches-grins",
+        "path":  "Sketches/grins/works/re-016420--landshark-1.html",
+        "search_text":  "landshark 1 re 016420 re 016420 sketches drawings grins sever fairy landshark grin https ronenglish archive github io ron english sketches grins sketches grins works re 016420 landshark 1 html",
+        "search_id":  "RE016420RE016420"
+    },
+    {
+        "title":  "Landshark sketch",
+        "work_id":  "RE-017325",
+        "work_ids":  [
+                         "RE-017325"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Grins",
+        "series":  "Sever Fairy Landshark Grin",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-grins/Sketches/grins/works/re-017325--landshark-sketch.html",
+        "repository":  "ron-english-sketches-grins",
+        "path":  "Sketches/grins/works/re-017325--landshark-sketch.html",
+        "search_text":  "landshark sketch re 017325 re 017325 sketches drawings grins sever fairy landshark grin https ronenglish archive github io ron english sketches grins sketches grins works re 017325 landshark sketch html",
+        "search_id":  "RE017325RE017325"
+    },
+    {
+        "title":  "Bunnny Baby",
+        "work_id":  "RE-017327",
+        "work_ids":  [
+                         "RE-017327"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Rabbbits",
+        "series":  "",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/rabbbits/entries/re-017327-bunnny-baby.html",
+        "repository":  "ron-english-sketches-animals",
+        "path":  "Sketches/rabbbits/entries/re-017327-bunnny-baby.html",
+        "search_text":  "bunnny baby re 017327 re 017327 sketches drawings rabbbits https ronenglish archive github io ron english sketches animals sketches rabbbits entries re 017327 bunnny baby html",
+        "search_id":  "RE017327RE017327"
+    },
+    {
+        "title":  "The Little Mer-Mutants",
+        "work_id":  "RE-017328",
+        "work_ids":  [
+                         "RE-017328"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Mermaids",
+        "series":  "",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/aquatic-dwellers/mermaids/re-017328.html",
+        "repository":  "ron-english-sketches-animals",
+        "path":  "Sketches/aquatic-dwellers/mermaids/re-017328.html",
+        "search_text":  "the little mer mutants re 017328 re 017328 sketches drawings mermaids https ronenglish archive github io ron english sketches animals sketches aquatic dwellers mermaids re 017328 html",
+        "search_id":  "RE017328RE017328"
+    },
+    {
+        "title":  "Baaad to the Bone",
+        "work_id":  "RE-017329",
+        "work_ids":  [
+                         "RE-017329"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Sheep",
+        "series":  "",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-017329.html",
+        "repository":  "ron-english-sketches-animals",
+        "path":  "Sketches/sheep/entries/re-017329.html",
+        "search_text":  "baaad to the bone re 017329 re 017329 sketches drawings sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 017329 html",
+        "search_id":  "RE017329RE017329"
+    },
+    {
+        "title":  "Falla Turnarounds",
+        "work_id":  "RE-017330",
+        "work_ids":  [
+                         "RE-017330"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Sheep",
+        "series":  "",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-017330.html",
+        "repository":  "ron-english-sketches-animals",
+        "path":  "Sketches/sheep/entries/re-017330.html",
+        "search_text":  "falla turnarounds re 017330 re 017330 sketches drawings sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 017330 html",
+        "search_id":  "RE017330RE017330"
+    },
+    {
+        "title":  "Old Blue Eyes",
+        "work_id":  "RE-017331",
+        "work_ids":  [
+                         "RE-017331"
+                     ],
+        "work_id_status":  "valid",
+        "section":  "Sketches \u0026 Drawings",
+        "category":  "Sheep",
+        "series":  "",
+        "hierarchy_source":  "live_logical_navigation",
+        "year":  "",
+        "url":  "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-017331.html",
+        "repository":  "ron-english-sketches-animals",
+        "path":  "Sketches/sheep/entries/re-017331.html",
+        "search_text":  "old blue eyes re 017331 re 017331 sketches drawings sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 017331 html",
+        "search_id":  "RE017331RE017331"
+    }]
 }
