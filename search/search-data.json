@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 18050,
+  "record_count": 18048,
   "records": [
     {
       "title": "$ Guitar",
@@ -23290,43 +23290,7 @@
       "search_id": "RE001279RE001279"
     },
     {
-      "title": "Camo Pattern 1",
-      "work_id": "RE-015884",
-      "work_ids": [
-        "RE-015884"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Objects",
-      "series": "Camo Patterns",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015884.html",
-      "repository": "ron-english-sketches-objects",
-      "path": "Sketches/objects/patterns-and-symbols/works/re-015884.html",
-      "search_text": "camo pattern 1 re 015884 re 015884 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015884 html",
-      "search_id": "RE015884RE015884"
-    },
-    {
       "title": "Camo Pattern 2",
-      "work_id": "RE-015887",
-      "work_ids": [
-        "RE-015887"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Objects",
-      "series": "Camo Patterns",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015887.html",
-      "repository": "ron-english-sketches-objects",
-      "path": "Sketches/objects/patterns-and-symbols/works/re-015887.html",
-      "search_text": "camo pattern 2 re 015887 re 015887 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015887 html",
-      "search_id": "RE015887RE015887"
-    },
-    {
-      "title": "Camo Pattern 3",
       "work_id": "RE-015889",
       "work_ids": [
         "RE-015889"
@@ -23340,11 +23304,11 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015889.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/objects/patterns-and-symbols/works/re-015889.html",
-      "search_text": "camo pattern 3 re 015889 re 015889 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015889 html",
+      "search_text": "camo pattern 2 re 015889 re 015889 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015889 html",
       "search_id": "RE015889RE015889"
     },
     {
-      "title": "Camo Pattern 4",
+      "title": "Camo Pattern 3",
       "work_id": "RE-016849",
       "work_ids": [
         "RE-016849"
@@ -23358,11 +23322,11 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-016849.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/objects/patterns-and-symbols/works/re-016849.html",
-      "search_text": "camo pattern 4 re 016849 re 016849 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 016849 html",
+      "search_text": "camo pattern 3 re 016849 re 016849 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 016849 html",
       "search_id": "RE016849RE016849"
     },
     {
-      "title": "Camo Pattern 5",
+      "title": "Camo Pattern 4",
       "work_id": "RE-015893",
       "work_ids": [
         "RE-015893"
@@ -23376,11 +23340,11 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015893.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/objects/patterns-and-symbols/works/re-015893.html",
-      "search_text": "camo pattern 5 re 015893 re 015893 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015893 html",
+      "search_text": "camo pattern 4 re 015893 re 015893 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015893 html",
       "search_id": "RE015893RE015893"
     },
     {
-      "title": "Camo Pattern 6",
+      "title": "Camo Pattern 1",
       "work_id": "RE-015894",
       "work_ids": [
         "RE-015894"
@@ -23394,7 +23358,7 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-objects/Sketches/objects/patterns-and-symbols/works/re-015894.html",
       "repository": "ron-english-sketches-objects",
       "path": "Sketches/objects/patterns-and-symbols/works/re-015894.html",
-      "search_text": "camo pattern 6 re 015894 re 015894 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015894 html",
+      "search_text": "camo pattern 1 re 015894 re 015894 sketches drawings objects camo patterns https ronenglish archive github io ron english sketches objects sketches objects patterns and symbols works re 015894 html",
       "search_id": "RE015894RE015894"
     },
     {
@@ -57334,7 +57298,7 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/sheep/entries/re-014327.html",
       "repository": "ron-english-sketches-animals",
       "path": "Sketches/sheep/entries/re-014327.html",
-      "search_text": "gated heaven estates re 014327 re 014327 sketches drawings sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 014327 html",
+      "search_text": "gated heaven estates re 014327 re 014327 sketches drawings sheep https ronenglish archive github io ron english sketches animals sketches sheep entries re 014327 html pasture compound",
       "search_id": "RE014327RE014327"
     },
     {
@@ -270758,7 +270722,7 @@
       "url": "https://ronenglish-archive.github.io/ron-english-paintings-2010s/detail/paintings/2010s/2013/Rabbbit-House.html",
       "repository": "ron-english-paintings-2010s",
       "path": "detail/paintings/2010s/2013/Rabbbit-House.html",
-      "search_text": "rabbbit house re 001194 re 001194 paintings paintings 2013 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 rabbbit house html",
+      "search_text": "rabbbit house re 001194 re 001194 paintings paintings 2013 https ronenglish archive github io ron english paintings 2010s detail paintings 2010s 2013 rabbbit house html rabbbit falls",
       "search_id": "RE001194RE001194"
     },
     {
@@ -310752,7 +310716,7 @@
       "url": "https://ronenglish-archive.github.io/ron-english-sketches-animals/Sketches/swine/entries/re-013322.html",
       "repository": "ron-english-sketches-animals",
       "path": "Sketches/swine/entries/re-013322.html",
-      "search_text": "unipig house re 013322 re 013322 sketches drawings swine https ronenglish archive github io ron english sketches animals sketches swine entries re 013322 html",
+      "search_text": "unipig house re 013322 re 013322 sketches drawings swine https ronenglish archive github io ron english sketches animals sketches swine entries re 013322 html porkland hills",
       "search_id": "RE013322RE013322"
     },
     {
