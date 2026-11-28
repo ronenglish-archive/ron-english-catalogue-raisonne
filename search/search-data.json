@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_utc": "2026-11-11T21:43:04Z",
   "source": "Reconciled review candidate: 2026-11-11 certified 17,926-record baseline plus 62 parent-index-confirmed additions; no full live recrawl",
-  "record_count": 18150,
+  "record_count": 18154,
   "records": [
     {
       "title": "$ Guitar",
@@ -26223,24 +26223,7 @@
       "search_text": "censaur re 013550 re 013550 sketches drawings monkeys https ronenglish archive github io ron english sketches animals sketches monkeys works re 013550 html",
       "search_id": "RE013550RE013550"
     },
-    {
-      "title": "Censorship Is Good Because",
-      "work_id": "RE-015541",
-      "work_ids": [
-        "RE-015541"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "Late 1980s",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1980",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1980s/works/re-015541.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1980s/works/re-015541.html",
-      "search_text": "censorship is good because re 015541 re 015541 sketches drawings early works late 1980s 1980 https ronenglish archive github io ron english sketches and drawings sketches early works late 1980s works re 015541 html",
-      "search_id": "RE015541RE015541"
-    },
+    {"title":"Censorship Is Good Because","work_id":"RE-015512","work_ids":["RE-015512"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Late 1980s","hierarchy_source":"live_logical_navigation","year":"1980","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1980s/works/re-015541.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1980s/works/re-015541.html","search_text":"censorship is good because re 015512 re 015512 sketches drawings early works late 1980s 1980 https ronenglish archive github io ron english sketches and drawings sketches early works late 1980s works re 015541 html","search_id":"RE015512RE015512"},
     {
       "title": "Censorship Is Good Because..., NYC",
       "work_id": "RE-011813",
@@ -39977,24 +39960,7 @@
       "search_text": "direction sketches re 015029 re 015029 sketches drawings light cult light cult objects https ronenglish archive github io ron english sketches mythic dark sketches light cult works re 015029 html",
       "search_id": "RE015029RE015029"
     },
-    {
-      "title": "Disney and Warner Brothers Guernica",
-      "work_id": "RE-015553",
-      "work_ids": [
-        "RE-015553"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Guernica Sketches",
-      "series": "",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/guernica-sketches/entries/re-015553.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/guernica-sketches/entries/re-015553.html",
-      "search_text": "disney and warner brothers guernica re 015553 re 015553 sketches drawings guernica sketches https ronenglish archive github io ron english sketches and drawings sketches guernica sketches entries re 015553 html",
-      "search_id": "RE015553RE015553"
-    },
+    {"title":"Disney and Warner Brothers Guernica","work_id":"RE-017407","work_ids":["RE-017407"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Guernica Sketches","series":"","hierarchy_source":"live_logical_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/guernica-sketches/entries/re-015553.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/guernica-sketches/entries/re-015553.html","search_text":"disney and warner brothers guernica re 017407 re 017407 sketches drawings guernica sketches https ronenglish archive github io ron english sketches and drawings sketches guernica sketches entries re 015553 html","search_id":"RE017407RE017407"},
     {
       "title": "Disney vs. Warner Brothers",
       "work_id": "RE-000292",
@@ -302673,456 +302639,31 @@
       "search_text": "the starred eye re 000566 re 000566 paintings paintings 2003 https ronenglish archive github io ron english paintings 2000s detail paintings 2000s 2003 the starred eye html",
       "search_id": "RE000566RE000566"
     },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Cover",
-      "work_id": "RE-015417",
-      "work_ids": [
-        "RE-015417"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015417.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015417.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde cover re 015417 re 015417 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015417 html",
-      "search_id": "RE015417RE015417"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 1",
-      "work_id": "RE-015491",
-      "work_ids": [
-        "RE-015491"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015491.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015491.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 1 re 015491 re 015491 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015491 html",
-      "search_id": "RE015491RE015491"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 10",
-      "work_id": "RE-015408",
-      "work_ids": [
-        "RE-015408"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015408.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015408.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 10 re 015408 re 015408 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015408 html",
-      "search_id": "RE015408RE015408"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 11",
-      "work_id": "RE-015409",
-      "work_ids": [
-        "RE-015409"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015409.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015409.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 11 re 015409 re 015409 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015409 html",
-      "search_id": "RE015409RE015409"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 12",
-      "work_id": "RE-015510",
-      "work_ids": [
-        "RE-015510"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015510.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015510.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 12 re 015510 re 015510 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015510 html",
-      "search_id": "RE015510RE015510"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 13",
-      "work_id": "RE-015420",
-      "work_ids": [
-        "RE-015420"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015420.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015420.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 13 re 015420 re 015420 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015420 html",
-      "search_id": "RE015420RE015420"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 14",
-      "work_id": "RE-015421",
-      "work_ids": [
-        "RE-015421"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015421.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015421.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 14 re 015421 re 015421 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015421 html",
-      "search_id": "RE015421RE015421"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 15",
-      "work_id": "RE-015422",
-      "work_ids": [
-        "RE-015422"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015422.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015422.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 15 re 015422 re 015422 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015422 html",
-      "search_id": "RE015422RE015422"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 16",
-      "work_id": "RE-014369",
-      "work_ids": [
-        "RE-014369"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-014369.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-014369.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 16 re 014369 re 014369 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 014369 html",
-      "search_id": "RE014369RE014369"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 16 alt",
-      "work_id": "RE-015489",
-      "work_ids": [
-        "RE-015489"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015489.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015489.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 16 alt re 015489 re 015489 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015489 html",
-      "search_id": "RE015489RE015489"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 17",
-      "work_id": "RE-015423",
-      "work_ids": [
-        "RE-015423"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015423.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015423.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 17 re 015423 re 015423 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015423 html",
-      "search_id": "RE015423RE015423"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 18",
-      "work_id": "RE-015424",
-      "work_ids": [
-        "RE-015424"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015424.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015424.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 18 re 015424 re 015424 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015424 html",
-      "search_id": "RE015424RE015424"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 2",
-      "work_id": "RE-015495",
-      "work_ids": [
-        "RE-015495"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015495.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015495.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 2 re 015495 re 015495 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015495 html",
-      "search_id": "RE015495RE015495"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 3",
-      "work_id": "RE-015500",
-      "work_ids": [
-        "RE-015500"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015500.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015500.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 3 re 015500 re 015500 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015500 html",
-      "search_id": "RE015500RE015500"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 4",
-      "work_id": "RE-015492",
-      "work_ids": [
-        "RE-015492"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015492.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015492.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 4 re 015492 re 015492 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015492 html",
-      "search_id": "RE015492RE015492"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 5",
-      "work_id": "RE-015403",
-      "work_ids": [
-        "RE-015403"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015403.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015403.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 5 re 015403 re 015403 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015403 html",
-      "search_id": "RE015403RE015403"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 6",
-      "work_id": "RE-015406",
-      "work_ids": [
-        "RE-015406"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015406.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015406.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 6 re 015406 re 015406 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015406 html",
-      "search_id": "RE015406RE015406"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 7",
-      "work_id": "RE-015405",
-      "work_ids": [
-        "RE-015405"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015405.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015405.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 7 re 015405 re 015405 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015405 html",
-      "search_id": "RE015405RE015405"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 8",
-      "work_id": "RE-015497",
-      "work_ids": [
-        "RE-015497"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015497.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015497.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 8 re 015497 re 015497 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015497 html",
-      "search_id": "RE015497RE015497"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Page 9",
-      "work_id": "RE-015407",
-      "work_ids": [
-        "RE-015407"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015407.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015407.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde page 9 re 015407 re 015407 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015407 html",
-      "search_id": "RE015407RE015407"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Part 2 Title Page",
-      "work_id": "RE-015504",
-      "work_ids": [
-        "RE-015504"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015504.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015504.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde part 2 title page re 015504 re 015504 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015504 html",
-      "search_id": "RE015504RE015504"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Part 2, Page 1",
-      "work_id": "RE-015352",
-      "work_ids": [
-        "RE-015352"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015352.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015352.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde part 2 page 1 re 015352 re 015352 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015352 html",
-      "search_id": "RE015352RE015352"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Part 2, Page 2",
-      "work_id": "RE-013073",
-      "work_ids": [
-        "RE-013073"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015338.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015338.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde part 2 page 2 re 013073 re 013073 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015338 html",
-      "search_id": "RE013073RE013073"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Part 2, Page 3",
-      "work_id": "RE-015499",
-      "work_ids": [
-        "RE-015499"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015499.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015499.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde part 2 page 3 re 015499 re 015499 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015499 html",
-      "search_id": "RE015499RE015499"
-    },
-    {
-      "title": "The Strange Case of Doc Jeckyll and Mr Hyde — Part 2, Page 4",
-      "work_id": "RE-015505",
-      "work_ids": [
-        "RE-015505"
-      ],
-      "work_id_status": "valid",
-      "section": "Sketches & Drawings",
-      "category": "Early Works",
-      "series": "The Strange Case of Doc Jeckyll and Mr Hyde",
-      "hierarchy_source": "live_logical_navigation",
-      "year": "1970",
-      "url": "https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015505.html",
-      "repository": "ron-english-sketches-and-drawings",
-      "path": "Sketches/early-works/late-1970s-early-1980s/works/re-015505.html",
-      "search_text": "the strange case of doc jeckyll and mr hyde part 2 page 4 re 015505 re 015505 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015505 html",
-      "search_id": "RE015505RE015505"
-    },
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Cover","work_id":"RE-015417","work_ids":["RE-015417"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015417.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015417.html","search_text":"the strange case of doc jeckyll and mr hyde cover re 015417 re 015417 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015417 html","search_id":"RE015417RE015417"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Title Page","work_id":"RE-015491","work_ids":["RE-015491"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015491.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015491.html","search_text":"the strange case of doc jeckyll and mr hyde title page re 015491 re 015491 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015491 html","search_id":"RE015491RE015491"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 8","work_id":"RE-015408","work_ids":["RE-015408"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015408.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015408.html","search_text":"the strange case of doc jeckyll and mr hyde page 8 re 015408 re 015408 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015408 html","search_id":"RE015408RE015408"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 9","work_id":"RE-015409","work_ids":["RE-015409"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015409.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015409.html","search_text":"the strange case of doc jeckyll and mr hyde page 9 re 015409 re 015409 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015409 html","search_id":"RE015409RE015409"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 10","work_id":"RE-015510","work_ids":["RE-015510"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015510.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015510.html","search_text":"the strange case of doc jeckyll and mr hyde page 10 re 015510 re 015510 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015510 html","search_id":"RE015510RE015510"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 11","work_id":"RE-015420","work_ids":["RE-015420"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015420.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015420.html","search_text":"the strange case of doc jeckyll and mr hyde page 11 re 015420 re 015420 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015420 html","search_id":"RE015420RE015420"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 12","work_id":"RE-015421","work_ids":["RE-015421"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015421.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015421.html","search_text":"the strange case of doc jeckyll and mr hyde page 12 re 015421 re 015421 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015421 html","search_id":"RE015421RE015421"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 13","work_id":"RE-015422","work_ids":["RE-015422"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015422.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015422.html","search_text":"the strange case of doc jeckyll and mr hyde page 13 re 015422 re 015422 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015422 html","search_id":"RE015422RE015422"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 14","work_id":"RE-014369","work_ids":["RE-014369"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-014369.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-014369.html","search_text":"the strange case of doc jeckyll and mr hyde page 14 re 014369 re 014369 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 014369 html","search_id":"RE014369RE014369"},
+    {"title":"Rip & the Animal \u2014 Movie Theater Robbery","work_id":"RE-015489","work_ids":["RE-015489"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Rip & the Animal","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015489.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015489.html","search_text":"rip the animal movie theater robbery re 015489 re 015489 sketches drawings early works rip the animal 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015489 html","search_id":"RE015489RE015489"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 15","work_id":"RE-015423","work_ids":["RE-015423"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015423.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015423.html","search_text":"the strange case of doc jeckyll and mr hyde page 15 re 015423 re 015423 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015423 html","search_id":"RE015423RE015423"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 16","work_id":"RE-015424","work_ids":["RE-015424"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015424.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015424.html","search_text":"the strange case of doc jeckyll and mr hyde page 16 re 015424 re 015424 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015424 html","search_id":"RE015424RE015424"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 3","work_id":"RE-015495","work_ids":["RE-015495"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015495.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015495.html","search_text":"the strange case of doc jeckyll and mr hyde page 3 re 015495 re 015495 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015495 html","search_id":"RE015495RE015495"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Preliminary Opening Page","work_id":"RE-015500","work_ids":["RE-015500"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Preliminary and Alternative Pages","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015500.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015500.html","search_text":"the strange case of doc jeckyll and mr hyde preliminary opening page re 015500 re 015500 sketches drawings early works the strange case of doc jeckyll and mr hyde preliminary and alternative pages 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015500 html","search_id":"RE015500RE015500"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Preliminary Transformation Scene","work_id":"RE-015492","work_ids":["RE-015492"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Preliminary and Alternative Pages","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015492.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015492.html","search_text":"the strange case of doc jeckyll and mr hyde preliminary transformation scene re 015492 re 015492 sketches drawings early works the strange case of doc jeckyll and mr hyde preliminary and alternative pages 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015492 html","search_id":"RE015492RE015492"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 4","work_id":"RE-015403","work_ids":["RE-015403"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015403.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015403.html","search_text":"the strange case of doc jeckyll and mr hyde page 4 re 015403 re 015403 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015403 html","search_id":"RE015403RE015403"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 5","work_id":"RE-015406","work_ids":["RE-015406"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015406.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015406.html","search_text":"the strange case of doc jeckyll and mr hyde page 5 re 015406 re 015406 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015406 html","search_id":"RE015406RE015406"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 6","work_id":"RE-015405","work_ids":["RE-015405"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015405.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015405.html","search_text":"the strange case of doc jeckyll and mr hyde page 6 re 015405 re 015405 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015405 html","search_id":"RE015405RE015405"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Alternative Journey to the Park","work_id":"RE-015497","work_ids":["RE-015497"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Preliminary and Alternative Pages","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015497.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015497.html","search_text":"the strange case of doc jeckyll and mr hyde alternative journey to the park re 015497 re 015497 sketches drawings early works the strange case of doc jeckyll and mr hyde preliminary and alternative pages 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015497 html","search_id":"RE015497RE015497"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Page 7","work_id":"RE-015407","work_ids":["RE-015407"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015407.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015407.html","search_text":"the strange case of doc jeckyll and mr hyde page 7 re 015407 re 015407 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015407 html","search_id":"RE015407RE015407"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Part 2 Title Page","work_id":"RE-015504","work_ids":["RE-015504"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015504.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015504.html","search_text":"the strange case of doc jeckyll and mr hyde part 2 title page re 015504 re 015504 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015504 html","search_id":"RE015504RE015504"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Part 2, Page 1","work_id":"RE-015352","work_ids":["RE-015352"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015352.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015352.html","search_text":"the strange case of doc jeckyll and mr hyde part 2 page 1 re 015352 re 015352 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015352 html","search_id":"RE015352RE015352"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Part 2, Page 2","work_id":"RE-013073","work_ids":["RE-013073"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015338.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015338.html","search_text":"the strange case of doc jeckyll and mr hyde part 2 page 2 re 013073 re 013073 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015338 html","search_id":"RE013073RE013073"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Part 2, Page 3","work_id":"RE-015499","work_ids":["RE-015499"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015499.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015499.html","search_text":"the strange case of doc jeckyll and mr hyde part 2 page 3 re 015499 re 015499 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015499 html","search_id":"RE015499RE015499"},
+    {"title":"The Strange Case of Doc Jeckyll and Mr. Hyde \u2014 Part 2, Page 4","work_id":"RE-015505","work_ids":["RE-015505"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"The Strange Case of Doc Jeckyll and Mr. Hyde","hierarchy_source":"live_logical_navigation","year":"1970","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-015505.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-015505.html","search_text":"the strange case of doc jeckyll and mr hyde part 2 page 4 re 015505 re 015505 sketches drawings early works the strange case of doc jeckyll and mr hyde 1970 https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 015505 html","search_id":"RE015505RE015505"},
     {
       "title": "The Strange Tales of Ronnnie Rabbbit",
       "work_id": "RE-016337",
@@ -322772,6 +322313,10 @@
     {"title":"Super Bus 3","work_id":"RE-017411","work_ids":["RE-017411"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Super Bus","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017411.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017411.html","search_text":"super bus 3 re 017411 re 017411 sketches drawings early works super bus https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017411 html","search_id":"RE017411RE017411"},
     {"title":"Super Bus 4","work_id":"RE-017412","work_ids":["RE-017412"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Super Bus","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017412.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017412.html","search_text":"super bus 4 re 017412 re 017412 sketches drawings early works super bus https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017412 html","search_id":"RE017412RE017412"},
     {"title":"Super Bus 5","work_id":"RE-017402","work_ids":["RE-017402"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Super Bus","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017402.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017402.html","search_text":"super bus 5 re 017402 re 017402 sketches drawings early works super bus https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017402 html","search_id":"RE017402RE017402"},
-    {"title":"Super Bus 6","work_id":"RE-017435","work_ids":["RE-017435"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Super Bus","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017435.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017435.html","search_text":"super bus 6 re 017435 re 017435 sketches drawings early works super bus https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017435 html","search_id":"RE017435RE017435"}
+    {"title":"Super Bus 6","work_id":"RE-017435","work_ids":["RE-017435"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Super Bus","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017435.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017435.html","search_text":"super bus 6 re 017435 re 017435 sketches drawings early works super bus https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017435 html","search_id":"RE017435RE017435"},
+    {"title":"The Introduction of Wonderful Ward","work_id":"RE-017451","work_ids":["RE-017451"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Rip and Wonderful Ward","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017451.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017451.html","search_text":"the introduction of wonderful ward re 017451 re 017451 sketches drawings early works rip and wonderful ward https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017451 html","search_id":"RE017451RE017451"},
+    {"title":"Rip Lost in the Woods","work_id":"RE-017449","work_ids":["RE-017449"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Rip and Wonderful Ward","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017449.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017449.html","search_text":"rip lost in the woods re 017449 re 017449 sketches drawings early works rip and wonderful ward https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017449 html","search_id":"RE017449RE017449"},
+    {"title":"Rip and the Mysterious Stranger","work_id":"RE-017450","work_ids":["RE-017450"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"Rip and Wonderful Ward","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017450.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017450.html","search_text":"rip and the mysterious stranger re 017450 re 017450 sketches drawings early works rip and wonderful ward https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017450 html","search_id":"RE017450RE017450"},
+    {"title":"Lil' Rip Confronts Hoggaws","work_id":"RE-017452","work_ids":["RE-017452"],"work_id_status":"valid","section":"Sketches & Drawings","category":"Early Works","series":"","hierarchy_source":"owner_reviewed_active_parent_navigation","year":"","url":"https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/early-works/late-1970s-early-1980s/works/re-017452.html","repository":"ron-english-sketches-and-drawings","path":"Sketches/early-works/late-1970s-early-1980s/works/re-017452.html","search_text":"lil rip confronts hoggaws re 017452 re 017452 sketches drawings early works https ronenglish archive github io ron english sketches and drawings sketches early works late 1970s early 1980s works re 017452 html","search_id":"RE017452RE017452"}
   ]
 }
